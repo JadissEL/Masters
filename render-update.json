@@ -1,0 +1,1 @@
+{"serviceDetails":{"env":"node","envSpecificDetails":{"buildCommand":"npm install; npm run build","startCommand":"npx next start -H 0.0.0.0 -p $PORT"}}}

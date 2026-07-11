@@ -1,0 +1,1 @@
+{"serviceDetails":{"env":"node","envSpecificDetails":{"buildCommand":"NODE_OPTIONS=--max-old-space-size=512 npm install; NODE_OPTIONS=--max-old-space-size=512 npm run build","startCommand":"npx next start -H 0.0.0.0 -p $PORT"}}}

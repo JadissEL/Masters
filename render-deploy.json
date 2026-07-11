@@ -1,0 +1,1 @@
+{"type":"web_service","name":"masters-finder","ownerId":"tea-d2th083uibrs73epvpl0","repo":"https://github.com/JadissEL/Masters","branch":"main","autoDeploy":"yes","serviceDetails":{"env":"node","envSpecificDetails":{"buildCommand":"npm install && npm run build","startCommand":"npx next start -H 0.0.0.0 -p $PORT"},"plan":"free","region":"frankfurt"}}
