@@ -70,9 +70,10 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
   const minScore = searchParams.get("minScore") || "";
   const alternanceOnly = searchParams.get("alternanceOnly") === "true";
   const internshipOnly = searchParams.get("internshipOnly") === "true";
+  const sortBy = searchParams.get("sortBy") || "";
 
   const hasActiveFilters = selectedCountries.length > 0 || selectedLanguages.length > 0 ||
-    selectedProgramTypes.length > 0 || canEnterM2 || maxTuition || minScore || alternanceOnly || internshipOnly;
+    selectedProgramTypes.length > 0 || canEnterM2 || maxTuition || minScore || alternanceOnly || internshipOnly || sortBy;
 
   const checkboxStyle: React.CSSProperties = {
     display: "flex",
@@ -175,6 +176,13 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
             style={{ width: "100%", padding: "10px 14px", borderRadius: "var(--radius-sm)", border: "1px solid var(--border)", fontSize: 14, background: "white" }}
           >
             <option value="">No limit</option>
+            <option value="2000">€2,000</option>
+            <option value="3000">€3,000</option>
+            <option value="5000">€5,000</option>
+            <option value="7000">€7,000</option>
+            <option value="9000">€9,000</option>
+            <option value="10000">€10,000</option>
+            <option value="12000">€12,000</option>
             <option value="15000">€15,000</option>
             <option value="20000">€20,000</option>
             <option value="30000">€30,000</option>
@@ -196,6 +204,21 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
             <option value="90">90+</option>
           </select>
         </div>
+      </div>
+
+      {/* Sort By */}
+      <div style={{ marginBottom: 24 }}>
+        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Sort Results By</p>
+        <select
+          value={sortBy}
+          onChange={(e) => updateParam("sortBy", e.target.value || null)}
+          style={{ width: "100%", maxWidth: 300, padding: "10px 14px", borderRadius: "var(--radius-sm)", border: "1px solid var(--border)", fontSize: 14, background: "white" }}
+        >
+          <option value="">Recommendation score (default)</option>
+          <option value="tuition-asc">Tuition: Low to High</option>
+          <option value="tuition-desc">Tuition: High to Low</option>
+          <option value="score-desc">Score: High to Low</option>
+        </select>
       </div>
 
       {/* Toggles */}

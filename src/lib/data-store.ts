@@ -319,6 +319,53 @@ export function getSchoolsByCountryWithScores(
     .sort((a, b) => (b.score?.overall ?? 0) - (a.score?.overall ?? 0));
 }
 
+// ─── Tuition Helpers ────────────────────────────────────────
+
+/** Parse a tuition string like "€3,000" or "€3,000/year" and return the numeric value. */
+export function parseTuition(tuitionStr: string): number | null {
+  if (!tuitionStr) return null;
+  const match = tuitionStr.match(/€([\d,]+)/);
+  if (match) {
+    return parseInt(match[1].replace(/,/g, ""), 10);
+  }
+  // Try plain number
+  const num = parseInt(tuitionStr.replace(/[^\d]/g, ""), 10);
+  return isNaN(num) ? null : num;
+}
+
+/** Get the minimum tuition fee across all programs for a school. */
+export function getMinTuitionForSchool(schoolId: number): number | null {
+  const progs = loadDB().programs.filter((p) => p.schoolId === schoolId);
+  if (progs.length === 0) return null;
+  const tuitions = progs
+    .map((p) => parseTuition(p.tuitionFees))
+    .filter((t): t is number => t !== null);
+  if (tuitions.length === 0) return null;
+  return Math.min(...tuitions);
+}
+
+/** Get the minimum tuition fee across relevant programs for a candidate. */
+export function getMinTuitionForSchoolByCandidate(schoolId: number, candidateSlug: string): number | null {
+  const allProgs = loadDB().programs.filter((p) => p.schoolId === schoolId);
+  const progs = candidateSlug === "dina"
+    ? allProgs.filter((p) => p.relevantForDina)
+    : candidateSlug === "jadiss"
+    ? allProgs.filter((p) => p.relevantForJadiss)
+    : allProgs;
+  if (progs.length === 0) return null;
+  const tuitions = progs
+    .map((p) => parseTuition(p.tuitionFees))
+    .filter((t): t is number => t !== null);
+  if (tuitions.length === 0) return null;
+  return Math.min(...tuitions);
+}
+
+/** Format a tuition number back to a display string. */
+export function formatTuition(amount: number | null): string {
+  if (amount === null) return "N/A";
+  return `€${amount.toLocaleString("en-US")}`;
+}
+
 export function getCountryBySchoolId(schoolId: number): Country | undefined {
   const school = loadDB().schools.find((s) => s.id === schoolId);
   if (!school) return undefined;

@@ -1,4 +1,4 @@
-import { getCandidate, getCountries, getFilteredSchools, type FilterCriteria } from "@/lib/queries";
+import { getCandidate, getCountries, getFilteredSchools, getMinTuitionForSchoolByCandidate, formatTuition, type FilterCriteria } from "@/lib/queries";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
@@ -31,7 +31,31 @@ export default async function FilterPage({
     internshipOnly: sp.internshipOnly === "true",
   };
 
-  const results = getFilteredSchools(criteria);
+  let results = getFilteredSchools(criteria);
+
+  // Apply sorting
+  const sortBy = (sp.sortBy as string) || "";
+  if (sortBy === "tuition-asc") {
+    results.sort((a, b) => {
+      const ta = getMinTuitionForSchoolByCandidate(a.school.id, candidate.slug);
+      const tb = getMinTuitionForSchoolByCandidate(b.school.id, candidate.slug);
+      if (ta === null && tb === null) return 0;
+      if (ta === null) return 1;
+      if (tb === null) return -1;
+      return ta - tb;
+    });
+  } else if (sortBy === "tuition-desc") {
+    results.sort((a, b) => {
+      const ta = getMinTuitionForSchoolByCandidate(a.school.id, candidate.slug);
+      const tb = getMinTuitionForSchoolByCandidate(b.school.id, candidate.slug);
+      if (ta === null && tb === null) return 0;
+      if (ta === null) return 1;
+      if (tb === null) return -1;
+      return tb - ta;
+    });
+  } else if (sortBy === "score-desc") {
+    results.sort((a, b) => (b.score?.overall ?? 0) - (a.score?.overall ?? 0));
+  }
 
   return (
     <div className="container">
@@ -69,48 +93,54 @@ export default async function FilterPage({
         </div>
       ) : (
         <div className="grid grid-2">
-          {results.map((r) => (
-            <Link
-              key={r.school.id}
-              href={`/${candidate.slug}/schools/${r.school.slug}`}
-              className="card school-card"
-            >
-              <div className="school-card-header">
-                <div style={{ flex: 1 }}>
-                  <div className="school-name">{r.school.name}</div>
-                  <div className="school-meta">
-                    {r.country.flag} {r.country.name}
-                    {r.city && ` · ${r.city.name}`}
+          {results.map((r) => {
+            const minTuition = getMinTuitionForSchoolByCandidate(r.school.id, candidate.slug);
+            return (
+              <Link
+                key={r.school.id}
+                href={`/${candidate.slug}/schools/${r.school.slug}`}
+                className="card school-card"
+              >
+                <div className="school-card-header">
+                  <div style={{ flex: 1 }}>
+                    <div className="school-name">{r.school.name}</div>
+                    <div className="school-meta">
+                      {r.country.flag} {r.country.name}
+                      {r.city && ` · ${r.city.name}`}
+                    </div>
+                    <div className="school-meta">{r.school.ranking}</div>
                   </div>
-                  <div className="school-meta">{r.school.ranking}</div>
+                  {r.score && (
+                    <div className="score-ring" style={{
+                      background: r.score.overall >= 90 ? "#e8f9ed" : r.score.overall >= 80 ? "#fff5e6" : "#f0f0f0",
+                      color: r.score.overall >= 90 ? "#1a7a3a" : r.score.overall >= 80 ? "#8a5a00" : "#333",
+                    }}>
+                      {r.score.overall}
+                    </div>
+                  )}
+                </div>
+                <div className="school-description">{r.school.description}</div>
+                <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 4, alignItems: "center" }}>
+                  <span className="badge" style={{ fontWeight: 600, color: "#1a7a3a", background: "#e8f9ed" }}>
+                    💰 From {formatTuition(minTuition)}
+                  </span>
+                  <span className="badge">{r.school.teachingLanguage}</span>
+                  <span className="badge">{r.school.type}</span>
+                  {r.matchedPrograms.slice(0, 3).map((p) => (
+                    <span key={p.id} className="badge badge-accent">{p.name}</span>
+                  ))}
+                  {r.matchedPrograms.length > 3 && (
+                    <span className="badge">+{r.matchedPrograms.length - 3} more</span>
+                  )}
                 </div>
                 {r.score && (
-                  <div className="score-ring" style={{
-                    background: r.score.overall >= 90 ? "#e8f9ed" : r.score.overall >= 80 ? "#fff5e6" : "#f0f0f0",
-                    color: r.score.overall >= 90 ? "#1a7a3a" : r.score.overall >= 80 ? "#8a5a00" : "#333",
-                  }}>
-                    {r.score.overall}
-                  </div>
+                  <span className={`badge ${r.score.recommendation === "Highly Recommended" ? "badge-success" : "badge-accent"}`}>
+                    {r.score.recommendation}
+                  </span>
                 )}
-              </div>
-              <div className="school-description">{r.school.description}</div>
-              <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 4 }}>
-                <span className="badge">{r.school.teachingLanguage}</span>
-                <span className="badge">{r.school.type}</span>
-                {r.matchedPrograms.slice(0, 3).map((p) => (
-                  <span key={p.id} className="badge badge-accent">{p.name}</span>
-                ))}
-                {r.matchedPrograms.length > 3 && (
-                  <span className="badge">+{r.matchedPrograms.length - 3} more</span>
-                )}
-              </div>
-              {r.score && (
-                <span className={`badge ${r.score.recommendation === "Highly Recommended" ? "badge-success" : "badge-accent"}`}>
-                  {r.score.recommendation}
-                </span>
-              )}
-            </Link>
-          ))}
+              </Link>
+            );
+          })}
         </div>
       )}
     </div>

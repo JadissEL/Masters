@@ -1,7 +1,8 @@
 import {
   getCandidate, getCountry, getCountryVisa, getCountryLivingCosts,
   getCountryStudentJobs, getCountryGraduateVisa, getCountryScholarships,
-  getCountryCities, getSchoolsByCountryWithScores
+  getCountryCities, getSchoolsByCountryWithScores,
+  getMinTuitionForSchoolByCandidate, formatTuition
 } from "@/lib/queries";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -63,6 +64,11 @@ export default async function CountryPage({ params }: { params: Promise<{ slug: 
                   )}
                 </div>
                 <div className="school-description">{s.description}</div>
+                <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 4, alignItems: "center" }}>
+                  <span className="badge" style={{ fontWeight: 600, color: "#1a7a3a", background: "#e8f9ed" }}>
+                    💰 From {formatTuition(getMinTuitionForSchoolByCandidate(s.id, candidate.slug))}
+                  </span>
+                </div>
               </Link>
             ))}
           </div>

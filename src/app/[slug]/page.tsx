@@ -1,4 +1,4 @@
-import { getCandidate, getCountries, getSchoolsWithScores } from "@/lib/queries";
+import { getCandidate, getCountries, getSchoolsWithScores, getMinTuitionForSchoolByCandidate, formatTuition } from "@/lib/queries";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, SlidersHorizontal } from "lucide-react";
@@ -73,6 +73,11 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
               )}
             </div>
             <div className="school-description">{s.description}</div>
+            <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 4, alignItems: "center" }}>
+              <span className="badge" style={{ fontWeight: 600, color: "#1a7a3a", background: "#e8f9ed" }}>
+                💰 From {formatTuition(getMinTuitionForSchoolByCandidate(s.id, candidate.slug))}
+              </span>
+            </div>
             {s.score && (
               <span className={`badge ${s.score.recommendation === "Highly Recommended" ? "badge-success" : "badge-accent"}`}>
                 {s.score.recommendation}
