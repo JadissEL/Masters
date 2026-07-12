@@ -12,13 +12,63 @@
       "supervisors": [],
       "enrolledStudentsSample": [
         {
-          "name": "Alan Sohn",
-          "cohortYear": "2026",
+          "name": "Blake Canziani",
+          "linkedinUrl": null,
+          "cohortYear": "2021",
           "sourceUrl": "https://warrington.ufl.edu/graduate/phd-accounting/"
         },
         {
-          "name": "Ralph Holstein",
-          "cohortYear": "2026",
+          "name": "Ralph Donald Holstein III",
+          "linkedinUrl": null,
+          "cohortYear": "2021",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-accounting/"
+        },
+        {
+          "name": "Alan Dong Sun Sohn",
+          "linkedinUrl": null,
+          "cohortYear": "2021",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-accounting/"
+        },
+        {
+          "name": "Isabel Maria Ford",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-accounting/"
+        },
+        {
+          "name": "Eashwar Nagaraj",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-accounting/"
+        },
+        {
+          "name": "Kevin Lee",
+          "linkedinUrl": null,
+          "cohortYear": "2023",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-accounting/"
+        },
+        {
+          "name": "Yi Chen",
+          "linkedinUrl": null,
+          "cohortYear": "2024",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-accounting/"
+        },
+        {
+          "name": "Kyoungwon Kim",
+          "linkedinUrl": null,
+          "cohortYear": "2024",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-accounting/"
+        },
+        {
+          "name": "Sojeong Ahn",
+          "linkedinUrl": null,
+          "cohortYear": "2025",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-accounting/"
+        },
+        {
+          "name": "Jinglin Hu",
+          "linkedinUrl": null,
+          "cohortYear": "2025",
           "sourceUrl": "https://warrington.ufl.edu/graduate/phd-accounting/"
         }
       ],
@@ -49,7 +99,68 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Nour Almudhaf",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.mccombs.utexas.edu/graduate/phd/academics/accounting-phd/"
+        },
+        {
+          "name": "Lauren Falvey",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.mccombs.utexas.edu/graduate/phd/academics/accounting-phd/"
+        },
+        {
+          "name": "Michael Gonari",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.mccombs.utexas.edu/graduate/phd/academics/accounting-phd/"
+        },
+        {
+          "name": "Read Hadfield",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.mccombs.utexas.edu/graduate/phd/academics/accounting-phd/"
+        },
+        {
+          "name": "Hyuna Ham",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.mccombs.utexas.edu/graduate/phd/academics/accounting-phd/"
+        },
+        {
+          "name": "Sean Kemsley",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.mccombs.utexas.edu/graduate/phd/academics/accounting-phd/"
+        },
+        {
+          "name": "Cindi Teasley",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.mccombs.utexas.edu/graduate/phd/academics/accounting-phd/"
+        },
+        {
+          "name": "Meishu Yin",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.mccombs.utexas.edu/graduate/phd/academics/accounting-phd/"
+        },
+        {
+          "name": "Jihong Yu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.mccombs.utexas.edu/graduate/phd/academics/accounting-phd/"
+        },
+        {
+          "name": "Lu Zhao",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.mccombs.utexas.edu/graduate/phd/academics/accounting-phd/"
+        }
+      ],
       "id": "usa-utexas-accounting-phd-001",
       "countrySlug": "usa",
       "institution": "University of Texas at Austin — McCombs School of Business",
@@ -76,7 +187,38 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Marcela Aguilar",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "Xinyue Cai",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "James Enright",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "William Gonzalez",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "Shichu Wang",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        }
+      ],
       "id": "usa-rice-accounting-phd-001",
       "countrySlug": "usa",
       "institution": "Rice University — Jones Graduate School of Business",
@@ -103,7 +245,50 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Matt Kuchin",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.uoregon.edu/directory/phd-students"
+        },
+        {
+          "name": "Becky Driver",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.uoregon.edu/directory/phd-students"
+        },
+        {
+          "name": "Yumeng Han",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.uoregon.edu/directory/phd-students"
+        },
+        {
+          "name": "Wookjin Kim",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.uoregon.edu/directory/phd-students"
+        },
+        {
+          "name": "Tim Messenger",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.uoregon.edu/directory/phd-students"
+        },
+        {
+          "name": "Shi Zhang Ooi",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.uoregon.edu/directory/phd-students"
+        },
+        {
+          "name": "Hunter Pearson",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.uoregon.edu/directory/phd-students/all/hpearson"
+        }
+      ],
       "id": "usa-oregon-accounting-phd-001",
       "countrySlug": "usa",
       "institution": "University of Oregon — Lundquist College of Business",
@@ -130,7 +315,50 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Deanie Chaudoin",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haslam.utk.edu/aim/phd/students/"
+        },
+        {
+          "name": "Lincoln Jones",
+          "linkedinUrl": null,
+          "cohortYear": "2025",
+          "sourceUrl": "https://haslam.utk.edu/people/profile/lincoln-jones/"
+        },
+        {
+          "name": "Ruochen Liu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haslam.utk.edu/aim/phd/students/"
+        },
+        {
+          "name": "Yilin Liu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haslam.utk.edu/wp-content/uploads/2024/09/CV_Yilin-Liu-2024.pdf"
+        },
+        {
+          "name": "Isaiah Messer",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haslam.utk.edu/aim/phd/students/"
+        },
+        {
+          "name": "Audree Duncan",
+          "linkedinUrl": null,
+          "cohortYear": "2024",
+          "sourceUrl": "https://haslam.utk.edu/people/profile/audree-duncan/"
+        },
+        {
+          "name": "Nico Arguello",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haslam.utk.edu/phd-student-profiles/"
+        }
+      ],
       "id": "usa-tennessee-accounting-phd-001",
       "countrySlug": "usa",
       "institution": "University of Tennessee — Haslam College of Business",
@@ -162,8 +390,8 @@
           "role": "principal",
           "email": "shawke@missouri.edu",
           "linkedinUrl": null,
-          "officialUrl": "https://business.missouri.edu/graduate-programs/phd-accountancy",
-          "sourceUrl": "https://business.missouri.edu/graduate-programs/phd-accountancy"
+          "officialUrl": "https://business.missouri.edu/directory/shaw",
+          "sourceUrl": "https://business.missouri.edu/directory/shaw"
         }
       ],
       "enrolledStudentsSample": [],
@@ -192,7 +420,56 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Enshuai Yu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-accounting.html"
+        },
+        {
+          "name": "Mohammed Alrewais",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-accounting.html"
+        },
+        {
+          "name": "Jingyi Fan",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-accounting.html"
+        },
+        {
+          "name": "Pu Gu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-accounting.html"
+        },
+        {
+          "name": "Xintong Li",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-accounting.html"
+        },
+        {
+          "name": "Ji Eon Kim",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-accounting.html"
+        },
+        {
+          "name": "Annie (Ning) Ren",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-accounting.html"
+        },
+        {
+          "name": "Doris (Danling) Song",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-accounting.html"
+        }
+      ],
       "id": "usa-bc-accounting-phd-001",
       "countrySlug": "usa",
       "institution": "Boston College — Carroll School of Management",
@@ -219,7 +496,20 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Jake Andrassy",
+          "linkedinUrl": null,
+          "cohortYear": "2021",
+          "sourceUrl": "https://apps.kelley.iu.edu/SystemsAPI/vitae/profilecv?username=jandrass"
+        },
+        {
+          "name": "Katie Daugherty",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://blogs.iu.edu/kelleyphd/2025/09/07/katie-daugherty-accounting-26/"
+        }
+      ],
       "id": "usa-kelley-accounting-phd-001",
       "countrySlug": "usa",
       "institution": "Indiana University — Kelley School of Business",
@@ -245,7 +535,62 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Brayden Bulloch",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.wisc.edu/directory/?_profile_type=student-phd&_profile_area_of_study=accounting-and-information-systems"
+        },
+        {
+          "name": "Nicholas Hirner",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.wisc.edu/directory/?_profile_type=student-phd&_profile_area_of_study=accounting-and-information-systems"
+        },
+        {
+          "name": "McKay Jones",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.wisc.edu/directory/?_profile_type=student-phd&_profile_area_of_study=accounting-and-information-systems"
+        },
+        {
+          "name": "Sidney Khasacha",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.wisc.edu/directory/?_profile_type=student-phd&_profile_area_of_study=accounting-and-information-systems"
+        },
+        {
+          "name": "Dongsheng Li",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.wisc.edu/directory/?_profile_type=student-phd&_profile_area_of_study=accounting-and-information-systems"
+        },
+        {
+          "name": "Haoning Liu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.wisc.edu/directory/?_profile_type=student-phd&_profile_area_of_study=accounting-and-information-systems"
+        },
+        {
+          "name": "Thi Van Anh Nguyen",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.wisc.edu/directory/?_profile_type=student-phd&_profile_area_of_study=accounting-and-information-systems"
+        },
+        {
+          "name": "Jessica Nylen",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.wisc.edu/directory/?_profile_type=student-phd&_profile_area_of_study=accounting-and-information-systems"
+        },
+        {
+          "name": "Hetian Yang",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.wisc.edu/directory/?_profile_type=student-phd&_profile_area_of_study=accounting-and-information-systems"
+        }
+      ],
       "id": "usa-wisconsin-accounting-phd-001",
       "countrySlug": "usa",
       "institution": "University of Wisconsin–Madison — Wisconsin School of Business",
@@ -272,7 +617,68 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Blake Jackson",
+          "linkedinUrl": null,
+          "cohortYear": "2020",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-finance/"
+        },
+        {
+          "name": "Boyuan Li",
+          "linkedinUrl": null,
+          "cohortYear": "2020",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-finance/"
+        },
+        {
+          "name": "Pancy Li",
+          "linkedinUrl": null,
+          "cohortYear": "2021",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-finance/"
+        },
+        {
+          "name": "Beatrice Chang",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-finance/"
+        },
+        {
+          "name": "Charles Gavin Pearson",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-finance/"
+        },
+        {
+          "name": "Mingyin Zhu",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-finance/"
+        },
+        {
+          "name": "Divesh Pandey",
+          "linkedinUrl": null,
+          "cohortYear": "2023",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-finance/"
+        },
+        {
+          "name": "Jiawei Yu",
+          "linkedinUrl": null,
+          "cohortYear": "2023",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-finance/"
+        },
+        {
+          "name": "Yuan Wang",
+          "linkedinUrl": null,
+          "cohortYear": "2023",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-finance/"
+        },
+        {
+          "name": "Aisulu Munkina",
+          "linkedinUrl": null,
+          "cohortYear": "2024",
+          "sourceUrl": "https://warrington.ufl.edu/graduate/phd-finance/"
+        }
+      ],
       "id": "usa-uf-finance-phd-001",
       "countrySlug": "usa",
       "institution": "University of Florida — Warrington College of Business",
@@ -376,7 +782,68 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Reese Alexander",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "Madhuja Chattopadhyay",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "August Chen",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "Meredith Dalrymple",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "Dong (Derrick) Liang",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "Eric Liu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "Will Matheson",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "Ly Nguyen",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "Alexander Ober",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        },
+        {
+          "name": "Pedro Matias Ortega",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://business.rice.edu/graduate-programs/phd-business/meet-current-students"
+        }
+      ],
       "id": "usa-rice-finance-phd-001",
       "countrySlug": "usa",
       "institution": "Rice University — Jones Graduate School of Business",
@@ -404,7 +871,68 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Ercan Erol",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://robinson.gsu.edu/program/finance-phd/"
+        },
+        {
+          "name": "Liu Haoran",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://robinson.gsu.edu/program/finance-phd/"
+        },
+        {
+          "name": "Park Jongchan",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://robinson.gsu.edu/program/finance-phd/"
+        },
+        {
+          "name": "Kim Bokyung",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://robinson.gsu.edu/program/finance-phd/"
+        },
+        {
+          "name": "Li Shuting",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://robinson.gsu.edu/program/finance-phd/"
+        },
+        {
+          "name": "Qian Jialin",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://robinson.gsu.edu/program/finance-phd/"
+        },
+        {
+          "name": "Nam Soyun",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://robinson.gsu.edu/program/finance-phd/"
+        },
+        {
+          "name": "Wang Meng",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://robinson.gsu.edu/program/finance-phd/"
+        },
+        {
+          "name": "Wang Xiaoyu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://robinson.gsu.edu/program/finance-phd/"
+        },
+        {
+          "name": "Xiao Jiqiu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://robinson.gsu.edu/program/finance-phd/"
+        }
+      ],
       "id": "usa-gastate-finance-phd-001",
       "countrySlug": "usa",
       "institution": "Georgia State University — Robinson College of Business",
@@ -431,7 +959,68 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Shashwat Agrawal",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-finance.html"
+        },
+        {
+          "name": "J.P. Blardony",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-finance.html"
+        },
+        {
+          "name": "Zhuo Chen",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-finance.html"
+        },
+        {
+          "name": "Jacob Dowell",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-finance.html"
+        },
+        {
+          "name": "Jessica Flagg",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-finance.html"
+        },
+        {
+          "name": "Donglin Gao",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-finance.html"
+        },
+        {
+          "name": "Shawn Kimble",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-finance.html"
+        },
+        {
+          "name": "Daniel Mata",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-finance.html"
+        },
+        {
+          "name": "Karan Sehgal",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-finance.html"
+        },
+        {
+          "name": "Riley (Seunghye) Shin",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-finance.html"
+        }
+      ],
       "id": "usa-bc-finance-phd-001",
       "countrySlug": "usa",
       "institution": "Boston College — Carroll School of Management",
@@ -484,7 +1073,68 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Ruiquan Chang",
+          "linkedinUrl": null,
+          "cohortYear": "2025",
+          "sourceUrl": "https://fisher.osu.edu/academic-departments/department-finance/programs/phd-program/job-market-candidates"
+        },
+        {
+          "name": "Ezra Daniel",
+          "linkedinUrl": null,
+          "cohortYear": "2021",
+          "sourceUrl": "https://fisher.osu.edu/academic-departments/department-finance/programs/phd-program/job-market-candidates"
+        },
+        {
+          "name": "Myeongrok Doh",
+          "linkedinUrl": null,
+          "cohortYear": "2025",
+          "sourceUrl": "https://fisher.osu.edu/academic-departments/department-finance/programs/phd-program/job-market-candidates"
+        },
+        {
+          "name": "Piyush Gupta",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://fisher.osu.edu/academic-departments/department-finance/programs/phd-program/job-market-candidates"
+        },
+        {
+          "name": "Seiwoong Hong",
+          "linkedinUrl": null,
+          "cohortYear": "2021",
+          "sourceUrl": "https://fisher.osu.edu/academic-departments/department-finance/programs/phd-program/job-market-candidates"
+        },
+        {
+          "name": "Sejin Kang",
+          "linkedinUrl": null,
+          "cohortYear": "2020",
+          "sourceUrl": "https://fisher.osu.edu/academic-departments/department-finance/programs/phd-program/job-market-candidates"
+        },
+        {
+          "name": "Han Hou",
+          "linkedinUrl": null,
+          "cohortYear": "2024",
+          "sourceUrl": "https://fisher.osu.edu/academic-departments/department-finance/programs/phd-program/job-market-candidates"
+        },
+        {
+          "name": "Yicheng Liu",
+          "linkedinUrl": null,
+          "cohortYear": "2021",
+          "sourceUrl": "https://fisher.osu.edu/academic-departments/department-finance/programs/phd-program/job-market-candidates"
+        },
+        {
+          "name": "Jungu Myung",
+          "linkedinUrl": null,
+          "cohortYear": "2023",
+          "sourceUrl": "https://fisher.osu.edu/academic-departments/department-finance/programs/phd-program/job-market-candidates"
+        },
+        {
+          "name": "Giang Nguyen",
+          "linkedinUrl": null,
+          "cohortYear": "2025",
+          "sourceUrl": "https://fisher.osu.edu/academic-departments/department-finance/programs/phd-program/job-market-candidates"
+        }
+      ],
       "id": "usa-osu-finance-phd-001",
       "countrySlug": "usa",
       "institution": "The Ohio State University — Fisher College of Business",
@@ -510,7 +1160,62 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Yifan Ji",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.kenan-flagler.unc.edu/programs/phd/student-experience/"
+        },
+        {
+          "name": "Matthew Johnsen",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.kenan-flagler.unc.edu/programs/phd/student-experience/"
+        },
+        {
+          "name": "Mukul Kaushik",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.kenan-flagler.unc.edu/programs/phd/student-experience/"
+        },
+        {
+          "name": "Sooji Kim",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.kenan-flagler.unc.edu/programs/phd/student-experience/"
+        },
+        {
+          "name": "Naman Nishesh",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.kenan-flagler.unc.edu/programs/phd/student-experience/"
+        },
+        {
+          "name": "Ravi Ranjan",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.kenan-flagler.unc.edu/programs/phd/student-experience/"
+        },
+        {
+          "name": "Richard Maxwell",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://kenaninstitute.unc.edu/people/richard-maxwell/"
+        },
+        {
+          "name": "Paul Yoo",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://kenaninstitute.unc.edu/people/paul-yoo/"
+        },
+        {
+          "name": "Zipei Zhu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://zipeizhu.github.io/"
+        }
+      ],
       "id": "usa-unc-finance-phd-001",
       "countrySlug": "usa",
       "institution": "UNC Kenan-Flagler Business School",
@@ -537,7 +1242,68 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Kim DeFiori",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://publichealth.jhu.edu/departments/health-policy-and-management/people/health-policy-and-management-phd-students"
+        },
+        {
+          "name": "Glendedora Dolce",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://publichealth.jhu.edu/departments/health-policy-and-management/people/health-policy-and-management-phd-students"
+        },
+        {
+          "name": "Jirka Taylor",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://publichealth.jhu.edu/departments/health-policy-and-management/people/health-policy-and-management-phd-students"
+        },
+        {
+          "name": "Lauren CJ Barrow",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://publichealth.jhu.edu/departments/health-policy-and-management/people/health-policy-and-management-phd-students"
+        },
+        {
+          "name": "Maria Cruz",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://publichealth.jhu.edu/departments/health-policy-and-management/people/health-policy-and-management-phd-students"
+        },
+        {
+          "name": "Lois Dankwa",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://publichealth.jhu.edu/departments/health-policy-and-management/people/health-policy-and-management-phd-students"
+        },
+        {
+          "name": "Valerie Ganetsky",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://publichealth.jhu.edu/departments/health-policy-and-management/people/health-policy-and-management-phd-students"
+        },
+        {
+          "name": "Andrew Jopson",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://publichealth.jhu.edu/departments/health-policy-and-management/people/health-policy-and-management-phd-students"
+        },
+        {
+          "name": "Jenny Markell",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://publichealth.jhu.edu/departments/health-policy-and-management/people/health-policy-and-management-phd-students"
+        },
+        {
+          "name": "Jenni Seale Reiff",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://publichealth.jhu.edu/departments/health-policy-and-management/people/health-policy-and-management-phd-students"
+        }
+      ],
       "id": "usa-jhu-health-policy-phd-001",
       "countrySlug": "usa",
       "institution": "Johns Hopkins Bloomberg School of Public Health",
@@ -603,10 +1369,10 @@
         {
           "name": "Maryam Eghbalizarch",
           "role": "principal",
-          "email": null,
+          "email": "meghbali@kennesaw.edu",
           "linkedinUrl": null,
-          "officialUrl": "https://phdfinder.com/2026/04/09/usa-phd-position-in-health-systems-optimization-at-kennesaw-state-university/",
-          "sourceUrl": "https://phdfinder.com/2026/04/09/usa-phd-position-in-health-systems-optimization-at-kennesaw-state-university/"
+          "officialUrl": "https://campus.kennesaw.edu/colleges-departments/spceet/academics/industrial-systems-engineering/about/faculty-staff.php",
+          "sourceUrl": "https://campus.kennesaw.edu/colleges-departments/spceet/academics/industrial-systems-engineering/about/faculty-staff.php"
         }
       ],
       "enrolledStudentsSample": [],
@@ -654,7 +1420,62 @@
           "sourceUrl": "https://www.hec.ca/en/programs/phd/phd-finance"
         }
       ],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Clément Aymard",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/finance/phd/current-students/index.html"
+        },
+        {
+          "name": "Rachel Chen",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/finance/phd/current-students/index.html"
+        },
+        {
+          "name": "Seoin Kim",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/finance/phd/current-students/index.html"
+        },
+        {
+          "name": "Karima Ouederni",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/finance/phd/current-students/index.html"
+        },
+        {
+          "name": "Baris Raday",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/finance/phd/current-students/index.html"
+        },
+        {
+          "name": "Yuhan Song",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/finance/phd/current-students/index.html"
+        },
+        {
+          "name": "Manling Wang",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/finance/phd/current-students/index.html"
+        },
+        {
+          "name": "Kodjo Dieu Donne Youto",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/finance/phd/current-students/index.html"
+        },
+        {
+          "name": "Shujun Wang",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/finance/phd/current-students/index.html"
+        }
+      ],
       "id": "canada-hec-finance-phd-001",
       "countrySlug": "canada",
       "institution": "HEC Montréal",
@@ -680,7 +1501,56 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Charlotte Pellegrino",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/en/sco/phd/current-students/"
+        },
+        {
+          "name": "Jiali Luo",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/en/sco/phd/current-students/"
+        },
+        {
+          "name": "Negar Tahernejad",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/en/sco/phd/current-students/"
+        },
+        {
+          "name": "Liyang Zhao",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/en/sco/phd/current-students/"
+        },
+        {
+          "name": "Tongyu Wu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/en/sco/phd/current-students/"
+        },
+        {
+          "name": "Francis Petauton",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/en/sco/phd/current-students/"
+        },
+        {
+          "name": "Maxime Robin",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/en/sco/phd/current-students/"
+        },
+        {
+          "name": "Geneviève Lenoir",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hec.ca/en/sco/phd/current-students/"
+        }
+      ],
       "id": "canada-hec-accounting-phd-001",
       "countrySlug": "canada",
       "institution": "HEC Montréal",
@@ -761,7 +1631,68 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Ali Ahmadi",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://schulich.yorku.ca/specializations/finance-2/"
+        },
+        {
+          "name": "Sunny Chen",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://schulich.yorku.ca/specializations/finance-2/"
+        },
+        {
+          "name": "Afshin Cheraghi",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://schulich.yorku.ca/specializations/finance-2/"
+        },
+        {
+          "name": "Arshia Farzamfar",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://schulich.yorku.ca/specializations/finance-2/"
+        },
+        {
+          "name": "Seyedeh Dorsa Ghamkhar",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://schulich.yorku.ca/specializations/finance-2/"
+        },
+        {
+          "name": "Chengcheng Huang",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://schulich.yorku.ca/specializations/finance-2/"
+        },
+        {
+          "name": "Samir Mourad",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://schulich.yorku.ca/specializations/finance-2/"
+        },
+        {
+          "name": "Mohammadreza Nafissi",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://schulich.yorku.ca/specializations/finance-2/"
+        },
+        {
+          "name": "Seyyedeh Elham Tabatabaei",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://schulich.yorku.ca/specializations/finance-2/"
+        },
+        {
+          "name": "Linyang Yu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://schulich.yorku.ca/specializations/finance-2/"
+        }
+      ],
       "id": "canada-schulich-finance-phd-001",
       "countrySlug": "canada",
       "institution": "York University — Schulich School of Business",
@@ -788,7 +1719,68 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Adam Upenieks",
+          "linkedinUrl": null,
+          "cohortYear": "2023",
+          "sourceUrl": "https://haskayne.ucalgary.ca/sites/default/files/Academic%20Areas/FNCE_Haskayne_PhD_Program_Brochure.pdf"
+        },
+        {
+          "name": "Moty Moravvej",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://haskayne.ucalgary.ca/sites/default/files/Academic%20Areas/FNCE_Haskayne_PhD_Program_Brochure.pdf"
+        },
+        {
+          "name": "Amir Hosseini",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haskayne.ucalgary.ca/sites/default/files/Academic%20Areas/FNCE_Haskayne_PhD_Program_Brochure.pdf"
+        },
+        {
+          "name": "Huanran (Michael) Diao",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haskayne.ucalgary.ca/sites/default/files/Academic%20Areas/FNCE_Haskayne_PhD_Program_Brochure.pdf"
+        },
+        {
+          "name": "Jaime Castillo Leon",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haskayne.ucalgary.ca/sites/default/files/Academic%20Areas/FNCE_Haskayne_PhD_Program_Brochure.pdf"
+        },
+        {
+          "name": "Mohammadhossein Lashkaripour",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haskayne.ucalgary.ca/sites/default/files/Academic%20Areas/FNCE_Haskayne_PhD_Program_Brochure.pdf"
+        },
+        {
+          "name": "Chen Yu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haskayne.ucalgary.ca/sites/default/files/Academic%20Areas/FNCE_Haskayne_PhD_Program_Brochure.pdf"
+        },
+        {
+          "name": "Behnoud Alizadeh Bazrafshan",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haskayne.ucalgary.ca/sites/default/files/Academic%20Areas/FNCE_Haskayne_PhD_Program_Brochure.pdf"
+        },
+        {
+          "name": "Nazanin Aziz",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haskayne.ucalgary.ca/sites/default/files/Academic%20Areas/FNCE_Haskayne_PhD_Program_Brochure.pdf"
+        },
+        {
+          "name": "Parisa Mashhadi",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://haskayne.ucalgary.ca/sites/default/files/Academic%20Areas/FNCE_Haskayne_PhD_Program_Brochure.pdf"
+        }
+      ],
       "id": "canada-calgary-phd-finance-001",
       "countrySlug": "canada",
       "institution": "University of Calgary — Haskayne School of Business",
@@ -814,7 +1806,38 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Helena He",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://uwaterloo.ca/phd-accounting/current-students/current-phd-students"
+        },
+        {
+          "name": "Amar Mahmoud",
+          "linkedinUrl": null,
+          "cohortYear": "2022",
+          "sourceUrl": "https://uwaterloo.ca/phd-accounting/current-students/current-phd-students"
+        },
+        {
+          "name": "Ben (Yijia) Chen",
+          "linkedinUrl": null,
+          "cohortYear": "2023",
+          "sourceUrl": "https://uwaterloo.ca/phd-accounting/current-students/current-phd-students"
+        },
+        {
+          "name": "Ana Rusu",
+          "linkedinUrl": null,
+          "cohortYear": "2025",
+          "sourceUrl": "https://uwaterloo.ca/phd-accounting/current-students/current-phd-students"
+        },
+        {
+          "name": "Anudeep Sultania",
+          "linkedinUrl": null,
+          "cohortYear": "2025",
+          "sourceUrl": "https://uwaterloo.ca/phd-accounting/current-students/current-phd-students"
+        }
+      ],
       "id": "canada-waterloo-accounting-phd-001",
       "countrySlug": "canada",
       "institution": "University of Waterloo — School of Accounting and Finance",
@@ -840,7 +1863,38 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Clark Guanzhong Shu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.rotman.utoronto.ca/faculty-and-research/education-labs/management-data-and-analytics-lab/funding-accordions/2025-grant-recipients/"
+        },
+        {
+          "name": "Zhiyang Luo",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.rotman.utoronto.ca/faculty-and-research/education-labs/management-data-and-analytics-lab/funding-accordions/2025-grant-recipients/"
+        },
+        {
+          "name": "Nicolas Harvie",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.rotman.utoronto.ca/faculty-and-research/education-labs/management-data-and-analytics-lab/funding-accordions/2025-grant-recipients/"
+        },
+        {
+          "name": "Zigang Li",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.rotman.utoronto.ca/faculty-and-research/education-labs/management-data-and-analytics-lab/funding-accordions/2025-grant-recipients/"
+        },
+        {
+          "name": "Yuanqing Zhong",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.rotman.utoronto.ca/programs/phd-program/phd-student-profiles/yuanqing-zhong/"
+        }
+      ],
       "id": "canada-rotman-finance-phd-001",
       "countrySlug": "canada",
       "institution": "University of Toronto — Rotman School of Management",
@@ -867,7 +1921,50 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "supervisors": [],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Dhruv Baswal",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://smith.queensu.ca/grad_studies/PHD/our-students/phd-candidates/Dhruv-Baswal.php"
+        },
+        {
+          "name": "Yunjiang Dong",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://smith.queensu.ca/grad_studies/PHD/our-students/phd-candidates/Yunjiang-Dong.php"
+        },
+        {
+          "name": "Minkang Kim",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://smith.queensu.ca/grad_studies/PHD/our-students/phd-candidates/Minkang-Kim.php"
+        },
+        {
+          "name": "Yuchen Lin",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://smith.queensu.ca/grad_studies/PHD/our-students/index.php"
+        },
+        {
+          "name": "Apel Mahmood Rifat",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://smith.queensu.ca/grad_studies/PHD/our-students/index.php"
+        },
+        {
+          "name": "Haoxiang Tang",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://smith.queensu.ca/grad_studies/PHD/our-students/index.php"
+        },
+        {
+          "name": "Yuning Wu",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://smith.queensu.ca/grad_studies/PHD/our-students/index.php"
+        }
+      ],
       "id": "canada-smith-phd-finance-001",
       "countrySlug": "canada",
       "institution": "Queen's University — Smith School of Business",
@@ -1194,7 +2291,68 @@
           "sourceUrl": "https://en.snu.ac.kr/admission/graduate/application"
         }
       ],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Jungha Kim",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://cba.snu.ac.kr/strategy/currentphd.html"
+        },
+        {
+          "name": "Jangwoon Kim",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://cba.snu.ac.kr/strategy/currentphd.html"
+        },
+        {
+          "name": "Jayoung Kim",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://cba.snu.ac.kr/strategy/currentphd.html"
+        },
+        {
+          "name": "Angela Karr",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://cba.snu.ac.kr/strategy/currentphd.html"
+        },
+        {
+          "name": "Eugine Kim",
+          "linkedinUrl": null,
+          "cohortYear": "2021",
+          "sourceUrl": "https://cba.snu.ac.kr/strategy/currentphd.html"
+        },
+        {
+          "name": "AYoung Woo",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://snustrategy.mobirisesite.com/ayoungwoo.html"
+        },
+        {
+          "name": "Gwangyeong Lim",
+          "linkedinUrl": null,
+          "cohortYear": "2023",
+          "sourceUrl": "https://cba.snu.ac.kr/strategy/currentphd.html"
+        },
+        {
+          "name": "Saelon Kang",
+          "linkedinUrl": null,
+          "cohortYear": "2024",
+          "sourceUrl": "https://cba.snu.ac.kr/strategy/currentphd.html"
+        },
+        {
+          "name": "Jaeun Ha",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://cba.snu.ac.kr/strategy/currentphd.html"
+        },
+        {
+          "name": "Jungwon Park",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://cba.snu.ac.kr/strategy/jungwonpark.html"
+        }
+      ],
       "applyUrl": "https://en.snu.ac.kr/admission/graduate/application",
       "programInfoUrl": "https://cba.snu.ac.kr/strategy/admissions.html",
       "sourceUrl": "https://cba.snu.ac.kr/strategy/admissions.html",
@@ -6635,6 +7793,7 @@
     "date": "2026-07-12",
     "fetched": 121,
     "emailAdded": 9,
-    "linkedinAdded": 4
+    "linkedinAdded": 4,
+    "patchesApplied": 25
   }
 }

@@ -2,35 +2,15 @@
   "generatedAt": "2026-07-12",
   "openOffers": 171,
   "withAnySupervisorLinkedIn": 6,
-  "withStudentSample10Plus": 3,
+  "withStudentSample10Plus": 14,
   "needsManualEnrichment": [
-    {
-      "id": "usa-uf-accounting-phd-001",
-      "institution": "University of Florida — Warrington College of Business",
-      "countrySlug": "usa",
-      "missingSupervisorLinkedIn": [],
-      "missingSupervisorEmail": [],
-      "studentSampleCount": 2,
-      "studentSampleTargetMet": false,
-      "programInfoUrl": "https://warrington.ufl.edu/graduate/phd-accounting/"
-    },
-    {
-      "id": "usa-utexas-accounting-phd-001",
-      "institution": "University of Texas at Austin — McCombs School of Business",
-      "countrySlug": "usa",
-      "missingSupervisorLinkedIn": [],
-      "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
-      "studentSampleTargetMet": false,
-      "programInfoUrl": "https://www.mccombs.utexas.edu/graduate/phd/academics/accounting-phd/"
-    },
     {
       "id": "usa-rice-accounting-phd-001",
       "institution": "Rice University — Jones Graduate School of Business",
       "countrySlug": "usa",
       "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 5,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://business.rice.edu/graduate-programs/phd-business/phd-admissions"
     },
@@ -40,7 +20,7 @@
       "countrySlug": "usa",
       "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 7,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://business.uoregon.edu/programs/phd/apply"
     },
@@ -50,7 +30,7 @@
       "countrySlug": "usa",
       "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 7,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://haslam.utk.edu/aim/phd/"
     },
@@ -72,7 +52,7 @@
       "countrySlug": "usa",
       "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 8,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-accounting.html"
     },
@@ -82,7 +62,7 @@
       "countrySlug": "usa",
       "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 2,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://kelley.iu.edu/faculty-research/phd/admissions/frequently-asked-questions/index.html"
     },
@@ -92,49 +72,9 @@
       "countrySlug": "usa",
       "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 9,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://guide.wisc.edu/graduate/business-school-wide/business-phd/business-accounting-phd/"
-    },
-    {
-      "id": "usa-uf-finance-phd-001",
-      "institution": "University of Florida — Warrington College of Business",
-      "countrySlug": "usa",
-      "missingSupervisorLinkedIn": [],
-      "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
-      "studentSampleTargetMet": false,
-      "programInfoUrl": "https://warrington.ufl.edu/graduate/phd-finance/"
-    },
-    {
-      "id": "usa-rice-finance-phd-001",
-      "institution": "Rice University — Jones Graduate School of Business",
-      "countrySlug": "usa",
-      "missingSupervisorLinkedIn": [],
-      "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
-      "studentSampleTargetMet": false,
-      "programInfoUrl": "https://business.rice.edu/graduate-programs/phd-business/phd-admissions"
-    },
-    {
-      "id": "usa-gastate-finance-phd-001",
-      "institution": "Georgia State University — Robinson College of Business",
-      "countrySlug": "usa",
-      "missingSupervisorLinkedIn": [],
-      "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
-      "studentSampleTargetMet": false,
-      "programInfoUrl": "https://robinson.gsu.edu/program/finance-phd/"
-    },
-    {
-      "id": "usa-bc-finance-phd-001",
-      "institution": "Boston College — Carroll School of Management",
-      "countrySlug": "usa",
-      "missingSupervisorLinkedIn": [],
-      "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
-      "studentSampleTargetMet": false,
-      "programInfoUrl": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs/phd-finance.html"
     },
     {
       "id": "usa-msu-finance-phd-001",
@@ -147,34 +87,14 @@
       "programInfoUrl": "https://broad.msu.edu/phd/finance/"
     },
     {
-      "id": "usa-osu-finance-phd-001",
-      "institution": "The Ohio State University — Fisher College of Business",
-      "countrySlug": "usa",
-      "missingSupervisorLinkedIn": [],
-      "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
-      "studentSampleTargetMet": false,
-      "programInfoUrl": "https://fisher.osu.edu/academic-departments/department-finance/programs/phd-program"
-    },
-    {
       "id": "usa-unc-finance-phd-001",
       "institution": "UNC Kenan-Flagler Business School",
       "countrySlug": "usa",
       "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 9,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.kenan-flagler.unc.edu/programs/phd/admission-requirements/"
-    },
-    {
-      "id": "usa-jhu-health-policy-phd-001",
-      "institution": "Johns Hopkins Bloomberg School of Public Health",
-      "countrySlug": "usa",
-      "missingSupervisorLinkedIn": [],
-      "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
-      "studentSampleTargetMet": false,
-      "programInfoUrl": "https://publichealth.jhu.edu/academics/phd-in-health-policy-and-management"
     },
     {
       "id": "usa-uams-hssr-phd-001",
@@ -195,9 +115,7 @@
       "missingSupervisorLinkedIn": [
         "Maryam Eghbalizarch"
       ],
-      "missingSupervisorEmail": [
-        "Maryam Eghbalizarch"
-      ],
+      "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://phdfinder.com/2026/04/09/usa-phd-position-in-health-systems-optimization-at-kennesaw-state-university/"
@@ -214,7 +132,7 @@
         "Georges Dionne",
         "Pascal François"
       ],
-      "studentSampleCount": 0,
+      "studentSampleCount": 9,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.hec.ca/en/programs/phd/phd-finance"
     },
@@ -224,7 +142,7 @@
       "countrySlug": "canada",
       "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 8,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.hec.ca/en/programs/phd/phd-accounting"
     },
@@ -249,32 +167,12 @@
       "programInfoUrl": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-business-administration-accounting"
     },
     {
-      "id": "canada-schulich-finance-phd-001",
-      "institution": "York University — Schulich School of Business",
-      "countrySlug": "canada",
-      "missingSupervisorLinkedIn": [],
-      "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
-      "studentSampleTargetMet": false,
-      "programInfoUrl": "https://schulich.yorku.ca/programs/phd/"
-    },
-    {
-      "id": "canada-calgary-phd-finance-001",
-      "institution": "University of Calgary — Haskayne School of Business",
-      "countrySlug": "canada",
-      "missingSupervisorLinkedIn": [],
-      "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
-      "studentSampleTargetMet": false,
-      "programInfoUrl": "https://haskayne.ucalgary.ca/future-students/doctoral-programs/phd/financing"
-    },
-    {
       "id": "canada-waterloo-accounting-phd-001",
       "institution": "University of Waterloo — School of Accounting and Finance",
       "countrySlug": "canada",
       "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 5,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://uwaterloo.ca/phd-accounting/"
     },
@@ -284,7 +182,7 @@
       "countrySlug": "canada",
       "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 5,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://rotman.utoronto.ca/programs/phd-program/financial-information/"
     },
@@ -294,7 +192,7 @@
       "countrySlug": "canada",
       "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 7,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://smith.queensu.ca/grad_studies/PHD/program-details/fees.php"
     },
@@ -388,8 +286,8 @@
         "SNU Office of Admissions (Graduate)"
       ],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
-      "studentSampleTargetMet": false,
+      "studentSampleCount": 10,
+      "studentSampleTargetMet": true,
       "programInfoUrl": "https://cba.snu.ac.kr/strategy/admissions.html"
     },
     {
