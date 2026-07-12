@@ -6,6 +6,7 @@
  */
 const fs = require("fs");
 const path = require("path");
+const { enrichAdmissions } = require("./enrich-admissions.cjs");
 
 const DATA_PATH = path.join(process.cwd(), "data", "masters-data.json");
 const VERIFIED_PATH = path.join(process.cwd(), "data", "verified-programs.json");
@@ -279,7 +280,8 @@ function applyProgramTemplate(db, school, program, template, stats, sourceIdRef)
     "internationalTuition", "euTuition", "domesticTuition", "registrationFee",
     "mandatoryFees", "administrativeFee", "studentUnionFee", "estimatedLivingCosts",
     "estimatedYearlyBudget", "programmeRanking", "employabilityStats", "graduateSalary",
-    "gmatMinScore", "ieltsMinScore", "gmatRequired", "greRequired", "minGPA",
+    "gmatMinScore", "ieltsMinScore", "toeflMinScore", "gmatRequired", "greRequired",
+    "interviewRequired", "cambridgeEnglishLevel", "delfLevel", "minGPA",
     "acceptedDegrees", "prerequisiteCourses", "admissionsEmail", "verificationStatus",
     "sourceUrl", "sourceType", "verificationDate", "confidenceLevel", "currency", "notes",
   ];
@@ -389,7 +391,14 @@ function applyVerifiedData(db) {
   }
 
   // School contacts
-  for (const sc of verified.schoolContacts || []) {
+  const contactSources = [...(verified.schoolContacts || [])];
+  const discoveredPath = path.join(process.cwd(), "data", "discovered-school-contacts.json");
+  if (fs.existsSync(discoveredPath)) {
+    const discovered = JSON.parse(fs.readFileSync(discoveredPath, "utf-8"));
+    contactSources.push(...(discovered.schoolContacts || []));
+  }
+
+  for (const sc of contactSources) {
     const school = schoolBySlug[sc.schoolSlug];
     if (!school) continue;
     const exists = db.contacts.find(
@@ -416,6 +425,15 @@ function applyVerifiedData(db) {
     for (const program of db.programs.filter((p) => p.schoolId === school.id)) {
       if (!program.applicationPortal) program.applicationPortal = ap.applicationPortal;
       if (!program.applicationGuide) program.applicationGuide = ap.applicationGuide;
+      if (!program.applicationUrl) program.applicationUrl = ap.applicationGuide || ap.applicationPortal;
+    }
+  }
+
+  // Propagate school contact emails to programmes
+  for (const contact of db.contacts) {
+    if (!contact.email) continue;
+    for (const program of db.programs.filter((p) => p.schoolId === contact.schoolId)) {
+      if (!program.admissionsEmail) program.admissionsEmail = contact.email;
     }
   }
 
@@ -556,7 +574,11 @@ function main() {
   const verifiedStats = applyVerifiedData(db);
   console.log(`  Applied to ${verifiedStats.applied} programs, corrected ${verifiedStats.corrected} tuition values, ${verifiedStats.networkApplied || 0} network matches, ${verifiedStats.overrides || 0} status overrides`);
 
-  console.log("Step 4: Running audit...");
+  console.log("Step 4: Enriching admissions (contacts, apply URLs, requirements)...");
+  const admStats = enrichAdmissions(db);
+  console.log(`  Parsed ${admStats.admissionsParsed} admissions records, applied ${admStats.profilesApplied} profile fields, propagated ${admStats.requirementsPropagated} requirement sets, ${admStats.contactsPropagated} contact emails`);
+
+  console.log("Step 5: Running audit...");
   const report = runAudit(db);
   db.metadata.lastPipelineRun = new Date().toISOString();
   db.metadata.lastAuditRun = report.generatedAt;

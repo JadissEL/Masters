@@ -1,0 +1,622 @@
+{
+  "agentId": 5,
+  "region": "Nordics",
+  "candidate": "dina",
+  "verificationDate": "2026-07-12",
+  "countries": ["norway", "denmark", "iceland"],
+  "phdOffers": [
+    {
+      "id": "no-innlandet-sustainable-finance-esg-2026",
+      "countrySlug": "norway",
+      "institution": "University of Inland Norway (INN)",
+      "institutionSlug": null,
+      "title": "PhD Research Fellowship in Sustainable Finance",
+      "subject": "ESG frameworks, climate transition instruments, and sustainability reporting impacts on corporate access to transition finance.",
+      "domains": ["Finance", "Compliance", "Accounting"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "3-year PhD fellowship (possible 4th year with 25% teaching); Norwegian state salary code 1017.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026",
+      "applicationDeadline": "2026-08-02",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Minh Thi Hong Dinh",
+          "role": "principal",
+          "email": "minh.dinh@inn.no",
+          "linkedinUrl": null,
+          "officialUrl": null,
+          "sourceUrl": "https://stilling.forskning.no/hogskolen-i-innlandet-innlandet-job-ads/phd-research-fellowship-in-sustainable-finance/2666538"
+        },
+        {
+          "name": "Marit Engen",
+          "role": "co-supervisor",
+          "email": "marit.engen@inn.no",
+          "linkedinUrl": null,
+          "officialUrl": null,
+          "sourceUrl": "https://stilling.forskning.no/hogskolen-i-innlandet-innlandet-job-ads/phd-research-fellowship-in-sustainable-finance/2666538"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.jobbnorge.no/ledige-stillinger/stilling/301920/phd-research-fellowship-in-sustainable-finance",
+      "programInfoUrl": "https://www.inn.no/english/research/phd-programmes",
+      "sourceUrl": "https://stilling.forskning.no/hogskolen-i-innlandet-innlandet-job-ads/phd-research-fellowship-in-sustainable-finance/2666538",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Project-led fellowship; strong fit for ESG/compliance reporting research."
+    },
+    {
+      "id": "no-nhh-finance-phd-2027",
+      "countrySlug": "norway",
+      "institution": "NHH Norwegian School of Economics",
+      "institutionSlug": null,
+      "title": "PhD Research Scholar — Department of Finance",
+      "subject": "Open-topic finance PhD (corporate finance, asset pricing, market microstructure, banking, sustainable finance).",
+      "domains": ["Finance", "Corporate Finance", "Asset Management", "Risk"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "4-year fully funded programme; NOK 570,000/year from Aug 2027; 25% teaching/career duties.",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-08",
+      "applicationDeadline": "2026-09-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "NHH PhD Programme",
+          "role": "principal",
+          "email": "phd@nhh.no",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.nhh.no/en/research/phd/",
+          "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-finance/2688609"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-finance/2688609",
+      "programInfoUrl": "https://www.nhh.no/en/departments/finance/phd-specialisation/",
+      "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-finance/2688609",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "GMAT/GRE and English tests required unless exempt."
+    },
+    {
+      "id": "no-nhh-accounting-auditing-law-phd-2027",
+      "countrySlug": "norway",
+      "institution": "NHH Norwegian School of Economics",
+      "institutionSlug": null,
+      "title": "PhD Research Scholar — Accounting, Auditing and Law",
+      "subject": "Financial accounting, auditing, management accounting and control, business ethics and law.",
+      "domains": ["Accounting", "Compliance", "Audit", "Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "4-year fully funded programme; NOK 570,000/year from Aug 2027.",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-08",
+      "applicationDeadline": "2026-09-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "NHH PhD Programme",
+          "role": "principal",
+          "email": "phd@nhh.no",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.nhh.no/en/research/phd/",
+          "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-accounting-auditing-and-law/2688591"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-accounting-auditing-and-law/2688591",
+      "programInfoUrl": "https://www.nhh.no/en/departments/accounting-auditing-and-law/phd-specisalisation/",
+      "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-accounting-auditing-and-law/2688591",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Top-tier fit for Dina accounting/compliance profile."
+    },
+    {
+      "id": "no-nhh-business-mgmt-science-phd-2027",
+      "countrySlug": "norway",
+      "institution": "NHH Norwegian School of Economics",
+      "institutionSlug": null,
+      "title": "PhD Research Scholar — Business and Management Science",
+      "subject": "Business economics track (finance, asset management, risk, public finance) or management science track (operations, climate risk, predictive modelling).",
+      "domains": ["Finance", "Risk", "Corporate Finance", "Accounting"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "4-year fully funded programme; NOK 570,000/year from Aug 2027.",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-08",
+      "applicationDeadline": "2026-09-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "NHH PhD Programme",
+          "role": "principal",
+          "email": "phd@nhh.no",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.nhh.no/en/research/phd/",
+          "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-business-and-management-science/2688631"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-business-and-management-science/2688631",
+      "programInfoUrl": "https://www.nhh.no/en/departments/business-and-management-science/",
+      "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-business-and-management-science/2688631",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Two tracks; business economics track most relevant for finance."
+    },
+    {
+      "id": "no-nhh-economics-phd-2027",
+      "countrySlug": "norway",
+      "institution": "NHH Norwegian School of Economics",
+      "institutionSlug": null,
+      "title": "PhD Research Scholar — Department of Economics",
+      "subject": "Open-topic economics PhD including public finance, industrial organisation, and applied microeconomics.",
+      "domains": ["Finance", "Compliance", "Risk"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "4-year fully funded programme; NOK 570,000/year from Aug 2027.",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-08",
+      "applicationDeadline": "2026-09-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "NHH PhD Programme",
+          "role": "principal",
+          "email": "phd@nhh.no",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.nhh.no/en/research/phd/",
+          "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-economics/2688623"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-economics/2688623",
+      "programInfoUrl": "https://www.nhh.no/en/departments/economics/phd-specialisation/",
+      "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-economics/2688623",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Relevant for public finance and tax policy research angles."
+    },
+    {
+      "id": "no-nhh-strategy-management-phd-2027",
+      "countrySlug": "norway",
+      "institution": "NHH Norwegian School of Economics",
+      "institutionSlug": null,
+      "title": "PhD Research Scholar — Strategy and Management",
+      "subject": "Behavioural economics and decision-making in organisations, leadership, and policy preferences.",
+      "domains": ["Finance", "Compliance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "4-year fully funded programme; NOK 570,000/year; start Jan 2027.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2027-01",
+      "applicationDeadline": "2026-09-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "NHH PhD Programme",
+          "role": "principal",
+          "email": "phd@nhh.no",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.nhh.no/en/research/phd/",
+          "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-position-department-of-strategy-and-management/2688601"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-position-department-of-strategy-and-management/2688601",
+      "programInfoUrl": "https://www.nhh.no/en/departments/strategy-and-management/",
+      "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-position-department-of-strategy-and-management/2688601",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Behavioural/organisational focus; secondary fit vs core finance."
+    },
+    {
+      "id": "dk-cbs-law-phd-open-call-2026",
+      "countrySlug": "denmark",
+      "institution": "Copenhagen Business School",
+      "institutionSlug": null,
+      "title": "PhD Scholarships — CBS LAW (Open Call)",
+      "subject": "Commercial law, VAT/tax law, supply chain liability, EU business law, and auditing-related legal research.",
+      "domains": ["Compliance", "Accounting", "Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "3-year salaried scholarship (~DKK 29,692–36,180/month + pension); 416h teaching.",
+      "openPositions": 2,
+      "teachingLanguage": "English",
+      "startDate": "2026-10-01",
+      "applicationDeadline": "2026-07-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Peter Koerver Schmidt",
+          "role": "principal",
+          "email": "pks.bhl@cbs.dk",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.cbs.dk/en/research/departments/department-business-humanities-and-law/cbs-law",
+          "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-positions-open-call"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-positions-open-call",
+      "programInfoUrl": "https://www.cbs.dk/en/research/phd-programme",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/434820",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Strong compliance/tax law fit; Danish teaching advantage noted."
+    },
+    {
+      "id": "dk-cbs-business-government-phd-2027",
+      "countrySlug": "denmark",
+      "institution": "Copenhagen Business School",
+      "institutionSlug": null,
+      "title": "PhD Scholarship in Business & Government",
+      "subject": "Corporate political activity, lobbying, corruption, campaign finance, and firm non-market strategies.",
+      "domains": ["Compliance", "Finance", "Corporate Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "3-year salaried scholarship (~DKK 31,624–38,213/month + pension); 416h teaching.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2027-02-01",
+      "applicationDeadline": "2026-08-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Eddie Ashbee",
+          "role": "co-supervisor",
+          "email": "ea.egb@cbs.dk",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.cbs.dk/en/research/departments/department-international-economics-government-business",
+          "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-scholarship-business-government-copenhagen-business"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-scholarship-business-government-copenhagen-business",
+      "programInfoUrl": "https://www.cbs.dk/en/research/phd-programme",
+      "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-scholarship-business-government-copenhagen-business",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Quantitative methods required; governance/compliance angle."
+    },
+    {
+      "id": "dk-aalborg-ai-firms-governance-phd-2026",
+      "countrySlug": "denmark",
+      "institution": "Aalborg University Business School",
+      "institutionSlug": null,
+      "title": "PhD — How Firms Adopt and Govern AI (Sino-Danish)",
+      "subject": "Firm-level AI adoption, governance routines, fintech/RegTech sectors, and comparative China–Denmark institutional analysis.",
+      "domains": ["Compliance", "Finance", "Risk"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "3-year stipend; mandatory 12-month research stay at UCAS Beijing (SDC).",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-10-15",
+      "applicationDeadline": "2026-08-02",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Roman Jurowetzki",
+          "role": "principal",
+          "email": "roman@business.aau.dk",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.business.aau.dk/",
+          "sourceUrl": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/938756"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/938756",
+      "programInfoUrl": "https://www.business.aau.dk/research/research-groups/ike",
+      "sourceUrl": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/938756",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Explicit fintech/RegTech sector option; Chinese nationals ineligible for SDC co-funding."
+    },
+    {
+      "id": "dk-aalborg-circular-economy-business-phd-2026",
+      "countrySlug": "denmark",
+      "institution": "Aalborg University Business School",
+      "institutionSlug": null,
+      "title": "PhD — Circular Economy & Collaborative Innovation (Plastics Industry)",
+      "subject": "Business economics of circular economy, EU regulatory compliance, and ecosystem-level innovation in Danish plastics value chains.",
+      "domains": ["Finance", "Compliance", "Accounting"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "3-year stipend with ~600h teaching and 30 ECTS coursework.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-11-01",
+      "applicationDeadline": "2026-08-03",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Ina Drejer",
+          "role": "principal",
+          "email": "id@business.aau.dk",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.business.aau.dk/",
+          "sourceUrl": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/946560"
+        },
+        {
+          "name": "Mette Vinther Larsen",
+          "role": "co-supervisor",
+          "email": "mvl@business.aau.dk",
+          "linkedinUrl": null,
+          "officialUrl": null,
+          "sourceUrl": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/946560"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/946560",
+      "programInfoUrl": "https://www.business.aau.dk/",
+      "sourceUrl": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/946560",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Regulatory/compliance angle via EU circular economy directives."
+    },
+    {
+      "id": "dk-aalborg-productivity-economics-phd-2026",
+      "countrySlug": "denmark",
+      "institution": "Aalborg University Business School",
+      "institutionSlug": null,
+      "title": "PhD in Economics, Business and Management (Productivity Studies)",
+      "subject": "Firm-level productivity, competitiveness, and regional economic analysis using Statistics Denmark registry data.",
+      "domains": ["Finance", "Corporate Finance", "Risk"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "3-year stipend; 600h teaching; 30 ECTS PhD courses.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-11-01",
+      "applicationDeadline": "2026-08-09",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Jacob Rubæk Holm",
+          "role": "principal",
+          "email": "jrh@business.aau.dk",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.business.aau.dk/",
+          "sourceUrl": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/912720"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/912720",
+      "programInfoUrl": "https://www.business.aau.dk/research/research-groups/ike",
+      "sourceUrl": "https://www.vacancies.aau.dk/phd-positions/show-vacancy/vacancyId/912720",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Quantitative firm-level econometrics focus."
+    },
+    {
+      "id": "dk-cbs-org-behavioural-public-service-phd-2027",
+      "countrySlug": "denmark",
+      "institution": "Copenhagen Business School",
+      "institutionSlug": null,
+      "title": "PhD — Behavioural Design in Public Service Work",
+      "subject": "Governance and behavioural design (nudging) as management tools in public organisations and professional discretion.",
+      "domains": ["Compliance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "3-year DFF2-funded salaried scholarship; start Feb 2027.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2027-02-01",
+      "applicationDeadline": "2026-08-14",
+      "status": "open",
+      "supervisors": [],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions",
+      "programInfoUrl": "https://www.cbs.dk/en/research/departments/department-organization",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/search?keywords=behavioural%20design%20public%20service%20CBS",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Listed on CBS vacant positions (deadline 14 Aug 2026); Scandinavian language fieldwork advantage."
+    },
+    {
+      "id": "is-ui-economics-conciv-phd-2026",
+      "countrySlug": "iceland",
+      "institution": "University of Iceland",
+      "institutionSlug": null,
+      "title": "PhD Student in Economics (ConCIV)",
+      "subject": "Labor and welfare economics; compensating income variation (CIV) valuation of education and retirement using HILDA panel data.",
+      "domains": ["Finance", "Risk"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "2-year University of Iceland Research Fund position; full-time employment.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026",
+      "applicationDeadline": "2026-08-04",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Tinna Laufey Ásgeirsdóttir",
+          "role": "principal",
+          "email": "ta@hi.is",
+          "linkedinUrl": null,
+          "officialUrl": "https://english.hi.is/",
+          "sourceUrl": "https://english.hi.is/about-ui/working-ui/vacancies"
+        },
+        {
+          "name": "Halldóra F Sigurgeirsdóttir",
+          "role": "co-supervisor",
+          "email": "halldoraf@hi.is",
+          "linkedinUrl": null,
+          "officialUrl": null,
+          "sourceUrl": "https://english.hi.is/about-ui/working-ui/vacancies"
+        }
+      ],
+      "enrolledStudentsSample": [
+        {
+          "name": "Anna Guðrún Ragnarsdóttir",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://english.hi.is/research/consortium-compensating-income-variation"
+        },
+        {
+          "name": "Kristjana Baldursdóttir",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://english.hi.is/research/consortium-compensating-income-variation"
+        },
+        {
+          "name": "Ásthildur Margrét Jóhannsdóttir",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://english.hi.is/research/consortium-compensating-income-variation"
+        },
+        {
+          "name": "Guðrún Svavarsdóttir",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://english.hi.is/research/consortium-compensating-income-variation"
+        }
+      ],
+      "applyUrl": "https://english.hi.is/about-ui/working-ui/vacancies",
+      "programInfoUrl": "https://conciv.hi.is/en",
+      "sourceUrl": "https://english.hi.is/about-ui/working-ui/vacancies",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Apply via Icelandic State Recruitment portal linked from UI vacancies page."
+    },
+    {
+      "id": "dk-cbs-law-supply-chain-liability-phd-2026",
+      "countrySlug": "denmark",
+      "institution": "Copenhagen Business School",
+      "institutionSlug": null,
+      "title": "PhD — Supply Chain Liability & Business Resilience (CBS LAW track)",
+      "subject": "Suggested CBS LAW topic: supply chain liability, business resilience, and law-and-economics analysis of systemic contractual risk.",
+      "domains": ["Compliance", "Finance", "Risk"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "Same open call as CBS LAW; 2 positions total across law topics.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-10-01",
+      "applicationDeadline": "2026-07-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Peter Koerver Schmidt",
+          "role": "principal",
+          "email": "pks.bhl@cbs.dk",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.cbs.dk/en/research/departments/department-business-humanities-and-law/cbs-law",
+          "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-positions-open-call"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-positions-open-call",
+      "programInfoUrl": "https://www.cbs.dk/en/research/phd-programme",
+      "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-positions-open-call",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Thematic entry under same CBS LAW open call; one of two funded slots."
+    },
+    {
+      "id": "no-nhh-accounting-auditing-faa-track-2027",
+      "countrySlug": "norway",
+      "institution": "NHH Norwegian School of Economics",
+      "institutionSlug": null,
+      "title": "PhD — Financial Accounting & Auditing (FAA group)",
+      "subject": "NHH FAA research group topics: audit quality, financial reporting, capital markets, and ESG/AI in accounting and auditing.",
+      "domains": ["Accounting", "Audit", "Compliance", "Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "Same Sept 2026 accounting/auditing/law call; 4-year funded scholar programme.",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-08",
+      "applicationDeadline": "2026-09-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "NHH Department of Accounting, Auditing and Law",
+          "role": "principal",
+          "email": "phd@nhh.no",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.nhh.no/en/departments/accounting-auditing-and-law/",
+          "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-accounting-auditing-and-law/2688591"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-accounting-auditing-and-law/2688591",
+      "programInfoUrl": "https://www.nhh.no/en/departments/accounting-auditing-and-law/phd-specisalisation/",
+      "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-positions-department-of-accounting-auditing-and-law/2688591",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Thematic framing of the same NHH accounting call for Dina FAA/audit fit."
+    }
+  ],
+  "skippedClosed": [
+    {
+      "title": "PhD Fellowship in Accounting — University of Stavanger",
+      "institution": "University of Stavanger",
+      "countrySlug": "norway",
+      "applicationDeadline": "2026-02-10",
+      "sourceUrl": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/292009",
+      "reason": "Deadline passed before 2026-07-12"
+    },
+    {
+      "title": "PhD scholarships in Finance — Copenhagen Business School",
+      "institution": "Copenhagen Business School",
+      "countrySlug": "denmark",
+      "applicationDeadline": "2026-02-01",
+      "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions",
+      "reason": "Deadline passed before 2026-07-12"
+    },
+    {
+      "title": "PhD scholarship in Statistics — CBS Department of Finance",
+      "institution": "Copenhagen Business School",
+      "countrySlug": "denmark",
+      "applicationDeadline": "2026-05-20",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/429292",
+      "reason": "Deadline passed before 2026-07-12"
+    },
+    {
+      "title": "PhD Research Fellow in Statistics (finance & insurance) — University of Bergen",
+      "institution": "University of Bergen",
+      "countrySlug": "norway",
+      "applicationDeadline": "2026-04-30",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/423293",
+      "reason": "Deadline passed before 2026-07-12"
+    },
+    {
+      "title": "PhD scholarships in Finance — BI Norwegian Business School",
+      "institution": "BI Norwegian Business School",
+      "countrySlug": "norway",
+      "applicationDeadline": "2026-03-01",
+      "sourceUrl": "https://www.bi.no/en/programmes-and-individual-courses/phd/scholarships-and-funding/",
+      "reason": "Deadline passed before 2026-07-12"
+    }
+  ],
+  "skippedNoFunding": [],
+  "summary": {
+    "totalOffers": 15,
+    "openOffers": 15,
+    "byCountry": {
+      "norway": 7,
+      "denmark": 7,
+      "iceland": 1
+    },
+    "byFundingType": {
+      "fully_funded": 15
+    },
+    "nearestDeadlines": [
+      "2026-07-15",
+      "2026-08-02",
+      "2026-08-03",
+      "2026-08-04",
+      "2026-08-09"
+    ],
+    "sourcesChecked": ["jobbnorge.no", "euraxess.ec.europa.eu", "stilling.forskning.no", "cbs.dk", "vacancies.aau.dk", "english.hi.is"]
+  }
+}

@@ -1,0 +1,1517 @@
+[
+  {
+    "slug": "lse",
+    "name": "MSc Data Science",
+    "country": "england"
+  },
+  {
+    "slug": "imperial-college",
+    "name": "MSc Machine Learning",
+    "country": "england"
+  },
+  {
+    "slug": "trinity-college-dublin",
+    "name": "MSc Computer Science (AI)",
+    "country": "ireland"
+  },
+  {
+    "slug": "erasmus-rsm",
+    "name": "MSc Business Analytics & Management",
+    "country": "netherlands"
+  },
+  {
+    "slug": "bi-norwegian",
+    "name": "MSc in Finance",
+    "country": "norway"
+  },
+  {
+    "slug": "university-of-iceland",
+    "name": "MSc Computer Science",
+    "country": "iceland"
+  },
+  {
+    "slug": "uoa",
+    "name": "Master of Finance",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "uoa",
+    "name": "Master of Data Science",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "oxford-said",
+    "name": "Oxford MBA",
+    "country": "england"
+  },
+  {
+    "slug": "cambridge-judge",
+    "name": "MPhil in Advanced Computer Science",
+    "country": "england"
+  },
+  {
+    "slug": "warwick",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "warwick",
+    "name": "MSc Data Science",
+    "country": "england"
+  },
+  {
+    "slug": "alliance-manchester",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "alliance-manchester",
+    "name": "MSc Data Science & Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "bayes-city",
+    "name": "MSc in Data Science & Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "edinburgh-bs",
+    "name": "MSc in Data Science & AI",
+    "country": "england"
+  },
+  {
+    "slug": "cranfield",
+    "name": "MSc in Finance & Management",
+    "country": "england"
+  },
+  {
+    "slug": "cranfield",
+    "name": "MSc in Data Science",
+    "country": "england"
+  },
+  {
+    "slug": "dcu",
+    "name": "MSc in Finance",
+    "country": "ireland"
+  },
+  {
+    "slug": "dcu",
+    "name": "MSc in Computing (Data Science)",
+    "country": "ireland"
+  },
+  {
+    "slug": "ucc",
+    "name": "MSc in Finance",
+    "country": "ireland"
+  },
+  {
+    "slug": "ucc",
+    "name": "MSc in Data Science & Analytics",
+    "country": "ireland"
+  },
+  {
+    "slug": "tilburg",
+    "name": "MSc Data Science & Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "tilburg",
+    "name": "MSc Quantitative Finance & Actuarial Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "vu-amsterdam",
+    "name": "MSc in Data Science & Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "tudelft",
+    "name": "MSc in Data Science & AI",
+    "country": "netherlands"
+  },
+  {
+    "slug": "tudelft",
+    "name": "MSc in Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "nyenrode",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "nyenrode",
+    "name": "MSc in Data Analytics & AI",
+    "country": "netherlands"
+  },
+  {
+    "slug": "aarhus",
+    "name": "MSc in Finance",
+    "country": "denmark"
+  },
+  {
+    "slug": "aarhus",
+    "name": "MSc in Data Science",
+    "country": "denmark"
+  },
+  {
+    "slug": "ku-copenhagen",
+    "name": "MSc in Economics",
+    "country": "denmark"
+  },
+  {
+    "slug": "ku-copenhagen",
+    "name": "MSc in Computer Science",
+    "country": "denmark"
+  },
+  {
+    "slug": "itu",
+    "name": "MSc in Data Science",
+    "country": "denmark"
+  },
+  {
+    "slug": "itu",
+    "name": "MSc in Software Design",
+    "country": "denmark"
+  },
+  {
+    "slug": "nhh",
+    "name": "MSc in Economics & Business — Finance",
+    "country": "norway"
+  },
+  {
+    "slug": "nhh",
+    "name": "MSc in Data Science & Business Analytics",
+    "country": "norway"
+  },
+  {
+    "slug": "uio",
+    "name": "MSc in Economics",
+    "country": "norway"
+  },
+  {
+    "slug": "uio",
+    "name": "MSc in Data Science",
+    "country": "norway"
+  },
+  {
+    "slug": "reykjavik-university",
+    "name": "MSc in Data Science",
+    "country": "iceland"
+  },
+  {
+    "slug": "reykjavik-university",
+    "name": "MSc in Computer Science",
+    "country": "iceland"
+  },
+  {
+    "slug": "otago",
+    "name": "Master of Finance",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "otago",
+    "name": "Master of Data Science",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "aut",
+    "name": "Master of Finance",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "aut",
+    "name": "Master of Data Science",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "lse",
+    "name": "MSc Finance & Economics",
+    "country": "england"
+  },
+  {
+    "slug": "imperial-college",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "erasmus-rsm",
+    "name": "MSc Quantitative Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "bi-norwegian",
+    "name": "MSc in Data Science for Business",
+    "country": "norway"
+  },
+  {
+    "slug": "university-of-iceland",
+    "name": "MSc in Finance",
+    "country": "iceland"
+  },
+  {
+    "slug": "oslo-met",
+    "name": "MSc in Finance",
+    "country": "norway"
+  },
+  {
+    "slug": "oslo-met",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "norway"
+  },
+  {
+    "slug": "oslo-met",
+    "name": "MSc in Economics",
+    "country": "norway"
+  },
+  {
+    "slug": "nord-university",
+    "name": "MSc in Finance",
+    "country": "norway"
+  },
+  {
+    "slug": "nord-university",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "norway"
+  },
+  {
+    "slug": "nord-university",
+    "name": "MSc in Economics",
+    "country": "norway"
+  },
+  {
+    "slug": "univ-stavanger",
+    "name": "MSc in Finance",
+    "country": "norway"
+  },
+  {
+    "slug": "univ-stavanger",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "norway"
+  },
+  {
+    "slug": "univ-stavanger",
+    "name": "MSc in Economics",
+    "country": "norway"
+  },
+  {
+    "slug": "univ-agder",
+    "name": "MSc in Finance",
+    "country": "norway"
+  },
+  {
+    "slug": "univ-agder",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "norway"
+  },
+  {
+    "slug": "univ-agder",
+    "name": "MSc in Economics",
+    "country": "norway"
+  },
+  {
+    "slug": "nmbu",
+    "name": "MSc in Finance",
+    "country": "norway"
+  },
+  {
+    "slug": "nmbu",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "norway"
+  },
+  {
+    "slug": "nmbu",
+    "name": "MSc in Economics",
+    "country": "norway"
+  },
+  {
+    "slug": "open-university",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "open-university",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "open-university",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "birkbeck",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "birkbeck",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "birkbeck",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "univ-leeds",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "univ-leeds",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "univ-leeds",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "univ-birmingham",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "univ-birmingham",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "univ-birmingham",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "univ-bristol",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "univ-bristol",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "univ-bristol",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "univ-sheffield",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "univ-sheffield",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "univ-sheffield",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "univ-nottingham",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "univ-nottingham",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "univ-nottingham",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "univ-southampton",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "univ-southampton",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "univ-southampton",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "durham",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "durham",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "durham",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "york",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "york",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "york",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "qmul",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "qmul",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "qmul",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "liverpool",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "liverpool",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "liverpool",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "glasgow",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "glasgow",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "glasgow",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "st-andrews",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "st-andrews",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "st-andrews",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "sussex",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "sussex",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "sussex",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "maynooth-univ",
+    "name": "MSc in Finance",
+    "country": "ireland"
+  },
+  {
+    "slug": "maynooth-univ",
+    "name": "MSc in Data Science / AI",
+    "country": "ireland"
+  },
+  {
+    "slug": "maynooth-univ",
+    "name": "MSc in Business Analytics",
+    "country": "ireland"
+  },
+  {
+    "slug": "tu-dublin",
+    "name": "MSc in Finance",
+    "country": "ireland"
+  },
+  {
+    "slug": "tu-dublin",
+    "name": "MSc in Data Science / AI",
+    "country": "ireland"
+  },
+  {
+    "slug": "tu-dublin",
+    "name": "MSc in Business Analytics",
+    "country": "ireland"
+  },
+  {
+    "slug": "atu",
+    "name": "MSc in Finance",
+    "country": "ireland"
+  },
+  {
+    "slug": "atu",
+    "name": "MSc in Data Science / AI",
+    "country": "ireland"
+  },
+  {
+    "slug": "atu",
+    "name": "MSc in Business Analytics",
+    "country": "ireland"
+  },
+  {
+    "slug": "setu",
+    "name": "MSc in Finance",
+    "country": "ireland"
+  },
+  {
+    "slug": "setu",
+    "name": "MSc in Data Science / AI",
+    "country": "ireland"
+  },
+  {
+    "slug": "setu",
+    "name": "MSc in Business Analytics",
+    "country": "ireland"
+  },
+  {
+    "slug": "mtu",
+    "name": "MSc in Finance",
+    "country": "ireland"
+  },
+  {
+    "slug": "mtu",
+    "name": "MSc in Data Science / AI",
+    "country": "ireland"
+  },
+  {
+    "slug": "mtu",
+    "name": "MSc in Business Analytics",
+    "country": "ireland"
+  },
+  {
+    "slug": "aalborg",
+    "name": "MSc in Finance",
+    "country": "denmark"
+  },
+  {
+    "slug": "aalborg",
+    "name": "MSc in Computer Science / Data Science",
+    "country": "denmark"
+  },
+  {
+    "slug": "aalborg",
+    "name": "MSc in Economics",
+    "country": "denmark"
+  },
+  {
+    "slug": "sdu",
+    "name": "MSc in Finance",
+    "country": "denmark"
+  },
+  {
+    "slug": "sdu",
+    "name": "MSc in Computer Science / Data Science",
+    "country": "denmark"
+  },
+  {
+    "slug": "sdu",
+    "name": "MSc in Economics",
+    "country": "denmark"
+  },
+  {
+    "slug": "roskilde",
+    "name": "MSc in Finance",
+    "country": "denmark"
+  },
+  {
+    "slug": "roskilde",
+    "name": "MSc in Computer Science / Data Science",
+    "country": "denmark"
+  },
+  {
+    "slug": "roskilde",
+    "name": "MSc in Economics",
+    "country": "denmark"
+  },
+  {
+    "slug": "dtu",
+    "name": "MSc in Finance",
+    "country": "denmark"
+  },
+  {
+    "slug": "dtu",
+    "name": "MSc in Computer Science / Data Science",
+    "country": "denmark"
+  },
+  {
+    "slug": "dtu",
+    "name": "MSc in Economics",
+    "country": "denmark"
+  },
+  {
+    "slug": "univ-akureyri",
+    "name": "MSc in Finance",
+    "country": "iceland"
+  },
+  {
+    "slug": "univ-akureyri",
+    "name": "MSc in Computer Science / Data Science",
+    "country": "iceland"
+  },
+  {
+    "slug": "univ-akureyri",
+    "name": "MSc in Economics",
+    "country": "iceland"
+  },
+  {
+    "slug": "bifrost",
+    "name": "MSc in Finance",
+    "country": "iceland"
+  },
+  {
+    "slug": "bifrost",
+    "name": "MSc in Computer Science / Data Science",
+    "country": "iceland"
+  },
+  {
+    "slug": "bifrost",
+    "name": "MSc in Economics",
+    "country": "iceland"
+  },
+  {
+    "slug": "hi",
+    "name": "MSc in Finance",
+    "country": "iceland"
+  },
+  {
+    "slug": "hi",
+    "name": "MSc in Computer Science / Data Science",
+    "country": "iceland"
+  },
+  {
+    "slug": "hi",
+    "name": "MSc in Economics",
+    "country": "iceland"
+  },
+  {
+    "slug": "massey",
+    "name": "Master of Finance",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "massey",
+    "name": "Master of Data Science / AI",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "massey",
+    "name": "Master of Business Analytics",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "canterbury",
+    "name": "Master of Finance",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "canterbury",
+    "name": "Master of Data Science / AI",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "canterbury",
+    "name": "Master of Business Analytics",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "waikato",
+    "name": "Master of Finance",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "waikato",
+    "name": "Master of Data Science / AI",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "waikato",
+    "name": "Master of Business Analytics",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "lincoln",
+    "name": "Master of Finance",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "lincoln",
+    "name": "Master of Data Science / AI",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "lincoln",
+    "name": "Master of Business Analytics",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "open-universiteit",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "open-universiteit",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "open-universiteit",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "tue",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "tue",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "tue",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "uu",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "uu",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "uu",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "wageningen",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "wageningen",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "wageningen",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "thuas",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "thuas",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "thuas",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "fontys",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "fontys",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "fontys",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "hanze",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "hanze",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "hanze",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "epita",
+    "name": "Master Informatique / IA",
+    "country": "france"
+  },
+  {
+    "slug": "epita",
+    "name": "Master Finance Quantitative / Ingénierie Financière",
+    "country": "france"
+  },
+  {
+    "slug": "epita",
+    "name": "Master Data Science & Big Data",
+    "country": "france"
+  },
+  {
+    "slug": "isg",
+    "name": "Master Informatique / IA",
+    "country": "france"
+  },
+  {
+    "slug": "isg",
+    "name": "Master Finance Quantitative / Ingénierie Financière",
+    "country": "france"
+  },
+  {
+    "slug": "isg",
+    "name": "Master Data Science & Big Data",
+    "country": "france"
+  },
+  {
+    "slug": "psb",
+    "name": "Master Informatique / IA",
+    "country": "france"
+  },
+  {
+    "slug": "psb",
+    "name": "Master Finance Quantitative / Ingénierie Financière",
+    "country": "france"
+  },
+  {
+    "slug": "psb",
+    "name": "Master Data Science & Big Data",
+    "country": "france"
+  },
+  {
+    "slug": "ipag",
+    "name": "Master Informatique / IA",
+    "country": "france"
+  },
+  {
+    "slug": "ipag",
+    "name": "Master Finance Quantitative / Ingénierie Financière",
+    "country": "france"
+  },
+  {
+    "slug": "ipag",
+    "name": "Master Data Science & Big Data",
+    "country": "france"
+  },
+  {
+    "slug": "isc-paris",
+    "name": "Master Informatique / IA",
+    "country": "france"
+  },
+  {
+    "slug": "isc-paris",
+    "name": "Master Finance Quantitative / Ingénierie Financière",
+    "country": "france"
+  },
+  {
+    "slug": "isc-paris",
+    "name": "Master Data Science & Big Data",
+    "country": "france"
+  },
+  {
+    "slug": "kedge-marseille",
+    "name": "Master Informatique / IA",
+    "country": "france"
+  },
+  {
+    "slug": "kedge-marseille",
+    "name": "Master Finance Quantitative / Ingénierie Financière",
+    "country": "france"
+  },
+  {
+    "slug": "kedge-marseille",
+    "name": "Master Data Science & Big Data",
+    "country": "france"
+  },
+  {
+    "slug": "georgia-tech-lorraine",
+    "name": "Master Informatique / IA",
+    "country": "france"
+  },
+  {
+    "slug": "georgia-tech-lorraine",
+    "name": "Master Finance Quantitative / Ingénierie Financière",
+    "country": "france"
+  },
+  {
+    "slug": "georgia-tech-lorraine",
+    "name": "Master Data Science & Big Data",
+    "country": "france"
+  },
+  {
+    "slug": "newcastle",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "newcastle",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "newcastle",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "queens-belfast",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "queens-belfast",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "queens-belfast",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "strathclyde",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "strathclyde",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "strathclyde",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "heriot-watt",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "heriot-watt",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "heriot-watt",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "essex",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "essex",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "essex",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "kent",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "kent",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "kent",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "royal-holloway",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "royal-holloway",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "royal-holloway",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "swansea",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "swansea",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "swansea",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "dundee",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "dundee",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "dundee",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "stirling",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "stirling",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "stirling",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "buas",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "buas",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "buas",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "fontys-venlo",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "fontys-venlo",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "fontys-venlo",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "eur",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "eur",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "eur",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "setu-carlow",
+    "name": "MSc in Finance",
+    "country": "ireland"
+  },
+  {
+    "slug": "setu-carlow",
+    "name": "MSc in Data Science / AI",
+    "country": "ireland"
+  },
+  {
+    "slug": "setu-carlow",
+    "name": "MSc in Business Analytics",
+    "country": "ireland"
+  },
+  {
+    "slug": "eit",
+    "name": "Master of Business",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "eit",
+    "name": "Master of Information Technology",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "essca",
+    "name": "MSc Finance & Audit",
+    "country": "france"
+  },
+  {
+    "slug": "essca",
+    "name": "MSc Digital Transformation & Data Analytics",
+    "country": "france"
+  },
+  {
+    "slug": "essca",
+    "name": "MSc Entrepreneurship & Innovation",
+    "country": "france"
+  },
+  {
+    "slug": "excelia",
+    "name": "MSc Finance & Audit",
+    "country": "france"
+  },
+  {
+    "slug": "excelia",
+    "name": "MSc Digital Transformation & Data Analytics",
+    "country": "france"
+  },
+  {
+    "slug": "excelia",
+    "name": "MSc Entrepreneurship & Innovation",
+    "country": "france"
+  },
+  {
+    "slug": "esg",
+    "name": "MSc Finance & Audit",
+    "country": "france"
+  },
+  {
+    "slug": "esg",
+    "name": "MSc Digital Transformation & Data Analytics",
+    "country": "france"
+  },
+  {
+    "slug": "esg",
+    "name": "MSc Entrepreneurship & Innovation",
+    "country": "france"
+  },
+  {
+    "slug": "esce",
+    "name": "MSc Finance & Audit",
+    "country": "france"
+  },
+  {
+    "slug": "esce",
+    "name": "MSc Digital Transformation & Data Analytics",
+    "country": "france"
+  },
+  {
+    "slug": "esce",
+    "name": "MSc Entrepreneurship & Innovation",
+    "country": "france"
+  },
+  {
+    "slug": "idrac",
+    "name": "MSc Finance & Audit",
+    "country": "france"
+  },
+  {
+    "slug": "idrac",
+    "name": "MSc Digital Transformation & Data Analytics",
+    "country": "france"
+  },
+  {
+    "slug": "idrac",
+    "name": "MSc Entrepreneurship & Innovation",
+    "country": "france"
+  },
+  {
+    "slug": "estya",
+    "name": "MSc Finance & Audit",
+    "country": "france"
+  },
+  {
+    "slug": "estya",
+    "name": "MSc Digital Transformation & Data Analytics",
+    "country": "france"
+  },
+  {
+    "slug": "estya",
+    "name": "MSc Entrepreneurship & Innovation",
+    "country": "france"
+  },
+  {
+    "slug": "mba-paris",
+    "name": "MSc Finance & Audit",
+    "country": "france"
+  },
+  {
+    "slug": "mba-paris",
+    "name": "MSc Digital Transformation & Data Analytics",
+    "country": "france"
+  },
+  {
+    "slug": "mba-paris",
+    "name": "MSc Entrepreneurship & Innovation",
+    "country": "france"
+  },
+  {
+    "slug": "uea",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "uea",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "uea",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "roehampton",
+    "name": "MSc Finance",
+    "country": "england"
+  },
+  {
+    "slug": "roehampton",
+    "name": "MSc Data Science / AI",
+    "country": "england"
+  },
+  {
+    "slug": "roehampton",
+    "name": "MSc Business Analytics",
+    "country": "england"
+  },
+  {
+    "slug": "wur",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "wur",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "wur",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "maastricht",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "maastricht",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "tilburg",
+    "name": "MSc in Finance",
+    "country": "netherlands"
+  },
+  {
+    "slug": "tilburg",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "tilburg",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "groningen",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "netherlands"
+  },
+  {
+    "slug": "groningen",
+    "name": "MSc in Business Analytics",
+    "country": "netherlands"
+  },
+  {
+    "slug": "uit",
+    "name": "MSc in Data Science / AI",
+    "country": "norway"
+  },
+  {
+    "slug": "uit",
+    "name": "MSc in Computer Science",
+    "country": "norway"
+  },
+  {
+    "slug": "uib",
+    "name": "MSc in Finance",
+    "country": "norway"
+  },
+  {
+    "slug": "uib",
+    "name": "MSc in Data Science / AI",
+    "country": "norway"
+  },
+  {
+    "slug": "uib",
+    "name": "MSc in Computer Science",
+    "country": "norway"
+  },
+  {
+    "slug": "ntnu",
+    "name": "MSc in Data Science / AI",
+    "country": "norway"
+  },
+  {
+    "slug": "ntnu",
+    "name": "MSc in Computer Science",
+    "country": "norway"
+  },
+  {
+    "slug": "au",
+    "name": "MSc in Finance",
+    "country": "denmark"
+  },
+  {
+    "slug": "au",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "denmark"
+  },
+  {
+    "slug": "au",
+    "name": "MSc in Economics / Business Analytics",
+    "country": "denmark"
+  },
+  {
+    "slug": "ku",
+    "name": "MSc in Finance",
+    "country": "denmark"
+  },
+  {
+    "slug": "ku",
+    "name": "MSc in Data Science / Computer Science",
+    "country": "denmark"
+  },
+  {
+    "slug": "ku",
+    "name": "MSc in Economics / Business Analytics",
+    "country": "denmark"
+  },
+  {
+    "slug": "aut",
+    "name": "Master of Finance",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "aut",
+    "name": "Master of Computer Science / Data Science",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "aut",
+    "name": "Master of Business Analytics",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "victoria-wellington",
+    "name": "Master of Computer Science / Data Science",
+    "country": "new-zealand"
+  },
+  {
+    "slug": "university-galway",
+    "name": "MSc in Data Science / AI",
+    "country": "ireland"
+  },
+  {
+    "slug": "university-galway",
+    "name": "MSc in Business Analytics",
+    "country": "ireland"
+  },
+  {
+    "slug": "ul",
+    "name": "MSc in Finance",
+    "country": "ireland"
+  },
+  {
+    "slug": "ul",
+    "name": "MSc in Data Science / AI",
+    "country": "ireland"
+  },
+  {
+    "slug": "ul",
+    "name": "MSc in Business Analytics",
+    "country": "ireland"
+  }
+]

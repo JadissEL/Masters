@@ -13014,8 +13014,8 @@
     {
       "schoolSlug": "hec-paris",
       "role": "admissions_officer",
-      "email": "admissions@hec.edu",
-      "sourceUrl": "https://www.hec.edu/en/contact",
+      "email": "admissionsmasters@hec.fr",
+      "sourceUrl": "https://www.hec.edu/en/master-s-programs/master-management/faq",
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High"
@@ -13023,11 +13023,3110 @@
     {
       "schoolSlug": "lse",
       "role": "graduate_admissions",
-      "email": "graduate.admissions@lse.ac.uk",
-      "sourceUrl": "https://www.lse.ac.uk/study-at-lse/Graduate/Prospective-students/Enquiries-and-visits",
+      "email": "dom.msc.admissions@lse.ac.uk",
+      "sourceUrl": "https://www.lse.ac.uk/study-at-lse/graduate/masters-in-management",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Department of Management MSc programmes; central grad admissions uses knowledge-base form"
+    },
+    {
+      "schoolSlug": "essec",
+      "role": "registrar",
+      "email": "registraire-fao@essec.edu",
+      "sourceUrl": "https://www.essec.edu/en/program/master-in-management-international/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Registrar's Office; programme inquiries primarily via contact forms on essec.edu"
+    },
+    {
+      "schoolSlug": "escp",
+      "role": "admissions_officer",
+      "email": "ms-concours@escp.eu",
+      "sourceUrl": "https://escp.eu/programmes/specialised-masters-msc/msc-industry-transformation-management",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "MSc admissions; MiM uses campus-specific mim*@escp.eu addresses"
+    },
+    {
+      "schoolSlug": "em-lyon",
+      "role": "admissions_officer",
+      "email": "master@em-lyon.com",
+      "sourceUrl": "https://em-lyon.com/en/masters-programs",
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "edhec",
+      "role": "admissions_officer",
+      "email": "international.admissions@edhec.edu",
+      "sourceUrl": "https://alumni.edhec.edu/en/article/edhec-presentation-at-the-taipei-library/20/02/2015/18914",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International Admissions Team for MSc & MiM"
+    },
+    {
+      "schoolSlug": "audencia",
+      "role": "admissions_officer",
+      "email": "international@audencia.com",
+      "sourceUrl": "https://www.audencia.com/en/our-programs/master-in-management-grande-ecole/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International Recruitment Service"
+    },
+    {
+      "schoolSlug": "kedge",
+      "role": "admissions_officer",
+      "email": "join@kedgebs.com",
+      "sourceUrl": "https://student.kedge.edu/programmes/international-business/admission-funding",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "MSc admissions correspondence; international eligibility: international@kedgebs.com"
+    },
+    {
+      "schoolSlug": "neoma",
+      "role": "admissions_officer",
+      "email": "admissions@neoma-bs.fr",
+      "sourceUrl": "https://neoma-bs.fr/formations/programme-grande-ecole/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "grenoble-em",
+      "role": "admissions_officer",
+      "email": "admissions@grenoble-em.com",
+      "sourceUrl": "https://www.grenoble-em.com/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "tbs",
+      "role": "admissions_officer",
+      "email": "admissions@tbs-education.fr",
+      "sourceUrl": "https://www.tbs-education.fr/formations/msc/faq-msc/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "MSc Toulouse/Paris; Barcelona: apply@tbs-education.fr per FAQ"
+    },
+    {
+      "schoolSlug": "ieseg",
+      "role": "admissions_officer",
+      "email": "admissions@ieseg.fr",
+      "sourceUrl": "https://www.ieseg.fr/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "sciences-po",
+      "role": "admissions_officer",
+      "email": "admissions@sciencespo.fr",
+      "sourceUrl": "https://www.sciencespo.fr/admissions/en/contact-us/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "paris-dauphine",
+      "role": "admissions_officer",
+      "email": "admissions@dauphine.psl.eu",
+      "sourceUrl": "https://www.dauphine.psl.eu/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "montpellier-bs",
+      "role": "admissions_officer",
+      "email": "international.admissions@montpellier-bs.com",
+      "sourceUrl": "https://maintenance.montpellier-bs.com/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "esdes-lyon",
+      "role": "admissions_officer",
+      "email": "admissions@esdes.fr",
+      "sourceUrl": "https://www.esdes.fr/en/welcome/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "imperial-college",
+      "role": "admissions_officer",
+      "email": "business.school@imperial.ac.uk",
+      "sourceUrl": "https://www.imperial.ac.uk/business-school/masters/management/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ucl",
+      "role": "graduate_admissions",
+      "email": "pgadmissions@ucl.ac.uk",
+      "sourceUrl": "https://www.ucl.ac.uk/prospective-students/graduate/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "warwick",
+      "role": "admissions_officer",
+      "email": "mastersrecruitment@wbs.ac.uk",
+      "sourceUrl": "https://www.wbs.ac.uk/courses/masters/management/how-to-apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "oxford-sbs",
+      "role": "graduate_admissions",
+      "email": "admissions@sbs.ox.ac.uk",
+      "sourceUrl": "https://www.sbs.ox.ac.uk/programmes/msc-financial-economics/how-apply",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "cambridge-judge",
+      "role": "graduate_admissions",
+      "email": "admissions@jbs.cam.ac.uk",
+      "sourceUrl": "https://www.jbs.cam.ac.uk/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "erasmus-rsm",
+      "role": "admissions_officer",
+      "email": "admissions@rsm.nl",
+      "sourceUrl": "https://www.rsm.nl/education/master/msc-programmes/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "tilburg",
+      "role": "admissions_officer",
+      "email": "masters@tilburguniversity.edu",
+      "sourceUrl": "https://www.tilburguniversity.edu/education/masters-programmes/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "vu-amsterdam",
+      "role": "admissions_officer",
+      "email": "masters@vu.nl",
+      "sourceUrl": "https://vu.nl/en/education/more-about/admission-and-application",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "trinity-college-dublin",
+      "role": "graduate_admissions",
+      "email": "academic.registry@tcd.ie",
+      "sourceUrl": "https://www.tcd.ie/study/contact/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International applicants may also use study@tcd.ie"
+    },
+    {
+      "schoolSlug": "smurfit",
+      "role": "admissions_officer",
+      "email": "admissions@ucd.ie",
+      "sourceUrl": "https://www.smurfitschool.ie/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "cbs",
+      "role": "admissions_officer",
+      "email": "graduateadmission@cbs.dk",
+      "sourceUrl": "https://www.cbs.dk/en/study-programmes/master-programmes/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ntnu",
+      "role": "admissions_officer",
+      "email": "admission@ntnu.no",
+      "sourceUrl": "https://www.ntnu.edu/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "esade",
+      "role": "admissions_officer",
+      "email": "mscmanagement@esade.edu",
+      "sourceUrl": "https://www.esade.edu/master-of-science/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "iese",
+      "role": "admissions_officer",
+      "email": "mim@iese.edu",
+      "sourceUrl": "https://www.iese.edu/contact-us/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "MiM; MBA uses mbainfo@iese.edu"
+    },
+    {
+      "schoolSlug": "ie-business-school",
+      "role": "admissions_officer",
+      "email": "grad.admissions@ie.edu",
+      "sourceUrl": "https://www.ie.edu/university/contactus/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "vlerick",
+      "role": "admissions_officer",
+      "email": "admissions@vlerick.com",
+      "sourceUrl": "https://www.vlerick.com/en/programmes/studying-at-vlerick/how-to-apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "bi-norwegian",
+      "role": "admissions_officer",
+      "email": "info@bi.no",
+      "sourceUrl": "https://www.bi.edu",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 55)"
+    },
+    {
+      "schoolSlug": "tudelft",
+      "role": "admissions_officer",
+      "email": "info@tudelft.nl",
+      "sourceUrl": "https://www.tudelft.nl/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "itu",
+      "role": "admissions_officer",
+      "email": "admission@itu.dk",
+      "sourceUrl": "https://en.itu.dk/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 80)"
+    },
+    {
+      "schoolSlug": "nyenrode",
+      "role": "admissions_officer",
+      "email": "info@nyenrode.nl",
+      "sourceUrl": "https://www.nyenrode.nl",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "paris-1-pantheon-sorbonne",
+      "role": "admissions_officer",
+      "email": "international-contact@univ-paris1.fr",
+      "sourceUrl": "https://www.univ-paris1.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "telecom-paris",
+      "role": "admissions_officer",
+      "email": "contact@telecom-paris.fr",
+      "sourceUrl": "https://www.telecom-paris.fr/fr/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "uit",
+      "role": "admissions_officer",
+      "email": "admission@uit.no",
+      "sourceUrl": "https://en.uit.no/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 80)"
+    },
+    {
+      "schoolSlug": "univ-leeds",
+      "role": "admissions_officer",
+      "email": "study@leeds.ac.uk",
+      "sourceUrl": "https://www.leeds.ac.uk/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 85)"
+    },
+    {
+      "schoolSlug": "univ-southampton",
+      "role": "admissions_officer",
+      "email": "enquiries@southampton.ac.uk",
+      "sourceUrl": "https://www.southampton.ac.uk/about/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 80)"
+    },
+    {
+      "schoolSlug": "loughborough",
+      "role": "admissions_officer",
+      "email": "admissions@lboro.ac.uk",
+      "sourceUrl": "https://www.lboro.ac.uk/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 130)"
+    },
+    {
+      "schoolSlug": "atu",
+      "role": "admissions_officer",
+      "email": "admissions@atu.ie",
+      "sourceUrl": "https://www.atu.ie/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 130)"
+    },
+    {
+      "schoolSlug": "maynooth-univ",
+      "role": "admissions_officer",
+      "email": "pgadmissions@mu.ie",
+      "sourceUrl": "https://www.maynoothuniversity.ie/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 68)"
+    },
+    {
+      "schoolSlug": "mtu",
+      "role": "admissions_officer",
+      "email": "crawford.enquiries@mtu.ie",
+      "sourceUrl": "https://www.mtu.ie/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 80)"
+    },
+    {
+      "schoolSlug": "univ-malaga",
+      "role": "admissions_officer",
+      "email": "info@uma.es",
+      "sourceUrl": "https://www.uma.es",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "open-universiteit",
+      "role": "admissions_officer",
+      "email": "info@ou.nl",
+      "sourceUrl": "https://www.ou.nl/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "massey",
+      "role": "admissions_officer",
+      "email": "contact@massey.ac.nz",
+      "sourceUrl": "https://www.massey.ac.nz/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "waikato",
+      "role": "admissions_officer",
+      "email": "info@waikato.ac.nz",
+      "sourceUrl": "https://www.waikato.ac.nz/study/apply",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "univ-twente",
+      "role": "admissions_officer",
+      "email": "study@utwente.nl",
+      "sourceUrl": "https://www.utwente.nl/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 85)"
+    },
+    {
+      "schoolSlug": "uu",
+      "role": "admissions_officer",
+      "email": "info@uu.nl",
+      "sourceUrl": "https://www.uu.nl/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "fontys",
+      "role": "admissions_officer",
+      "email": "info@fontys.nl",
+      "sourceUrl": "https://www.fontys.nl/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "uhasselt",
+      "role": "admissions_officer",
+      "email": "admissionformaster@uhasselt.be",
+      "sourceUrl": "https://www.uhasselt.be/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 120)"
+    },
+    {
+      "schoolSlug": "vub",
+      "role": "admissions_officer",
+      "email": "info@vub.be",
+      "sourceUrl": "https://www.vub.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "ichec",
+      "role": "admissions_officer",
+      "email": "info@ichec.be",
+      "sourceUrl": "https://www.ichec.be/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "esilv",
+      "role": "admissions_officer",
+      "email": "admissions@esilv.fr",
+      "sourceUrl": "https://www.esilv.fr/fr/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 130)"
+    },
+    {
+      "schoolSlug": "isg",
+      "role": "admissions_officer",
+      "email": "admission@isg.fr",
+      "sourceUrl": "https://www.isg.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 130)"
+    },
+    {
+      "schoolSlug": "essex",
+      "role": "admissions_officer",
+      "email": "enquiries@essex.ac.uk",
+      "sourceUrl": "https://www.essex.ac.uk/about/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 80)"
+    },
+    {
+      "schoolSlug": "stirling",
+      "role": "admissions_officer",
+      "email": "admissions@stir.ac.uk",
+      "sourceUrl": "https://www.stir.ac.uk/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 130)"
+    },
+    {
+      "schoolSlug": "kent",
+      "role": "admissions_officer",
+      "email": "study@kent.ac.uk",
+      "sourceUrl": "https://www.kent.ac.uk/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 85)"
+    },
+    {
+      "schoolSlug": "univ-alcala",
+      "role": "admissions_officer",
+      "email": "info@uah.es",
+      "sourceUrl": "https://www.uah.es",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "fontys-venlo",
+      "role": "admissions_officer",
+      "email": "info@fontys.nl",
+      "sourceUrl": "https://www.fontys.nl/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "univ-jaen",
+      "role": "admissions_officer",
+      "email": "info@ujaen.es",
+      "sourceUrl": "https://www.ujaen.es",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "ehsb",
+      "role": "admissions_officer",
+      "email": "info@ehsb.be",
+      "sourceUrl": "https://www.ehsb.be",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "eit",
+      "role": "admissions_officer",
+      "email": "info@eit.ac.nz",
+      "sourceUrl": "https://www.eit.ac.nz",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "iae-poitiers",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-limoges",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-dijon",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-clermont",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-amiens",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-besancon",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-caen",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-tours",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-orleans",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-perpignan",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-pau",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-reims",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-le-havre",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-la-rochelle",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-valenciennes",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-le-mans",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-chambery",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-annecy",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-brest",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-nimes",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-toulouse-2",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-paris-1",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-paris-est",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "iae-saint-etienne",
+      "role": "admissions_officer",
+      "email": "contact@iae-france.fr",
+      "sourceUrl": "https://www.iae-france.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "telecom-paristech",
+      "role": "admissions_officer",
+      "email": "contact@telecom-paris.fr",
+      "sourceUrl": "https://www.telecom-paris.fr/fr/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "ensait",
+      "role": "admissions_officer",
+      "email": "contact@ensait.fr",
+      "sourceUrl": "https://www.ensait.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "telecom-st-etienne",
+      "role": "admissions_officer",
+      "email": "contact@telecom-st-etienne.fr",
+      "sourceUrl": "https://www.telecom-st-etienne.fr",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 65)"
+    },
+    {
+      "schoolSlug": "esce",
+      "role": "admissions_officer",
+      "email": "scolarite@esce.fr",
+      "sourceUrl": "https://www.esce.fr/nous-contacter",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 118)"
+    },
+    {
+      "schoolSlug": "uea",
+      "role": "admissions_officer",
+      "email": "admissions@uea.ac.uk",
+      "sourceUrl": "https://www.uea.ac.uk/study/postgraduate/apply",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 130)"
+    },
+    {
+      "schoolSlug": "ugent",
+      "role": "admissions_officer",
+      "email": "admission@ugent.be",
+      "sourceUrl": "https://www.ugent.be/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Discovered via page crawl (score 130)"
+    },
+    {
+      "schoolSlug": "vub-2",
+      "role": "admissions_officer",
+      "email": "info@vub.be",
+      "sourceUrl": "https://www.vub.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Discovered via page crawl (score 70)"
+    },
+    {
+      "schoolSlug": "skema",
+      "role": "admissions_officer",
+      "email": "international.admissions@skema.edu",
+      "sourceUrl": "https://www.skema.edu/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ucd-smurfit",
+      "role": "admissions_officer",
+      "email": "admissions@ucd.ie",
+      "sourceUrl": "https://www.smurfitschool.ie/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uva",
+      "role": "admissions_officer",
+      "email": "master-science@uva.nl",
+      "sourceUrl": "https://www.uva.nl/en/programmes/masters/complex-systems-and-policy/contact/contact-nieuw.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UvA international master admissions; programme-specific desks also exist"
+    },
+    {
+      "schoolSlug": "oxford-said",
+      "role": "admissions_officer",
+      "email": "oxfordmba@sbs.ox.ac.uk",
+      "sourceUrl": "https://www.sbs.ox.ac.uk/about-us/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "MSc Financial Economics: mscfe@sbs.ox.ac.uk on same contact page"
+    },
+    {
+      "schoolSlug": "kcl",
+      "role": "graduate_admissions",
+      "email": "pgadmissions@kcl.ac.uk",
+      "sourceUrl": "https://www.kcl.ac.uk/study/postgraduate/apply/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "edinburgh-bs",
+      "role": "admissions_officer",
+      "email": "futurestudents@ed.ac.uk",
+      "sourceUrl": "https://www.business-school.ed.ac.uk/msc/deposit-policy-guidelines",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "PGT Admissions Office — official brochure and deposit policy page"
+    },
+    {
+      "schoolSlug": "groningen",
+      "role": "admissions_officer",
+      "email": "masters@rug.nl",
+      "sourceUrl": "https://www.rug.nl/education/application-enrolment-tuition-fees/application-masters/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "maastricht",
+      "role": "admissions_officer",
+      "email": "admissions@maastrichtuniversity.nl",
+      "sourceUrl": "https://www.maastrichtuniversity.nl/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "aarhus",
+      "role": "admissions_officer",
+      "email": "studies@au.dk",
+      "sourceUrl": "https://masters.au.dk/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ku-copenhagen",
+      "role": "admissions_officer",
+      "email": "studieservice@ku.dk",
+      "sourceUrl": "https://www.ku.dk/english/education/sis",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "solvay",
+      "role": "admissions_officer",
+      "email": "admission@ulb.be",
+      "sourceUrl": "https://www.ulb.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ku-leuven",
+      "role": "admissions_officer",
+      "email": "admission@kuleuven.be",
+      "sourceUrl": "https://www.kuleuven.be/english/apply",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ghent",
+      "role": "admissions_officer",
+      "email": "admission@ugent.be",
+      "sourceUrl": "https://www.ugent.be/en/education/degree-students/application-and-admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "carlos-iii",
+      "role": "admissions_officer",
+      "email": "admission@uc3m.es",
+      "sourceUrl": "https://www.uc3m.es/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "upf",
+      "role": "admissions_officer",
+      "email": "admissions@upf.edu",
+      "sourceUrl": "https://www.upf.edu/en/web/graus/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "nhh",
+      "role": "admissions_officer",
+      "email": "admission@nhh.no",
+      "sourceUrl": "https://www.nhh.no/en/study/admission/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uio",
+      "role": "admissions_officer",
+      "email": "admission@uio.no",
+      "sourceUrl": "https://www.uio.no/english/studies/admission/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "cnam",
+      "role": "admissions_officer",
+      "email": "scolarite@cnam.fr",
+      "sourceUrl": "https://www.cnam.fr/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "rennes-sb",
+      "role": "admissions_officer",
+      "email": "admissions@rennes-sb.com",
+      "sourceUrl": "https://www.rennes-sb.com/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "alliance-manchester",
+      "role": "admissions_officer",
+      "email": "wbsmasters@wbs.ac.uk",
+      "sourceUrl": "https://www.alliancembs.manchester.ac.uk/study/masters/apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "bayes-city",
+      "role": "admissions_officer",
+      "email": "pg@citystgeorges.ac.uk",
+      "sourceUrl": "https://www.bayes.citystgeorges.ac.uk/study/masters/courses",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "bath",
+      "role": "graduate_admissions",
+      "email": "pgadmissions@bath.ac.uk",
+      "sourceUrl": "https://www.bath.ac.uk/topics/applying-for-courses/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "cranfield",
+      "role": "admissions_officer",
+      "email": "admissions@cranfield.ac.uk",
+      "sourceUrl": "https://www.cranfield.ac.uk/study/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "university-galway",
+      "role": "admissions_officer",
+      "email": "admissions@universityofgalway.ie",
+      "sourceUrl": "https://www.universityofgalway.ie/courses/postgraduate/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ucc",
+      "role": "admissions_officer",
+      "email": "admissions@ucc.ie",
+      "sourceUrl": "https://www.ucc.ie/en/study/postgrad/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "dcu",
+      "role": "admissions_officer",
+      "email": "admissions@dcu.ie",
+      "sourceUrl": "https://www.dcu.ie/registry/admissions.shtml",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "univ-birmingham",
+      "role": "graduate_admissions",
+      "email": "pgadmissions@contacts.bham.ac.uk",
+      "sourceUrl": "https://www.birmingham.ac.uk/study/postgraduate/research/how-to-apply/advertised-phd",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "york",
+      "role": "graduate_admissions",
+      "email": "pg-admissions@york.ac.uk",
+      "sourceUrl": "https://www.york.ac.uk/study/postgraduate/apply/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Page crawl (score 125)"
+    },
+    {
+      "schoolSlug": "univ-sheffield",
+      "role": "admissions_officer",
+      "email": "international@sheffield.ac.uk",
+      "sourceUrl": "https://www.sheffield.ac.uk/postgraduate/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Page crawl (score 35)"
+    },
+    {
+      "schoolSlug": "univ-bristol",
+      "role": "graduate_admissions",
+      "email": "choosebristol-pg@bristol.ac.uk",
+      "sourceUrl": "https://www.bristol.ac.uk/study/postgraduate/apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "newcastle",
+      "role": "graduate_admissions",
+      "email": "pgadmissions@ncl.ac.uk",
+      "sourceUrl": "https://www.ncl.ac.uk/mediav8/fms/files/FMS%20PG%20Prospectus%202025%20updated%20January%202025.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "lancaster",
+      "role": "graduate_admissions",
+      "email": "pgadmissions@lancaster.ac.uk",
+      "sourceUrl": "https://www.lancaster.ac.uk/study/postgraduate/after-you-apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "st-andrews",
+      "role": "graduate_admissions",
+      "email": "pgt.application@st-andrews.ac.uk",
+      "sourceUrl": "https://www.st-andrews.ac.uk/registry/contactus/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "glasgow",
+      "role": "admissions_officer",
+      "email": "med-sch-admissions@glasgow.ac.uk",
+      "sourceUrl": "https://www.gla.ac.uk/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Page crawl (score 105)"
+    },
+    {
+      "schoolSlug": "cardiff",
+      "role": "graduate_admissions",
+      "email": "international@cardiff.ac.uk",
+      "sourceUrl": "https://www.cardiff.ac.uk/help/contact-us/applicants",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International applicants; general PG enquiries via contact form"
+    },
+    {
+      "schoolSlug": "liverpool",
+      "role": "admissions_officer",
+      "email": "irro@liverpool.ac.uk",
+      "sourceUrl": "https://www.liverpool.ac.uk/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Page crawl (score 35)"
+    },
+    {
+      "schoolSlug": "strathclyde",
+      "role": "graduate_admissions",
+      "email": "pgt.admissions@strath.ac.uk",
+      "sourceUrl": "https://www.strath.ac.uk/professionalservices/studentexperience/admissions/contactus/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "aberdeen",
+      "role": "admissions_officer",
+      "email": "infohub@abdn.ac.uk",
+      "sourceUrl": "https://www.abdn.ac.uk/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Page crawl (score 35)"
+    },
+    {
+      "schoolSlug": "queens-belfast",
+      "role": "graduate_admissions",
+      "email": "postgrad.admissions@qub.ac.uk",
+      "sourceUrl": "https://www.qub.ac.uk/directorates/MRCI/admissions/ContactDetails/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "heriot-watt",
+      "role": "graduate_admissions",
+      "email": "pgadmissions@hw.ac.uk",
+      "sourceUrl": "https://myhwu.hw.ac.uk/HWSAS8/twbkfrmt.P_DispHelp?pagename_in=bwskalog.P_DispLoginNew",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "radboud",
+      "role": "admissions_officer",
+      "email": "admissions@ru.nl",
+      "sourceUrl": "https://www.ru.nl/en/students/international-students/arrival-and-registration",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "wur",
+      "role": "admissions_officer",
+      "email": "study@wur.nl",
+      "sourceUrl": "https://www.wur.nl/en/article/contact-wageningen-university.htm",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Study information desk; enrolment docs: ssc@wur.nl"
+    },
+    {
+      "schoolSlug": "dtu",
+      "role": "admissions_officer",
+      "email": "MScAdmissions@adm.dtu.dk",
+      "sourceUrl": "https://www.dtu.dk/english/education/graduate/admission-and-deadlines",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International applicants with non-Danish degree"
+    },
+    {
+      "schoolSlug": "sdu",
+      "role": "admissions_officer",
+      "email": "admission@sdu.dk",
+      "sourceUrl": "https://www.sdu.dk/en/kampagner/tjekkrav/finduddannelse",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "tu-dublin",
+      "role": "graduate_admissions",
+      "email": "pgadmissions@tudublin.ie",
+      "sourceUrl": "https://www.tudublin.ie/study/postgraduate/contact-us/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uoa",
+      "role": "graduate_admissions",
+      "email": "postgradinfo@auckland.ac.nz",
+      "sourceUrl": "https://www.auckland.ac.nz/en/study/applications-and-admissions/entry-requirements/postgraduate-entry-requirements/taught-postgraduate-entry-requirements.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ucm",
+      "role": "graduate_admissions",
+      "email": "admisionmasteres@ucm.es",
+      "sourceUrl": "https://www.ucm.es/master-finanzas-empresa/contacto",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Central masters admissions section (Rectorate)"
+    },
+    {
+      "schoolSlug": "swansea",
+      "role": "graduate_admissions",
+      "email": "postgraduate.admissions@swansea.ac.uk",
+      "sourceUrl": "https://www.swansea.ac.uk/postgraduate/postgraduate-study-introduction/applying-for-a-masters-degree/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "royal-holloway",
+      "role": "graduate_admissions",
+      "email": "applicants@royalholloway.ac.uk",
+      "sourceUrl": "https://royalholloway.ac.uk/media/4834/admissionspolicy.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "roehampton",
+      "role": "graduate_admissions",
+      "email": "internationaladmissions@roehampton.ac.uk",
+      "sourceUrl": "https://www.roehampton.ac.uk/globalassets/documents/international/agents/agent-handbook-2023---2025.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "sussex",
+      "role": "admissions_officer",
+      "email": "ug.applicants@sussex.ac.uk",
+      "sourceUrl": "https://www.sussex.ac.uk/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Page crawl (score 35)"
+    },
+    {
+      "schoolSlug": "surrey",
+      "role": "admissions_officer",
+      "email": "d.erkal@surrey.ac.uk",
+      "sourceUrl": "https://www.surrey.ac.uk/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Page crawl (score 35)"
+    },
+    {
+      "schoolSlug": "ku",
+      "role": "graduate_admissions",
+      "email": "admissions@ku.dk",
+      "sourceUrl": "https://www.ku.dk/studies/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "au",
+      "role": "graduate_admissions",
+      "email": "ma.admission@au.dk",
+      "sourceUrl": "https://international.au.dk/education/apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "oslo-met",
+      "role": "graduate_admissions",
+      "email": "opptak@oslomet.no",
+      "sourceUrl": "https://student.oslomet.no/en/admissions-counselling",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "univ-agder",
+      "role": "graduate_admissions",
+      "email": "admission@uia.no",
+      "sourceUrl": "https://www.uia.no/english/studies/how-to-apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "leiden",
+      "role": "graduate_admissions",
+      "email": "oiemfb@sea.leidenuniv.nl",
+      "sourceUrl": "https://studiegids-archief.leidenuniv.nl/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "antwerp",
+      "role": "graduate_admissions",
+      "email": "internationalstudents@uantwerp.be",
+      "sourceUrl": "https://www.uantwerpen.be/en/study/admission-and-enrolment/admission/master-and-advanced-master/procedure/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uliege",
+      "role": "graduate_admissions",
+      "email": "inscription-online@uliege.be",
+      "sourceUrl": "https://www.enseignement.uliege.be/cms/c_13348202/fr/admission-des-etudiants-internationaux",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "lsm",
+      "role": "graduate_admissions",
+      "email": "lsm-belgian-admissions@uclouvain.be",
+      "sourceUrl": "https://uclouvain.be/prog-gest2m-cond_adm",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "iae-lyon",
+      "role": "graduate_admissions",
+      "email": "candidaturesiaelyon@univ-lyon3.fr",
+      "sourceUrl": "https://iae.univ-lyon3.fr/organigramme-de-l-iaelyon-et-contacts",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "iae-bordeaux",
+      "role": "graduate_admissions",
+      "email": "iae.applications@u-bordeaux.fr",
+      "sourceUrl": "https://www.iae-bordeaux.fr/en/academic-programs/master-1-european-business-administration-m1-eba-principles-management",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "iae-aix-marseille",
+      "role": "graduate_admissions",
+      "email": "admission@iae-aix.fr",
+      "sourceUrl": "http://www.iae-aix.com/fr/programmes/organisation-msc/msc2/msc-2-management-specialite-international-business",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "otago",
+      "role": "graduate_admissions",
+      "email": "ask@otago.ac.nz",
+      "sourceUrl": "https://www.otago.ac.nz/healthsciences/students/professional/medicine",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "victoria-wellington",
+      "role": "graduate_admissions",
+      "email": "info@vuw.ac.nz",
+      "sourceUrl": "https://www.wgtn.ac.nz/study/apply-enrol/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "aut",
+      "role": "graduate_admissions",
+      "email": "internationalstudy@aut.ac.nz",
+      "sourceUrl": "https://www.aut.ac.nz/enquiry/panel",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "canterbury",
+      "role": "graduate_admissions",
+      "email": "enrol@canterbury.ac.nz",
+      "sourceUrl": "https://www.canterbury.ac.nz/study/uc-graduate-school/future-research-students/become-a-research-student",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "paris-saclay",
+      "role": "graduate_admissions",
+      "email": "scolarite-licencesmasters.sciences@universite-paris-saclay.fr",
+      "sourceUrl": "https://www.sciences.universite-paris-saclay.fr/sites/default/files/media/2021-10/contacts_scol-lm_maj_05-10-21.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "psb",
+      "role": "graduate_admissions",
+      "email": "admission@psbedu.paris",
+      "sourceUrl": "https://www.psbedu.paris/fr/contact-etudiant",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uam",
+      "role": "graduate_admissions",
+      "email": "posgrado.oficial@uam.es",
+      "sourceUrl": "http://www.ahnfmed.uam.es/index.php/estudios/mn-admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "birkbeck",
+      "role": "admissions_officer",
+      "email": "communications@bbk.ac.uk",
+      "sourceUrl": "https://www.bbk.ac.uk/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Page crawl (score 35)"
+    },
+    {
+      "schoolSlug": "exeter",
+      "role": "admissions_officer",
+      "email": "accommodation@exeter.ac.uk",
+      "sourceUrl": "https://www.exeter.ac.uk/postgraduate/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Page crawl (score 35)"
+    },
+    {
+      "schoolSlug": "qmul",
+      "role": "graduate_admissions",
+      "email": "pgtadmissions@qmul.ac.uk",
+      "sourceUrl": "https://www.qmul.ac.uk/fmd/contact/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "reading",
+      "role": "graduate_admissions",
+      "email": "postgraduate@henley.ac.uk",
+      "sourceUrl": "https://www.henley.ac.uk/study/masters/apply",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "setu-carlow",
+      "role": "graduate_admissions",
+      "email": "tpgadmissions.cw@setu.ie",
+      "sourceUrl": "https://www.setu.ie/study/postgraduate-study/postgrad-admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ul",
+      "role": "graduate_admissions",
+      "email": "postgradadmissions@ul.ie",
+      "sourceUrl": "https://www.ul.ie/gps/clinical-psychology-application",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "insa-lyon",
+      "role": "graduate_admissions",
+      "email": "admiss@groupe-insa.fr",
+      "sourceUrl": "https://www.insa-lyon.fr/fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Groupe INSA central admissions; research masters and Mastère spécialisé may use programme-specific contacts (e.g. masterminds@insa-lyon.fr for Master MINDS AI)"
+    },
+    {
+      "schoolSlug": "insa-toulouse",
+      "role": "graduate_admissions",
+      "email": "scolar@insa-toulouse.fr",
+      "sourceUrl": "https://inscription.insa-toulouse.fr/_resource/scolarite/rentr%C3%A9e%2023-24/Informations%20sur%20les%20traitements%20de%20donn%C3%A9es%20personnelles_2324_etudiants_V2-0.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service de la scolarité — official student registry contact in institutional privacy PDF"
+    },
+    {
+      "schoolSlug": "insa-rennes",
+      "role": "graduate_admissions",
+      "email": "masters-suivi-dossier@insa-rennes.fr",
+      "sourceUrl": "https://www.insa-rennes.fr/master-recherche.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Master research dossier follow-up; international incoming mobility uses incoming@insa-rennes.fr"
+    },
+    {
+      "schoolSlug": "utc",
+      "role": "graduate_admissions",
+      "email": "master@utc.fr",
+      "sourceUrl": "https://www.utc.fr/formations/candidater-a-lutc/candidater-au-diplome-de-master/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ensae",
+      "role": "graduate_admissions",
+      "email": "master@ensae.fr",
+      "sourceUrl": "https://www.ensae.fr/en/school/presentation-ensae-paris/schools-team",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General admissions desk: admission@ensae.fr"
+    },
+    {
+      "schoolSlug": "ensai",
+      "role": "graduate_admissions",
+      "email": "admission@ensai.fr",
+      "sourceUrl": "https://ensai.fr/admissions-sur-titre-internationales/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International relations: international@ensai.fr"
+    },
+    {
+      "schoolSlug": "insp",
+      "role": "graduate_admissions",
+      "email": "cyclesinternationaux2026@insp.gouv.fr",
+      "sourceUrl": "https://www.insp.gouv.fr/en/formation-initiale/eleves-internationaux/long-international-training-course-cil",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Public administration international cycles (not engineering MSc); year-specific mailbox; short programmes: inscription.pic@insp.gouv.fr"
+    },
+    {
+      "schoolSlug": "ponts-paristech",
+      "role": "graduate_admissions",
+      "email": "missionscolarite@enpc.fr",
+      "sourceUrl": "https://ecoledesponts.fr/sites/default/files/pages/International/Ecole%20nationale%20des%20ponts%20et%20chauss%C3%A9es_Fact%20sheet%202026-2027_Spring%202026.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Mission scolarité / registration office; M1/M2 applications via Institut Polytechnique de Paris or Mon Master platforms"
+    },
+    {
+      "schoolSlug": "centrale-lyon",
+      "role": "graduate_admissions",
+      "email": "scolarite.registration@listes.ec-lyon.fr",
+      "sourceUrl": "https://master-acoustics.ec-lyon.fr/contact/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "French-speaking masters: scolarite.master@listes.ec-lyon.fr; Saint-Étienne campus: scolarite.master-enise@listes.ec-lyon.fr"
+    },
+    {
+      "schoolSlug": "centrale-nantes",
+      "role": "graduate_admissions",
+      "email": "admission@ec-nantes.fr",
+      "sourceUrl": "https://ressources.campusfrance.org/pratique/accueil/en/ing_central_nantes_ac_en.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Centrale Nantes Admissions Team; applications via eCandidat"
+    },
+    {
+      "schoolSlug": "inp-toulouse",
+      "role": "graduate_admissions",
+      "email": "international@toulouse-inp.fr",
+      "sourceUrl": "https://www.inp-toulouse.fr/en/international.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Federation international desk; MSc programmes often use programme-specific addresses (e.g. master_eseca@univ-toulouse.fr, master_ise@univ-toulouse.fr); ENSEEIHT: international.n7@toulouse-inp.fr"
+    },
+    {
+      "schoolSlug": "ensam",
+      "role": "graduate_admissions",
+      "email": "admissions@ensam.eu",
+      "sourceUrl": "https://artsetmetiers.fr/en/formation/faq-international",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Mastère Spécialisé: ContactAMTALENTS@ensam.eu"
+    },
+    {
+      "schoolSlug": "utbm",
+      "role": "graduate_admissions",
+      "email": "inscriptions.master@utbm.fr",
+      "sourceUrl": "https://bienvenue.utbm.fr/inscription/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General admissions: service.admissions@utbm.fr; international study: studying@utbm.fr"
+    },
+    {
+      "schoolSlug": "utt",
+      "role": "graduate_admissions",
+      "email": "master@utt.fr",
+      "sourceUrl": "https://www.utt.fr/medias/fichier/master-nanophot-2026_1769613619735-pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Also tickets-scol.utt.fr for admissions-scolarité support; fee waiver requests: ales@utt.fr"
+    },
+    {
+      "schoolSlug": "insa-strasbourg",
+      "role": "graduate_admissions",
+      "email": "scolarite@insa-strasbourg.fr",
+      "sourceUrl": "https://www.insa-strasbourg.fr/wp-content/uploads/GroupeINSA_2024_Architecture_Ingenieur.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Groupe INSA engineering admissions also via admiss@groupe-insa.fr"
+    },
+    {
+      "schoolSlug": "insa-rouen",
+      "role": "graduate_admissions",
+      "email": "scolarite@insa-rouen.fr",
+      "sourceUrl": "https://insa-rouen.fr/sites/default/files/2025-06/di523_2025guideetudiants_internationaux_env3.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Enrollment office; international relations: international@insa-rouen.fr; Groupe INSA lists admission@insa-rouen.fr for engineering intake"
+    },
+    {
+      "schoolSlug": "telecom-sudparis",
+      "role": "graduate_admissions",
+      "email": "admissions@telecom-sudparis.eu",
+      "sourceUrl": "https://ressources.campusfrance.org/pratique/accueil/en/ing_telecom_sud-paris_ac_en.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General engineering AST admissions: admissions-ast@telecom-sudparis.eu"
+    },
+    {
+      "schoolSlug": "imt-bs",
+      "role": "graduate_admissions",
+      "email": "international-promotion@imt-bs.eu",
+      "sourceUrl": "https://www.imt-bs.eu/en/international/study-at-institut-mines-telecom-business-school/degree-program/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Masters of Science international intake; Advanced Masters: admissionsMS@telecom-em.eu"
+    },
+    {
+      "schoolSlug": "imt-lille-douai",
+      "role": "graduate_admissions",
+      "email": "master-of-science@imt-nord-europe.fr",
+      "sourceUrl": "https://imt-nord-europe.fr/wp-content/uploads/2024/01/Notice_intake_2026_VF-1.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "polytech-nantes",
+      "role": "graduate_admissions",
+      "email": "scolarite.recrutement@polytech.univ-nantes.fr",
+      "sourceUrl": "https://polytech.univ-nantes.fr/fr/les-formations/cycle-ingenieur/ingenieur-genie-civil",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Recruitment and scolarité service; M1 via Mon Master, M2 via Nantes Université SURF"
+    },
+    {
+      "schoolSlug": "polytech-lyon",
+      "role": "graduate_admissions",
+      "email": "epul.admission@univ-lyon1.fr",
+      "sourceUrl": "https://polytech.univ-lyon1.fr/ecole/contacts/polytech-lyon-1",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité: scolarite.polytech@univ-lyon1.fr; international: international.polytech@univ-lyon1.fr"
+    },
+    {
+      "schoolSlug": "polytech-paris-saclay",
+      "role": "graduate_admissions",
+      "email": "recrut-etd.polytech@universite-paris-saclay.fr",
+      "sourceUrl": "http://www.polytech.universite-paris-saclay.fr/admission/candidatures/candidater-avec-un-bac2-bac3",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Student recruitment; registration: inscriptions.polytech@universite-paris-saclay.fr; university M1 portal support: support.candidatures@universite-paris-saclay.fr"
+    },
+    {
+      "schoolSlug": "polytech-montpellier",
+      "role": "graduate_admissions",
+      "email": "admission@polytech-montpellier.fr",
+      "sourceUrl": "https://www.polytech-reseau.org/polytech-montpellier/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité: polytech-responsable-scolarite@umontpellier.fr"
+    },
+    {
+      "schoolSlug": "polytech-grenoble",
+      "role": "graduate_admissions",
+      "email": "polytech-admissions@univ-grenoble-alpes.fr",
+      "sourceUrl": "https://polytech.grenoble-inp.fr/fr/contacts",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité: polytech-scolarite@univ-grenoble-alpes.fr; international: polytech.relint@univ-grenoble-alpes.fr"
+    },
+    {
+      "schoolSlug": "polytech-lille",
+      "role": "graduate_admissions",
+      "email": "admission@polytech-lille.fr",
+      "sourceUrl": "https://www.polytech-reseau.org/polytech-lille/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Apprenticeship admissions: admission.apprentissage@polytech-lille.fr"
+    },
+    {
+      "schoolSlug": "esiee-paris",
+      "role": "graduate_admissions",
+      "email": "admissions@esiee.fr",
+      "sourceUrl": "https://www.esiee.fr/fileadmin/user_upload/Fichiers/brochures/brochure-admissions-esiee-paris-2026.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Premier cycle brochure contact; international MSc apply via Webaurion / Études en France"
+    },
+    {
+      "schoolSlug": "epita",
+      "role": "graduate_admissions",
+      "email": "international.admissions@epita.fr",
+      "sourceUrl": "https://www.epita.fr/wp-content/uploads/EPITA-School-Brochure-EN-2324.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "epitech",
+      "role": "graduate_admissions",
+      "email": "international-admissions@epitech.eu",
+      "sourceUrl": "https://international.epitech.eu/contact-us/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General international admissions page also references admissions@epitech.eu; MSc IT uses international-admissions@epitech.eu"
+    },
+    {
+      "schoolSlug": "georgia-tech-lorraine",
+      "role": "graduate_admissions",
+      "email": "info@europe.gatech.edu",
+      "sourceUrl": "https://europe.gatech.edu/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Georgia Tech-Europe (Metz campus); visa questions: visa@europe.gatech.edu"
+    },
+    {
+      "schoolSlug": "enseeiht",
+      "role": "graduate_admissions",
+      "email": "n7@enseeiht.fr",
+      "sourceUrl": "https://www.enseeiht.fr/en/contacts.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité desk; MSc programmes use programme-specific emails (e.g. master_eseca@univ-toulouse.fr); international office: ri@enseeiht.fr"
+    },
+    {
+      "schoolSlug": "enseirb",
+      "role": "graduate_admissions",
+      "email": "scol_info@enseirb-matmeca.fr",
+      "sourceUrl": "https://hpc-portal.eu/node/1028",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "School scolarité information desk; incoming international: iro@enseirb-matmeca.fr; continuing education admissions: fc@enseirb-matmeca.fr"
+    },
+    {
+      "schoolSlug": "enssat",
+      "role": "graduate_admissions",
+      "email": "contact@enssat.fr",
+      "sourceUrl": "https://www.enssat.fr/en_US/l-ecole/contacts",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "General school contact; admissions primarily via concours.enssat.fr portal; international: international.office@enssat.fr"
+    },
+    {
+      "schoolSlug": "imt-atlantique",
+      "role": "graduate_admissions",
+      "email": "contact@imt-atlantique.fr",
+      "sourceUrl": "https://www.imt-atlantique.fr/en/news/faq-prospective-international-students-imt-atlantique-responses-covid-19-crisis",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General international admission contact; MSc programmes use programme-specific inboxes (it-apply@, mplp-apply@, ne-apply@, pbpe-apply@imt-atlantique.fr)"
+    },
+    {
+      "schoolSlug": "telecom-lille",
+      "role": "graduate_admissions",
+      "email": "master-of-science@imt-nord-europe.fr",
+      "sourceUrl": "https://imt-nord-europe.fr/annuaire-formations/msc-in-design-and-management-of-the-industry-4-0/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "IMT Nord Europe (formerly Télécom Lille / IMT Lille Douai)"
+    },
+    {
+      "schoolSlug": "telecom-sudparis-2",
+      "role": "graduate_admissions",
+      "email": "admissions@telecom-sudparis.eu",
+      "sourceUrl": "https://ressources.campusfrance.org/pratique/accueil/en/ing_telecom_sud-paris_ac_en.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Same institution as telecom-sudparis; Master Réseaux & Sécurité programme"
+    },
+    {
+      "schoolSlug": "uned",
+      "role": "graduate_admissions",
+      "email": "posgradosoficiales@adm.uned.es",
+      "sourceUrl": "https://www.uned.es/universidad/inicio/estudios/masteres/informacion-general/contacto.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Servicio de Grados y Másteres Oficiales; also admin.masteresoficiales@adm.uned.es on same page. Per-faculty desks exist."
+    },
+    {
+      "schoolSlug": "univ-sevilla",
+      "role": "graduate_admissions",
+      "email": "accesomaster@us.es",
+      "sourceUrl": "https://www.us.es/estudiar/admision/master",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Área de Acceso de Admisión; also secretariaeip@us.es for Escuela Internacional de Posgrado."
+    },
+    {
+      "schoolSlug": "univ-zaragoza",
+      "role": "graduate_admissions",
+      "email": "grado.master@unizar.es",
+      "sourceUrl": "https://academico.unizar.es/grado-y-master/acceso-admision-master",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Sección Grado y Máster; application via Secretaría Virtual / sede.unizar.es SOLICIT@."
+    },
+    {
+      "schoolSlug": "upm",
+      "role": "graduate_admissions",
+      "email": "tramitacion.master.oficial@upm.es",
+      "sourceUrl": "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Servicio de Ordenación Académica; per-program secretariats also handle admissions."
+    },
+    {
+      "schoolSlug": "univ-oviedo",
+      "role": "graduate_admissions",
+      "email": "sec.masteres@uniovi.es",
+      "sourceUrl": "https://cei.uniovi.es/postgrado/estructura",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Centro Internacional de Postgrado — Másteres oficiales y Títulos Propios."
+    },
+    {
+      "schoolSlug": "univ-vigo",
+      "role": "graduate_admissions",
+      "email": "posgrao@uvigo.gal",
+      "sourceUrl": "https://www.uvigo.gal/es/estudiar/gestiones-estudiantes/matriculate/matricula-masteres",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Servicio de Gestión de Estudios de Postgrado; online preinscripción at uvigo.gal/estudar/xestions-estudantes/matriculate."
+    },
+    {
+      "schoolSlug": "univ-santiago",
+      "role": "graduate_admissions",
+      "email": "sxa@usc.gal",
+      "sourceUrl": "https://www.usc.gal/es/servicios/unidades/servicio-gestion-academica",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Servicio de Gestión Académica — Sección de Admisión y Gestión; applications via Secretaría Virtual."
+    },
+    {
+      "schoolSlug": "univ-murcia",
+      "role": "graduate_admissions",
+      "email": "postgrado@um.es",
+      "sourceUrl": "https://www.um.es/web/estudios/admision/preinscripcion-master",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Sección de Postgrado; application portal https://preinscripcionmaster.um.es."
+    },
+    {
+      "schoolSlug": "univ-cadiz",
+      "role": "graduate_admissions",
+      "email": "posgrado@uca.es",
+      "sourceUrl": "https://oficinadeposgrado.uca.es/necesito-una-carta-de-preadmision-para-un-master/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Oficina de Coordinación de Posgrado; preinscripción via DUA (Distrito Único Andaluz)."
+    },
+    {
+      "schoolSlug": "univ-extremadura",
+      "role": "graduate_admissions",
+      "email": "masteres_uex@unex.es",
+      "sourceUrl": "https://servicio-becas.unex.es/funciones/masteres/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Sección de Másteres Oficiales; general student info siaa@unex.es on same page."
+    },
+    {
+      "schoolSlug": "univ-leon",
+      "role": "graduate_admissions",
+      "email": "acceso@unileon.es",
+      "sourceUrl": "https://www.unileon.es/universidad/estructura-universitaria/organizacion-administrativa/servicio-de-gestion-academica/funciones",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Unidad de Acceso handles master admission; posgrado@unileon.es for enrolled master administration."
+    },
+    {
+      "schoolSlug": "univ-valladolid",
+      "role": "graduate_admissions",
+      "email": "posgradoficial@uva.es",
+      "sourceUrl": "https://patron-master.uva.es/informacion/contacto/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Sección de Posgrado — Servicio de Posgrado y Títulos; application portal https://admisionmaster.uva.es."
+    },
+    {
+      "schoolSlug": "univ-laguna",
+      "role": "graduate_admissions",
+      "email": "master@ull.es",
+      "sourceUrl": "https://www.ull.es/masteres/solicitud-admision/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Negociado de Máster/Estudios de Posgrado; application portal https://admision-masteres-doctorado.ull.es/master/."
+    },
+    {
+      "schoolSlug": "univ-baleares",
+      "role": "graduate_admissions",
+      "email": "master@uib.es",
+      "sourceUrl": "https://cep.uib.es/es/Te-podem-ajudar/Preguntes-frequents/Detall/Donde-puedo-dirigirme-para-obtener-mas-informacion.cid628400",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Centro de Estudios de Postgrado; also postgrau@uib.cat for general postgrado admin."
+    },
+    {
+      "schoolSlug": "univ-rioja",
+      "role": "graduate_admissions",
+      "email": "oficinaestudiante@unirioja.es",
+      "sourceUrl": "https://www.unirioja.es/administracion-y-servicios/oficina-de-estudiantes/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Oficina de Estudiantes; application portal https://aps.unirioja.es/pmyd/preinscripcion."
+    },
+    {
+      "schoolSlug": "univ-huelva",
+      "role": "graduate_admissions",
+      "email": "info.masteres@uhu.es",
+      "sourceUrl": "https://www.uhu.es/etsi/master_ingminas/contacto.php",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Central master info contact; preinscripción via DUA (Distrito Único Andaluz)."
+    },
+    {
+      "schoolSlug": "univ-girona",
+      "role": "graduate_admissions",
+      "email": "masters@udg.edu",
+      "sourceUrl": "https://www.udg.edu/es/estudia/servei-de-gestio-academica-i-estudiants",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "SGAiE — Másteres universitarios; online preinscripción form on udg.edu."
+    },
+    {
+      "schoolSlug": "univ-jaume-i",
+      "role": "graduate_admissions",
+      "email": "adm-master@uji.es",
+      "sourceUrl": "https://ujiapps.uji.es/serveis/sgde/base/infogen/hapublic/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "SGDE master admissions desk; online preinscripció assistant on uji.es."
+    },
+    {
+      "schoolSlug": "univ-savoie",
+      "role": "graduate_admissions",
+      "email": "scolarite.centrale@univ-smb.fr",
+      "sourceUrl": "https://www.univ-smb.fr/formation/scolarite/contacts-de-scolarites/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité centrale; M1 via monmaster.gouv.fr, M2 via ecandidat-usmb.grenet.fr."
+    },
+    {
+      "schoolSlug": "univ-uphf",
+      "role": "graduate_admissions",
+      "email": "scolarite@uphf.fr",
+      "sourceUrl": "https://www.uphf.fr/en/foreign-students-applying-individual",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service Scolarité SCEVE; M1 via monmaster.gouv.fr, M2+ via candidature.uphf.fr/ecandidat."
+    },
+    {
+      "schoolSlug": "university-of-iceland",
+      "role": "graduate_admissions",
+      "email": "admission@hi.is",
+      "sourceUrl": "https://english.hi.is/application-graduate-programme",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "hi",
+      "role": "graduate_admissions",
+      "email": "admission@hi.is",
+      "sourceUrl": "https://english.hi.is/study/apply/supporting-documents",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Duplicate slug for University of Iceland (Háskóli Íslands)"
+    },
+    {
+      "schoolSlug": "reykjavik-university",
+      "role": "graduate_admissions",
+      "email": "admissions@ru.is",
+      "sourceUrl": "https://en.ru.is/st/de/graduate-study/msc-mechanical-engineering",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International Admissions Officer; applications via umsoknir.ru.is"
+    },
+    {
+      "schoolSlug": "nord-university",
+      "role": "graduate_admissions",
+      "email": "admission@nord.no",
+      "sourceUrl": "https://www.nord.no/en/student/start-of-studies",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "English admissions desk; Norwegian inquiries also accepted at opptak@nord.no"
+    },
+    {
+      "schoolSlug": "univ-stavanger",
+      "role": "graduate_admissions",
+      "email": "masteropptak@uis.no",
+      "sourceUrl": "https://www.uis.no/en/faq-local-admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Master programmes and further studies; undergraduate/NORINT uses opptak@uis.no"
+    },
+    {
+      "schoolSlug": "nmbu",
+      "role": "graduate_admissions",
+      "email": "admission@nmbu.no",
+      "sourceUrl": "https://www.nmbu.no/en/studies/admission-masters-programmes-taught-english",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "aalborg",
+      "role": "graduate_admissions",
+      "email": "masteradmission@aau.dk",
+      "sourceUrl": "https://www.en.aau.dk/education/apply/master/frequently-asked-questions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "roskilde",
+      "role": "graduate_admissions",
+      "email": "fulldegree@ruc.dk",
+      "sourceUrl": "https://ruc.dk/en/contact-study-guidance-master-programmes",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Programme guidance: guidance@ruc.dk"
+    },
+    {
+      "schoolSlug": "univ-akureyri",
+      "role": "graduate_admissions",
+      "email": "nemskra@unak.is",
+      "sourceUrl": "https://www.unak.is/english/study/application/information-regarding-applications",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Westfjords programmes: applications@uw.is"
+    },
+    {
+      "schoolSlug": "bifrost",
+      "role": "graduate_admissions",
+      "email": "meistaranam@bifrost.is",
+      "sourceUrl": "https://www.bifrost.is/thjonusta/nemendaskra",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Master's studies project manager (meistaranám); reception: embla@bifrost.is"
+    },
+    {
+      "schoolSlug": "lincoln",
+      "role": "graduate_admissions",
+      "email": "mylinc@lincoln.ac.nz",
+      "sourceUrl": "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Postgraduate applications via MyLinc portal; international office: international@lincoln.ac.nz"
+    },
+    {
+      "schoolSlug": "wageningen",
+      "role": "graduate_admissions",
+      "email": "ssc@wur.nl",
+      "sourceUrl": "https://www.wur.nl/en/education/master/application-admission-masters/after-your-application-masters",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Student Service Centre Admissions Office; general programme info: study@wur.nl"
+    },
+    {
+      "schoolSlug": "thuas",
+      "role": "graduate_admissions",
+      "email": "masters-admission@hhs.nl",
+      "sourceUrl": "https://www.thuas.com/media/international-brochure-2025-2026-english",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "The Hague Graduate School masters admissions; bachelor enquiries use enrolment centre channels"
+    },
+    {
+      "schoolSlug": "hanze",
+      "role": "graduate_admissions",
+      "email": "admissions@org.hanze.nl",
+      "sourceUrl": "https://www.hanze.nl/binaries/_cb_1726676117641/content/assets/hanze/en/studying/international-recruitment-2023-2024.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uclouvain",
+      "role": "graduate_admissions",
+      "email": "inscription-lln@uclouvain.be",
+      "sourceUrl": "https://www.uclouvain.be/fr/inscriptions/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service des inscriptions (Louvain-la-Neuve); other campuses use inscription-wol@, inscription-slb@, info-mons@, inscription-tournai@, inscription-sg@"
+    },
+    {
+      "schoolSlug": "ulb",
+      "role": "graduate_admissions",
+      "email": "admission@ulb.be",
+      "sourceUrl": "https://www.ulb.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "umons",
+      "role": "graduate_admissions",
+      "email": "service.admissions@umons.ac.be",
+      "sourceUrl": "https://web.umons.ac.be/app/uploads/2026/02/EN_Reglement-des-admissions-2026-2027_Version-finale_02-2026-1.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Registration/enrolment: service.inscriptions@umons.ac.be"
+    },
+    {
+      "schoolSlug": "umh",
+      "role": "graduate_admissions",
+      "email": "service.admissions@umons.ac.be",
+      "sourceUrl": "https://web.umons.ac.be/app/uploads/2026/02/EN_Reglement-des-admissions-2026-2027_Version-finale_02-2026-1.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UMH merged into UMONS; same admissions service"
+    },
+    {
+      "schoolSlug": "unamur",
+      "role": "graduate_admissions",
+      "email": "inscriptions@unamur.be",
+      "sourceUrl": "https://www.unamur.be/en/registration/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "buas",
+      "role": "graduate_admissions",
+      "email": "studentoffice@buas.nl",
+      "sourceUrl": "https://www.buas.nl/en/contact-and-locations",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "eur",
+      "role": "graduate_admissions",
+      "email": "master@essb.eur.nl",
+      "sourceUrl": "https://www.eur.nl/en/essb/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "No university-wide master admissions inbox; faculty desks include masteradmission@eshcc.eur.nl (ESHCC), master@rsm.nl (RSM), masterinstroom@law.eur.nl (Law), admissions@eshpm.eur.nl (ESHPM). ESSC uses ASK Erasmus portal for enrolment."
+    },
+    {
+      "schoolSlug": "kuleuven",
+      "role": "graduate_admissions",
+      "email": "admissions@kuleuven.be",
+      "sourceUrl": "https://www.law.kuleuven.be/education/prospective/llm/FAQ",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Central Admissions Office for non-Flemish degree holders; international office: international.office@kuleuven.be"
+    },
+    {
+      "schoolSlug": "hec-liege",
+      "role": "admissions_officer",
+      "email": "hec@uliege.be",
+      "sourceUrl": "https://www.programmes.uliege.be/cocoon/20262027/en/formations/ctct/G2XGES01.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Official HEC Liège contact on Master in Management programme page; ULiège enrolment via info.etudes@uliege.be / online form"
+    },
+    {
+      "schoolSlug": "eada",
+      "role": "admissions_officer",
+      "email": "international.admissions@eada.edu",
+      "sourceUrl": "https://www.eada.edu/en/now/events/2024/11/coffee-chats-meet-eada-business-school-brussels",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International degree programmes admissions team"
+    },
+    {
+      "schoolSlug": "iae-paris",
+      "role": "graduate_admissions",
+      "email": "scolarite@iae-paris.com",
+      "sourceUrl": "https://www.iae-paris.com/fr/lactualite-de-liae-paris-sorbonne-fevrier-2025",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Services de scolarité — Score IAE-Message and admissions administration"
+    },
+    {
+      "schoolSlug": "iae-lille",
+      "role": "graduate_admissions",
+      "email": "iaelille-resp-scol@univ-lille.fr",
+      "sourceUrl": "https://iaelille.fr/alumni/retrait-de-diplome-et-dattestation/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Pôle scolarité campus Vieux-Lille; M1 via Mon Master, M2 via eCandidat"
+    },
+    {
+      "schoolSlug": "iae-nantes",
+      "role": "graduate_admissions",
+      "email": "scolarite.iae-sociologie@univ-nantes.fr",
+      "sourceUrl": "https://iae.univ-nantes.fr/scolarite",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service scolarité commun IAE Nantes — Économie & Management et UFR Sociologie"
+    },
+    {
+      "schoolSlug": "iae-montpellier",
+      "role": "graduate_admissions",
+      "email": "iae-scolarite-master@umontpellier.fr",
+      "sourceUrl": "https://iae.umontpellier.fr/la-scolarite/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Pôle scolarité Master"
+    },
+    {
+      "schoolSlug": "iae-strasbourg",
+      "role": "graduate_admissions",
+      "email": "scol-master-ee@em-strasbourg.eu",
+      "sourceUrl": "https://www.em-strasbourg.com/en/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "EM Strasbourg (IAE Strasbourg) registrar — Master / Executive Education; international applicants: international-admission@em-strasbourg.eu"
+    },
+    {
+      "schoolSlug": "iae-grenoble",
+      "role": "graduate_admissions",
+      "email": "responsable-scolarite@grenoble-iae.fr",
+      "sourceUrl": "https://iae.grenoble-inp.fr/medias/fichier/2025-12-12-organigramme-iae-2025-2026_1765529841611-pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service Formation / scolarité; international applicants: incomingstudents@grenoble-iae.fr"
+    },
+    {
+      "schoolSlug": "ipag",
+      "role": "admissions_officer",
+      "email": "admissions-paris@ipag.fr",
+      "sourceUrl": "https://bts.ipag.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Campus Paris admissions; Nice campus: admissions-nice@ipag.fr"
+    },
+    {
+      "schoolSlug": "isc-paris",
+      "role": "admissions_officer",
+      "email": "international.applications@iscparis.com",
+      "sourceUrl": "https://www.iscparis.com/en/contact-us/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General international applications — Bachelor, MiM and MSc"
+    },
+    {
+      "schoolSlug": "kedge-marseille",
+      "role": "admissions_officer",
+      "email": "international@kedgebs.com",
+      "sourceUrl": "https://student.kedge.edu/news-student/how-do-i-apply-for-a-master-s-degree-at-kedge-as-an-international-student",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International MSc/master eligibility and admissions support; apply via join.kedge.edu"
+    },
+    {
+      "schoolSlug": "essca",
+      "role": "admissions_officer",
+      "email": "international.admissions@essca.fr",
+      "sourceUrl": "https://events.essca.fr/en/webinaire-detail/Igniting-Brilliance:-Elevate-Your-Potential-in-Global-Business-Management-53",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "MSc programmes international admissions"
+    },
+    {
+      "schoolSlug": "idrac",
+      "role": "admissions_officer",
+      "email": "contact.lyon@idrac-bs.fr",
+      "sourceUrl": "https://www.ecoles-idrac.com/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "IDRAC Lyon campus admissions team"
+    },
+    {
+      "schoolSlug": "estya",
+      "role": "admissions_officer",
+      "email": "admission@estya.com",
+      "sourceUrl": "https://estya.com/processus-dadmission/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Official admissions inbox on estya.com (Paris campus)"
+    },
+    {
+      "schoolSlug": "mba-paris",
+      "role": "admissions_officer",
+      "email": "admissions@mba-esg.com",
+      "sourceUrl": "https://www.mba-esg.com/faq",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "MBA ESG Paris service des admissions; official site mba-esg.com"
+    },
+    {
+      "schoolSlug": "paris-cite",
+      "role": "graduate_admissions",
+      "email": "scolarite.master.deg@u-paris.fr",
+      "sourceUrl": "https://droit.u-paris.fr/master/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Droit, Économie et Gestion — bureau Masters formation initiale; MonMaster/eCandidat for applications"
+    },
+    {
+      "schoolSlug": "sorbonne-universite",
+      "role": "graduate_admissions",
+      "email": "medecine-dfs-sante-M1@sorbonne-universite.fr",
+      "sourceUrl": "https://master-sante.sorbonne-universite.fr/wp-content/uploads/2025/07/CONTACTS-SCOLARITE.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Santé master scolarité directory; other faculties use department-specific emails or contact forms"
+    },
+    {
+      "schoolSlug": "aix-marseille-univ",
+      "role": "graduate_admissions",
+      "email": "fdsp-master-scol@univ-amu.fr",
+      "sourceUrl": "https://facdedroit.univ-amu.fr/fr/candidatures-inscriptions/sinscrire",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "FDSP Aix-en-Provence master scolarité; fdsp-scol-gestion@univ-amu.fr for MonMaster/eCandidat issues"
+    },
+    {
+      "schoolSlug": "univ-lille",
+      "role": "graduate_admissions",
+      "email": "scolarite-relais-citescientifique@univ-lille.fr",
+      "sourceUrl": "https://master-mrh.univ-lille.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Relais scolarité Cité scientifique — master admissions/inscriptions; pharma-scol-m1@univ-lille.fr for pharmacy masters"
+    },
+    {
+      "schoolSlug": "univ-bordeaux",
+      "role": "graduate_admissions",
+      "email": "inscriptions.montesquieu@u-bordeaux.fr",
+      "sourceUrl": "https://droit.u-bordeaux.fr/espace-etudiant/bureau-inscriptions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Bureau des inscriptions Montesquieu (Droit, Économie, Gestion) — licence & master"
+    },
+    {
+      "schoolSlug": "univ-toulouse-capitole",
+      "role": "graduate_admissions",
+      "email": "scolaesm1ic@ut-capitole.fr",
+      "sourceUrl": "https://www.ut-capitole.fr/accueil/universite/membres/composantes/faculte-dadministration-et-communication/contacts-scolarites-faculte-dadministration-et-communication",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Administration et Communication — M1 scolarité; admissions@tse-fr.eu for TSE economics masters"
+    },
+    {
+      "schoolSlug": "univ-nantes",
+      "role": "graduate_admissions",
+      "email": "masters1.droit@univ-nantes.fr",
+      "sourceUrl": "https://droit.univ-nantes.fr/contacts/scolarite-droit",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Droit — bureau Masters 1; faculty-specific M2 emails on same page"
+    },
+    {
+      "schoolSlug": "univ-rennes1",
+      "role": "graduate_admissions",
+      "email": "sciences-scol@univ-rennes.fr",
+      "sourceUrl": "https://etudiant.univ-rennes1.fr/les-services-de-scolarite",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité Sciences et Philosophie; droit-etudes-master1@univ-rennes.fr for law masters"
+    },
+    {
+      "schoolSlug": "univ-grenoble-alpes",
+      "role": "graduate_admissions",
+      "email": "shs-pole-masters@univ-grenoble-alpes.fr",
+      "sourceUrl": "https://shs.univ-grenoble-alpes.fr/medias/fichier/orga-fonctions-shs-2025-26-1_1772522428961-pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR SHS pôle scolarité Masters; scolaritemasteris@univ-grenoble-alpes.fr for health sector masters"
+    },
+    {
+      "schoolSlug": "univ-cote-azur",
+      "role": "graduate_admissions",
+      "email": "droit.scolarite.master1@unice.fr",
+      "sourceUrl": "https://droit.univ-cotedazur.fr/formation/masters",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Droit M1 scolarité; central portal is form-only but faculty publishes direct emails"
+    },
+    {
+      "schoolSlug": "univ-lyon3",
+      "role": "graduate_admissions",
+      "email": "inscriptions@univ-lyon3.fr",
+      "sourceUrl": "https://webinscription.univ-lyon3.fr/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Portail inscription — contact for MonMaster/eCandidat admission follow-up"
+    },
+    {
+      "schoolSlug": "univ-tours",
+      "role": "graduate_admissions",
+      "email": "scolarite.lettres@univ-tours.fr",
+      "sourceUrl": "https://lettres.univ-tours.fr/infos-pratiques/services/scolarite",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Lettres et Langues — licences, masters, candidatures internationales"
+    },
+    {
+      "schoolSlug": "univ-orleans",
+      "role": "graduate_admissions",
+      "email": "assistance.inscription@univ-orleans.fr",
+      "sourceUrl": "https://www.univ-orleans.fr/fr/univ/formation/contacts",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Pôle admissions-inscriptions central; masters.llsh@univ-orleans.fr for LLSH masters"
+    },
+    {
+      "schoolSlug": "univ-bourgogne",
+      "role": "graduate_admissions",
+      "email": "scolmaster.ead@u-bourgogne.fr",
+      "sourceUrl": "https://formations.u-bourgogne.fr/fr/offre-de-formation-2024-2025/master-XB/master-lettres-enseignement-a-distance-LN4NND61.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité master EAD; formation.continue@u-bourgogne.fr for alternance/FC"
+    },
+    {
+      "schoolSlug": "univ-lorraine",
+      "role": "graduate_admissions",
+      "email": "all-ncy-scol-contact@univ-lorraine.fr",
+      "sourceUrl": "https://www.all-nancy.univ-lorraine.fr/sinscrire",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité Nancy — master inscription contact"
+    },
+    {
+      "schoolSlug": "univ-poitiers",
+      "role": "graduate_admissions",
+      "email": "scolarite-master.ll@univ-poitiers.fr",
+      "sourceUrl": "https://ll.univ-poitiers.fr/accueil/contacts/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Lettres & Langues — masters et formations locales"
+    },
+    {
+      "schoolSlug": "univ-le-havre",
+      "role": "graduate_admissions",
+      "email": "scolarite-centrale@univ-lehavre.fr",
+      "sourceUrl": "https://www.univ-lehavre.fr/wp-content/uploads/2026/03/OF-MAJ-2026-27.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Candidatures, admissions et inscriptions — contacts officiels offre de formation"
+    },
+    {
+      "schoolSlug": "univ-caen",
+      "role": "graduate_admissions",
+      "email": "deve.admissions@unicaen.fr",
+      "sourceUrl": "https://www.unicaen.fr/formation/candidater-sinscrire/contact/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Pôle Admissions DEVE; hss.scolarite.master@unicaen.fr for HSS masters"
+    },
+    {
+      "schoolSlug": "univ-rouen",
+      "role": "graduate_admissions",
+      "email": "scolarite.lettres@univ-rouen.fr",
+      "sourceUrl": "https://lsh.univ-rouen.fr/scolarite-administrative-473228.kjsp",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Lettres et Sciences Humaines — pré-inscriptions master MonMaster/eCandidat"
+    },
+    {
+      "schoolSlug": "univ-clermont",
+      "role": "graduate_admissions",
+      "email": "scola.deg@uca.fr",
+      "sourceUrl": "https://www.uca.fr/formation/nos-formations/par-ufr-ecoles-et-iut/institut-droit-economie-management/iae-clermont-auvergne-school-of-management/master/master-management-et-administration-des-entreprises",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Droit, Économie, Gestion — scolarité masters; scola.iae@uca.fr for IAE"
+    },
+    {
+      "schoolSlug": "univ-angers",
+      "role": "graduate_admissions",
+      "email": "scolarite@univ-angers.fr",
+      "sourceUrl": "https://bienvenue.univ-angers.fr/fr/mon-master/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité centrale — MonMaster admissions and inscriptions"
+    },
+    {
+      "schoolSlug": "univ-le-mans",
+      "role": "graduate_admissions",
+      "email": "sco-sciences@univ-lemans.fr",
+      "sourceUrl": "http://ecodroit.univ-lemans.fr/fr/nos-formations/rechercher-une-formation/master-lmd-MLMD/sciences-technologies-sante-0004/master-actuariat-IYBPZXQQ.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Pôle administratif/scolarité sciences; EcoleActuariat@univ-lemans.fr for actuariat master"
+    },
+    {
+      "schoolSlug": "univ-limoges",
+      "role": "graduate_admissions",
+      "email": "msciences@unilim.fr",
+      "sourceUrl": "https://www.sciences.unilim.fr/wp-content/uploads/sites/7/2023/10/MasterChimie-Qualiopi-A4-VF-web.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Sciences & Techniques — contact scolarité des masters"
+    },
+    {
+      "schoolSlug": "univ-reims",
+      "role": "graduate_admissions",
+      "email": "ecandidat-admission@univ-reims.fr",
+      "sourceUrl": "https://www.univ-reims.fr/candidater-au-master/candidater-au-master,12212,38527.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Contact master admissions; m1droit@univ-reims.fr for law M1"
+    },
+    {
+      "schoolSlug": "univ-pau",
+      "role": "graduate_admissions",
+      "email": "master.droit-public@univ-pau.fr",
+      "sourceUrl": "https://formation.univ-pau.fr/_shared-resource/all/Publique%20GED/Base%20documentaire/Espaces%20de%20publication/Public/Communication/Plaquette%20ODF/Coll%C3%A8ge%20SSH/Masters/M-Droit%20et%20contentieux%20publics-web.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Collège SSH — scolarité masters droit public; masterlec@univ-pau.fr for lettres master"
+    },
+    {
+      "schoolSlug": "univ-brest",
+      "role": "graduate_admissions",
+      "email": "scolarite.sciences@univ-brest.fr",
+      "sourceUrl": "https://nouveau.univ-brest.fr/faculte-sciences/fr/page/vos-etudes",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Sciences — candidatures master via MonMaster/eCandidat"
+    },
+    {
+      "schoolSlug": "univ-lorient",
+      "role": "graduate_admissions",
+      "email": "Elisabeth.Riou@univ-ubs.fr",
+      "sourceUrl": "https://www-informatique.univ-ubs.fr/master-info/inscriptions.shtml",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Contact administratif Master Informatique; formation.continue@univ-ubs.fr for FC/alternance; Allo inscriptions 02 61 68 05 89"
+    },
+    {
+      "schoolSlug": "univ-artois",
+      "role": "graduate_admissions",
+      "email": "direction.etudes@univ-artois.fr",
+      "sourceUrl": "https://www.univ-artois.fr/formations/admission-inscription-transfert/candidater",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Direction des études — candidatures MonMaster/eCandidat questions"
+    },
+    {
+      "schoolSlug": "univ-valenciennes",
+      "role": "graduate_admissions",
+      "email": "scolarite@uphf.fr",
+      "sourceUrl": "https://www.uphf.fr/formation/candidatures-inscriptions/etudiants-internationaux-candidater-luphf-hors-echange",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service scolarité UPHF — master admissions and inscriptions"
+    },
+    {
+      "schoolSlug": "univ-toulon",
+      "role": "graduate_admissions",
+      "email": "scolarite.droit@univ-tln.fr",
+      "sourceUrl": "https://www.univ-tln.fr/contacts-des-formations/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Droit scolarité; DEVE uses form for general queries — scolarite.iut@univ-tln.fr for IUT"
+    },
+    {
+      "schoolSlug": "univ-perpignan",
+      "role": "graduate_admissions",
+      "email": "assistance.monmaster@univ-perp.fr",
+      "sourceUrl": "https://www.univ-perp.fr/candidature-et-inscription/candidature/etudiant",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Assistance MonMaster UPVD; sco.master.mae@univ-perp.fr for MAE master"
+    },
+    {
+      "schoolSlug": "univ-nimes",
+      "role": "graduate_admissions",
+      "email": "scolarite@unimes.fr",
+      "sourceUrl": "https://www.unimes.fr/fr/formations/etudes-et-scolarite.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Accueil scolarité central; faculty-specific master emails on same page"
+    },
+    {
+      "schoolSlug": "univ-corse",
+      "role": "graduate_admissions",
+      "email": "decanat.droit@univ-corse.fr",
+      "sourceUrl": "https://recrutement.univ-corse.fr/poste/download_fiche/1390",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Faculté Droit decanat; general admissions via eCandidat — no single central scolarité email found"
+    },
+    {
+      "schoolSlug": "univ-sorbonne-paris-nord",
+      "role": "graduate_admissions",
+      "email": "math.master.galilee@univ-paris13.fr",
+      "sourceUrl": "https://galilee.univ-paris13.fr/master/master-mathematiques/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Institut Galilée master math secretariat; sgm.master.galilee@univ-paris13.fr for SGM master"
+    },
+    {
+      "schoolSlug": "univ-gustave-eiffel",
+      "role": "graduate_admissions",
+      "email": "scolarite@univ-eiffel.fr",
+      "sourceUrl": "https://www.univ-gustave-eiffel.fr/la-formation/candidatures-et-inscriptions/inscription-administrative",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité générale — master inscription after MonMaster/eCandidat admission"
+    },
+    {
+      "schoolSlug": "univ-versailles",
+      "role": "graduate_admissions",
+      "email": "scolarite.sciences.master@uvsq.fr",
+      "sourceUrl": "https://www.uvsq.fr/master-1-securite-des-contenus-des-reseaux-des-telecommunications-et-des-systemes-secrets",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Sciences — pôle masters scolarité"
+    },
+    {
+      "schoolSlug": "univ-cergy",
+      "role": "graduate_admissions",
+      "email": "scolarite.ecandidat@ml.u-cergy.fr",
+      "sourceUrl": "https://perso.u-cergy.fr/~contactscola/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité eCandidat CY Cergy Paris Université; diplome@ml.u-cergy.fr for attestations"
+    },
+    {
+      "schoolSlug": "univ-franche-comte",
+      "role": "graduate_admissions",
+      "email": "contact-inscription@univ-fcomte.fr",
+      "sourceUrl": "https://scolarite.univ-fcomte.fr/iaprimo-web/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Inscription administrative — MonMaster/eCandidat; faculty emails at stgi.univ-fcomte.fr"
+    },
+    {
+      "schoolSlug": "univ-nottingham",
+      "role": "admissions_officer",
+      "email": "regs@nottingham.ac.uk",
+      "sourceUrl": "https://www.nottingham.ac.uk/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Page crawl (score 35)"
+    },
+    {
+      "schoolSlug": "univ-salamanca",
+      "role": "admissions_officer",
+      "email": "master@usal.es",
+      "sourceUrl": "https://www.usal.es/acceso-preinscripcion-y-matricula-en-estudios-de-master",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Central master admissions and preinscription — faculty-specific adm.*@usal.es also published"
+    },
+    {
+      "schoolSlug": "tue",
+      "role": "admissions_officer",
+      "email": "io@tue.nl",
+      "sourceUrl": "https://www.tue.nl/en/education/become-a-tue-student/admission-and-enrollment/programtype/master-program/program/mechanical-engineering/country/india",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International Office for master OSIRIS/application queries"
+    },
+    {
+      "schoolSlug": "univ-barcelona",
+      "role": "admissions_officer",
+      "email": "info@ub.edu",
+      "sourceUrl": "https://www.ub.edu/masters-industria-farmaceutica/ca/contacte/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "General UB contact; masters use faculty secretariats"
+    },
+    {
+      "schoolSlug": "univ-valencia",
+      "role": "admissions_officer",
+      "email": "infosecundaria@uv.es",
+      "sourceUrl": "https://www.uv.es/uvweb/universidad/es/admision-1286131300323.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Faculty of Education admissions; general PG uses Atención y Consultas form"
+    },
+    {
+      "schoolSlug": "excelia",
+      "role": "admissions_officer",
+      "email": "globalexchange@excelia-group.com",
+      "sourceUrl": "https://www.excelia-group.com/sites/excelia-group.fr/files/2026-04/EXCELIA_FACT%20SHEET%20EN%202026-2027.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International Admissions Office (official fact sheet PDF)"
+    },
+    {
+      "schoolSlug": "upc",
+      "role": "admissions_officer",
+      "email": "admissions.masters.camins@upc.edu",
+      "sourceUrl": "https://camins.upc.edu/en/Studies/academic-procedures/contact-siae-camins",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Barcelona School of Civil Engineering masters admissions; UPC is decentralised by school"
+    },
+    {
+      "schoolSlug": "univ-st-etienne",
+      "role": "admissions_officer",
+      "email": "master.MLDM@univ-st-etienne.fr",
+      "sourceUrl": "https://mldm.univ-st-etienne.fr/admission.php",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "MLDM master admissions; other masters use Mon Master / eCandidat"
+    },
+    {
+      "schoolSlug": "durham",
+      "role": "graduate_admissions",
+      "email": "engineering.admissions@durham.ac.uk",
+      "sourceUrl": "https://www.durham.ac.uk/departments/academic/engineering/about-us/contact-us/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Engineering UG/PGT admissions; central PG also uses Ask Us form. WebSearch verified; live fetch failed."
+    },
+    {
+      "schoolSlug": "univ-strasbourg",
+      "role": "admissions_officer",
+      "email": "dri-contact@unistra.fr",
+      "sourceUrl": "https://international-welcome.unistra.fr/apply-to-the-university-of-strasbourg/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Direction des Relations Internationales. WebSearch verified; live fetch failed."
+    },
+    {
+      "schoolSlug": "setu",
+      "role": "graduate_admissions",
+      "email": "tpgadmissions.wd@setu.ie",
+      "sourceUrl": "https://www.setu.ie/study/postgraduate-study/postgrad-admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Taught PG Waterford; Carlow/Wexford: tpgadmissions.cw@setu.ie. WebSearch verified; live fetch failed."
+    },
+    {
+      "schoolSlug": "univ-granada",
+      "role": "graduate_admissions",
+      "email": "admisionmasteres@ugr.es",
+      "sourceUrl": "https://escuelaposgrado.ugr.es/pages/tablon/*/masteres/procedimiento-extraordinario-de-admision-a-masteres-para-cubrir-las-plazas-de-aquellos-masteres-universitarios-en-los-que-han-quedado-plazas-disponibles-2",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Extraordinary master admission phase; general SAAP uses contact form. WebSearch verified; live fetch failed."
+    },
+    {
+      "schoolSlug": "univ-la-rochelle",
+      "role": "admissions_officer",
+      "email": "michele.gauteron@univ-lr.fr",
+      "sourceUrl": "https://formations.univ-larochelle.fr/IMG/pdf/re_master_sgm_25-26_vf.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Master SGM secretariat PDF; general admissions via SEVE form. WebSearch verified; live fetch failed."
+    },
+    {
+      "schoolSlug": "univ-picardie",
+      "role": "admissions_officer",
+      "email": "scolarite@u-picardie.fr",
+      "sourceUrl": "https://www.u-picardie.fr/formation/scolarite",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Central scolarité; UFR-specific desks also exist. WebSearch verified; live fetch failed."
+    },
+    {
+      "schoolSlug": "esg",
+      "role": "admissions_officer",
+      "email": "admissions@esg.fr",
+      "sourceUrl": "https://www.esg.fr/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Also uses contact form on esg.fr. WebSearch verified; live fetch failed."
+    },
+    {
+      "schoolSlug": "univ-lleida",
+      "role": "admissions_officer",
+      "email": "secretaria.academica@udl.cat",
+      "sourceUrl": "https://www.udl.cat/ca/estudis/masters_universitaris/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Academic secretariat; decentralised by centre. WebSearch verified; live fetch failed."
+    },
+    {
+      "schoolSlug": "univ-avignon",
+      "role": "admissions_officer",
+      "email": "scolarite@univ-avignon.fr",
+      "sourceUrl": "https://www.univ-avignon.fr/scolarite/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Central scolarité; also ticket system on scola.univ-avignon.fr. WebSearch verified; live fetch failed."
+    },
+    {
+      "schoolSlug": "iae-toulouse",
+      "role": "admissions_officer",
+      "email": "incoming@tsm-education.fr",
+      "sourceUrl": "https://tsm-education.fr/international/programmes-echange/mobilite-entrante",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "TSM international relations bureau (IAE Toulouse → TSM); general admissions via contact form."
+    },
+    {
+      "schoolSlug": "univ-evry",
+      "role": "admissions_officer",
+      "email": "fc@univ-evry.fr",
+      "sourceUrl": "https://www.univ-evry.fr/formation/comment-sinscrire/lyceen-ou-etudiant-etranger-jamais-inscrit-dans-lenseignement-superieur-en-france/ressortissant-de-lue/candidature-en-master.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Formation continue service; Mon Master for standard applications; faculty scolarité for programme queries."
     }
   ],
   "schoolApplicationPortals": [
@@ -13038,6 +16137,253 @@
       "sourceUrl": "https://www.hec.edu/en/master-s-programs/msc-international-finance/admissions",
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12"
+    }
+  ],
+  "schoolAdmissionsProfiles": [
+    {
+      "schoolSlug": "bi-norwegian",
+      "applicationUrl": "https://www.bi.edu/admissions/",
+      "sourceUrl": "https://www.bi.edu/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "university-of-iceland",
+      "applicationUrl": "https://english.hi.is/admissions",
+      "sourceUrl": "https://english.hi.is/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "hi",
+      "applicationUrl": "https://english.hi.is/admissions",
+      "sourceUrl": "https://english.hi.is/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uoa",
+      "applicationUrl": "https://www.auckland.ac.nz/en/study/applications-and-admissions.html",
+      "sourceUrl": "https://www.auckland.ac.nz/en/study/applications-and-admissions.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "aarhus",
+      "applicationUrl": "https://masters.au.dk/admission",
+      "sourceUrl": "https://masters.au.dk/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ku-copenhagen",
+      "applicationUrl": "https://www.ku.dk/english/education/sis",
+      "sourceUrl": "https://www.ku.dk/english/education/sis",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "itu",
+      "applicationUrl": "https://www.itust.dk/uddannelser/kandidatuddannelser",
+      "sourceUrl": "https://www.itust.dk/uddannelser/kandidatuddannelser",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "reykjavik-university",
+      "applicationUrl": "https://www.ru.is/en/prospective_students/graduate_programs",
+      "sourceUrl": "https://www.ru.is/en/prospective_students/graduate_programs",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "aut",
+      "applicationUrl": "https://www.aut.ac.nz/study/study-options/postgraduate",
+      "sourceUrl": "https://www.aut.ac.nz/study/study-options/postgraduate",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "massey",
+      "applicationUrl": "https://www.massey.ac.nz/study/apply-to-massey/",
+      "sourceUrl": "https://www.massey.ac.nz/study/apply-to-massey/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "waikato",
+      "applicationUrl": "https://www.waikato.ac.nz/study/apply/",
+      "sourceUrl": "https://www.waikato.ac.nz/study/apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "lincoln",
+      "applicationUrl": "https://www.lincoln.ac.nz/study/apply/",
+      "sourceUrl": "https://www.lincoln.ac.nz/study/apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uclouvain",
+      "applicationUrl": "https://www.uclouvain.be/en/admission",
+      "sourceUrl": "https://www.uclouvain.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ulb",
+      "applicationUrl": "https://www.ulb.be/en/admission",
+      "sourceUrl": "https://www.ulb.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "vub",
+      "applicationUrl": "https://www.vub.be/en/admission",
+      "sourceUrl": "https://www.vub.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "vub-2",
+      "applicationUrl": "https://www.vub.be/en/admission",
+      "sourceUrl": "https://www.vub.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uliege",
+      "applicationUrl": "https://www.uliege.be/cms/c_9052714/en/admission",
+      "sourceUrl": "https://www.uliege.be/cms/c_9052714/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uhasselt",
+      "applicationUrl": "https://www.uhasselt.be/en/admission",
+      "sourceUrl": "https://www.uhasselt.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uned",
+      "applicationUrl": "https://www.uned.es/universidad/admision",
+      "sourceUrl": "https://www.uned.es/universidad/admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uam",
+      "applicationUrl": "https://www.uam.es/uam/informacion-admision",
+      "sourceUrl": "https://www.uam.es/uam/informacion-admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ucm",
+      "applicationUrl": "https://www.ucm.es/admision",
+      "sourceUrl": "https://www.ucm.es/admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "upm",
+      "applicationUrl": "https://www.upm.es/Estudiantes/Admision",
+      "sourceUrl": "https://www.upm.es/Estudiantes/Admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "upc",
+      "applicationUrl": "https://www.upc.edu/en/masters/admission",
+      "sourceUrl": "https://www.upc.edu/en/masters/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "oslo-met",
+      "applicationUrl": "https://www.oslomet.no/en/admission",
+      "sourceUrl": "https://www.oslomet.no/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "nord-university",
+      "applicationUrl": "https://www.nord.no/en/study/admission",
+      "sourceUrl": "https://www.nord.no/en/study/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "nmbu",
+      "applicationUrl": "https://www.nmbu.no/en/studies/admission",
+      "sourceUrl": "https://www.nmbu.no/en/studies/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "bifrost",
+      "applicationUrl": "https://www.bifrost.is/english/admissions/",
+      "sourceUrl": "https://www.bifrost.is/english/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "hec-liege",
+      "applicationUrl": "https://www.hec.uliege.be/en/admissions",
+      "sourceUrl": "https://www.hec.uliege.be/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    }
+  ],
+  "networkAdmissionsProfiles": [
+    {
+      "schoolSlugPattern": "^paris-1-|^paris-saclay$|^paris-cite$|^sorbonne-universite$",
+      "applicationUrl": "https://www.monmaster.gouv.fr",
+      "applicationPortal": "https://www.monmaster.gouv.fr",
+      "sourceUrl": "https://www.monmaster.gouv.fr",
+      "sourceType": "official_government_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Paris public universities use Mon Master national platform"
+    },
+    {
+      "schoolSlugPattern": "^insp$|^inp-toulouse$",
+      "useSchoolWebsite": true,
+      "sourceUrl": "https://www.onisep.fr/",
+      "sourceType": "official_government_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "French engineering institute: apply via official school website"
     }
   ]
 }

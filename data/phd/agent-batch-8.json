@@ -1,0 +1,19 @@
+{
+  "agentId": 8,
+  "region": "Japan + South Korea + UAE",
+  "candidate": "dina",
+  "asOfDate": "2026-07-12",
+  "outputFile": "data/phd/batch-agent-8.json",
+  "countries": [
+    { "slug": "japan", "name": "Japan" },
+    { "slug": "south-korea", "name": "South Korea" },
+    { "slug": "uae", "name": "United Arab Emirates" }
+  ],
+  "portals": [
+    "https://jrecin.jst.go.jp",
+    "https://euraxess.ec.europa.eu/jobs/search",
+    "site:.jp OR site:.kr OR site:.ae PhD finance funded English"
+  ],
+  "domains": ["finance", "accounting", "compliance", "corporate finance"],
+  "minOffersTarget": 15
+}

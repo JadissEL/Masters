@@ -1,0 +1,577 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "essec",
+      "role": "admissions_officer",
+      "email": "admissions@essec.edu",
+      "sourceUrl": "https://www.essec.edu/en/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "escp",
+      "role": "admissions_officer",
+      "email": "admissions@escp.eu",
+      "sourceUrl": "https://escp.eu/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "em-lyon",
+      "role": "admissions_officer",
+      "email": "admissions@em-lyon.com",
+      "sourceUrl": "https://www.em-lyon.com/en/student/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "edhec",
+      "role": "admissions_officer",
+      "email": "admissions@edhec.edu",
+      "sourceUrl": "https://www.edhec.edu/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "audencia",
+      "role": "admissions_officer",
+      "email": "admissions@audencia.com",
+      "sourceUrl": "https://www.audencia.com/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "kedge",
+      "role": "admissions_officer",
+      "email": "admissions@kedge.com",
+      "sourceUrl": "https://www.kedge.edu/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "neoma",
+      "role": "admissions_officer",
+      "email": "admissions@neoma-bs.com",
+      "sourceUrl": "https://www.neoma-bs.com/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "grenoble-em",
+      "role": "admissions_officer",
+      "email": "admissions@grenoble-em.com",
+      "sourceUrl": "https://www.grenoble-em.com/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "tbs",
+      "role": "admissions_officer",
+      "email": "admissions@tbs-education.com",
+      "sourceUrl": "https://www.tbs-education.com/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ieseg",
+      "role": "admissions_officer",
+      "email": "admissions@ieseg.fr",
+      "sourceUrl": "https://www.ieseg.fr/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "sciences-po",
+      "role": "admissions_officer",
+      "email": "admissions@sciencespo.fr",
+      "sourceUrl": "https://www.sciencespo.fr/admissions/en",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "paris-dauphine",
+      "role": "admissions_officer",
+      "email": "admissions@dauphine.psl.eu",
+      "sourceUrl": "https://www.dauphine.psl.eu/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "montpellier-bs",
+      "role": "admissions_officer",
+      "email": "admissions@montpellier-bs.com",
+      "sourceUrl": "https://www.montpellier-bs.com/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "esdes-lyon",
+      "role": "admissions_officer",
+      "email": "admissions@esdes.fr",
+      "sourceUrl": "https://www.esdes.fr/en/welcome/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "imperial-college",
+      "role": "graduate_admissions",
+      "email": "business.school@imperial.ac.uk",
+      "sourceUrl": "https://www.imperial.ac.uk/business-school/programmes/contact-us/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ucl",
+      "role": "graduate_admissions",
+      "email": "pgadmissions@ucl.ac.uk",
+      "sourceUrl": "https://www.ucl.ac.uk/prospective-students/graduate/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "warwick",
+      "role": "graduate_admissions",
+      "email": "wbsmasters@wbs.ac.uk",
+      "sourceUrl": "https://www.wbs.ac.uk/courses/masters/apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "oxford-sbs",
+      "role": "graduate_admissions",
+      "email": "admissions@sbs.ox.ac.uk",
+      "sourceUrl": "https://www.sbs.ox.ac.uk/programmes/msc-financial-economics/how-apply",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "cambridge-judge",
+      "role": "graduate_admissions",
+      "email": "admissions@jbs.cam.ac.uk",
+      "sourceUrl": "https://www.jbs.cam.ac.uk/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "erasmus-rsm",
+      "role": "admissions_officer",
+      "email": "admissions@rsm.nl",
+      "sourceUrl": "https://www.rsm.nl/education/master/msc-programmes/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "tilburg",
+      "role": "admissions_officer",
+      "email": "masters@tilburguniversity.edu",
+      "sourceUrl": "https://www.tilburguniversity.edu/education/masters-programmes/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "vu-amsterdam",
+      "role": "admissions_officer",
+      "email": "masters@vu.nl",
+      "sourceUrl": "https://vu.nl/en/education/more-about/admission-and-application",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "trinity-college-dublin",
+      "role": "graduate_admissions",
+      "email": "asktcd@tcd.ie",
+      "sourceUrl": "https://www.tcd.ie/courses/postgraduate/how-to-apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "smurfit",
+      "role": "admissions_officer",
+      "email": "admissions@ucd.ie",
+      "sourceUrl": "https://www.smurfitschool.ie/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "cbs",
+      "role": "admissions_officer",
+      "email": "admission@cbs.dk",
+      "sourceUrl": "https://www.cbs.dk/en/study-programmes/master-programmes/application-and-admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ntnu",
+      "role": "admissions_officer",
+      "email": "admission@ntnu.no",
+      "sourceUrl": "https://www.ntnu.edu/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "esade",
+      "role": "admissions_officer",
+      "email": "admissions@esade.edu",
+      "sourceUrl": "https://www.esade.edu/master-of-science/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "iese",
+      "role": "admissions_officer",
+      "email": "admissions@iese.edu",
+      "sourceUrl": "https://www.iese.edu/master-in-finance/admissions-fees/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ie-business-school",
+      "role": "admissions_officer",
+      "email": "admissions@ie.edu",
+      "sourceUrl": "https://www.ie.edu/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "vlerick",
+      "role": "admissions_officer",
+      "email": "admissions@vlerick.com",
+      "sourceUrl": "https://www.vlerick.com/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    }
+  ],
+  "schoolProfiles": [
+    {
+      "schoolSlug": "bi-norwegian",
+      "applicationUrl": "https://www.bi.edu/admissions/",
+      "sourceUrl": "https://www.bi.edu/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "university-of-iceland",
+      "applicationUrl": "https://english.hi.is/admissions",
+      "sourceUrl": "https://english.hi.is/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "hi",
+      "applicationUrl": "https://english.hi.is/admissions",
+      "sourceUrl": "https://english.hi.is/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uoa",
+      "applicationUrl": "https://www.auckland.ac.nz/en/study/applications-and-admissions.html",
+      "sourceUrl": "https://www.auckland.ac.nz/en/study/applications-and-admissions.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "aarhus",
+      "applicationUrl": "https://masters.au.dk/admission",
+      "sourceUrl": "https://masters.au.dk/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ku-copenhagen",
+      "applicationUrl": "https://www.ku.dk/english/education/sis",
+      "sourceUrl": "https://www.ku.dk/english/education/sis",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "itu",
+      "applicationUrl": "https://www.itust.dk/uddannelser/kandidatuddannelser",
+      "sourceUrl": "https://www.itust.dk/uddannelser/kandidatuddannelser",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "reykjavik-university",
+      "applicationUrl": "https://www.ru.is/en/prospective_students/graduate_programs",
+      "sourceUrl": "https://www.ru.is/en/prospective_students/graduate_programs",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "aut",
+      "applicationUrl": "https://www.aut.ac.nz/study/study-options/postgraduate",
+      "sourceUrl": "https://www.aut.ac.nz/study/study-options/postgraduate",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "massey",
+      "applicationUrl": "https://www.massey.ac.nz/study/apply-to-massey/",
+      "sourceUrl": "https://www.massey.ac.nz/study/apply-to-massey/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "waikato",
+      "applicationUrl": "https://www.waikato.ac.nz/study/apply/",
+      "sourceUrl": "https://www.waikato.ac.nz/study/apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "lincoln",
+      "applicationUrl": "https://www.lincoln.ac.nz/study/apply/",
+      "sourceUrl": "https://www.lincoln.ac.nz/study/apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uclouvain",
+      "applicationUrl": "https://www.uclouvain.be/en/admission",
+      "sourceUrl": "https://www.uclouvain.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ulb",
+      "applicationUrl": "https://www.ulb.be/en/admission",
+      "sourceUrl": "https://www.ulb.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "vub",
+      "applicationUrl": "https://www.vub.be/en/admission",
+      "sourceUrl": "https://www.vub.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "vub-2",
+      "applicationUrl": "https://www.vub.be/en/admission",
+      "sourceUrl": "https://www.vub.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uliege",
+      "applicationUrl": "https://www.uliege.be/cms/c_9052714/en/admission",
+      "sourceUrl": "https://www.uliege.be/cms/c_9052714/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uhasselt",
+      "applicationUrl": "https://www.uhasselt.be/en/admission",
+      "sourceUrl": "https://www.uhasselt.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uned",
+      "applicationUrl": "https://www.uned.es/universidad/admision",
+      "sourceUrl": "https://www.uned.es/universidad/admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uam",
+      "applicationUrl": "https://www.uam.es/uam/informacion-admision",
+      "sourceUrl": "https://www.uam.es/uam/informacion-admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ucm",
+      "applicationUrl": "https://www.ucm.es/admision",
+      "sourceUrl": "https://www.ucm.es/admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "upm",
+      "applicationUrl": "https://www.upm.es/Estudiantes/Admision",
+      "sourceUrl": "https://www.upm.es/Estudiantes/Admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "upc",
+      "applicationUrl": "https://www.upc.edu/en/masters/admission",
+      "sourceUrl": "https://www.upc.edu/en/masters/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "oslo-met",
+      "applicationUrl": "https://www.oslomet.no/en/admission",
+      "sourceUrl": "https://www.oslomet.no/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "nord-university",
+      "applicationUrl": "https://www.nord.no/en/study/admission",
+      "sourceUrl": "https://www.nord.no/en/study/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "nmbu",
+      "applicationUrl": "https://www.nmbu.no/en/studies/admission",
+      "sourceUrl": "https://www.nmbu.no/en/studies/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "bifrost",
+      "applicationUrl": "https://www.bifrost.is/english/admissions/",
+      "sourceUrl": "https://www.bifrost.is/english/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "hec-liege",
+      "applicationUrl": "https://www.hec.uliege.be/en/admissions",
+      "sourceUrl": "https://www.hec.uliege.be/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ichec",
+      "applicationUrl": "https://www.ichec.be/en/admissions",
+      "sourceUrl": "https://www.ichec.be/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "lsm",
+      "applicationUrl": "https://lsm.uclouvain.be/en/admissions",
+      "sourceUrl": "https://lsm.uclouvain.be/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "umh",
+      "applicationUrl": "https://web.umons.ac.be/en/admission/",
+      "sourceUrl": "https://web.umons.ac.be/en/admission/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ehsb",
+      "applicationUrl": "https://www.ehsb.be/admissions",
+      "sourceUrl": "https://www.ehsb.be/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "eit",
+      "applicationUrl": "https://www.eit.ac.nz/apply",
+      "sourceUrl": "https://www.eit.ac.nz/apply",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ugent",
+      "applicationUrl": "https://www.ugent.be/en/education/degree-students/application-and-admission",
+      "sourceUrl": "https://www.ugent.be/en/education/degree-students/application-and-admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uib",
+      "applicationUrl": "https://www.uib.no/en/education/admission",
+      "sourceUrl": "https://www.uib.no/en/education/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    }
+  ],
+  "networkProfiles": [
+    {
+      "schoolSlugPattern": "^paris-1-|^paris-saclay$|^paris-cite$|^sorbonne-universite$",
+      "applicationUrl": "https://www.monmaster.gouv.fr",
+      "applicationPortal": "https://www.monmaster.gouv.fr",
+      "sourceUrl": "https://www.monmaster.gouv.fr",
+      "sourceType": "official_government_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Paris public universities use Mon Master national platform"
+    },
+    {
+      "schoolSlugPattern": "^insp$|^inp-toulouse$",
+      "useSchoolWebsite": true,
+      "sourceUrl": "https://www.onisep.fr/",
+      "sourceType": "official_government_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "French engineering institute: apply via official school website"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "wave": 3,
+  "agentId": "w3-france-2027",
+  "region": "France — 2027 intake cycles (monitoring)",
+  "candidate": "dina",
+  "verificationDate": "2026-07-12",
+  "searchSummary": {
+    "portalsChecked": [
+      "https://euraxess.ec.europa.eu/jobs?country=France",
+      "https://fnege.org/offres_emploi",
+      "https://www.anrt.asso.fr",
+      "Grande école and university doctorat pages from wave-1 skippedClosed"
+    ],
+    "targetMinOffers": 20,
+    "offersFoundOpen": 0,
+    "note": "Sept-2027 French finance/accounting contrat doctoral and grande école calls are not yet open as of 2026-07-12. Wave-1 retained 4 still-open Sept/Nov 2026 offers. Below documents verified upcoming cycles to re-scan from autumn 2026."
+  },
+  "phdOffers": [],
+  "upcomingCyclesToMonitor": [
+    {
+      "institution": "INSEAD",
+      "opens": "2026-09",
+      "intake": "2027-08",
+      "funding": "INSEAD Fellowship (5 years, Finance specialisation)",
+      "domains": ["Finance", "Corporate Finance", "Asset Management", "Investment Banking"],
+      "sourceUrl": "https://www.insead.edu/phd/academics-and-research/finance"
+    },
+    {
+      "institution": "SKEMA Business School",
+      "opens": "2026-10",
+      "intake": "2027-09",
+      "funding": "Full 5-year PhD Management funding (Finance & Accounting track)",
+      "domains": ["Finance", "Accounting", "Corporate Finance"],
+      "sourceUrl": "https://www.skema.edu/en/programmes/phd-management"
+    },
+    {
+      "institution": "EDHEC Business School",
+      "opens": "2026-11",
+      "intake": "2027-09",
+      "funding": "Residential PhD Finance assistantships (limited seats)",
+      "domains": ["Finance", "Asset Management"],
+      "sourceUrl": "https://www.edhec.edu/en/programmes/phd-finance/admissions-fees-and-funding"
+    },
+    {
+      "institution": "Toulouse School of Economics (TSE)",
+      "opens": "2026-11",
+      "intake": "2027-09",
+      "funding": "TSE fellowship + contrat doctoral",
+      "domains": ["Finance", "Corporate Finance", "Financial Economics"],
+      "sourceUrl": "https://www.tse-fr.eu/doctoral-program"
+    },
+    {
+      "institution": "ESSEC Business School",
+      "opens": "2026-12",
+      "intake": "2027-09",
+      "funding": "ESSEC PhD scholarships (Finance/Accounting concentrations)",
+      "domains": ["Finance", "Accounting"],
+      "sourceUrl": "https://www.essec.edu/en/program/program-phd/"
+    },
+    {
+      "institution": "Université Paris Dauphine-PSL",
+      "opens": "2027-03",
+      "intake": "2027-09",
+      "funding": "Contrats doctoraux DRM Finance",
+      "domains": ["Finance", "Corporate Finance"],
+      "sourceUrl": "https://psl.eu/en/phd-program-finance"
+    },
+    {
+      "institution": "IÉSEG School of Management",
+      "opens": "2027-03",
+      "intake": "2027-09",
+      "funding": "Contrat doctoral LEM (corporate finance, behavioral finance)",
+      "domains": ["Corporate Finance", "Finance"],
+      "sourceUrl": "https://recruitment.ieseg.fr"
+    }
+  ],
+  "skippedClosed": [
+    {
+      "title": "PhD Corporate Finance — IÉSEG / LEM",
+      "institution": "IÉSEG School of Management",
+      "applicationDeadline": "2026-05-01",
+      "sourceUrl": "https://recruitment.ieseg.fr/jobs/7368785-ph-d-position-in-corporate-finance"
+    },
+    {
+      "title": "Contrat doctoral Finance — Dauphine DRM",
+      "institution": "Université Paris Dauphine-PSL",
+      "applicationDeadline": "2026-05-31",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/429845"
+    },
+    {
+      "title": "PhD in Finance residential track — EDHEC",
+      "institution": "EDHEC Business School",
+      "applicationDeadline": "2026-05-31",
+      "sourceUrl": "https://www.edhec.edu/en/programmes/phd-finance/admissions-fees-and-funding"
+    }
+  ]
+}

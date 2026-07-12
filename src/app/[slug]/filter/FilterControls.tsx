@@ -3,6 +3,7 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback } from "react";
 import { SlidersHorizontal, X } from "lucide-react";
+import { SCHOOL_TYPES, SCHOOL_TYPE_DESCRIPTIONS } from "@/lib/school-types";
 
 interface FilterControlsProps {
   candidateSlug: string;
@@ -65,6 +66,7 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
   const selectedCountries = searchParams.getAll("country");
   const selectedLanguages = searchParams.getAll("language");
   const selectedProgramTypes = searchParams.getAll("programType");
+  const selectedSchoolTypes = searchParams.getAll("schoolType");
   const canEnterM2 = searchParams.get("canEnterM2") || "";
   const maxTuition = searchParams.get("maxTuition") || "";
   const minScore = searchParams.get("minScore") || "";
@@ -74,7 +76,7 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
   const sortBy = searchParams.get("sortBy") || "";
 
   const hasActiveFilters = selectedCountries.length > 0 || selectedLanguages.length > 0 ||
-    selectedProgramTypes.length > 0 || canEnterM2 || maxTuition || minScore || alternanceOnly || internshipOnly || verifiedOnly || sortBy;
+    selectedProgramTypes.length > 0 || selectedSchoolTypes.length > 0 || canEnterM2 || maxTuition || minScore || alternanceOnly || internshipOnly || verifiedOnly || sortBy;
 
   const checkboxStyle: React.CSSProperties = {
     display: "flex",
@@ -111,6 +113,24 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
                 style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
               />
               <span>{c.flag} {c.name}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      {/* School type */}
+      <div style={{ marginBottom: 24 }}>
+        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>School Type</p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 0 }}>
+          {SCHOOL_TYPES.map((t) => (
+            <label key={t} style={checkboxStyle} title={SCHOOL_TYPE_DESCRIPTIONS[t]}>
+              <input
+                type="checkbox"
+                checked={selectedSchoolTypes.includes(t)}
+                onChange={() => toggleArrayParam("schoolType", t)}
+                style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
+              />
+              <span>{t}</span>
             </label>
           ))}
         </div>

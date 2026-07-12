@@ -1,0 +1,20 @@
+{
+  "agentId": 4,
+  "region": "Spain + Germany + Switzerland",
+  "candidate": "dina",
+  "asOfDate": "2026-07-12",
+  "outputFile": "data/phd/batch-agent-4.json",
+  "countries": [
+    { "slug": "spain", "name": "Spain" },
+    { "slug": "germany", "name": "Germany" },
+    { "slug": "switzerland", "name": "Switzerland" }
+  ],
+  "portals": [
+    "https://euraxess.ec.europa.eu/jobs/search",
+    "https://www.daad.de",
+    "https://academicjobsonline.org",
+    "site:.de OR site:.ch OR site:.es PhD finance Doktorand finanzierung"
+  ],
+  "domains": ["finance", "accounting", "compliance", "corporate finance"],
+  "minOffersTarget": 25
+}

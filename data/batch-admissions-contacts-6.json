@@ -1,0 +1,22 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "paris-saclay",
+      "role": "graduate_admissions",
+      "email": "scolarite-licencesmasters.sciences@universite-paris-saclay.fr",
+      "sourceUrl": "https://www.sciences.universite-paris-saclay.fr/sites/default/files/media/2021-10/contacts_scol-lm_maj_05-10-21.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "psb",
+      "role": "graduate_admissions",
+      "email": "admission@psbedu.paris",
+      "sourceUrl": "https://www.psbedu.paris/fr/contact-etudiant",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    }
+  ]
+}

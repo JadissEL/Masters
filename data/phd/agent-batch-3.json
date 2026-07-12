@@ -1,0 +1,19 @@
+{
+  "agentId": 3,
+  "region": "Belgium + Luxembourg + Netherlands",
+  "candidate": "dina",
+  "asOfDate": "2026-07-12",
+  "outputFile": "data/phd/batch-agent-3.json",
+  "countries": [
+    { "slug": "belgium", "name": "Belgium" },
+    { "slug": "luxembourg", "name": "Luxembourg" },
+    { "slug": "netherlands", "name": "Netherlands" }
+  ],
+  "portals": [
+    "https://euraxess.ec.europa.eu/jobs/search",
+    "https://www.academictransfer.com",
+    "site:.be OR site:.lu OR site:.nl PhD finance funded"
+  ],
+  "domains": ["finance", "accounting", "compliance", "banking", "corporate finance"],
+  "minOffersTarget": 20
+}

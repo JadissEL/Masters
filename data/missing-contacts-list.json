@@ -1,0 +1,797 @@
+[
+  {
+    "slug": "university-of-iceland",
+    "name": "University of Iceland",
+    "website": "https://english.hi.is"
+  },
+  {
+    "slug": "hec-liege",
+    "name": "HEC Liège (ULiège)",
+    "website": "https://www.hec.ulg.ac.be"
+  },
+  {
+    "slug": "eada",
+    "name": "EADA Business School",
+    "website": "https://www.eada.edu"
+  },
+  {
+    "slug": "reykjavik-university",
+    "name": "Reykjavik University",
+    "website": "https://en.ru.is"
+  },
+  {
+    "slug": "iae-paris",
+    "name": "IAE Paris (Sorbonne Business School)",
+    "website": "https://www.iae-paris.com"
+  },
+  {
+    "slug": "iae-toulouse",
+    "name": "IAE Toulouse (Université Toulouse Capitole)",
+    "website": "https://www.iae-toulouse.fr"
+  },
+  {
+    "slug": "iae-lille",
+    "name": "IAE Lille (Université de Lille)",
+    "website": "https://www.iae-lille.fr"
+  },
+  {
+    "slug": "iae-nantes",
+    "name": "IAE Nantes (Université de Nantes)",
+    "website": "https://www.iae-nantes.fr"
+  },
+  {
+    "slug": "iae-montpellier",
+    "name": "IAE Montpellier (Université de Montpellier)",
+    "website": "https://www.iae-montpellier.fr"
+  },
+  {
+    "slug": "iae-strasbourg",
+    "name": "IAE Strasbourg (Université de Strasbourg)",
+    "website": "https://www.iae-strasbourg.fr"
+  },
+  {
+    "slug": "iae-grenoble",
+    "name": "IAE Grenoble (Université Grenoble Alpes)",
+    "website": "https://www.iae-grenoble.fr"
+  },
+  {
+    "slug": "paris-cite",
+    "name": "Université Paris Cité",
+    "website": "https://u-paris.fr"
+  },
+  {
+    "slug": "sorbonne-universite",
+    "name": "Sorbonne Université",
+    "website": "https://www.sorbonne-universite.fr"
+  },
+  {
+    "slug": "aix-marseille-univ",
+    "name": "Université d'Aix-Marseille",
+    "website": "https://www.univ-amu.fr"
+  },
+  {
+    "slug": "univ-lille",
+    "name": "Université de Lille",
+    "website": "https://www.univ-lille.fr"
+  },
+  {
+    "slug": "univ-bordeaux",
+    "name": "Université de Bordeaux",
+    "website": "https://www.u-bordeaux.fr"
+  },
+  {
+    "slug": "univ-toulouse-capitole",
+    "name": "Université Toulouse Capitole",
+    "website": "https://www.ut-capitole.fr"
+  },
+  {
+    "slug": "univ-strasbourg",
+    "name": "Université de Strasbourg",
+    "website": "https://www.unistra.fr"
+  },
+  {
+    "slug": "univ-nantes",
+    "name": "Université de Nantes",
+    "website": "https://www.univ-nantes.fr"
+  },
+  {
+    "slug": "univ-rennes1",
+    "name": "Université de Rennes 1",
+    "website": "https://www.univ-rennes1.fr"
+  },
+  {
+    "slug": "univ-grenoble-alpes",
+    "name": "Université Grenoble Alpes",
+    "website": "https://www.univ-grenoble-alpes.fr"
+  },
+  {
+    "slug": "univ-cote-azur",
+    "name": "Université Côte d'Azur",
+    "website": "https://univ-cotedazur.fr"
+  },
+  {
+    "slug": "univ-lyon3",
+    "name": "Université Jean Moulin Lyon 3",
+    "website": "https://www.univ-lyon3.fr"
+  },
+  {
+    "slug": "univ-tours",
+    "name": "Université de Tours",
+    "website": "https://www.univ-tours.fr"
+  },
+  {
+    "slug": "univ-orleans",
+    "name": "Université d'Orléans",
+    "website": "https://www.univ-orleans.fr"
+  },
+  {
+    "slug": "univ-bourgogne",
+    "name": "Université de Bourgogne",
+    "website": "https://www.u-bourgogne.fr"
+  },
+  {
+    "slug": "univ-lorraine",
+    "name": "Université de Lorraine",
+    "website": "https://www.univ-lorraine.fr"
+  },
+  {
+    "slug": "univ-poitiers",
+    "name": "Université de Poitiers",
+    "website": "https://www.univ-poitiers.fr"
+  },
+  {
+    "slug": "univ-la-rochelle",
+    "name": "Université de La Rochelle",
+    "website": "https://www.univ-larochelle.fr"
+  },
+  {
+    "slug": "univ-le-havre",
+    "name": "Université Le Havre Normandie",
+    "website": "https://www.univ-lehavre.fr"
+  },
+  {
+    "slug": "univ-caen",
+    "name": "Université de Caen Normandie",
+    "website": "https://www.unicaen.fr"
+  },
+  {
+    "slug": "univ-rouen",
+    "name": "Université de Rouen Normandie",
+    "website": "https://www.univ-rouen.fr"
+  },
+  {
+    "slug": "univ-clermont",
+    "name": "Université Clermont Auvergne",
+    "website": "https://www.uca.fr"
+  },
+  {
+    "slug": "univ-st-etienne",
+    "name": "Université Jean Monnet Saint-Étienne",
+    "website": "https://www.univ-st-etienne.fr"
+  },
+  {
+    "slug": "univ-angers",
+    "name": "Université d'Angers",
+    "website": "https://www.univ-angers.fr"
+  },
+  {
+    "slug": "univ-le-mans",
+    "name": "Université du Mans",
+    "website": "https://www.univ-lemans.fr"
+  },
+  {
+    "slug": "univ-limoges",
+    "name": "Université de Limoges",
+    "website": "https://www.unilim.fr"
+  },
+  {
+    "slug": "univ-reims",
+    "name": "Université de Reims Champagne-Ardenne",
+    "website": "https://www.univ-reims.fr"
+  },
+  {
+    "slug": "univ-pau",
+    "name": "Université de Pau et des Pays de l'Adour",
+    "website": "https://www.univ-pau.fr"
+  },
+  {
+    "slug": "univ-brest",
+    "name": "Université de Bretagne Occidentale",
+    "website": "https://www.univ-brest.fr"
+  },
+  {
+    "slug": "univ-lorient",
+    "name": "Université de Bretagne Sud",
+    "website": "https://www.univ-ubs.fr"
+  },
+  {
+    "slug": "univ-artois",
+    "name": "Université d'Artois",
+    "website": "https://www.univ-artois.fr"
+  },
+  {
+    "slug": "univ-valenciennes",
+    "name": "Université Polytechnique Hauts-de-France",
+    "website": "https://www.uphf.fr"
+  },
+  {
+    "slug": "univ-toulon",
+    "name": "Université de Toulon",
+    "website": "https://www.univ-tln.fr"
+  },
+  {
+    "slug": "univ-avignon",
+    "name": "Université d'Avignon",
+    "website": "https://www.univ-avignon.fr"
+  },
+  {
+    "slug": "univ-perpignan",
+    "name": "Université de Perpignan Via Domitia",
+    "website": "https://www.univ-perp.fr"
+  },
+  {
+    "slug": "univ-nimes",
+    "name": "Université de Nîmes",
+    "website": "https://www.unimes.fr"
+  },
+  {
+    "slug": "univ-corse",
+    "name": "Université de Corse Pascal Paoli",
+    "website": "https://www.univ-corse.fr"
+  },
+  {
+    "slug": "univ-sorbonne-paris-nord",
+    "name": "Université Sorbonne Paris Nord",
+    "website": "https://www.univ-paris13.fr"
+  },
+  {
+    "slug": "univ-paris8",
+    "name": "Université Paris 8 Vincennes-Saint-Denis",
+    "website": "https://www.univ-paris8.fr"
+  },
+  {
+    "slug": "univ-evry",
+    "name": "Université d'Évry Val d'Essonne",
+    "website": "https://www.univ-evry.fr"
+  },
+  {
+    "slug": "univ-gustave-eiffel",
+    "name": "Université Gustave Eiffel",
+    "website": "https://www.univ-gustave-eiffel.fr"
+  },
+  {
+    "slug": "univ-versailles",
+    "name": "Université de Versailles Saint-Quentin",
+    "website": "https://www.uvsq.fr"
+  },
+  {
+    "slug": "univ-cergy",
+    "name": "Université de Cergy-Pontoise",
+    "website": "https://www.u-cergy.fr"
+  },
+  {
+    "slug": "univ-franche-comte",
+    "name": "Université de Franche-Comté",
+    "website": "https://www.univ-fcomte.fr"
+  },
+  {
+    "slug": "insa-lyon",
+    "name": "INSA Lyon",
+    "website": "https://www.insa-lyon.fr"
+  },
+  {
+    "slug": "insa-toulouse",
+    "name": "INSA Toulouse",
+    "website": "https://www.insa-toulouse.fr"
+  },
+  {
+    "slug": "insa-rennes",
+    "name": "INSA Rennes",
+    "website": "https://www.insa-rennes.fr"
+  },
+  {
+    "slug": "utc",
+    "name": "Université de Technologie de Compiègne (UTC)",
+    "website": "https://www.utc.fr"
+  },
+  {
+    "slug": "ensae",
+    "name": "ENSAE Paris (École Nationale de la Statistique et de l'Administration Économique)",
+    "website": "https://www.ensae.fr"
+  },
+  {
+    "slug": "ensai",
+    "name": "ENSAI (École Nationale de la Statistique et de l'Analyse de l'Information)",
+    "website": "https://www.ensai.fr"
+  },
+  {
+    "slug": "insp",
+    "name": "INSP — Institut National du Service Public",
+    "website": "https://www.insp.gouv.fr"
+  },
+  {
+    "slug": "ponts-paristech",
+    "name": "École des Ponts ParisTech",
+    "website": "https://www.ecoledesponts.fr"
+  },
+  {
+    "slug": "centrale-lyon",
+    "name": "Centrale Lyon (École Centrale de Lyon)",
+    "website": "https://www.ec-lyon.fr"
+  },
+  {
+    "slug": "centrale-nantes",
+    "name": "Centrale Nantes (École Centrale de Nantes)",
+    "website": "https://www.ec-nantes.fr"
+  },
+  {
+    "slug": "inp-toulouse",
+    "name": "INP Toulouse (Institut National Polytechnique)",
+    "website": "https://www.inp-toulouse.fr"
+  },
+  {
+    "slug": "ensam",
+    "name": "ENSAM (Arts et Métiers)",
+    "website": "https://www.artsetmetiers.fr"
+  },
+  {
+    "slug": "nord-university",
+    "name": "Nord University",
+    "website": "https://www.nord.no"
+  },
+  {
+    "slug": "univ-stavanger",
+    "name": "University of Stavanger",
+    "website": "https://www.uis.no"
+  },
+  {
+    "slug": "nmbu",
+    "name": "Norwegian University of Life Sciences (NMBU)",
+    "website": "https://www.nmbu.no"
+  },
+  {
+    "slug": "open-university",
+    "name": "The Open University (UK)",
+    "website": "https://www.open.ac.uk"
+  },
+  {
+    "slug": "birkbeck",
+    "name": "Birkbeck, University of London",
+    "website": "https://www.bbk.ac.uk"
+  },
+  {
+    "slug": "univ-nottingham",
+    "name": "University of Nottingham",
+    "website": "https://www.nottingham.ac.uk"
+  },
+  {
+    "slug": "durham",
+    "name": "Durham University",
+    "website": "https://www.durham.ac.uk"
+  },
+  {
+    "slug": "exeter",
+    "name": "University of Exeter",
+    "website": "https://www.exeter.ac.uk"
+  },
+  {
+    "slug": "qmul",
+    "name": "Queen Mary University of London",
+    "website": "https://www.qmul.ac.uk"
+  },
+  {
+    "slug": "reading",
+    "name": "University of Reading — Henley Business School",
+    "website": "https://www.henley.ac.uk"
+  },
+  {
+    "slug": "setu",
+    "name": "South East Technological University (SETU)",
+    "website": "https://www.setu.ie"
+  },
+  {
+    "slug": "aalborg",
+    "name": "Aalborg University",
+    "website": "https://www.en.aau.dk"
+  },
+  {
+    "slug": "roskilde",
+    "name": "Roskilde University",
+    "website": "https://www.ruc.dk"
+  },
+  {
+    "slug": "uned",
+    "name": "UNED — Universidad Nacional de Educación a Distancia",
+    "website": "https://www.uned.es"
+  },
+  {
+    "slug": "univ-barcelona",
+    "name": "Universitat de Barcelona",
+    "website": "https://www.ub.edu"
+  },
+  {
+    "slug": "univ-valencia",
+    "name": "Universitat de València",
+    "website": "https://www.uv.es"
+  },
+  {
+    "slug": "univ-sevilla",
+    "name": "Universidad de Sevilla",
+    "website": "https://www.us.es"
+  },
+  {
+    "slug": "univ-granada",
+    "name": "Universidad de Granada",
+    "website": "https://www.ugr.es"
+  },
+  {
+    "slug": "univ-salamanca",
+    "name": "Universidad de Salamanca",
+    "website": "https://www.usal.es"
+  },
+  {
+    "slug": "univ-zaragoza",
+    "name": "Universidad de Zaragoza",
+    "website": "https://www.unizar.es"
+  },
+  {
+    "slug": "upm",
+    "name": "Universidad Politécnica de Madrid",
+    "website": "https://www.upm.es"
+  },
+  {
+    "slug": "upc",
+    "name": "Universitat Politècnica de Catalunya",
+    "website": "https://www.upc.edu"
+  },
+  {
+    "slug": "univ-akureyri",
+    "name": "University of Akureyri",
+    "website": "https://www.unak.is"
+  },
+  {
+    "slug": "bifrost",
+    "name": "Bifröst University",
+    "website": "https://www.bifrost.is"
+  },
+  {
+    "slug": "hi",
+    "name": "University of Iceland (Háskóli Íslands)",
+    "website": "https://english.hi.is"
+  },
+  {
+    "slug": "lincoln",
+    "name": "Lincoln University",
+    "website": "https://www.lincoln.ac.nz"
+  },
+  {
+    "slug": "tue",
+    "name": "Eindhoven University of Technology (TU/e)",
+    "website": "https://www.tue.nl"
+  },
+  {
+    "slug": "wageningen",
+    "name": "Wageningen University & Research",
+    "website": "https://www.wur.nl"
+  },
+  {
+    "slug": "thuas",
+    "name": "The Hague University of Applied Sciences (THUAS)",
+    "website": "https://www.thehagueuniversity.com"
+  },
+  {
+    "slug": "hanze",
+    "name": "Hanze University of Applied Sciences",
+    "website": "https://www.hanze.nl"
+  },
+  {
+    "slug": "uclouvain",
+    "name": "UCLouvain (Université Catholique de Louvain)",
+    "website": "https://uclouvain.be"
+  },
+  {
+    "slug": "ulb",
+    "name": "ULB (Université Libre de Bruxelles)",
+    "website": "https://www.ulb.be"
+  },
+  {
+    "slug": "umons",
+    "name": "UMONS (University of Mons)",
+    "website": "https://web.umons.ac.be"
+  },
+  {
+    "slug": "unamur",
+    "name": "University of Namur",
+    "website": "https://www.unamur.be"
+  },
+  {
+    "slug": "utbm",
+    "name": "UTBM (Université de Technologie de Belfort-Montbéliard)",
+    "website": "https://www.utbm.fr"
+  },
+  {
+    "slug": "utt",
+    "name": "UTT (Université de Technologie de Troyes)",
+    "website": "https://www.utt.fr"
+  },
+  {
+    "slug": "insa-strasbourg",
+    "name": "INSA Strasbourg",
+    "website": "https://www.insa-strasbourg.fr"
+  },
+  {
+    "slug": "insa-rouen",
+    "name": "INSA Rouen Normandie",
+    "website": "https://www.insa-rouen.fr"
+  },
+  {
+    "slug": "telecom-sudparis",
+    "name": "Télécom SudParis (Institut Mines-Télécom)",
+    "website": "https://www.telecom-sudparis.eu"
+  },
+  {
+    "slug": "imt-bs",
+    "name": "IMT Business School (Institut Mines-Télécom)",
+    "website": "https://www.imt-bs.eu"
+  },
+  {
+    "slug": "imt-lille-douai",
+    "name": "IMT Lille Douai (Institut Mines-Télécom)",
+    "website": "https://www.imt-lille-douai.fr"
+  },
+  {
+    "slug": "polytech-nantes",
+    "name": "Polytech Nantes (Université de Nantes)",
+    "website": "https://polytech.univ-nantes.fr"
+  },
+  {
+    "slug": "polytech-lyon",
+    "name": "Polytech Lyon (Université Claude Bernard Lyon 1)",
+    "website": "https://polytech.univ-lyon1.fr"
+  },
+  {
+    "slug": "polytech-paris-saclay",
+    "name": "Polytech Paris-Saclay (Université Paris-Saclay)",
+    "website": "https://polytech.paris-saclay.fr"
+  },
+  {
+    "slug": "polytech-montpellier",
+    "name": "Polytech Montpellier (Université de Montpellier)",
+    "website": "https://polytech.edu.umontpellier.fr"
+  },
+  {
+    "slug": "polytech-grenoble",
+    "name": "Polytech Grenoble (Université Grenoble Alpes)",
+    "website": "https://polytech.grenoble-inp.fr"
+  },
+  {
+    "slug": "polytech-lille",
+    "name": "Polytech Lille (Université de Lille)",
+    "website": "https://polytech-lille.univ-lille.fr"
+  },
+  {
+    "slug": "esiee-paris",
+    "name": "ESIEE Paris (Université Gustave Eiffel)",
+    "website": "https://www.esiee.fr"
+  },
+  {
+    "slug": "epita",
+    "name": "EPITA (École pour l'Informatique et les Techniques Avancées)",
+    "website": "https://www.epita.fr"
+  },
+  {
+    "slug": "epitech",
+    "name": "Epitech",
+    "website": "https://www.epitech.eu"
+  },
+  {
+    "slug": "ipag",
+    "name": "IPAG Business School",
+    "website": "https://www.ipag.fr"
+  },
+  {
+    "slug": "isc-paris",
+    "name": "ISC Paris",
+    "website": "https://www.isc.fr"
+  },
+  {
+    "slug": "kedge-marseille",
+    "name": "KEDGE Business School — Marseille Campus",
+    "website": "https://www.kedge.edu"
+  },
+  {
+    "slug": "georgia-tech-lorraine",
+    "name": "Georgia Tech Lorraine",
+    "website": "https://www.georgiatech-metz.fr"
+  },
+  {
+    "slug": "dundee",
+    "name": "University of Dundee",
+    "website": "https://www.dundee.ac.uk"
+  },
+  {
+    "slug": "univ-oviedo",
+    "name": "Universidad de Oviedo",
+    "website": "https://www.uniovi.es"
+  },
+  {
+    "slug": "univ-vigo",
+    "name": "Universidad de Vigo",
+    "website": "https://www.uvigo.gal"
+  },
+  {
+    "slug": "univ-santiago",
+    "name": "Universidad de Santiago de Compostela",
+    "website": "https://www.usc.gal"
+  },
+  {
+    "slug": "univ-murcia",
+    "name": "Universidad de Murcia",
+    "website": "https://www.um.es"
+  },
+  {
+    "slug": "univ-cadiz",
+    "name": "Universidad de Cádiz",
+    "website": "https://www.uca.es"
+  },
+  {
+    "slug": "univ-extremadura",
+    "name": "Universidad de Extremadura",
+    "website": "https://www.unex.es"
+  },
+  {
+    "slug": "buas",
+    "name": "Breda University of Applied Sciences (BUas)",
+    "website": "https://www.buas.nl"
+  },
+  {
+    "slug": "eur",
+    "name": "Erasmus University Rotterdam",
+    "website": "https://www.eur.nl"
+  },
+  {
+    "slug": "umh",
+    "name": "UMH (Université de Mons-Hainaut)",
+    "website": "https://web.umons.ac.be"
+  },
+  {
+    "slug": "setu-carlow",
+    "name": "SETU Carlow Campus",
+    "website": "https://www.setu.ie"
+  },
+  {
+    "slug": "enseeiht",
+    "name": "ENSEEIHT (Toulouse INP)",
+    "website": "https://www.enseeiht.fr"
+  },
+  {
+    "slug": "enseirb",
+    "name": "ENSEIRB-Matmeca (Bordeaux INP)",
+    "website": "https://enseirb-matmeca.bordeaux-inp.fr"
+  },
+  {
+    "slug": "enssat",
+    "name": "ENSSAT (Université de Rennes)",
+    "website": "https://www.enssat.fr"
+  },
+  {
+    "slug": "imt-atlantique",
+    "name": "IMT Atlantique (Institut Mines-Télécom)",
+    "website": "https://www.imt-atlantique.fr"
+  },
+  {
+    "slug": "telecom-lille",
+    "name": "IMT Nord Europe (Télécom Lille)",
+    "website": "https://www.imt-nord-europe.fr"
+  },
+  {
+    "slug": "telecom-sudparis-2",
+    "name": "Télécom SudParis — Master Réseaux & Sécurité",
+    "website": "https://www.telecom-sudparis.eu"
+  },
+  {
+    "slug": "essca",
+    "name": "ESSCA Business School",
+    "website": "https://www.essca.fr"
+  },
+  {
+    "slug": "excelia",
+    "name": "Excelia Business School (La Rochelle)",
+    "website": "https://www.excelia-group.com"
+  },
+  {
+    "slug": "esg",
+    "name": "ESG Management School (Paris)",
+    "website": "https://www.esg.fr"
+  },
+  {
+    "slug": "idrac",
+    "name": "IDRAC Business School (Lyon)",
+    "website": "https://www.idrac.fr"
+  },
+  {
+    "slug": "estya",
+    "name": "ESTYA Business School Paris",
+    "website": "https://www.estya.fr"
+  },
+  {
+    "slug": "mba-paris",
+    "name": "MBA ESG Paris",
+    "website": "https://www.mba-esg.fr"
+  },
+  {
+    "slug": "univ-picardie",
+    "name": "Université de Picardie Jules Verne",
+    "website": "https://www.u-picardie.fr"
+  },
+  {
+    "slug": "univ-savoie",
+    "name": "Université Savoie Mont Blanc",
+    "website": "https://www.univ-smb.fr"
+  },
+  {
+    "slug": "univ-uphf",
+    "name": "Université Polytechnique des Hauts-de-France",
+    "website": "https://www.uphf.fr"
+  },
+  {
+    "slug": "univ-leon",
+    "name": "Universidad de León",
+    "website": "https://www.unileon.es"
+  },
+  {
+    "slug": "univ-valladolid",
+    "name": "Universidad de Valladolid (UVA)",
+    "website": "https://www.uva.es"
+  },
+  {
+    "slug": "univ-laguna",
+    "name": "Universidad de La Laguna (ULL)",
+    "website": "https://www.ull.es"
+  },
+  {
+    "slug": "univ-baleares",
+    "name": "Universitat de les Illes Balears (UIB)",
+    "website": "https://www.uib.es"
+  },
+  {
+    "slug": "univ-rioja",
+    "name": "Universidad de La Rioja (UNIR)",
+    "website": "https://www.unirioja.es"
+  },
+  {
+    "slug": "univ-huelva",
+    "name": "Universidad de Huelva",
+    "website": "https://www.uhu.es"
+  },
+  {
+    "slug": "univ-lleida",
+    "name": "Universitat de Lleida (UdL)",
+    "website": "https://www.udl.cat"
+  },
+  {
+    "slug": "univ-girona",
+    "name": "Universitat de Girona (UdG)",
+    "website": "https://www.udg.edu"
+  },
+  {
+    "slug": "univ-jaume-i",
+    "name": "Universitat Jaume I de Castelló (UJI)",
+    "website": "https://www.uji.es"
+  },
+  {
+    "slug": "kuleuven",
+    "name": "KU Leuven",
+    "website": "https://www.kuleuven.be"
+  },
+  {
+    "slug": "uib",
+    "name": "University of Bergen (UiB)",
+    "website": "https://www.uib.no/en"
+  },
+  {
+    "slug": "ul",
+    "name": "University of Limerick (UL)",
+    "website": "https://www.ul.ie"
+  }
+]

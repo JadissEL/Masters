@@ -1,0 +1,362 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "insa-lyon",
+      "role": "graduate_admissions",
+      "email": "admiss@groupe-insa.fr",
+      "sourceUrl": "https://www.insa-lyon.fr/fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Groupe INSA central admissions; research masters and Mastère spécialisé may use programme-specific contacts (e.g. masterminds@insa-lyon.fr for Master MINDS AI)"
+    },
+    {
+      "schoolSlug": "insa-toulouse",
+      "role": "graduate_admissions",
+      "email": "scolar@insa-toulouse.fr",
+      "sourceUrl": "https://inscription.insa-toulouse.fr/_resource/scolarite/rentr%C3%A9e%2023-24/Informations%20sur%20les%20traitements%20de%20donn%C3%A9es%20personnelles_2324_etudiants_V2-0.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service de la scolarité — official student registry contact in institutional privacy PDF"
+    },
+    {
+      "schoolSlug": "insa-rennes",
+      "role": "graduate_admissions",
+      "email": "masters-suivi-dossier@insa-rennes.fr",
+      "sourceUrl": "https://www.insa-rennes.fr/master-recherche.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Master research dossier follow-up; international incoming mobility uses incoming@insa-rennes.fr"
+    },
+    {
+      "schoolSlug": "utc",
+      "role": "graduate_admissions",
+      "email": "master@utc.fr",
+      "sourceUrl": "https://www.utc.fr/formations/candidater-a-lutc/candidater-au-diplome-de-master/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ensae",
+      "role": "graduate_admissions",
+      "email": "master@ensae.fr",
+      "sourceUrl": "https://www.ensae.fr/en/school/presentation-ensae-paris/schools-team",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General admissions desk: admission@ensae.fr"
+    },
+    {
+      "schoolSlug": "ensai",
+      "role": "graduate_admissions",
+      "email": "admission@ensai.fr",
+      "sourceUrl": "https://ensai.fr/admissions-sur-titre-internationales/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International relations: international@ensai.fr"
+    },
+    {
+      "schoolSlug": "insp",
+      "role": "graduate_admissions",
+      "email": "cyclesinternationaux2026@insp.gouv.fr",
+      "sourceUrl": "https://www.insp.gouv.fr/en/formation-initiale/eleves-internationaux/long-international-training-course-cil",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Public administration international cycles (not engineering MSc); year-specific mailbox; short programmes: inscription.pic@insp.gouv.fr"
+    },
+    {
+      "schoolSlug": "ponts-paristech",
+      "role": "graduate_admissions",
+      "email": "missionscolarite@enpc.fr",
+      "sourceUrl": "https://ecoledesponts.fr/sites/default/files/pages/International/Ecole%20nationale%20des%20ponts%20et%20chauss%C3%A9es_Fact%20sheet%202026-2027_Spring%202026.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Mission scolarité / registration office; M1/M2 applications via Institut Polytechnique de Paris or Mon Master platforms"
+    },
+    {
+      "schoolSlug": "centrale-lyon",
+      "role": "graduate_admissions",
+      "email": "scolarite.registration@listes.ec-lyon.fr",
+      "sourceUrl": "https://master-acoustics.ec-lyon.fr/contact/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "French-speaking masters: scolarite.master@listes.ec-lyon.fr; Saint-Étienne campus: scolarite.master-enise@listes.ec-lyon.fr"
+    },
+    {
+      "schoolSlug": "centrale-nantes",
+      "role": "graduate_admissions",
+      "email": "admission@ec-nantes.fr",
+      "sourceUrl": "https://ressources.campusfrance.org/pratique/accueil/en/ing_central_nantes_ac_en.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Centrale Nantes Admissions Team; applications via eCandidat"
+    },
+    {
+      "schoolSlug": "inp-toulouse",
+      "role": "graduate_admissions",
+      "email": "international@toulouse-inp.fr",
+      "sourceUrl": "https://www.inp-toulouse.fr/en/international.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Federation international desk; MSc programmes often use programme-specific addresses (e.g. master_eseca@univ-toulouse.fr, master_ise@univ-toulouse.fr); ENSEEIHT: international.n7@toulouse-inp.fr"
+    },
+    {
+      "schoolSlug": "ensam",
+      "role": "graduate_admissions",
+      "email": "admissions@ensam.eu",
+      "sourceUrl": "https://artsetmetiers.fr/en/formation/faq-international",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Mastère Spécialisé: ContactAMTALENTS@ensam.eu"
+    },
+    {
+      "schoolSlug": "utbm",
+      "role": "graduate_admissions",
+      "email": "inscriptions.master@utbm.fr",
+      "sourceUrl": "https://bienvenue.utbm.fr/inscription/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General admissions: service.admissions@utbm.fr; international study: studying@utbm.fr"
+    },
+    {
+      "schoolSlug": "utt",
+      "role": "graduate_admissions",
+      "email": "master@utt.fr",
+      "sourceUrl": "https://www.utt.fr/medias/fichier/master-nanophot-2026_1769613619735-pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Also tickets-scol.utt.fr for admissions-scolarité support; fee waiver requests: ales@utt.fr"
+    },
+    {
+      "schoolSlug": "insa-strasbourg",
+      "role": "graduate_admissions",
+      "email": "scolarite@insa-strasbourg.fr",
+      "sourceUrl": "https://www.insa-strasbourg.fr/wp-content/uploads/GroupeINSA_2024_Architecture_Ingenieur.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Groupe INSA engineering admissions also via admiss@groupe-insa.fr"
+    },
+    {
+      "schoolSlug": "insa-rouen",
+      "role": "graduate_admissions",
+      "email": "scolarite@insa-rouen.fr",
+      "sourceUrl": "https://insa-rouen.fr/sites/default/files/2025-06/di523_2025guideetudiants_internationaux_env3.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Enrollment office; international relations: international@insa-rouen.fr; Groupe INSA lists admission@insa-rouen.fr for engineering intake"
+    },
+    {
+      "schoolSlug": "telecom-sudparis",
+      "role": "graduate_admissions",
+      "email": "admissions@telecom-sudparis.eu",
+      "sourceUrl": "https://ressources.campusfrance.org/pratique/accueil/en/ing_telecom_sud-paris_ac_en.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General engineering AST admissions: admissions-ast@telecom-sudparis.eu"
+    },
+    {
+      "schoolSlug": "imt-bs",
+      "role": "graduate_admissions",
+      "email": "international-promotion@imt-bs.eu",
+      "sourceUrl": "https://www.imt-bs.eu/en/international/study-at-institut-mines-telecom-business-school/degree-program/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Masters of Science international intake; Advanced Masters: admissionsMS@telecom-em.eu"
+    },
+    {
+      "schoolSlug": "imt-lille-douai",
+      "role": "graduate_admissions",
+      "email": "master-of-science@imt-nord-europe.fr",
+      "sourceUrl": "https://imt-nord-europe.fr/wp-content/uploads/2024/01/Notice_intake_2026_VF-1.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "polytech-nantes",
+      "role": "graduate_admissions",
+      "email": "scolarite.recrutement@polytech.univ-nantes.fr",
+      "sourceUrl": "https://polytech.univ-nantes.fr/fr/les-formations/cycle-ingenieur/ingenieur-genie-civil",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Recruitment and scolarité service; M1 via Mon Master, M2 via Nantes Université SURF"
+    },
+    {
+      "schoolSlug": "polytech-lyon",
+      "role": "graduate_admissions",
+      "email": "epul.admission@univ-lyon1.fr",
+      "sourceUrl": "https://polytech.univ-lyon1.fr/ecole/contacts/polytech-lyon-1",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité: scolarite.polytech@univ-lyon1.fr; international: international.polytech@univ-lyon1.fr"
+    },
+    {
+      "schoolSlug": "polytech-paris-saclay",
+      "role": "graduate_admissions",
+      "email": "recrut-etd.polytech@universite-paris-saclay.fr",
+      "sourceUrl": "http://www.polytech.universite-paris-saclay.fr/admission/candidatures/candidater-avec-un-bac2-bac3",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Student recruitment; registration: inscriptions.polytech@universite-paris-saclay.fr; university M1 portal support: support.candidatures@universite-paris-saclay.fr"
+    },
+    {
+      "schoolSlug": "polytech-montpellier",
+      "role": "graduate_admissions",
+      "email": "admission@polytech-montpellier.fr",
+      "sourceUrl": "https://www.polytech-reseau.org/polytech-montpellier/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité: polytech-responsable-scolarite@umontpellier.fr"
+    },
+    {
+      "schoolSlug": "polytech-grenoble",
+      "role": "graduate_admissions",
+      "email": "polytech-admissions@univ-grenoble-alpes.fr",
+      "sourceUrl": "https://polytech.grenoble-inp.fr/fr/contacts",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité: polytech-scolarite@univ-grenoble-alpes.fr; international: polytech.relint@univ-grenoble-alpes.fr"
+    },
+    {
+      "schoolSlug": "polytech-lille",
+      "role": "graduate_admissions",
+      "email": "admission@polytech-lille.fr",
+      "sourceUrl": "https://www.polytech-reseau.org/polytech-lille/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Apprenticeship admissions: admission.apprentissage@polytech-lille.fr"
+    },
+    {
+      "schoolSlug": "esiee-paris",
+      "role": "graduate_admissions",
+      "email": "admissions@esiee.fr",
+      "sourceUrl": "https://www.esiee.fr/fileadmin/user_upload/Fichiers/brochures/brochure-admissions-esiee-paris-2026.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Premier cycle brochure contact; international MSc apply via Webaurion / Études en France"
+    },
+    {
+      "schoolSlug": "epita",
+      "role": "graduate_admissions",
+      "email": "international.admissions@epita.fr",
+      "sourceUrl": "https://www.epita.fr/wp-content/uploads/EPITA-School-Brochure-EN-2324.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "epitech",
+      "role": "graduate_admissions",
+      "email": "international-admissions@epitech.eu",
+      "sourceUrl": "https://international.epitech.eu/contact-us/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General international admissions page also references admissions@epitech.eu; MSc IT uses international-admissions@epitech.eu"
+    },
+    {
+      "schoolSlug": "georgia-tech-lorraine",
+      "role": "graduate_admissions",
+      "email": "info@europe.gatech.edu",
+      "sourceUrl": "https://europe.gatech.edu/en/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Georgia Tech-Europe (Metz campus); visa questions: visa@europe.gatech.edu"
+    },
+    {
+      "schoolSlug": "enseeiht",
+      "role": "graduate_admissions",
+      "email": "n7@enseeiht.fr",
+      "sourceUrl": "https://www.enseeiht.fr/en/contacts.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité desk; MSc programmes use programme-specific emails (e.g. master_eseca@univ-toulouse.fr); international office: ri@enseeiht.fr"
+    },
+    {
+      "schoolSlug": "enseirb",
+      "role": "graduate_admissions",
+      "email": "scol_info@enseirb-matmeca.fr",
+      "sourceUrl": "https://hpc-portal.eu/node/1028",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "School scolarité information desk; incoming international: iro@enseirb-matmeca.fr; continuing education admissions: fc@enseirb-matmeca.fr"
+    },
+    {
+      "schoolSlug": "enssat",
+      "role": "graduate_admissions",
+      "email": "contact@enssat.fr",
+      "sourceUrl": "https://www.enssat.fr/en_US/l-ecole/contacts",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "General school contact; admissions primarily via concours.enssat.fr portal; international: international.office@enssat.fr"
+    },
+    {
+      "schoolSlug": "imt-atlantique",
+      "role": "graduate_admissions",
+      "email": "contact@imt-atlantique.fr",
+      "sourceUrl": "https://www.imt-atlantique.fr/en/news/faq-prospective-international-students-imt-atlantique-responses-covid-19-crisis",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General international admission contact; MSc programmes use programme-specific inboxes (it-apply@, mplp-apply@, ne-apply@, pbpe-apply@imt-atlantique.fr)"
+    },
+    {
+      "schoolSlug": "telecom-lille",
+      "role": "graduate_admissions",
+      "email": "master-of-science@imt-nord-europe.fr",
+      "sourceUrl": "https://imt-nord-europe.fr/annuaire-formations/msc-in-design-and-management-of-the-industry-4-0/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "IMT Nord Europe (formerly Télécom Lille / IMT Lille Douai)"
+    },
+    {
+      "schoolSlug": "telecom-sudparis-2",
+      "role": "graduate_admissions",
+      "email": "admissions@telecom-sudparis.eu",
+      "sourceUrl": "https://ressources.campusfrance.org/pratique/accueil/en/ing_telecom_sud-paris_ac_en.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Same institution as telecom-sudparis; Master Réseaux & Sécurité programme"
+    }
+  ],
+  "skippedFormOnly": [],
+  "unresolved": [],
+  "verificationDate": "2026-07-12",
+  "lastRun": "2026-07-12T02:30:00.000Z",
+  "stats": {
+    "found": 35,
+    "skipped": 0,
+    "unresolved": 0,
+    "highConfidence": 31,
+    "mediumConfidence": 4
+  }
+}

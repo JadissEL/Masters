@@ -1,0 +1,233 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "university-of-iceland",
+      "role": "graduate_admissions",
+      "email": "admission@hi.is",
+      "sourceUrl": "https://english.hi.is/application-graduate-programme",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "hi",
+      "role": "graduate_admissions",
+      "email": "admission@hi.is",
+      "sourceUrl": "https://english.hi.is/study/apply/supporting-documents",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Duplicate slug for University of Iceland (Háskóli Íslands)"
+    },
+    {
+      "schoolSlug": "reykjavik-university",
+      "role": "graduate_admissions",
+      "email": "admissions@ru.is",
+      "sourceUrl": "https://en.ru.is/st/de/graduate-study/msc-mechanical-engineering",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International Admissions Officer; applications via umsoknir.ru.is"
+    },
+    {
+      "schoolSlug": "nord-university",
+      "role": "graduate_admissions",
+      "email": "admission@nord.no",
+      "sourceUrl": "https://www.nord.no/en/student/start-of-studies",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "English admissions desk; Norwegian inquiries also accepted at opptak@nord.no"
+    },
+    {
+      "schoolSlug": "univ-stavanger",
+      "role": "graduate_admissions",
+      "email": "masteropptak@uis.no",
+      "sourceUrl": "https://www.uis.no/en/faq-local-admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Master programmes and further studies; undergraduate/NORINT uses opptak@uis.no"
+    },
+    {
+      "schoolSlug": "nmbu",
+      "role": "graduate_admissions",
+      "email": "admission@nmbu.no",
+      "sourceUrl": "https://www.nmbu.no/en/studies/admission-masters-programmes-taught-english",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "aalborg",
+      "role": "graduate_admissions",
+      "email": "masteradmission@aau.dk",
+      "sourceUrl": "https://www.en.aau.dk/education/apply/master/frequently-asked-questions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "roskilde",
+      "role": "graduate_admissions",
+      "email": "fulldegree@ruc.dk",
+      "sourceUrl": "https://ruc.dk/en/contact-study-guidance-master-programmes",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Programme guidance: guidance@ruc.dk"
+    },
+    {
+      "schoolSlug": "univ-akureyri",
+      "role": "graduate_admissions",
+      "email": "nemskra@unak.is",
+      "sourceUrl": "https://www.unak.is/english/study/application/information-regarding-applications",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Westfjords programmes: applications@uw.is"
+    },
+    {
+      "schoolSlug": "bifrost",
+      "role": "graduate_admissions",
+      "email": "meistaranam@bifrost.is",
+      "sourceUrl": "https://www.bifrost.is/thjonusta/nemendaskra",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Master's studies project manager (meistaranám); reception: embla@bifrost.is"
+    },
+    {
+      "schoolSlug": "lincoln",
+      "role": "graduate_admissions",
+      "email": "mylinc@lincoln.ac.nz",
+      "sourceUrl": "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Postgraduate applications via MyLinc portal; international office: international@lincoln.ac.nz"
+    },
+    {
+      "schoolSlug": "wageningen",
+      "role": "graduate_admissions",
+      "email": "ssc@wur.nl",
+      "sourceUrl": "https://www.wur.nl/en/education/master/application-admission-masters/after-your-application-masters",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Student Service Centre Admissions Office; general programme info: study@wur.nl"
+    },
+    {
+      "schoolSlug": "thuas",
+      "role": "graduate_admissions",
+      "email": "masters-admission@hhs.nl",
+      "sourceUrl": "https://www.thuas.com/media/international-brochure-2025-2026-english",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "The Hague Graduate School masters admissions; bachelor enquiries use enrolment centre channels"
+    },
+    {
+      "schoolSlug": "hanze",
+      "role": "graduate_admissions",
+      "email": "admissions@org.hanze.nl",
+      "sourceUrl": "https://www.hanze.nl/binaries/_cb_1726676117641/content/assets/hanze/en/studying/international-recruitment-2023-2024.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uclouvain",
+      "role": "graduate_admissions",
+      "email": "inscription-lln@uclouvain.be",
+      "sourceUrl": "https://www.uclouvain.be/fr/inscriptions/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service des inscriptions (Louvain-la-Neuve); other campuses use inscription-wol@, inscription-slb@, info-mons@, inscription-tournai@, inscription-sg@"
+    },
+    {
+      "schoolSlug": "ulb",
+      "role": "graduate_admissions",
+      "email": "admission@ulb.be",
+      "sourceUrl": "https://www.ulb.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "umons",
+      "role": "graduate_admissions",
+      "email": "service.admissions@umons.ac.be",
+      "sourceUrl": "https://web.umons.ac.be/app/uploads/2026/02/EN_Reglement-des-admissions-2026-2027_Version-finale_02-2026-1.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Registration/enrolment: service.inscriptions@umons.ac.be"
+    },
+    {
+      "schoolSlug": "umh",
+      "role": "graduate_admissions",
+      "email": "service.admissions@umons.ac.be",
+      "sourceUrl": "https://web.umons.ac.be/app/uploads/2026/02/EN_Reglement-des-admissions-2026-2027_Version-finale_02-2026-1.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UMH merged into UMONS; same admissions service"
+    },
+    {
+      "schoolSlug": "unamur",
+      "role": "graduate_admissions",
+      "email": "inscriptions@unamur.be",
+      "sourceUrl": "https://www.unamur.be/en/registration/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "buas",
+      "role": "graduate_admissions",
+      "email": "studentoffice@buas.nl",
+      "sourceUrl": "https://www.buas.nl/en/contact-and-locations",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "eur",
+      "role": "graduate_admissions",
+      "email": "master@essb.eur.nl",
+      "sourceUrl": "https://www.eur.nl/en/essb/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "No university-wide master admissions inbox; faculty desks include masteradmission@eshcc.eur.nl (ESHCC), master@rsm.nl (RSM), masterinstroom@law.eur.nl (Law), admissions@eshpm.eur.nl (ESHPM). ESSC uses ASK Erasmus portal for enrolment."
+    },
+    {
+      "schoolSlug": "kuleuven",
+      "role": "graduate_admissions",
+      "email": "admissions@kuleuven.be",
+      "sourceUrl": "https://www.law.kuleuven.be/education/prospective/llm/FAQ",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Central Admissions Office for non-Flemish degree holders; international office: international.office@kuleuven.be"
+    }
+  ],
+  "skippedFormOnly": [
+    "uib"
+  ],
+  "unresolved": [
+    "tue"
+  ],
+  "verificationDate": "2026-07-12",
+  "lastRun": "2026-07-12T02:30:00.000Z",
+  "stats": {
+    "batchSize": 24,
+    "uniqueInstitutions": 22,
+    "contactRecords": 22,
+    "found": 20,
+    "skipped": 1,
+    "unresolved": 1
+  }
+}

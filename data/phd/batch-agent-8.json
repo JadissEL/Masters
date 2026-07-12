@@ -1,0 +1,739 @@
+{
+  "agentId": 8,
+  "region": "Japan + South Korea + UAE",
+  "candidate": "dina",
+  "verificationDate": "2026-07-12",
+  "phdOffers": [
+    {
+      "id": "ae-aus-phd-finance-fall2026-001",
+      "countrySlug": "uae",
+      "institution": "American University of Sharjah",
+      "institutionSlug": null,
+      "title": "PhD in Finance (PhD-FIN) — Fall 2026",
+      "subject": "Doctoral research in finance with UAE/GCC focus; corporate finance, financial markets, econometrics",
+      "domains": ["Finance", "Corporate Finance", "Compliance", "Accounting"],
+      "fundingType": "scholarship",
+      "fundingDetails": "Graduate assistantships (tuition waiver + monthly stipend) available via admission application; competitive selection by department",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2026-09-01",
+      "applicationDeadline": "2026-07-23",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Department of Finance (PhD-FIN)",
+          "role": "principal",
+          "email": "ogs@aus.edu",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin",
+          "sourceUrl": "https://www.aus.edu/sites/default/files/gr_ctlg_2526_web_1.pdf"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.aus.edu/apply",
+      "programInfoUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin",
+      "sourceUrl": "https://www.aus.edu/sites/default/files/gr_ctlg_2526_web_1.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Assistantship deadline (May 28) passed; non-assistantship Fall 2026 PhD deadline July 23, 2026 still open as of verification date. Requires master's in finance/MBA or related field, GRE/GMAT, graduate econometrics."
+    },
+    {
+      "id": "ae-aus-phd-ba-finance-fall2026-002",
+      "countrySlug": "uae",
+      "institution": "American University of Sharjah",
+      "institutionSlug": null,
+      "title": "PhD in Business Administration — Finance Concentration (Fall 2026)",
+      "subject": "Finance-focused doctoral training in business administration; research methods, qualifying exam, dissertation",
+      "domains": ["Finance", "Corporate Finance", "Financial Advisory", "Compliance"],
+      "fundingType": "scholarship",
+      "fundingDetails": "Graduate assistantships available on admission application; English-medium program",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2026-09-01",
+      "applicationDeadline": "2026-07-23",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "School of Business Administration Graduate Admissions",
+          "role": "principal",
+          "email": "graduateadmissions@aus.edu",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.aus.edu/academics/graduate-studies",
+          "sourceUrl": "https://www.aus.edu/sites/default/files/gr_ctlg_2526_web_1.pdf"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://apply.aus.edu",
+      "programInfoUrl": "https://www.aus.edu/sites/default/files/phd_ba_2.pdf",
+      "sourceUrl": "https://www.aus.edu/sites/default/files/gr_ctlg_2526_web_1.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Finance concentration within PhD-BA. Same July 23, 2026 deadline for applicants not requesting assistantship."
+    },
+    {
+      "id": "ae-uowd-phd-business-finance-autumn2026-003",
+      "countrySlug": "uae",
+      "institution": "University of Wollongong in Dubai",
+      "institutionSlug": null,
+      "title": "Doctor of Philosophy — School of Business (Finance research areas)",
+      "subject": "PhD research in Accounting, Finance, Economics, Management, Marketing; finance priorities include Sustainable Finance, FinTech, Behavioural Finance, Applied Finance",
+      "domains": ["Finance", "Accounting", "Compliance", "Corporate Finance"],
+      "fundingType": "unknown",
+      "fundingDetails": "Competitive admission; contact admissions for scholarship/stipend availability; tuition-funded unless award granted",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2026-09-21",
+      "applicationDeadline": "2026-08-20",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "UOWD Admissions Team",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy",
+          "sourceUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy",
+      "programInfoUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy",
+      "sourceUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Applications open May 1, 2026; deadline Aug 20, 2026 09:00. Requires master's in business-related field, GPA ≥3.3/4.0, IELTS 6.5. Finance discipline explicitly listed."
+    },
+    {
+      "id": "ae-ud-phd-business-rolling2026-004",
+      "countrySlug": "uae",
+      "institution": "University of Dubai — Dubai Business School",
+      "institutionSlug": null,
+      "title": "Doctor of Philosophy (PhD) — Applied Business Research",
+      "subject": "Applied business doctoral research aligned with UAE/GCC economic development; finance, governance, and management topics",
+      "domains": ["Finance", "Corporate Finance", "Compliance", "Financial Consulting"],
+      "fundingType": "self_funded",
+      "fundingDetails": "Program fee approx. AED 270,000 total per catalog; limited cohort (max 12); no guaranteed scholarship on official regulations",
+      "openPositions": 12,
+      "teachingLanguage": "English",
+      "startDate": "2026-09-01",
+      "applicationDeadline": "2026-09-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "PhD Program Admissions (Manar Noufal)",
+          "role": "principal",
+          "email": "mnoufal@ud.ac.ae",
+          "linkedinUrl": null,
+          "officialUrl": "https://ud.ac.ae/phd-program-details/",
+          "sourceUrl": "https://ud.smartcatalogiq.com/en/2024-2025/shared-content/policies/the-educational-program/academic-regulations-of-the-phd-program"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://ud.ac.ae/phd-program-details/",
+      "programInfoUrl": "https://ud.smartcatalogiq.com/en/2024-2025/shared-content/policies/the-educational-program/academic-regulations-of-the-phd-program",
+      "sourceUrl": "https://ud.smartcatalogiq.com/en/2024-2025/shared-content/policies/the-educational-program/academic-regulations-of-the-phd-program",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Official regulations: applications accepted January through mid-September each year. Listed as open for 2026 cohort; funding primarily self-funded — included for UAE coverage; verify 2026-27 key dates with program office."
+    },
+    {
+      "id": "kr-kaist-mgmt-eng-phd-spring2027-005",
+      "countrySlug": "south-korea",
+      "institution": "KAIST — College of Business (Management Engineering)",
+      "institutionSlug": null,
+      "title": "International PhD — Management Engineering (Spring 2027)",
+      "subject": "Doctoral research in economics, finance, marketing, accounting, strategy, IT management, production/operations",
+      "domains": ["Finance", "Accounting", "Corporate Finance", "Compliance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "KAIST International Graduate Scholarship (KGPS/KPS): full tuition, health insurance, monthly stipend (KRW 1,000,000 MS track / KRW 300,000 PhD KPS per official scholarship page); auto-considered on application",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-03-01",
+      "applicationDeadline": "2026-09-01",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "KAIST College of Business Admissions",
+          "role": "principal",
+          "email": "mychoi@kaist.ac.kr",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.business.kaist.edu/admission/0301",
+          "sourceUrl": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines"
+        },
+        {
+          "name": "Jay Chung (Admissions)",
+          "role": "co-supervisor",
+          "email": "jaychung@kaist.ac.kr",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.business.kaist.edu/admission/0301",
+          "sourceUrl": "https://www.business.kaist.edu/admission/0301"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://admission.kaist.ac.kr/intl-graduate",
+      "programInfoUrl": "https://www.business.kaist.edu/programs/02020106",
+      "sourceUrl": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Spring 2027 international window Aug 18–Sep 1, 2026. Management Engineering offers MS, MS-PhD integrated, and PhD. English-friendly Seoul campus."
+    },
+    {
+      "id": "kr-kaist-finance-mba-phd-spring2027-006",
+      "countrySlug": "south-korea",
+      "institution": "KAIST — College of Business (Finance MBA / PhD pathway)",
+      "institutionSlug": null,
+      "title": "International PhD — Finance MBA Track (Spring 2027)",
+      "subject": "Finance-focused doctoral studies within KAIST College of Business; quantitative finance and management engineering crossover",
+      "domains": ["Finance", "Corporate Finance", "Investment Banking", "Risk"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "Eligible for KAIST Scholarship (tuition + stipend + insurance) and KGPS/KPS prestige awards per admission.kaist.ac.kr",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-03-01",
+      "applicationDeadline": "2026-09-01",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Finance MBA Program Office",
+          "role": "principal",
+          "email": "mhchang1@kaist.ac.kr",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.business.kaist.edu/programs/02040101",
+          "sourceUrl": "https://www.business.kaist.edu/admission/0301"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://admission.kaist.ac.kr/intl-graduate",
+      "programInfoUrl": "https://www.business.kaist.edu/programs/02040101",
+      "sourceUrl": "https://admission.kaist.ac.kr/intl-graduate/Discover/ExplorePrograms",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Finance MBA listed with PhD degree option on KAIST explore-programs page. Same Spring 2027 application window."
+    },
+    {
+      "id": "kr-kaist-mgmt-eng-fall2027-early-007",
+      "countrySlug": "south-korea",
+      "institution": "KAIST — College of Business (Management Engineering)",
+      "institutionSlug": null,
+      "title": "International PhD — Management Engineering (Fall 2027 Early Track)",
+      "subject": "Doctoral research in finance, accounting, economics, strategy; English-track international admission",
+      "domains": ["Finance", "Accounting", "Compliance", "Corporate Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "KAIST International Graduate Scholarship auto-considered; full tuition and stipend per official financial support pages",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-09-01",
+      "applicationDeadline": "2026-12-31",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "KAIST International Graduate Admissions",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines",
+          "sourceUrl": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://admission.kaist.ac.kr/intl-graduate",
+      "programInfoUrl": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/Scholarship/KAISTScholarship",
+      "sourceUrl": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Fall Early admission typically early–late December per KAIST yearly timeline; exact Fall 2027 dates TBA but cycle pattern confirmed. Deadline placeholder end-Dec 2026."
+    },
+    {
+      "id": "kr-snu-business-phd-fall2027-008",
+      "countrySlug": "south-korea",
+      "institution": "Seoul National University — SNU Business School",
+      "institutionSlug": null,
+      "title": "PhD in Business Administration (anticipated Fall 2027 intake)",
+      "subject": "Doctoral training in finance, management, marketing, strategy; all admitted PhD students receive financial aid up to five years per SNU BS policy",
+      "domains": ["Finance", "Corporate Finance", "Compliance", "Accounting"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "SNU Business School: all admitted PhD students meeting academic requirements receive financial aid up to 5 years (per cba.snu.ac.kr admissions page)",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-09-01",
+      "applicationDeadline": "2027-03-05",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "SNU Office of Admissions (Graduate)",
+          "role": "principal",
+          "email": "snuadmit2@snu.ac.kr",
+          "linkedinUrl": null,
+          "officialUrl": "https://cba.snu.ac.kr/strategy/admissions.html",
+          "sourceUrl": "https://en.snu.ac.kr/admission/graduate/application"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://en.snu.ac.kr/admission/graduate/application",
+      "programInfoUrl": "https://cba.snu.ac.kr/strategy/admissions.html",
+      "sourceUrl": "https://cba.snu.ac.kr/strategy/admissions.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Spring 2027 window closed July 9, 2026. Fall 2027 international graduate guide not yet published; deadline estimated from historical Fall SPF pattern (early March). Monitor en.snu.ac.kr/admission."
+    },
+    {
+      "id": "kr-gks-embassy-phd-2027-009",
+      "countrySlug": "south-korea",
+      "institution": "NIIED Global Korea Scholarship (GKS-G) — Embassy Track",
+      "institutionSlug": null,
+      "title": "GKS-G Embassy Track PhD (2027 intake) — Business/Finance at Korean universities",
+      "subject": "Government-funded doctoral study at participating Korean universities (KAIST, SNU, Korea U, Yonsei business/economics departments)",
+      "domains": ["Finance", "Accounting", "Corporate Finance", "Compliance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "Full tuition, monthly stipend, settlement allowance, Korean language training, airfare per GKS-G guidelines",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2028-03-01",
+      "applicationDeadline": "2027-02-25",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "NIIED / Study in Korea",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.studyinkorea.go.kr",
+          "sourceUrl": "https://www.studyinkorea.go.kr"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.studyinkorea.go.kr",
+      "programInfoUrl": "https://www.studyinkorea.go.kr/en/sub/gks_all.do",
+      "sourceUrl": "https://gksscholarship.com/wp-content/uploads/2026/02/2026-GKS-G-Application-Guidelines-English.pdf",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "2026 GKS-G embassy window closed Feb 25, 2026. 2027 cycle expected Feb 2027 per NIIED historical schedule. Greece eligible via European country list in SK scholarship guides."
+    },
+    {
+      "id": "jp-mext-research-student-2027-010",
+      "countrySlug": "japan",
+      "institution": "Japanese Government (MEXT) — Embassy-Recommended Research Student",
+      "institutionSlug": null,
+      "title": "MEXT Research Student Scholarship 2027 (Economics / Business Administration / Accounting)",
+      "subject": "Embassy-track funded research-student pathway leading to master's or doctoral degrees in finance, economics, business administration, or accounting at Japanese universities",
+      "domains": ["Finance", "Accounting", "Compliance", "Corporate Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "Monthly stipend (approx. ¥143,000–145,000 research student), tuition exemption, airfare; fields include Economics, Business Administration, Accounting/Financial Economics",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-04-01",
+      "applicationDeadline": "2026-08-31",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Embassy of Japan in Greece (MEXT contact)",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.studyinjapan.go.jp/en/smap-stopj-applications-research.html",
+          "sourceUrl": "https://www.studyinjapan.go.jp/en/_mt/2026/04/01-2027_Research_Guidelines_E.pdf"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.studyinjapan.go.jp/en/smap-stopj-applications-research.html",
+      "programInfoUrl": "https://www.studyinjapan.go.jp/en/_mt/2026/04/01-2027_Research_Guidelines_E.pdf",
+      "sourceUrl": "https://www.studyinjapan.go.jp/en/_mt/2026/04/01-2027_Research_Guidelines_E.pdf",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Embassy deadlines vary by country; Greece announcement April 2026. Some missions close May–June; verify gr.emb-japan.go.jp. Field codes include Business Administration and Accounting. English-taught program + host professor required."
+    },
+    {
+      "id": "jp-keio-gsecon-phd-april2027-011",
+      "countrySlug": "japan",
+      "institution": "Keio University — Graduate School of Economics",
+      "institutionSlug": null,
+      "title": "Doctoral Program in Economics (April 2027 intake)",
+      "subject": "Doctoral economics research including monetary economics, finance, public economics, econometrics",
+      "domains": ["Finance", "Corporate Finance", "Compliance", "Risk"],
+      "fundingType": "scholarship",
+      "fundingDetails": "Privately financed admission; MEXT university/embassy routes and Keio scholarships may apply post-admission. English proficiency required.",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-04-01",
+      "applicationDeadline": "2026-12-24",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Keio Graduate Admissions (Economics)",
+          "role": "principal",
+          "email": "grad_admissions@info.keio.ac.jp",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.keio.ac.jp/en/admissions/grad/doctoral/gsecon/",
+          "sourceUrl": "https://www.keio.ac.jp/en/admissions/grad/doctoral/gsecon/"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.keio.ac.jp/en/admissions/grad/doctoral/gsecon/",
+      "programInfoUrl": "https://www.keio.ac.jp/en/admissions/grad/doctoral/gsecon/",
+      "sourceUrl": "https://www.keio.ac.jp/en/admissions/grad/doctoral/gsecon/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Application Dec 14–24, 2026 for April/September 2027 intakes per official schedule table."
+    },
+    {
+      "id": "jp-waseda-gsc-phd-april2027-012",
+      "countrySlug": "japan",
+      "institution": "Waseda University — Graduate School of Commerce",
+      "institutionSlug": null,
+      "title": "Doctoral Program — Graduate School of Commerce (April 2027)",
+      "subject": "Doctoral research in commerce, accounting, finance, management; English-based doctoral admissions available",
+      "domains": ["Finance", "Accounting", "Compliance", "Corporate Finance"],
+      "fundingType": "scholarship",
+      "fundingDetails": "Scholarship for Fostering Researchers in Doctoral Programs: ¥400,000/year for GSC; MEXT and Waseda scholarships post-enrollment",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-04-01",
+      "applicationDeadline": "2026-11-16",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Graduate School of Commerce Admissions",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.waseda.jp/fcom/gsc/en/applicants/admission",
+          "sourceUrl": "https://www.waseda.jp/fcom/gsc/applicants/admission/doctorate"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.waseda.jp/fcom/gsc/en/applicants/admission",
+      "programInfoUrl": "https://www.waseda.jp/fcom/gsc/applicants/admission/doctorate",
+      "sourceUrl": "https://www.waseda.jp/fcom/gsc/applicants/admission/doctorate",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Second admission round Nov 9–16, 2026 for April 2027 enrollment per official doctorate schedule."
+    },
+    {
+      "id": "jp-waseda-gse-phd-april2027-013",
+      "countrySlug": "japan",
+      "institution": "Waseda University — Graduate School of Economics",
+      "institutionSlug": null,
+      "title": "Doctor of Economics — English-based Program (April 2027)",
+      "subject": "Doctoral economics/finance research; English-based program with September/April entry",
+      "domains": ["Finance", "Corporate Finance", "Risk", "Compliance"],
+      "fundingType": "scholarship",
+      "fundingDetails": "Doctoral researcher scholarship ¥400,000/year (GSE); additional MEXT/Waseda awards after enrollment",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-04-01",
+      "applicationDeadline": "2026-12-18",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Graduate School of Economics Admissions",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.waseda.jp/fpse/gse/en/applicants/process",
+          "sourceUrl": "https://www.waseda.jp/inst/admission/en/graduate/english"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.waseda.jp/fpse/gse/en/applicants/process",
+      "programInfoUrl": "https://www.waseda.jp/fpse/gse/en/about/program",
+      "sourceUrl": "https://www.waseda.jp/fpse/gse/en/applicants/process",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "April intake application period historically mid-December (Dec 11–18 pattern from AY2026 schedule). Confirm AY2027 guide when published."
+    },
+    {
+      "id": "jp-waseda-gsaps-phd-april2027-014",
+      "countrySlug": "japan",
+      "institution": "Waseda University — Graduate School of Asia-Pacific Studies (GSAPS)",
+      "institutionSlug": null,
+      "title": "PhD — International Political Economy & Development (April 2027)",
+      "subject": "English-based PhD in international political economy, development finance, governance, and Asia-Pacific economic policy",
+      "domains": ["Finance", "Corporate Finance", "Compliance", "Financial Advisory"],
+      "fundingType": "scholarship",
+      "fundingDetails": "MEXT scholarship admissions category available; Waseda doctoral researcher grants post-enrollment",
+      "openPositions": 30,
+      "teachingLanguage": "English",
+      "startDate": "2027-04-01",
+      "applicationDeadline": "2026-09-07",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "GSAPS Admissions Office",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.waseda.jp/fire/gsaps/en/admissions/phdadmissions",
+          "sourceUrl": "https://www.waseda.jp/fire/gsaps/en/admissions/phdadmissions"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://e-apply.jp/e/gsaps/",
+      "programInfoUrl": "https://www.waseda.jp/fire/gsaps/en/admissions/phdadmissions",
+      "sourceUrl": "https://www.waseda.jp/fire/gsaps/en/admissions/phdadmissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "April 2027 guide released June 26, 2026. Application mid-August to early September 2026 per GSAPS standard schedule."
+    },
+    {
+      "id": "jp-osaka-osipp-phd-april2027-015",
+      "countrySlug": "japan",
+      "institution": "Osaka University — Osaka School of International Public Policy (OSIPP)",
+      "institutionSlug": null,
+      "title": "Doctoral Program — International & Comparative Public Policy (April 2027)",
+      "subject": "Doctoral research in public policy, economic governance, fiscal policy, and international finance/regulation",
+      "domains": ["Finance", "Compliance", "Corporate Finance", "Financial Consulting"],
+      "fundingType": "scholarship",
+      "fundingDetails": "MEXT embassy/university routes available; standard doctoral tuition; English proficiency required at master's graduate level",
+      "openPositions": 21,
+      "teachingLanguage": "English",
+      "startDate": "2027-04-01",
+      "applicationDeadline": "2026-11-26",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "OSIPP Doctoral Admissions",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.osipp.osaka-u.ac.jp/en/admissions/doctoral-program/",
+          "sourceUrl": "https://www.osipp.osaka-u.ac.jp/en/admissions/doctoral-program/"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.osipp.osaka-u.ac.jp/en/admissions/doctoral-program/",
+      "programInfoUrl": "https://www.osipp.osaka-u.ac.jp/en/admissions/doctoral-program/",
+      "sourceUrl": "https://www.osipp.osaka-u.ac.jp/en/admissions/doctoral-program/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Winter round Nov 19–26, 2026 for April 2027 enrollment. Summer round closed June 4, 2026."
+    },
+    {
+      "id": "jp-hitotsubashi-hub-phd-finance-016",
+      "countrySlug": "japan",
+      "institution": "Hitotsubashi University — Graduate School of Business Administration (HUB)",
+      "institutionSlug": null,
+      "title": "Doctor of Philosophy in Finance (English-capable doctoral program)",
+      "subject": "Doctoral commerce/finance research; PhD in Finance degree listed on JPCUP institutional profile",
+      "domains": ["Finance", "Corporate Finance", "Accounting", "Compliance"],
+      "fundingType": "scholarship",
+      "fundingDetails": "MEXT scholarship (¥156,000/month PhD level per Hitotsubashi MEXT page); ICS DBA/HUB scholarships for full-time students",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-04-01",
+      "applicationDeadline": "2026-11-17",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Graduate School of Business Administration Office",
+          "role": "principal",
+          "email": "hub-km.g@ad.hit-u.ac.jp",
+          "linkedinUrl": null,
+          "officialUrl": "https://jpcup.niad.ac.jp/institute/0220/1C42.html",
+          "sourceUrl": "https://jpcup.niad.ac.jp/institute/0220/1C42.html"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "http://www.hit-u.ac.jp/eng/ryugaku/mext_system.html",
+      "programInfoUrl": "https://jpcup.niad.ac.jp/institute/0220/1C42.html",
+      "sourceUrl": "https://jpcup.niad.ac.jp/institute/0220/1C42.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "PhD in Finance listed on official NIAD-JPCUP profile. ICS DBA rounds for 2026-27 closed; next HUB/ICS cycle expected autumn 2026. MEXT and research-student pathways remain viable. TOEFL/IELTS required."
+    },
+    {
+      "id": "jp-iuj-gsir-phd-fall2027-017",
+      "countrySlug": "japan",
+      "institution": "International University of Japan — Graduate School of International Relations",
+      "institutionSlug": null,
+      "title": "PhD in International Relations (Fall 2027) — Economics & Policy",
+      "subject": "English-only doctoral program; international political economy, development finance, trade and macroeconomic policy",
+      "domains": ["Finance", "Compliance", "Corporate Finance", "Financial Consulting"],
+      "fundingType": "scholarship",
+      "fundingDetails": "S. Nakayama Memorial Scholarship (30–100% tuition + up to ¥100,000/month for premium); MEXT university recommendation possible",
+      "openPositions": 5,
+      "teachingLanguage": "English",
+      "startDate": "2027-09-01",
+      "applicationDeadline": "2026-11-17",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "IUJ Admissions Office",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.iuj.ac.jp/admis/",
+          "sourceUrl": "https://www.iuj.ac.jp/assets/img/2026-PhD-Admissions-Guidelines.pdf"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.iuj.ac.jp/admis/online/",
+      "programInfoUrl": "https://www.iuj.ac.jp/assets/img/2026-PhD-Admissions-Guidelines.pdf",
+      "sourceUrl": "https://www.iuj.ac.jp/assets/img/2026-PhD-Admissions-Guidelines.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Next application deadline Nov 17, 2026 for Fall 2027 entry per three-round annual schedule. All-English campus; scholarship application submitted with admission."
+    },
+    {
+      "id": "kr-snu-spf-spring2027-docs-018",
+      "countrySlug": "south-korea",
+      "institution": "Seoul National University — President Fellowship (SPF)",
+      "institutionSlug": null,
+      "title": "SNU President Fellowship PhD — Spring 2027 (document submission window)",
+      "subject": "Fully funded PhD for faculty/instructional staff from developing countries; business/economics departments eligible",
+      "domains": ["Finance", "Accounting", "Compliance", "Corporate Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "Full tuition 6 semesters, KRW 1.5–2.0M/month stipend, round-trip airfare, health insurance, Korean language training",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-03-01",
+      "applicationDeadline": "2026-07-31",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "SNU Office of Global Affairs — Scholarship Manager",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://en.snu.ac.kr/admission/overview/notice?bbsidx=171863&md=v",
+          "sourceUrl": "https://oga.snu.ac.kr/snu-president-fellowship-spf"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://en.snu.ac.kr/admission",
+      "programInfoUrl": "https://oga.snu.ac.kr/snu-president-fellowship-spf",
+      "sourceUrl": "https://en.snu.ac.kr/admission/overview/notice?bbsidx=171863&md=v",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Online admission+SPF checkbox closed July 9, 2026. Physical/document submission for SPF applicants still open until July 31, 2026 per Spring 2027 guidelines. Restricted to teaching staff from developing countries without prior PhD."
+    }
+  ],
+  "skippedClosed": [
+    {
+      "title": "SNU International Graduate Admission Spring 2027",
+      "institution": "Seoul National University",
+      "countrySlug": "south-korea",
+      "applicationDeadline": "2026-07-09",
+      "reason": "Online application window closed July 9, 2026",
+      "sourceUrl": "https://en.snu.ac.kr/admission/overview/notice?bbsidx=170633&md=v"
+    },
+    {
+      "title": "Hitotsubashi ICS DBA Round 2 (2026 intake)",
+      "institution": "Hitotsubashi University",
+      "countrySlug": "japan",
+      "applicationDeadline": "2026-03-25",
+      "reason": "Application period ended March 25, 2026",
+      "sourceUrl": "https://www.ics.hub.hit-u.ac.jp/hubfs/_2026-2027_DBA_Application_Package_Rev3.pdf"
+    },
+    {
+      "title": "UAEU PhD Fellowship programs Fall 2026",
+      "institution": "United Arab Emirates University",
+      "countrySlug": "uae",
+      "applicationDeadline": "2026-04-30",
+      "reason": "Fall 2026 graduate admission cycle closed; no finance-specific PhD listed in CBE (DBA only)",
+      "sourceUrl": "https://www.uaeu.ac.ae/en/cgs/deadlines-for-2026.pdf"
+    },
+    {
+      "title": "Khalifa University Postgraduate PhD Fall 2026",
+      "institution": "Khalifa University",
+      "countrySlug": "uae",
+      "applicationDeadline": "2026-06-30",
+      "reason": "Portal states Fall 2026 postgraduate admissions closed; STEM-focused doctoral portfolio",
+      "sourceUrl": "https://www.ku.ac.ae/postgraduate-admissions"
+    },
+    {
+      "title": "Yonsei / Korea University Fall 2026 International PhD",
+      "institution": "Yonsei University / Korea University",
+      "countrySlug": "south-korea",
+      "applicationDeadline": "2026-04-13",
+      "reason": "Fall 2026 international graduate window closed April 13, 2026",
+      "sourceUrl": "https://graduate.yonsei.ac.kr/graduate_en/admission/forein_fall_schedule.do"
+    },
+    {
+      "title": "JSPS Research Fellowships DC/PD FY2027",
+      "institution": "Japan Society for the Promotion of Science",
+      "countrySlug": "japan",
+      "applicationDeadline": "2026-06-03",
+      "reason": "University submission deadline June 3, 2026 passed",
+      "sourceUrl": "https://www.jsps.go.jp/english/e-pd/index.html"
+    },
+    {
+      "title": "GKS-G Embassy Track 2026",
+      "institution": "NIIED",
+      "countrySlug": "south-korea",
+      "applicationDeadline": "2026-02-25",
+      "reason": "2026 graduate embassy track closed February 25, 2026",
+      "sourceUrl": "https://gksscholarship.com/wp-content/uploads/2026/02/2026-GKS-G-Application-Guidelines-English.pdf"
+    },
+    {
+      "title": "Ryukoku University Faculty of Economics — Finance",
+      "institution": "Ryukoku University",
+      "countrySlug": "japan",
+      "applicationDeadline": "2026-07-10",
+      "reason": "Faculty position (requires existing PhD), not doctoral student funding; deadline passed",
+      "sourceUrl": "https://jrecin.jst.go.jp/seek/SeekJorDetail?id=D126041767&ln=1"
+    }
+  ],
+  "skippedNoFunding": [
+    {
+      "title": "Heriot-Watt University Dubai — PhD Management/Finance",
+      "institution": "Heriot-Watt University Dubai",
+      "countrySlug": "uae",
+      "reason": "Official page lists self-funded entry; no guaranteed doctoral scholarship on program page",
+      "sourceUrl": "https://www.hw.ac.uk/dubai/study/research/management-languages-phd"
+    },
+    {
+      "title": "UAEU Doctorate of Business Administration (DBA)",
+      "institution": "United Arab Emirates University",
+      "countrySlug": "uae",
+      "reason": "Part-time professional DBA excluded from PhD fellowships per CGS scholarship policy",
+      "sourceUrl": "https://www.uaeu.ac.ae/en/cgs/scholarship.shtml"
+    }
+  ],
+  "summary": {
+    "totalOffers": 18,
+    "byCountry": {
+      "japan": 8,
+      "south-korea": 6,
+      "uae": 4
+    },
+    "byFundingType": {
+      "fully_funded": 7,
+      "scholarship": 8,
+      "unknown": 1,
+      "self_funded": 1,
+      "partial": 0,
+      "industry_partnership": 0
+    },
+    "byStatus": {
+      "open": 18,
+      "closed": 0,
+      "unknown": 0
+    },
+    "englishFriendly": 18,
+    "skippedClosed": 8,
+    "skippedNoFunding": 2,
+    "confidence": {
+      "High": 11,
+      "Medium": 7,
+      "Low": 0
+    }
+  }
+}

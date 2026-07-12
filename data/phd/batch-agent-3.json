@@ -1,0 +1,518 @@
+{
+  "agentId": 3,
+  "region": "Belgium + Luxembourg + Netherlands",
+  "candidate": "dina",
+  "verificationDate": "2026-07-12",
+  "sourcesSearched": [
+    "https://euraxess.ec.europa.eu/jobs/search",
+    "https://www.academictransfer.com",
+    "https://www.uni.lu/en/jobs/doctoral-researcher-positions-in-finance/",
+    "https://www.fwo.be/en/support-programmes/phd-fellowships/",
+    "https://www.frs-fnrs.be/en/fundings/"
+  ],
+  "discoveryNotes": "Benelux finance/accounting/compliance PhD cycle for Sept 2026 intake largely closed by 2026-07-12. Verified 9 open funded offers below (target 20+ not met). 18 additional domain-relevant listings found but deadline passed — recorded in skippedClosed. Belgium has zero open finance/accounting PhD vacancies on official portals as of this date. FWO/FNRS are fellowship programmes — not institution-specific vacancies.",
+  "phdOffers": [
+    {
+      "id": "nl-um-sustainable-investment-finance-001",
+      "countrySlug": "netherlands",
+      "institution": "Maastricht University — School of Business and Economics",
+      "institutionSlug": null,
+      "title": "PhD Candidate: Sustainable, Long-term Investment Decisions",
+      "subject": "Empirical and theoretical research on sustainable finance, portfolio construction, and long-term value integration in investment decisions.",
+      "domains": ["Finance", "Corporate Finance", "Compliance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "18-month contract + 2.5-year extension; gross €3,059–€3,881/month (CAO-NU PhD scale); 8% holiday + 8.3% year-end bonus; ABP pension.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-09-01",
+      "applicationDeadline": "2026-07-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Prof. Dr. Rachel Pownall",
+          "role": "principal",
+          "email": "life-sbe@maastrichtuniversity.nl",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.maastrichtuniversity.nl/research/department-finance",
+          "sourceUrl": "https://www.academictransfer.com/en/jobs/360822/phd-candidate-sustainable-long-term-investment-decisions/"
+        },
+        {
+          "name": "Dr. Christian Wiehenkamp",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.maastrichtuniversity.nl/research/department-finance",
+          "sourceUrl": "https://www.academictransfer.com/en/jobs/360822/phd-candidate-sustainable-long-term-investment-decisions/"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.academictransfer.com/en/jobs/360822/phd-candidate-sustainable-long-term-investment-decisions/",
+      "programInfoUrl": "https://www.maastrichtuniversity.nl/research/department-finance",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/360822/phd-candidate-sustainable-long-term-investment-decisions/",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Industry internship at Effctl Capital GmbH (Munich). ~20% teaching."
+    },
+    {
+      "id": "nl-eur-erim-hta-health-finance-002",
+      "countrySlug": "netherlands",
+      "institution": "Erasmus University Rotterdam — Rotterdam School of Management (ERIM)",
+      "institutionSlug": null,
+      "title": "Fully funded PhD — Health Technology Assessment in Innovative Neurosurgical Care",
+      "subject": "Health economics / HTA research on innovative neurosurgical care within ERIM LIS programme.",
+      "domains": ["Finance", "Healthcare Finance", "Compliance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "Up to 4-year salaried promovendus contract (CAO-NU); ERIM Support Programme for conferences and research costs.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-09-01",
+      "applicationDeadline": "2026-08-16",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "ERIM Doctoral Office",
+          "role": "principal",
+          "email": "phdadmissions@erim.eur.nl",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.erim.eur.nl/doctoral-programme/phd-in-management/",
+          "sourceUrl": "https://www.academictransfer.com/en/jobs/362418/fully-funded-phd-position-in-health-technology-assessment-hta-in-innovative-neurosurgical-care-at-rotterdam-school-of-management-erasmus-university-rsm-four-year-fully-funded-projects-with-possible-extension-and-state-of-the-art-facilities/"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.academictransfer.com/en/jobs/362418/fully-funded-phd-position-in-health-technology-assessment-hta-in-innovative-neurosurgical-care-at-rotterdam-school-of-management-erasmus-university-rsm-four-year-fully-funded-projects-with-possible-extension-and-state-of-the-art-facilities/",
+      "programInfoUrl": "https://www.erim.eur.nl/doctoral-programme/phd-in-management/",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/362418/fully-funded-phd-position-in-health-technology-assessment-hta-in-innovative-neurosurgical-care-at-rotterdam-school-of-management-erasmus-university-rsm-four-year-fully-funded-projects-with-possible-extension-and-state-of-the-art-facilities/",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Requires MSc in business/economics or related; GMAT/GRE and IELTS/TOEFL per ERIM norms."
+    },
+    {
+      "id": "nl-tudelft-digital-trust-compliance-003",
+      "countrySlug": "netherlands",
+      "institution": "Delft University of Technology — Faculty TPM",
+      "institutionSlug": null,
+      "title": "PhD — Digital Trust (Digitaal Vertrouwen)",
+      "subject": "Socio-technical architecture for qualified digital identity and verification (eIDAS), including financial services and tax/real-estate use cases.",
+      "domains": ["Compliance", "Banking", "Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "4-year contract (1.5y + 2.5y); gross €3,059–€3,881/month (CAO-NU); partners include Belastingdienst and financial-sector stakeholders.",
+      "openPositions": 1,
+      "teachingLanguage": "Dutch; English",
+      "startDate": "2026-09-01",
+      "applicationDeadline": "2026-09-06",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Prof. dr. ir. Nitesh Bharosa",
+          "role": "principal",
+          "email": "n.bharosa@tudelft.nl",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.tudelft.nl/tbm",
+          "sourceUrl": "https://www.academictransfer.com/en/jobs/362531/phd-positie-digitaal-vertrouwen/"
+        },
+        {
+          "name": "Dr. ir. Marcela Tuler de Oliveira",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.tudelft.nl/tbm",
+          "sourceUrl": "https://www.academictransfer.com/en/jobs/362531/phd-positie-digitaal-vertrouwen/"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.academictransfer.com/en/jobs/362531/phd-positie-digitaal-vertrouwen/",
+      "programInfoUrl": "https://www.tudelft.nl/tbm",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/362531/phd-positie-digitaal-vertrouwen/",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Sum Volo consortium (14 orgs). Dutch fluency required."
+    },
+    {
+      "id": "lu-uni-finance-doctoral-004",
+      "countrySlug": "luxembourg",
+      "institution": "University of Luxembourg — Department of Finance",
+      "institutionSlug": null,
+      "title": "Doctoral Researcher Positions in Finance",
+      "subject": "PhD in finance via MQEF first year then thesis research; asset pricing, corporate finance, financial econometrics.",
+      "domains": ["Finance", "Banking", "Corporate Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "Yearly gross salary EUR 41,976 (full-time); 36-month contract; MQEF year 1 then doctoral track up to 5 years total.",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2026-09-01",
+      "applicationDeadline": "2027-01-21",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Department of Finance admissions",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.uni.lu/research-en/doctoral-education/dsefm/finance/",
+          "sourceUrl": "https://euraxess.ec.europa.eu/jobs/406036"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.uni.lu/en/jobs/doctoral-researcher-positions-in-finance/",
+      "programInfoUrl": "https://www.uni.lu/research-en/doctoral-education/dsefm/finance/",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/406036",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Dual application: MQEF website + University HR portal (ref UOL07958). Rolling review."
+    },
+    {
+      "id": "lu-uni-tax-law-doctoral-005",
+      "countrySlug": "luxembourg",
+      "institution": "University of Luxembourg — Faculty of Law, Economics and Finance",
+      "institutionSlug": null,
+      "title": "Doctoral Researcher in Tax Law",
+      "subject": "Doctoral thesis in tax law with relevance to Luxembourg financial centre and EU fiscal framework.",
+      "domains": ["Compliance", "Accounting", "Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "Yearly gross salary EUR 43,445 (full-time); 36-month fixed-term doctoral contract.",
+      "openPositions": 1,
+      "teachingLanguage": "English; French",
+      "startDate": null,
+      "applicationDeadline": "2027-05-07",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Prof. Werner Haslehner",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.uni.lu/fdef-en/",
+          "sourceUrl": "https://euraxess.ec.europa.eu/jobs/434552"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://euraxess.ec.europa.eu/jobs/434552",
+      "programInfoUrl": "https://www.uni.lu/fdef-en/",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/434552",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Master in tax law required. Job ref UOL08217."
+    },
+    {
+      "id": "nl-um-behavioral-sustainable-consumer-006",
+      "countrySlug": "netherlands",
+      "institution": "Maastricht University — School of Business and Economics",
+      "institutionSlug": null,
+      "title": "PhD Candidate: AI and Sustainable Consumer Choices",
+      "subject": "Behavioral economics / consumer finance research on sustainable decision-making and conversational AI.",
+      "domains": ["Finance", "Compliance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "18-month + 2.5-year extension; gross €3,059–€3,881/month (CAO-NU).",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-09-01",
+      "applicationDeadline": "2026-07-19",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Dr. Kelly Geyskens",
+          "role": "principal",
+          "email": "k.geyskens@maastrichtuniversity.nl",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.maastrichtuniversity.nl/about-um/faculties/school-business-and-economics",
+          "sourceUrl": "https://www.academictransfer.com/en/jobs/362335/phd-candidate-from-good-intentions-to-real-impact-can-ai-support-sustainable-consumer-choices/"
+        },
+        {
+          "name": "Dr. Joana Wensing",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.maastrichtuniversity.nl/about-um/faculties/school-business-and-economics",
+          "sourceUrl": "https://www.academictransfer.com/en/jobs/362335/phd-candidate-from-good-intentions-to-real-impact-can-ai-support-sustainable-consumer-choices/"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.academictransfer.com/en/jobs/362335/phd-candidate-from-good-intentions-to-real-impact-can-ai-support-sustainable-consumer-choices/",
+      "programInfoUrl": "https://www.maastrichtuniversity.nl/about-um/faculties/school-business-and-economics",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/362335/phd-candidate-from-good-intentions-to-real-impact-can-ai-support-sustainable-consumer-choices/",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Behavioral/marketing angle; requires 1-page research proposal."
+    },
+    {
+      "id": "nl-vu-competition-law-data-access-007",
+      "countrySlug": "netherlands",
+      "institution": "Vrije Universiteit Amsterdam — Faculty of Law (ATLANTIS / ALTI)",
+      "institutionSlug": null,
+      "title": "PhD — Computational Antitrust: Data Access by Competition Agencies (Project A)",
+      "subject": "Legal framework for EU/national competition agencies' data collection under Reg 1/2003, GDPR, and fundamental rights.",
+      "domains": ["Compliance", "Finance", "Banking"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "ERC Consolidator Grant ATLANTIS; 4-year CAO-NU contract (€3,059–€3,881/month); travel budget for agency fieldwork.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-12-01",
+      "applicationDeadline": "2026-09-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Assoc. Prof. Thibault Schrepel",
+          "role": "principal",
+          "email": "t.schrepel@vu.nl",
+          "linkedinUrl": null,
+          "officialUrl": "https://teamatlantis.eu",
+          "sourceUrl": "https://www.academictransfer.com/en/jobs/361774/three-fully-funded-phd-positions-in-competition-law-and-ai/"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.academictransfer.com/en/jobs/361774/three-fully-funded-phd-positions-in-competition-law-and-ai/",
+      "programInfoUrl": "https://teamatlantis.eu",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/361774/three-fully-funded-phd-positions-in-competition-law-and-ai/",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Legal-track; competition law expertise required."
+    },
+    {
+      "id": "nl-vu-competition-law-ai-fairness-008",
+      "countrySlug": "netherlands",
+      "institution": "Vrije Universiteit Amsterdam — Faculty of Law (ATLANTIS / ALTI)",
+      "institutionSlug": null,
+      "title": "PhD — Computational Antitrust: AI Fairness in Agency Enforcement (Project B)",
+      "subject": "Legal regime for AI use by competition agencies: bias mitigation, transparency, explainability, and procedural fairness.",
+      "domains": ["Compliance", "Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "ERC ATLANTIS grant; 4-year salaried PhD (CAO-NU); max 20% teaching.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-12-01",
+      "applicationDeadline": "2026-09-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Assoc. Prof. Thibault Schrepel",
+          "role": "principal",
+          "email": "t.schrepel@vu.nl",
+          "linkedinUrl": null,
+          "officialUrl": "https://teamatlantis.eu",
+          "sourceUrl": "https://www.academictransfer.com/en/jobs/361774/three-fully-funded-phd-positions-in-competition-law-and-ai/"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.academictransfer.com/en/jobs/361774/three-fully-funded-phd-positions-in-competition-law-and-ai/",
+      "programInfoUrl": "https://teamatlantis.eu",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/361774/three-fully-funded-phd-positions-in-competition-law-and-ai/",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Legal-track; AI Act and administrative enforcement focus."
+    },
+    {
+      "id": "nl-vu-competition-law-computational-009",
+      "countrySlug": "netherlands",
+      "institution": "Vrije Universiteit Amsterdam — Faculty of Law (ATLANTIS / ALTI)",
+      "institutionSlug": null,
+      "title": "PhD — Computational Antitrust: Cross-Project Technical Track",
+      "subject": "Empirical data documentation and AI bias auditing for competition agency computational tools.",
+      "domains": ["Compliance", "Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "ERC ATLANTIS; 4-year CAO-NU PhD contract with personal travel budget.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-12-01",
+      "applicationDeadline": "2026-09-15",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Assoc. Prof. Thibault Schrepel",
+          "role": "principal",
+          "email": "t.schrepel@vu.nl",
+          "linkedinUrl": null,
+          "officialUrl": "https://teamatlantis.eu",
+          "sourceUrl": "https://www.academictransfer.com/en/jobs/361774/three-fully-funded-phd-positions-in-competition-law-and-ai/"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.academictransfer.com/en/jobs/361774/three-fully-funded-phd-positions-in-competition-law-and-ai/",
+      "programInfoUrl": "https://teamatlantis.eu",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/361774/three-fully-funded-phd-positions-in-competition-law-and-ai/",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Computational-track; CS/AI background preferred."
+    }
+  ],
+  "skippedClosed": [
+    {
+      "title": "PhD Candidate on Social Returns to Pension Investments",
+      "institution": "Maastricht University",
+      "countrySlug": "netherlands",
+      "applicationDeadline": "2026-07-08",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/361932/phd-candidate-on-social-returns-to-pension-investments/",
+      "reason": "Deadline passed before as-of date"
+    },
+    {
+      "title": "PhD Position — Systemic Risk in Climate-Sensitive Housing Markets",
+      "institution": "TU Delft",
+      "countrySlug": "netherlands",
+      "applicationDeadline": "2026-06-22",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/361275/phd-position-systemic-risk-in-climate-sensitive-housing-markets/",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD Position — Mortgage Portfolio Resilience to Climate Risks",
+      "institution": "TU Delft",
+      "countrySlug": "netherlands",
+      "applicationDeadline": "2026-06-28",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/361629/phd-position-on-strengthening-mortgage-portfolio-resilience-to-physical-climate-risks/",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD Position — Decarbonization Dynamics of SME (sustainability accounting)",
+      "institution": "TU Delft",
+      "countrySlug": "netherlands",
+      "applicationDeadline": "2026-06-15",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/361448/phd-position-decarbonization-dynamics-of-sme-in-the-netherlands/",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "Doctoral fellow — Corporate Taxation",
+      "institution": "Ghent University",
+      "countrySlug": "belgium",
+      "applicationDeadline": "2026-05-31",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/426970",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "Assistant — Corporate Finance (doctoral track)",
+      "institution": "Ghent University",
+      "countrySlug": "belgium",
+      "applicationDeadline": "2026-04-28",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/426598",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD Position in Operations Management (pricing/contracts)",
+      "institution": "KU Leuven",
+      "countrySlug": "belgium",
+      "applicationDeadline": "2026-06-30",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/436774",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD position in Finance (corporate finance/governance)",
+      "institution": "KU Leuven",
+      "countrySlug": "belgium",
+      "applicationDeadline": "2026-06-08",
+      "sourceUrl": "https://academicpositions.it/ad/ku-leuven/2026/phd-position-in-finance/248424",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD in Auditing",
+      "institution": "VUB — Solvay Business School",
+      "countrySlug": "belgium",
+      "applicationDeadline": "2026-06-07",
+      "sourceUrl": "https://jobs.vub.be/job/Elsene-PhD-in-Auditing/1393773333/",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD Researcher — Energy Transition & Future of Gas",
+      "institution": "HEC Liège — ULiège",
+      "countrySlug": "belgium",
+      "applicationDeadline": "2026-04-30",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/423270",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD researcher — Labour Market Forecasting",
+      "institution": "KU Leuven",
+      "countrySlug": "belgium",
+      "applicationDeadline": "2026-06-10",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/434913",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD Candidate — Smart Industry Labour Markets (NWO)",
+      "institution": "Maastricht University",
+      "countrySlug": "netherlands",
+      "applicationDeadline": "2026-05-31",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/432586",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD Candidate AuthentiMark — Digital Financial Fraud",
+      "institution": "University of Amsterdam",
+      "countrySlug": "netherlands",
+      "applicationDeadline": "2026-06-25",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/359730/promovendus-op-het-project-authentimark-burgers-beschermen-en-weerbaar-maken-tegen-digitale-fraude/",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD — Econometrics, Operations Research and Social Choice",
+      "institution": "Maastricht University",
+      "countrySlug": "netherlands",
+      "applicationDeadline": "2026-06-15",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/358864/phd-position-in-econometrics-operations-research-andor-social-choice",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "Fully funded PhD — Marketing Management (ERIM/RSM)",
+      "institution": "Erasmus University Rotterdam",
+      "countrySlug": "netherlands",
+      "applicationDeadline": "2026-06-21",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/361347/fully-funded-phd-position-in-marketing-management-at-rotterdam-school-of-management-erasmus-university-rsm",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD candidate — Methodology & Statistics (econometrics)",
+      "institution": "Tilburg University",
+      "countrySlug": "netherlands",
+      "applicationDeadline": "2026-07-01",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/361420/phd-candidate-in-methodology-statistics/",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "PhD — Dynamic Mixture Modeling (econometrics)",
+      "institution": "Tilburg University",
+      "countrySlug": "netherlands",
+      "applicationDeadline": "2026-07-06",
+      "sourceUrl": "https://www.academictransfer.com/en/jobs/361417/phd-in-methodolgy-and-statistics/",
+      "reason": "Deadline passed"
+    },
+    {
+      "title": "Doctoral fellow — AI regulation & compliance (BIGDATPOL)",
+      "institution": "Ghent University",
+      "countrySlug": "belgium",
+      "applicationDeadline": "2026-03-08",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/410398",
+      "reason": "Deadline passed"
+    }
+  ],
+  "skippedNoFunding": [
+    {
+      "title": "FWO PhD Fellowship fundamental research",
+      "sourceUrl": "https://www.fwo.be/en/support-programmes/all-calls/phd/phd-fellowship-fundamental-research/",
+      "reason": "Programme call closed 2026-03-02; not an institution vacancy"
+    },
+    {
+      "title": "FNR AFR-PPP industry partnership grants",
+      "sourceUrl": "https://www.fnr.lu/funding-instruments/afr-ppp/",
+      "reason": "Funding instrument only; no open finance PhD vacancy linked"
+    }
+  ],
+  "summary": {
+    "openOffers": 9,
+    "targetMet": false,
+    "byCountry": {
+      "belgium": 0,
+      "luxembourg": 2,
+      "netherlands": 7
+    },
+    "byFundingType": {
+      "fully_funded": 9
+    },
+    "skippedClosedCount": 18,
+    "skippedNoFundingCount": 2
+  }
+}

@@ -15,6 +15,18 @@ if (batch.programmeStatusOverrides) {
   if (!verified.programmeStatusOverrides) verified.programmeStatusOverrides = [];
   verified.programmeStatusOverrides.push(...batch.programmeStatusOverrides);
 }
+if (batch.schoolContacts) {
+  if (!verified.schoolContacts) verified.schoolContacts = [];
+  verified.schoolContacts.push(...batch.schoolContacts);
+}
+if (batch.schoolProfiles) {
+  if (!verified.schoolAdmissionsProfiles) verified.schoolAdmissionsProfiles = [];
+  verified.schoolAdmissionsProfiles.push(...batch.schoolProfiles);
+}
+if (batch.networkProfiles) {
+  if (!verified.networkAdmissionsProfiles) verified.networkAdmissionsProfiles = [];
+  verified.networkAdmissionsProfiles.push(...batch.networkProfiles);
+}
 verified.lastUpdated = new Date().toISOString().slice(0, 10);
 
 fs.writeFileSync(verifiedPath, JSON.stringify(verified, null, 2) + "\n");

@@ -1,0 +1,443 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "paris-cite",
+      "role": "graduate_admissions",
+      "email": "scolarite.master.deg@u-paris.fr",
+      "sourceUrl": "https://droit.u-paris.fr/master/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Droit, Économie et Gestion — bureau Masters formation initiale; MonMaster/eCandidat for applications"
+    },
+    {
+      "schoolSlug": "sorbonne-universite",
+      "role": "graduate_admissions",
+      "email": "medecine-dfs-sante-M1@sorbonne-universite.fr",
+      "sourceUrl": "https://master-sante.sorbonne-universite.fr/wp-content/uploads/2025/07/CONTACTS-SCOLARITE.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Santé master scolarité directory; other faculties use department-specific emails or contact forms"
+    },
+    {
+      "schoolSlug": "aix-marseille-univ",
+      "role": "graduate_admissions",
+      "email": "fdsp-master-scol@univ-amu.fr",
+      "sourceUrl": "https://facdedroit.univ-amu.fr/fr/candidatures-inscriptions/sinscrire",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "FDSP Aix-en-Provence master scolarité; fdsp-scol-gestion@univ-amu.fr for MonMaster/eCandidat issues"
+    },
+    {
+      "schoolSlug": "univ-lille",
+      "role": "graduate_admissions",
+      "email": "scolarite-relais-citescientifique@univ-lille.fr",
+      "sourceUrl": "https://master-mrh.univ-lille.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Relais scolarité Cité scientifique — master admissions/inscriptions; pharma-scol-m1@univ-lille.fr for pharmacy masters"
+    },
+    {
+      "schoolSlug": "univ-bordeaux",
+      "role": "graduate_admissions",
+      "email": "inscriptions.montesquieu@u-bordeaux.fr",
+      "sourceUrl": "https://droit.u-bordeaux.fr/espace-etudiant/bureau-inscriptions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Bureau des inscriptions Montesquieu (Droit, Économie, Gestion) — licence & master"
+    },
+    {
+      "schoolSlug": "univ-toulouse-capitole",
+      "role": "graduate_admissions",
+      "email": "scolaesm1ic@ut-capitole.fr",
+      "sourceUrl": "https://www.ut-capitole.fr/accueil/universite/membres/composantes/faculte-dadministration-et-communication/contacts-scolarites-faculte-dadministration-et-communication",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Administration et Communication — M1 scolarité; admissions@tse-fr.eu for TSE economics masters"
+    },
+    {
+      "schoolSlug": "univ-nantes",
+      "role": "graduate_admissions",
+      "email": "masters1.droit@univ-nantes.fr",
+      "sourceUrl": "https://droit.univ-nantes.fr/contacts/scolarite-droit",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Droit — bureau Masters 1; faculty-specific M2 emails on same page"
+    },
+    {
+      "schoolSlug": "univ-rennes1",
+      "role": "graduate_admissions",
+      "email": "sciences-scol@univ-rennes.fr",
+      "sourceUrl": "https://etudiant.univ-rennes1.fr/les-services-de-scolarite",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité Sciences et Philosophie; droit-etudes-master1@univ-rennes.fr for law masters"
+    },
+    {
+      "schoolSlug": "univ-grenoble-alpes",
+      "role": "graduate_admissions",
+      "email": "shs-pole-masters@univ-grenoble-alpes.fr",
+      "sourceUrl": "https://shs.univ-grenoble-alpes.fr/medias/fichier/orga-fonctions-shs-2025-26-1_1772522428961-pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR SHS pôle scolarité Masters; scolaritemasteris@univ-grenoble-alpes.fr for health sector masters"
+    },
+    {
+      "schoolSlug": "univ-cote-azur",
+      "role": "graduate_admissions",
+      "email": "droit.scolarite.master1@unice.fr",
+      "sourceUrl": "https://droit.univ-cotedazur.fr/formation/masters",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Droit M1 scolarité; central portal is form-only but faculty publishes direct emails"
+    },
+    {
+      "schoolSlug": "univ-lyon3",
+      "role": "graduate_admissions",
+      "email": "inscriptions@univ-lyon3.fr",
+      "sourceUrl": "https://webinscription.univ-lyon3.fr/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Portail inscription — contact for MonMaster/eCandidat admission follow-up"
+    },
+    {
+      "schoolSlug": "univ-tours",
+      "role": "graduate_admissions",
+      "email": "scolarite.lettres@univ-tours.fr",
+      "sourceUrl": "https://lettres.univ-tours.fr/infos-pratiques/services/scolarite",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Lettres et Langues — licences, masters, candidatures internationales"
+    },
+    {
+      "schoolSlug": "univ-orleans",
+      "role": "graduate_admissions",
+      "email": "assistance.inscription@univ-orleans.fr",
+      "sourceUrl": "https://www.univ-orleans.fr/fr/univ/formation/contacts",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Pôle admissions-inscriptions central; masters.llsh@univ-orleans.fr for LLSH masters"
+    },
+    {
+      "schoolSlug": "univ-bourgogne",
+      "role": "graduate_admissions",
+      "email": "scolmaster.ead@u-bourgogne.fr",
+      "sourceUrl": "https://formations.u-bourgogne.fr/fr/offre-de-formation-2024-2025/master-XB/master-lettres-enseignement-a-distance-LN4NND61.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité master EAD; formation.continue@u-bourgogne.fr for alternance/FC"
+    },
+    {
+      "schoolSlug": "univ-lorraine",
+      "role": "graduate_admissions",
+      "email": "all-ncy-scol-contact@univ-lorraine.fr",
+      "sourceUrl": "https://www.all-nancy.univ-lorraine.fr/sinscrire",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité Nancy — master inscription contact"
+    },
+    {
+      "schoolSlug": "univ-poitiers",
+      "role": "graduate_admissions",
+      "email": "scolarite-master.ll@univ-poitiers.fr",
+      "sourceUrl": "https://ll.univ-poitiers.fr/accueil/contacts/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Lettres & Langues — masters et formations locales"
+    },
+    {
+      "schoolSlug": "univ-le-havre",
+      "role": "graduate_admissions",
+      "email": "scolarite-centrale@univ-lehavre.fr",
+      "sourceUrl": "https://www.univ-lehavre.fr/wp-content/uploads/2026/03/OF-MAJ-2026-27.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Candidatures, admissions et inscriptions — contacts officiels offre de formation"
+    },
+    {
+      "schoolSlug": "univ-caen",
+      "role": "graduate_admissions",
+      "email": "deve.admissions@unicaen.fr",
+      "sourceUrl": "https://www.unicaen.fr/formation/candidater-sinscrire/contact/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Pôle Admissions DEVE; hss.scolarite.master@unicaen.fr for HSS masters"
+    },
+    {
+      "schoolSlug": "univ-rouen",
+      "role": "graduate_admissions",
+      "email": "scolarite.lettres@univ-rouen.fr",
+      "sourceUrl": "https://lsh.univ-rouen.fr/scolarite-administrative-473228.kjsp",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Lettres et Sciences Humaines — pré-inscriptions master MonMaster/eCandidat"
+    },
+    {
+      "schoolSlug": "univ-clermont",
+      "role": "graduate_admissions",
+      "email": "scola.deg@uca.fr",
+      "sourceUrl": "https://www.uca.fr/formation/nos-formations/par-ufr-ecoles-et-iut/institut-droit-economie-management/iae-clermont-auvergne-school-of-management/master/master-management-et-administration-des-entreprises",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Droit, Économie, Gestion — scolarité masters; scola.iae@uca.fr for IAE"
+    },
+    {
+      "schoolSlug": "univ-angers",
+      "role": "graduate_admissions",
+      "email": "scolarite@univ-angers.fr",
+      "sourceUrl": "https://bienvenue.univ-angers.fr/fr/mon-master/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité centrale — MonMaster admissions and inscriptions"
+    },
+    {
+      "schoolSlug": "univ-le-mans",
+      "role": "graduate_admissions",
+      "email": "sco-sciences@univ-lemans.fr",
+      "sourceUrl": "http://ecodroit.univ-lemans.fr/fr/nos-formations/rechercher-une-formation/master-lmd-MLMD/sciences-technologies-sante-0004/master-actuariat-IYBPZXQQ.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Pôle administratif/scolarité sciences; EcoleActuariat@univ-lemans.fr for actuariat master"
+    },
+    {
+      "schoolSlug": "univ-limoges",
+      "role": "graduate_admissions",
+      "email": "msciences@unilim.fr",
+      "sourceUrl": "https://www.sciences.unilim.fr/wp-content/uploads/sites/7/2023/10/MasterChimie-Qualiopi-A4-VF-web.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Sciences & Techniques — contact scolarité des masters"
+    },
+    {
+      "schoolSlug": "univ-reims",
+      "role": "graduate_admissions",
+      "email": "ecandidat-admission@univ-reims.fr",
+      "sourceUrl": "https://www.univ-reims.fr/candidater-au-master/candidater-au-master,12212,38527.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Contact master admissions; m1droit@univ-reims.fr for law M1"
+    },
+    {
+      "schoolSlug": "univ-pau",
+      "role": "graduate_admissions",
+      "email": "master.droit-public@univ-pau.fr",
+      "sourceUrl": "https://formation.univ-pau.fr/_shared-resource/all/Publique%20GED/Base%20documentaire/Espaces%20de%20publication/Public/Communication/Plaquette%20ODF/Coll%C3%A8ge%20SSH/Masters/M-Droit%20et%20contentieux%20publics-web.pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Collège SSH — scolarité masters droit public; masterlec@univ-pau.fr for lettres master"
+    },
+    {
+      "schoolSlug": "univ-brest",
+      "role": "graduate_admissions",
+      "email": "scolarite.sciences@univ-brest.fr",
+      "sourceUrl": "https://nouveau.univ-brest.fr/faculte-sciences/fr/page/vos-etudes",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Sciences — candidatures master via MonMaster/eCandidat"
+    },
+    {
+      "schoolSlug": "univ-lorient",
+      "role": "graduate_admissions",
+      "email": "Elisabeth.Riou@univ-ubs.fr",
+      "sourceUrl": "https://www-informatique.univ-ubs.fr/master-info/inscriptions.shtml",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Contact administratif Master Informatique; formation.continue@univ-ubs.fr for FC/alternance; Allo inscriptions 02 61 68 05 89"
+    },
+    {
+      "schoolSlug": "univ-artois",
+      "role": "graduate_admissions",
+      "email": "direction.etudes@univ-artois.fr",
+      "sourceUrl": "https://www.univ-artois.fr/formations/admission-inscription-transfert/candidater",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Direction des études — candidatures MonMaster/eCandidat questions"
+    },
+    {
+      "schoolSlug": "univ-valenciennes",
+      "role": "graduate_admissions",
+      "email": "scolarite@uphf.fr",
+      "sourceUrl": "https://www.uphf.fr/formation/candidatures-inscriptions/etudiants-internationaux-candidater-luphf-hors-echange",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service scolarité UPHF — master admissions and inscriptions"
+    },
+    {
+      "schoolSlug": "univ-toulon",
+      "role": "graduate_admissions",
+      "email": "scolarite.droit@univ-tln.fr",
+      "sourceUrl": "https://www.univ-tln.fr/contacts-des-formations/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Faculté Droit scolarité; DEVE uses form for general queries — scolarite.iut@univ-tln.fr for IUT"
+    },
+    {
+      "schoolSlug": "univ-perpignan",
+      "role": "graduate_admissions",
+      "email": "assistance.monmaster@univ-perp.fr",
+      "sourceUrl": "https://www.univ-perp.fr/candidature-et-inscription/candidature/etudiant",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Assistance MonMaster UPVD; sco.master.mae@univ-perp.fr for MAE master"
+    },
+    {
+      "schoolSlug": "univ-nimes",
+      "role": "graduate_admissions",
+      "email": "scolarite@unimes.fr",
+      "sourceUrl": "https://www.unimes.fr/fr/formations/etudes-et-scolarite.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Accueil scolarité central; faculty-specific master emails on same page"
+    },
+    {
+      "schoolSlug": "univ-corse",
+      "role": "graduate_admissions",
+      "email": "decanat.droit@univ-corse.fr",
+      "sourceUrl": "https://recrutement.univ-corse.fr/poste/download_fiche/1390",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Faculté Droit decanat; general admissions via eCandidat — no single central scolarité email found"
+    },
+    {
+      "schoolSlug": "univ-sorbonne-paris-nord",
+      "role": "graduate_admissions",
+      "email": "math.master.galilee@univ-paris13.fr",
+      "sourceUrl": "https://galilee.univ-paris13.fr/master/master-mathematiques/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Institut Galilée master math secretariat; sgm.master.galilee@univ-paris13.fr for SGM master"
+    },
+    {
+      "schoolSlug": "univ-gustave-eiffel",
+      "role": "graduate_admissions",
+      "email": "scolarite@univ-eiffel.fr",
+      "sourceUrl": "https://www.univ-gustave-eiffel.fr/la-formation/candidatures-et-inscriptions/inscription-administrative",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité générale — master inscription after MonMaster/eCandidat admission"
+    },
+    {
+      "schoolSlug": "univ-versailles",
+      "role": "graduate_admissions",
+      "email": "scolarite.sciences.master@uvsq.fr",
+      "sourceUrl": "https://www.uvsq.fr/master-1-securite-des-contenus-des-reseaux-des-telecommunications-et-des-systemes-secrets",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UFR Sciences — pôle masters scolarité"
+    },
+    {
+      "schoolSlug": "univ-cergy",
+      "role": "graduate_admissions",
+      "email": "scolarite.ecandidat@ml.u-cergy.fr",
+      "sourceUrl": "https://perso.u-cergy.fr/~contactscola/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité eCandidat CY Cergy Paris Université; diplome@ml.u-cergy.fr for attestations"
+    },
+    {
+      "schoolSlug": "univ-franche-comte",
+      "role": "graduate_admissions",
+      "email": "contact-inscription@univ-fcomte.fr",
+      "sourceUrl": "https://scolarite.univ-fcomte.fr/iaprimo-web/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Inscription administrative — MonMaster/eCandidat; faculty emails at stgi.univ-fcomte.fr"
+    },
+    {
+      "schoolSlug": "univ-stavanger",
+      "role": "admissions_officer",
+      "email": "admissions@uis.no",
+      "sourceUrl": "https://www.uis.no/en/studies/international-admission-to-master-programmes",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International master admissions; masteropptak@uis.no for local/Norwegian applicants"
+    },
+    {
+      "schoolSlug": "univ-nottingham",
+      "role": "graduate_admissions",
+      "email": "BR-SRSH-Science@exmail.nottingham.ac.uk",
+      "sourceUrl": "https://www.nottingham.ac.uk/Physics/contactUs.aspx",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "PG Admissions Support Hub (Science); central enquiries use online form at nottingham.ac.uk/enquire"
+    },
+    {
+      "schoolSlug": "univ-salamanca",
+      "role": "admissions_officer",
+      "email": "master@usal.es",
+      "sourceUrl": "https://www.usal.es/acceso-preinscripcion-y-matricula-en-estudios-de-master",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Central master admissions and preinscription — faculty-specific adm.*@usal.es also published"
+    },
+    {
+      "schoolSlug": "univ-akureyri",
+      "role": "admissions_officer",
+      "email": "applications@unak.is",
+      "sourceUrl": "https://www.unak.is/english/student/services-support/service-desk",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Student registry / service desk — degree-seeking master applications"
+    }
+  ],
+  "skippedFormOnly": [
+    "univ-strasbourg",
+    "univ-la-rochelle",
+    "univ-paris8",
+    "univ-avignon"
+  ],
+  "unresolved": [
+    "univ-st-etienne",
+    "univ-evry"
+  ],
+  "lastRun": "2026-07-12T02:30:00.000Z",
+  "meta": {
+    "batchSource": "agent-batch-3.json",
+    "totalSchools": 48,
+    "contactsFound": 42,
+    "skippedFormOnlyCount": 4,
+    "unresolvedCount": 2,
+    "notes": "French universities often publish faculty-level scolarité emails rather than one central master inbox. MonMaster/eCandidat handle M1 applications; emails are for post-application scolarité questions."
+  }
+}

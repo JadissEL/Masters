@@ -3,6 +3,14 @@
 import type { Program, ProgramDeadline, DataSource } from "@/lib/queries";
 import { ExternalLink, ShieldCheck, ShieldAlert, ShieldQuestion } from "lucide-react";
 
+interface AdmissionHints {
+  applicationUrl?: string | null;
+  applicationPortal?: string | null;
+  englishRequirements?: string | null;
+  frenchRequirements?: string | null;
+  interviewRequired?: boolean | null;
+}
+
 function VerificationBadge({ status }: { status?: string | null }) {
   if (status === "Verified") {
     return (
@@ -29,10 +37,16 @@ interface ProgramCardProps {
   program: Program;
   deadlines?: ProgramDeadline[];
   sources?: DataSource[];
+  admissionHints?: AdmissionHints;
 }
 
-export default function ProgramDetailCard({ program, deadlines = [], sources = [] }: ProgramCardProps) {
+export default function ProgramDetailCard({ program, deadlines = [], sources = [], admissionHints }: ProgramCardProps) {
   const pd = deadlines[0];
+  const applyUrl = program.applicationUrl || admissionHints?.applicationUrl;
+  const applyPortal = program.applicationPortal || admissionHints?.applicationPortal;
+  const showIelts = program.ieltsMinScore != null;
+  const showGmat = program.gmatRequired != null || program.greRequired != null;
+  const showAdmissions = showIelts || showGmat || admissionHints?.englishRequirements;
 
   return (
     <div className="card">
@@ -65,14 +79,24 @@ export default function ProgramDetailCard({ program, deadlines = [], sources = [
         {program.estimatedLivingCosts && <div className="info-row"><span className="info-label">Living Costs</span><span className="info-value">{program.estimatedLivingCosts}</span></div>}
       </div>
 
-      {(program.gmatRequired || program.greRequired || program.ieltsMinScore) && (
+      {showAdmissions && (
         <div style={{ marginBottom: 12 }}>
           <p style={{ fontSize: 11, fontWeight: 600, color: "var(--muted)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 8 }}>Admissions</p>
           {program.minGPA && <div className="info-row"><span className="info-label">Min GPA</span><span className="info-value">{program.minGPA}</span></div>}
           {program.gmatMinScore && <div className="info-row"><span className="info-label">GMAT (median)</span><span className="info-value">{program.gmatMinScore}</span></div>}
-          {program.ieltsMinScore && <div className="info-row"><span className="info-label">IELTS Min</span><span className="info-value">{program.ieltsMinScore}</span></div>}
+          {program.ieltsMinScore != null && <div className="info-row"><span className="info-label">IELTS Min</span><span className="info-value">{program.ieltsMinScore}</span></div>}
+          {program.toeflMinScore != null && <div className="info-row"><span className="info-label">TOEFL Min</span><span className="info-value">{program.toeflMinScore}</span></div>}
+          {admissionHints?.englishRequirements && !program.ieltsMinScore && (
+            <div className="info-row"><span className="info-label">English</span><span className="info-value">{admissionHints.englishRequirements}</span></div>
+          )}
+          {admissionHints?.frenchRequirements && (
+            <div className="info-row"><span className="info-label">French</span><span className="info-value">{admissionHints.frenchRequirements}</span></div>
+          )}
           {program.gmatRequired && <div className="info-row"><span className="info-label">GMAT</span><span className="info-value">Required</span></div>}
           {program.greRequired && <div className="info-row"><span className="info-label">GRE</span><span className="info-value">Required</span></div>}
+          {(program.interviewRequired || admissionHints?.interviewRequired) && (
+            <div className="info-row"><span className="info-label">Interview</span><span className="info-value">Required</span></div>
+          )}
         </div>
       )}
 
@@ -95,7 +119,7 @@ export default function ProgramDetailCard({ program, deadlines = [], sources = [
         </div>
       )}
 
-      {(program.programmeUrl || program.applicationUrl || program.applicationPortal) && (
+      {(program.programmeUrl || applyUrl || applyPortal) && (
         <div style={{ marginBottom: 12 }}>
           <p style={{ fontSize: 11, fontWeight: 600, color: "var(--muted)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 8 }}>Apply</p>
           {program.programmeUrl && (
@@ -103,13 +127,13 @@ export default function ProgramDetailCard({ program, deadlines = [], sources = [
               Programme page <ExternalLink size={12} />
             </a>
           )}
-          {program.applicationUrl && (
-            <a href={program.applicationUrl} target="_blank" rel="noopener noreferrer" style={{ fontSize: 13, color: "var(--accent)", display: "flex", alignItems: "center", gap: 4, marginBottom: 4 }}>
+          {applyUrl && (
+            <a href={applyUrl} target="_blank" rel="noopener noreferrer" style={{ fontSize: 13, color: "var(--accent)", display: "flex", alignItems: "center", gap: 4, marginBottom: 4 }}>
               Apply now <ExternalLink size={12} />
             </a>
           )}
-          {program.applicationPortal && (
-            <a href={program.applicationPortal} target="_blank" rel="noopener noreferrer" style={{ fontSize: 13, color: "var(--accent)", display: "flex", alignItems: "center", gap: 4 }}>
+          {applyPortal && applyPortal !== applyUrl && (
+            <a href={applyPortal} target="_blank" rel="noopener noreferrer" style={{ fontSize: 13, color: "var(--accent)", display: "flex", alignItems: "center", gap: 4 }}>
               Application portal <ExternalLink size={12} />
             </a>
           )}

@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "open-university",
+    "name": "The Open University (UK)",
+    "website": "https://www.open.ac.uk"
+  },
+  {
+    "slug": "birkbeck",
+    "name": "Birkbeck, University of London",
+    "website": "https://www.bbk.ac.uk"
+  },
+  {
+    "slug": "univ-nottingham",
+    "name": "University of Nottingham",
+    "website": "https://www.nottingham.ac.uk"
+  },
+  {
+    "slug": "durham",
+    "name": "Durham University",
+    "website": "https://www.durham.ac.uk"
+  },
+  {
+    "slug": "exeter",
+    "name": "University of Exeter",
+    "website": "https://www.exeter.ac.uk"
+  },
+  {
+    "slug": "qmul",
+    "name": "Queen Mary University of London",
+    "website": "https://www.qmul.ac.uk"
+  },
+  {
+    "slug": "reading",
+    "name": "University of Reading — Henley Business School",
+    "website": "https://www.henley.ac.uk"
+  },
+  {
+    "slug": "setu",
+    "name": "South East Technological University (SETU)",
+    "website": "https://www.setu.ie"
+  },
+  {
+    "slug": "dundee",
+    "name": "University of Dundee",
+    "website": "https://www.dundee.ac.uk"
+  },
+  {
+    "slug": "setu-carlow",
+    "name": "SETU Carlow Campus",
+    "website": "https://www.setu.ie"
+  },
+  {
+    "slug": "ul",
+    "name": "University of Limerick (UL)",
+    "website": "https://www.ul.ie"
+  }
+]

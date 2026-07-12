@@ -14,7 +14,16 @@
     "seed": "tsx src/lib/db/seed.ts",
     "scrape": "tsx src/lib/scraper/index.ts",
     "phase-x": "node scripts/phase-x-pipeline.cjs",
-    "audit": "node scripts/phase-x-pipeline.cjs"
+    "audit": "node scripts/phase-x-pipeline.cjs",
+    "gen-admissions-profiles": "node scripts/gen-admissions-profiles.cjs",
+    "enrich-admissions": "node scripts/gen-admissions-profiles.cjs && node scripts/enrich-admissions.cjs",
+    "discover-contacts": "node scripts/discover-school-contacts.cjs",
+    "discover-contacts:merge": "node scripts/discover-school-contacts.cjs && node scripts/merge-discovered-contacts.cjs && npm run phase-x",
+    "phd:merge": "node scripts/phd/orchestrator.cjs merge",
+    "phd:audit": "node scripts/phd/orchestrator.cjs audit",
+    "phd:gaps": "node scripts/phd/orchestrator.cjs gaps",
+    "phd:status": "node scripts/phd/orchestrator.cjs status",
+    "phd:enrich": "node scripts/phd/enrich-offers.cjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.4",

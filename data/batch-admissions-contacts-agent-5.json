@@ -1,0 +1,215 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "uned",
+      "role": "graduate_admissions",
+      "email": "posgradosoficiales@adm.uned.es",
+      "sourceUrl": "https://www.uned.es/universidad/inicio/estudios/masteres/informacion-general/contacto.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Servicio de Grados y Másteres Oficiales; also admin.masteresoficiales@adm.uned.es on same page. Per-faculty desks exist."
+    },
+    {
+      "schoolSlug": "univ-sevilla",
+      "role": "graduate_admissions",
+      "email": "accesomaster@us.es",
+      "sourceUrl": "https://www.us.es/estudiar/admision/master",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Área de Acceso de Admisión; also secretariaeip@us.es for Escuela Internacional de Posgrado."
+    },
+    {
+      "schoolSlug": "univ-zaragoza",
+      "role": "graduate_admissions",
+      "email": "grado.master@unizar.es",
+      "sourceUrl": "https://academico.unizar.es/grado-y-master/acceso-admision-master",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Sección Grado y Máster; application via Secretaría Virtual / sede.unizar.es SOLICIT@."
+    },
+    {
+      "schoolSlug": "upm",
+      "role": "graduate_admissions",
+      "email": "tramitacion.master.oficial@upm.es",
+      "sourceUrl": "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Servicio de Ordenación Académica; per-program secretariats also handle admissions."
+    },
+    {
+      "schoolSlug": "univ-oviedo",
+      "role": "graduate_admissions",
+      "email": "sec.masteres@uniovi.es",
+      "sourceUrl": "https://cei.uniovi.es/postgrado/estructura",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Centro Internacional de Postgrado — Másteres oficiales y Títulos Propios."
+    },
+    {
+      "schoolSlug": "univ-vigo",
+      "role": "graduate_admissions",
+      "email": "posgrao@uvigo.gal",
+      "sourceUrl": "https://www.uvigo.gal/es/estudiar/gestiones-estudiantes/matriculate/matricula-masteres",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Servicio de Gestión de Estudios de Postgrado; online preinscripción at uvigo.gal/estudar/xestions-estudantes/matriculate."
+    },
+    {
+      "schoolSlug": "univ-santiago",
+      "role": "graduate_admissions",
+      "email": "sxa@usc.gal",
+      "sourceUrl": "https://www.usc.gal/es/servicios/unidades/servicio-gestion-academica",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Servicio de Gestión Académica — Sección de Admisión y Gestión; applications via Secretaría Virtual."
+    },
+    {
+      "schoolSlug": "univ-murcia",
+      "role": "graduate_admissions",
+      "email": "postgrado@um.es",
+      "sourceUrl": "https://www.um.es/web/estudios/admision/preinscripcion-master",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Sección de Postgrado; application portal https://preinscripcionmaster.um.es."
+    },
+    {
+      "schoolSlug": "univ-cadiz",
+      "role": "graduate_admissions",
+      "email": "posgrado@uca.es",
+      "sourceUrl": "https://oficinadeposgrado.uca.es/necesito-una-carta-de-preadmision-para-un-master/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Oficina de Coordinación de Posgrado; preinscripción via DUA (Distrito Único Andaluz)."
+    },
+    {
+      "schoolSlug": "univ-extremadura",
+      "role": "graduate_admissions",
+      "email": "masteres_uex@unex.es",
+      "sourceUrl": "https://servicio-becas.unex.es/funciones/masteres/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Sección de Másteres Oficiales; general student info siaa@unex.es on same page."
+    },
+    {
+      "schoolSlug": "univ-leon",
+      "role": "graduate_admissions",
+      "email": "acceso@unileon.es",
+      "sourceUrl": "https://www.unileon.es/universidad/estructura-universitaria/organizacion-administrativa/servicio-de-gestion-academica/funciones",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Unidad de Acceso handles master admission; posgrado@unileon.es for enrolled master administration."
+    },
+    {
+      "schoolSlug": "univ-valladolid",
+      "role": "graduate_admissions",
+      "email": "posgradoficial@uva.es",
+      "sourceUrl": "https://patron-master.uva.es/informacion/contacto/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Sección de Posgrado — Servicio de Posgrado y Títulos; application portal https://admisionmaster.uva.es."
+    },
+    {
+      "schoolSlug": "univ-laguna",
+      "role": "graduate_admissions",
+      "email": "master@ull.es",
+      "sourceUrl": "https://www.ull.es/masteres/solicitud-admision/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Negociado de Máster/Estudios de Posgrado; application portal https://admision-masteres-doctorado.ull.es/master/."
+    },
+    {
+      "schoolSlug": "univ-baleares",
+      "role": "graduate_admissions",
+      "email": "master@uib.es",
+      "sourceUrl": "https://cep.uib.es/es/Te-podem-ajudar/Preguntes-frequents/Detall/Donde-puedo-dirigirme-para-obtener-mas-informacion.cid628400",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Centro de Estudios de Postgrado; also postgrau@uib.cat for general postgrado admin."
+    },
+    {
+      "schoolSlug": "univ-rioja",
+      "role": "graduate_admissions",
+      "email": "oficinaestudiante@unirioja.es",
+      "sourceUrl": "https://www.unirioja.es/administracion-y-servicios/oficina-de-estudiantes/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Oficina de Estudiantes; application portal https://aps.unirioja.es/pmyd/preinscripcion."
+    },
+    {
+      "schoolSlug": "univ-huelva",
+      "role": "graduate_admissions",
+      "email": "info.masteres@uhu.es",
+      "sourceUrl": "https://www.uhu.es/etsi/master_ingminas/contacto.php",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Central master info contact; preinscripción via DUA (Distrito Único Andaluz)."
+    },
+    {
+      "schoolSlug": "univ-girona",
+      "role": "graduate_admissions",
+      "email": "masters@udg.edu",
+      "sourceUrl": "https://www.udg.edu/es/estudia/servei-de-gestio-academica-i-estudiants",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "SGAiE — Másteres universitarios; online preinscripción form on udg.edu."
+    },
+    {
+      "schoolSlug": "univ-jaume-i",
+      "role": "graduate_admissions",
+      "email": "adm-master@uji.es",
+      "sourceUrl": "https://ujiapps.uji.es/serveis/sgde/base/infogen/hapublic/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "SGDE master admissions desk; online preinscripció assistant on uji.es."
+    },
+    {
+      "schoolSlug": "univ-savoie",
+      "role": "graduate_admissions",
+      "email": "scolarite.centrale@univ-smb.fr",
+      "sourceUrl": "https://www.univ-smb.fr/formation/scolarite/contacts-de-scolarites/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Scolarité centrale; M1 via monmaster.gouv.fr, M2 via ecandidat-usmb.grenet.fr."
+    },
+    {
+      "schoolSlug": "univ-uphf",
+      "role": "graduate_admissions",
+      "email": "scolarite@uphf.fr",
+      "sourceUrl": "https://www.uphf.fr/en/foreign-students-applying-individual",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service Scolarité SCEVE; M1 via monmaster.gouv.fr, M2+ via candidature.uphf.fr/ecandidat."
+    }
+  ],
+  "skippedFormOnly": [
+    "univ-valencia",
+    "univ-granada"
+  ],
+  "unresolved": [
+    "univ-barcelona",
+    "upc",
+    "univ-lleida",
+    "univ-picardie"
+  ],
+  "lastRun": "2026-07-12T02:30:00.000Z"
+}

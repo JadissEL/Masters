@@ -1,0 +1,13 @@
+{
+  "wave": 2,
+  "agentId": "w2-belgium",
+  "region": "Belgium — autumn 2026 / 2027 cycles",
+  "candidate": "dina",
+  "asOfDate": "2026-07-12",
+  "outputFile": "data/phd/batch-wave2-belgium.json",
+  "countries": [{ "slug": "belgium", "name": "Belgium" }],
+  "focus": "FWO/FNRS, KU Leuven, Ghent, VUB, Solvay, LSM finance/accounting/audit PhD",
+  "sources": ["EURAXESS", "FWO", "FNRS", "university vacancy pages"],
+  "readSkippedFrom": "data/phd/batch-agent-3.json",
+  "minOffersTarget": 10
+}

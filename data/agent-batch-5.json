@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "uned",
+    "name": "UNED — Universidad Nacional de Educación a Distancia",
+    "website": "https://www.uned.es"
+  },
+  {
+    "slug": "univ-barcelona",
+    "name": "Universitat de Barcelona",
+    "website": "https://www.ub.edu"
+  },
+  {
+    "slug": "univ-valencia",
+    "name": "Universitat de València",
+    "website": "https://www.uv.es"
+  },
+  {
+    "slug": "univ-sevilla",
+    "name": "Universidad de Sevilla",
+    "website": "https://www.us.es"
+  },
+  {
+    "slug": "univ-granada",
+    "name": "Universidad de Granada",
+    "website": "https://www.ugr.es"
+  },
+  {
+    "slug": "univ-zaragoza",
+    "name": "Universidad de Zaragoza",
+    "website": "https://www.unizar.es"
+  },
+  {
+    "slug": "upm",
+    "name": "Universidad Politécnica de Madrid",
+    "website": "https://www.upm.es"
+  },
+  {
+    "slug": "upc",
+    "name": "Universitat Politècnica de Catalunya",
+    "website": "https://www.upc.edu"
+  },
+  {
+    "slug": "univ-oviedo",
+    "name": "Universidad de Oviedo",
+    "website": "https://www.uniovi.es"
+  },
+  {
+    "slug": "univ-vigo",
+    "name": "Universidad de Vigo",
+    "website": "https://www.uvigo.gal"
+  },
+  {
+    "slug": "univ-santiago",
+    "name": "Universidad de Santiago de Compostela",
+    "website": "https://www.usc.gal"
+  },
+  {
+    "slug": "univ-murcia",
+    "name": "Universidad de Murcia",
+    "website": "https://www.um.es"
+  },
+  {
+    "slug": "univ-cadiz",
+    "name": "Universidad de Cádiz",
+    "website": "https://www.uca.es"
+  },
+  {
+    "slug": "univ-extremadura",
+    "name": "Universidad de Extremadura",
+    "website": "https://www.unex.es"
+  },
+  {
+    "slug": "univ-picardie",
+    "name": "Université de Picardie Jules Verne",
+    "website": "https://www.u-picardie.fr"
+  },
+  {
+    "slug": "univ-savoie",
+    "name": "Université Savoie Mont Blanc",
+    "website": "https://www.univ-smb.fr"
+  },
+  {
+    "slug": "univ-uphf",
+    "name": "Université Polytechnique des Hauts-de-France",
+    "website": "https://www.uphf.fr"
+  },
+  {
+    "slug": "univ-leon",
+    "name": "Universidad de León",
+    "website": "https://www.unileon.es"
+  },
+  {
+    "slug": "univ-valladolid",
+    "name": "Universidad de Valladolid (UVA)",
+    "website": "https://www.uva.es"
+  },
+  {
+    "slug": "univ-laguna",
+    "name": "Universidad de La Laguna (ULL)",
+    "website": "https://www.ull.es"
+  },
+  {
+    "slug": "univ-baleares",
+    "name": "Universitat de les Illes Balears (UIB)",
+    "website": "https://www.uib.es"
+  },
+  {
+    "slug": "univ-rioja",
+    "name": "Universidad de La Rioja (UNIR)",
+    "website": "https://www.unirioja.es"
+  },
+  {
+    "slug": "univ-huelva",
+    "name": "Universidad de Huelva",
+    "website": "https://www.uhu.es"
+  },
+  {
+    "slug": "univ-lleida",
+    "name": "Universitat de Lleida (UdL)",
+    "website": "https://www.udl.cat"
+  },
+  {
+    "slug": "univ-girona",
+    "name": "Universitat de Girona (UdG)",
+    "website": "https://www.udg.edu"
+  },
+  {
+    "slug": "univ-jaume-i",
+    "name": "Universitat Jaume I de Castelló (UJI)",
+    "website": "https://www.uji.es"
+  }
+]

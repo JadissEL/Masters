@@ -1,0 +1,19 @@
+{
+  "agentId": 5,
+  "region": "Nordics",
+  "candidate": "dina",
+  "asOfDate": "2026-07-12",
+  "outputFile": "data/phd/batch-agent-5.json",
+  "countries": [
+    { "slug": "norway", "name": "Norway" },
+    { "slug": "denmark", "name": "Denmark" },
+    { "slug": "iceland", "name": "Iceland" }
+  ],
+  "portals": [
+    "https://euraxess.ec.europa.eu/jobs/search",
+    "https://www.jobbnorge.no",
+    "site:.no OR site:.dk OR site:.is PhD finance funded"
+  ],
+  "domains": ["finance", "accounting", "compliance", "corporate finance"],
+  "minOffersTarget": 15
+}

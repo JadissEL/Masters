@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "university-of-iceland",
+    "name": "University of Iceland",
+    "website": "https://english.hi.is"
+  },
+  {
+    "slug": "reykjavik-university",
+    "name": "Reykjavik University",
+    "website": "https://en.ru.is"
+  },
+  {
+    "slug": "nord-university",
+    "name": "Nord University",
+    "website": "https://www.nord.no"
+  },
+  {
+    "slug": "univ-stavanger",
+    "name": "University of Stavanger",
+    "website": "https://www.uis.no"
+  },
+  {
+    "slug": "nmbu",
+    "name": "Norwegian University of Life Sciences (NMBU)",
+    "website": "https://www.nmbu.no"
+  },
+  {
+    "slug": "aalborg",
+    "name": "Aalborg University",
+    "website": "https://www.en.aau.dk"
+  },
+  {
+    "slug": "roskilde",
+    "name": "Roskilde University",
+    "website": "https://www.ruc.dk"
+  },
+  {
+    "slug": "univ-akureyri",
+    "name": "University of Akureyri",
+    "website": "https://www.unak.is"
+  },
+  {
+    "slug": "bifrost",
+    "name": "Bifröst University",
+    "website": "https://www.bifrost.is"
+  },
+  {
+    "slug": "hi",
+    "name": "University of Iceland (Háskóli Íslands)",
+    "website": "https://english.hi.is"
+  },
+  {
+    "slug": "lincoln",
+    "name": "Lincoln University",
+    "website": "https://www.lincoln.ac.nz"
+  },
+  {
+    "slug": "tue",
+    "name": "Eindhoven University of Technology (TU/e)",
+    "website": "https://www.tue.nl"
+  },
+  {
+    "slug": "wageningen",
+    "name": "Wageningen University & Research",
+    "website": "https://www.wur.nl"
+  },
+  {
+    "slug": "thuas",
+    "name": "The Hague University of Applied Sciences (THUAS)",
+    "website": "https://www.thehagueuniversity.com"
+  },
+  {
+    "slug": "hanze",
+    "name": "Hanze University of Applied Sciences",
+    "website": "https://www.hanze.nl"
+  },
+  {
+    "slug": "uclouvain",
+    "name": "UCLouvain (Université Catholique de Louvain)",
+    "website": "https://uclouvain.be"
+  },
+  {
+    "slug": "ulb",
+    "name": "ULB (Université Libre de Bruxelles)",
+    "website": "https://www.ulb.be"
+  },
+  {
+    "slug": "umons",
+    "name": "UMONS (University of Mons)",
+    "website": "https://web.umons.ac.be"
+  },
+  {
+    "slug": "unamur",
+    "name": "University of Namur",
+    "website": "https://www.unamur.be"
+  },
+  {
+    "slug": "buas",
+    "name": "Breda University of Applied Sciences (BUas)",
+    "website": "https://www.buas.nl"
+  },
+  {
+    "slug": "eur",
+    "name": "Erasmus University Rotterdam",
+    "website": "https://www.eur.nl"
+  },
+  {
+    "slug": "umh",
+    "name": "UMH (Université de Mons-Hainaut)",
+    "website": "https://web.umons.ac.be"
+  },
+  {
+    "slug": "kuleuven",
+    "name": "KU Leuven",
+    "website": "https://www.kuleuven.be"
+  },
+  {
+    "slug": "uib",
+    "name": "University of Bergen (UiB)",
+    "website": "https://www.uib.no/en"
+  }
+]

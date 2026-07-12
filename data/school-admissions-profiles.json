@@ -1,0 +1,1360 @@
+{
+  "generatedAt": "2026-07-12",
+  "schoolProfiles": [
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "hec-paris",
+      "applicationUrl": "https://www.hec.edu/en/master-s-programs/msc-international-finance/admissions",
+      "sourceUrl": "https://www.hec.edu/en/master-s-programs/msc-international-finance/admissions",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions.mif@hec.edu",
+      "applicationPortal": "https://application.hec.edu/",
+      "applicationGuide": "https://www.hec.edu/en/master-s-programs/msc-international-finance/admissions"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "lse",
+      "applicationUrl": "https://www.lse.ac.uk/study-at-lse/Graduate/Prospective-students/How-to-Apply",
+      "sourceUrl": "https://www.lse.ac.uk/study-at-lse/Graduate/Prospective-students/How-to-Apply",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "finance.admissionsenquiries@lse.ac.uk"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "essec",
+      "applicationUrl": "https://www.essec.edu/en/admissions/",
+      "sourceUrl": "https://www.essec.edu/en/admissions/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@essec.edu"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "escp",
+      "applicationUrl": "https://escp.eu/admissions",
+      "sourceUrl": "https://escp.eu/admissions",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@escp.eu"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "em-lyon",
+      "applicationUrl": "https://www.em-lyon.com/en/student/admissions",
+      "sourceUrl": "https://www.em-lyon.com/en/student/admissions",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@em-lyon.com"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "edhec",
+      "applicationUrl": "https://www.edhec.edu/en/admissions",
+      "sourceUrl": "https://www.edhec.edu/en/admissions",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@edhec.edu"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "erasmus-rsm",
+      "applicationUrl": "https://www.rsm.nl/education/master/msc-programmes/admissions/",
+      "sourceUrl": "https://www.rsm.nl/education/master/msc-programmes/admissions/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@rsm.nl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "imperial-college",
+      "applicationUrl": "https://www.imperial.ac.uk/study/apply/postgraduate-taught/",
+      "sourceUrl": "https://www.imperial.ac.uk/study/apply/postgraduate-taught/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "business.school@imperial.ac.uk"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "oxford-said",
+      "applicationUrl": "https://www.sbs.ox.ac.uk/programmes/msc-financial-economics/how-apply",
+      "sourceUrl": "https://www.sbs.ox.ac.uk/programmes/msc-financial-economics/how-apply",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "warwick",
+      "applicationUrl": "https://www.wbs.ac.uk/courses/masters/finance/apply/",
+      "sourceUrl": "https://www.wbs.ac.uk/courses/masters/finance/apply/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "wbsmasters@wbs.ac.uk"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "skema",
+      "applicationUrl": "https://www.skema.edu/en/admissions",
+      "sourceUrl": "https://www.skema.edu/en/admissions",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "international.admissions@skema.edu"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "cambridge-judge",
+      "applicationUrl": "https://www.jbs.cam.ac.uk/programmes/mphil-finance/apply/",
+      "sourceUrl": "https://www.jbs.cam.ac.uk/programmes/mphil-finance/apply/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@jbs.cam.ac.uk"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "tilburg",
+      "applicationUrl": "https://www.tilburguniversity.edu/education/masters-programs/finance/admissions",
+      "sourceUrl": "https://www.tilburguniversity.edu/education/masters-programs/finance/admissions",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "masters@tilburguniversity.edu"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "vu-amsterdam",
+      "applicationUrl": "https://vu.nl/en/education/master/finance-finance/admissions",
+      "sourceUrl": "https://vu.nl/en/education/master/finance-finance/admissions",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "masters@vu.nl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "groningen",
+      "applicationUrl": "https://www.rug.nl/education/application-enrolment-tuition-fees/application-masters/",
+      "sourceUrl": "https://www.rug.nl/education/application-enrolment-tuition-fees/application-masters/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "trinity-college-dublin",
+      "applicationUrl": "https://www.tcd.ie/business/programmes/masters-programmes/msc-in-finance/admissions/",
+      "sourceUrl": "https://www.tcd.ie/business/programmes/masters-programmes/msc-in-finance/admissions/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "asktcd@tcd.ie"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "ucl",
+      "applicationUrl": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/financial-risk-management-msc",
+      "sourceUrl": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/financial-risk-management-msc",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "pgadmissions@ucl.ac.uk"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "bayes-city",
+      "applicationUrl": "https://www.bayes.city.ac.uk/study/masters/courses/finance",
+      "sourceUrl": "https://www.bayes.city.ac.uk/study/masters/courses/finance",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "edinburgh-bs",
+      "applicationUrl": "https://www.business-school.ed.ac.uk/msc/finance-investment/apply",
+      "sourceUrl": "https://www.business-school.ed.ac.uk/msc/finance-investment/apply",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "uva",
+      "applicationUrl": "https://abs.uva.nl/content/masters/finance/application-and-admission/application-and-admission.html",
+      "sourceUrl": "https://abs.uva.nl/content/masters/finance/application-and-admission/application-and-admission.html",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "maastricht",
+      "applicationUrl": "https://www.maastrichtuniversity.nl/education/master/programmes/financial-economics/admission-and-application",
+      "sourceUrl": "https://www.maastrichtuniversity.nl/education/master/programmes/financial-economics/admission-and-application",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "leiden",
+      "applicationUrl": "https://www.universiteitleiden.nl/en/education/study-programmes/master/international-financial-law/admission-and-application/admission-requirements",
+      "sourceUrl": "https://www.universiteitleiden.nl/en/education/study-programmes/master/international-financial-law/admission-and-application/admission-requirements",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "radboud",
+      "applicationUrl": "https://www.ru.nl/en/education/masters/financial-economics/admission-and-application",
+      "sourceUrl": "https://www.ru.nl/en/education/masters/financial-economics/admission-and-application",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "univ-twente",
+      "applicationUrl": "https://www.utwente.nl/en/education/master/programmes/business-administration/admission/",
+      "sourceUrl": "https://www.utwente.nl/en/education/master/programmes/business-administration/admission/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "ucd-smurfit",
+      "applicationUrl": "https://www.smurfitschool.ie/programmes/masters/mscinfinance/howtoapply/",
+      "sourceUrl": "https://www.smurfitschool.ie/programmes/masters/mscinfinance/howtoapply/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "esade",
+      "applicationUrl": "https://www.esade.edu/master-of-science/en/admissions",
+      "sourceUrl": "https://www.esade.edu/master-of-science/en/admissions",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@esade.edu"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "iese",
+      "applicationUrl": "https://www.iese.edu/master-in-finance/admissions-fees/",
+      "sourceUrl": "https://www.iese.edu/master-in-finance/admissions-fees/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@iese.edu"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "cbs",
+      "applicationUrl": "https://www.cbs.dk/en/study-programmes/master-programmes/application-and-admission",
+      "sourceUrl": "https://www.cbs.dk/en/study-programmes/master-programmes/application-and-admission",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admission@cbs.dk"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "kcl",
+      "applicationUrl": "https://www.kcl.ac.uk/study/postgraduate-taught/how-to-apply",
+      "sourceUrl": "https://www.kcl.ac.uk/study/postgraduate-taught/how-to-apply",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "bath",
+      "applicationUrl": "https://www.bath.ac.uk/topics/applying-for-courses/",
+      "sourceUrl": "https://www.bath.ac.uk/topics/applying-for-courses/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "exeter",
+      "applicationUrl": "https://www.exeter.ac.uk/masters-degrees/apply/",
+      "sourceUrl": "https://www.exeter.ac.uk/masters-degrees/apply/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "reading",
+      "applicationUrl": "https://www.henley.ac.uk/study/masters/apply",
+      "sourceUrl": "https://www.henley.ac.uk/study/masters/apply",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "cardiff",
+      "applicationUrl": "https://www.cardiff.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.cardiff.ac.uk/study/postgraduate/apply",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "lancaster",
+      "applicationUrl": "https://www.lancaster.ac.uk/study/postgraduate/apply/",
+      "sourceUrl": "https://www.lancaster.ac.uk/study/postgraduate/apply/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "surrey",
+      "applicationUrl": "https://www.surrey.ac.uk/postgraduate/apply",
+      "sourceUrl": "https://www.surrey.ac.uk/postgraduate/apply",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "aberdeen",
+      "applicationUrl": "https://www.abdn.ac.uk/study/postgraduate-taught/apply/",
+      "sourceUrl": "https://www.abdn.ac.uk/study/postgraduate-taught/apply/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "loughborough",
+      "applicationUrl": "https://www.lboro.ac.uk/study/postgraduate/apply/",
+      "sourceUrl": "https://www.lboro.ac.uk/study/postgraduate/apply/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "university-galway",
+      "applicationUrl": "https://www.universityofgalway.ie/courses/postgraduate/",
+      "sourceUrl": "https://www.universityofgalway.ie/courses/postgraduate/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "ntnu",
+      "applicationUrl": "https://www.ntnu.edu/studies/msit/admission",
+      "sourceUrl": "https://www.ntnu.edu/studies/msit/admission",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admission@ntnu.no"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "uit",
+      "applicationUrl": "https://en.uit.no/admission",
+      "sourceUrl": "https://en.uit.no/admission",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "victoria-wellington",
+      "applicationUrl": "https://www.wgtn.ac.nz/study/apply/",
+      "sourceUrl": "https://www.wgtn.ac.nz/study/apply/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "univ-salamanca",
+      "applicationUrl": "https://usal.es/acceso-preinscripcion-y-matricula-en-masteres-universitarios-curso-2026-27-3",
+      "sourceUrl": "https://usal.es/acceso-preinscripcion-y-matricula-en-masteres-universitarios-curso-2026-27-3",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "audencia",
+      "applicationUrl": "https://candidat.audencia.com",
+      "sourceUrl": "https://candidat.audencia.com",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@audencia.com"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "kedge",
+      "applicationUrl": "https://join.kedge.edu",
+      "sourceUrl": "https://join.kedge.edu",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@kedge.com"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "neoma",
+      "applicationUrl": "http://apply.neoma-bs.fr/",
+      "sourceUrl": "http://apply.neoma-bs.fr/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@neoma-bs.com"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "grenoble-em",
+      "applicationUrl": "https://www.grenoble-em.com/en/admissions",
+      "sourceUrl": "https://www.grenoble-em.com/en/admissions",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@grenoble-em.com"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "tbs",
+      "applicationUrl": "https://www.tbs-education.fr/international-campus/master-of-science/",
+      "sourceUrl": "https://www.tbs-education.fr/international-campus/master-of-science/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@tbs-education.com"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "montpellier-bs",
+      "applicationUrl": "https://ecampus.montpellier-bs.com/faces/CreationCompte.xhtml?auth=candidature",
+      "sourceUrl": "https://ecampus.montpellier-bs.com/faces/CreationCompte.xhtml?auth=candidature",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@montpellier-bs.com"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "ieseg",
+      "applicationUrl": "https://candidate.ieseg.fr",
+      "sourceUrl": "https://candidate.ieseg.fr",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@ieseg.fr"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "sciences-po",
+      "applicationUrl": "https://www.sciencespo.fr/admissions/en/graduate/",
+      "sourceUrl": "https://www.sciencespo.fr/admissions/en/graduate/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@sciencespo.fr"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "paris-dauphine",
+      "applicationUrl": "https://candidature.dauphine.fr",
+      "sourceUrl": "https://candidature.dauphine.fr",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@dauphine.psl.eu"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "rennes-sb",
+      "applicationUrl": "https://www.rennes-sb.com/admissions/",
+      "sourceUrl": "https://www.rennes-sb.com/admissions/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "ie-business-school",
+      "applicationUrl": "https://www.ie.edu/business-school/programs/masters/master-in-finance/admissions-fees/",
+      "sourceUrl": "https://www.ie.edu/business-school/programs/masters/master-in-finance/admissions-fees/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@ie.edu"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "carlos-iii",
+      "applicationUrl": "https://www.uc3m.es/master/finance",
+      "sourceUrl": "https://www.uc3m.es/master/finance",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "upf",
+      "applicationUrl": "https://www.bsm.upf.edu/en/master-science-finance-and-banking",
+      "sourceUrl": "https://www.bsm.upf.edu/en/master-science-finance-and-banking",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "solvay",
+      "applicationUrl": "https://sbsem.ulb.be/enrollment-admission-for-master-programmes",
+      "sourceUrl": "https://sbsem.ulb.be/enrollment-admission-for-master-programmes",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "antwerp",
+      "applicationUrl": "https://www.uantwerpen.be/en/study/programmes/all-programmes/business-economics/admission-and-enrollment/",
+      "sourceUrl": "https://www.uantwerpen.be/en/study/programmes/all-programmes/business-economics/admission-and-enrollment/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "ghent",
+      "applicationUrl": "https://www.ugent.be/eb/en/study-programmes/master-in-economics/application-procedure",
+      "sourceUrl": "https://www.ugent.be/eb/en/study-programmes/master-in-economics/application-procedure",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "kuleuven",
+      "applicationUrl": "https://www.kuleuven.be/english/apply",
+      "sourceUrl": "https://www.kuleuven.be/english/apply",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "ku-leuven",
+      "applicationUrl": "https://feb.kuleuven.be/eng/prospective-students",
+      "sourceUrl": "https://feb.kuleuven.be/eng/prospective-students",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "vlerick",
+      "applicationUrl": "https://www.vlerick.com/en/programmes/masters-programmes/masters-in-financial-management/",
+      "sourceUrl": "https://www.vlerick.com/en/programmes/masters-programmes/masters-in-financial-management/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@vlerick.com"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "eada",
+      "applicationUrl": "https://www.eada.edu/en/programmes/finance/master-finance/fees-and-funding",
+      "sourceUrl": "https://www.eada.edu/en/programmes/finance/master-finance/fees-and-funding",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "aix-marseille-univ",
+      "applicationUrl": "https://iae-aix.univ-amu.fr/fr/admissions",
+      "sourceUrl": "https://iae-aix.univ-amu.fr/fr/admissions",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "esiee-paris",
+      "applicationUrl": "https://www.esiee.fr/en/apply/apply-engineer/master-in-artificial-intelligence-cybersecurity",
+      "sourceUrl": "https://www.esiee.fr/en/apply/apply-engineer/master-in-artificial-intelligence-cybersecurity",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "esilv",
+      "applicationUrl": "https://admissions.devinci.fr/ecole/ESILV",
+      "sourceUrl": "https://admissions.devinci.fr/ecole/ESILV",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "epitech",
+      "applicationUrl": "https://www.epitech.eu/admission-master-of-science-ecole-informatique/",
+      "sourceUrl": "https://www.epitech.eu/admission-master-of-science-ecole-informatique/",
+      "notes": "From verified programme applicationUrl"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "esdes-lyon",
+      "applicationUrl": "https://www.esdes.fr/en/welcome/admissions/",
+      "sourceUrl": "https://www.esdes.fr/en/welcome/admissions/",
+      "notes": "From verified programme applicationUrl",
+      "admissionsEmail": "admissions@esdes.fr"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "oxford-sbs",
+      "admissionsEmail": "admissions@sbs.ox.ac.uk",
+      "sourceUrl": "https://www.sbs.ox.ac.uk/programmes/msc-financial-economics/how-apply",
+      "notes": "From verified schoolContacts"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "High",
+      "schoolSlug": "smurfit",
+      "admissionsEmail": "admissions@ucd.ie",
+      "sourceUrl": "https://www.smurfitschool.ie/admissions/",
+      "notes": "From verified schoolContacts"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "alliance-manchester",
+      "applicationUrl": "https://www.mbs.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.mbs.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "cranfield",
+      "applicationUrl": "https://www.cranfield.ac.uk/schools/school-of-management/study/postgraduate/apply",
+      "sourceUrl": "https://www.cranfield.ac.uk/schools/school-of-management/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "dcu",
+      "applicationUrl": "https://www.dcu.ie/courses/postgraduate/how-to-apply/",
+      "sourceUrl": "https://www.dcu.ie/courses/postgraduate/how-to-apply/",
+      "notes": "Derived from official website domain + common IE admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "ucc",
+      "applicationUrl": "https://www.ucc.ie/courses/postgraduate/how-to-apply/",
+      "sourceUrl": "https://www.ucc.ie/courses/postgraduate/how-to-apply/",
+      "notes": "Derived from official website domain + common IE admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "tudelft",
+      "applicationUrl": "https://www.tudelft.nl/education/master/admission",
+      "sourceUrl": "https://www.tudelft.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "nyenrode",
+      "applicationUrl": "https://www.nyenrode.nl/education/master/admission",
+      "sourceUrl": "https://www.nyenrode.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "open-university",
+      "applicationUrl": "https://www.open.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.open.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "birkbeck",
+      "applicationUrl": "https://www.bbk.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.bbk.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "univ-leeds",
+      "applicationUrl": "https://www.leeds.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.leeds.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "univ-birmingham",
+      "applicationUrl": "https://www.birmingham.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.birmingham.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "univ-bristol",
+      "applicationUrl": "https://www.bristol.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.bristol.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "univ-sheffield",
+      "applicationUrl": "https://www.sheffield.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.sheffield.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "univ-nottingham",
+      "applicationUrl": "https://www.nottingham.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.nottingham.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "univ-southampton",
+      "applicationUrl": "https://www.southampton.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.southampton.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "durham",
+      "applicationUrl": "https://www.durham.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.durham.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "york",
+      "applicationUrl": "https://www.york.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.york.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "qmul",
+      "applicationUrl": "https://www.qmul.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.qmul.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "liverpool",
+      "applicationUrl": "https://www.liverpool.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.liverpool.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "glasgow",
+      "applicationUrl": "https://www.gla.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.gla.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "st-andrews",
+      "applicationUrl": "https://www.st-andrews.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.st-andrews.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "sussex",
+      "applicationUrl": "https://www.sussex.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.sussex.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "maynooth-univ",
+      "applicationUrl": "https://www.maynoothuniversity.ie/courses/postgraduate/how-to-apply/",
+      "sourceUrl": "https://www.maynoothuniversity.ie/courses/postgraduate/how-to-apply/",
+      "notes": "Derived from official website domain + common IE admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "tu-dublin",
+      "applicationUrl": "https://www.tudublin.ie/courses/postgraduate/how-to-apply/",
+      "sourceUrl": "https://www.tudublin.ie/courses/postgraduate/how-to-apply/",
+      "notes": "Derived from official website domain + common IE admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "atu",
+      "applicationUrl": "https://www.atu.ie/courses/postgraduate/how-to-apply/",
+      "sourceUrl": "https://www.atu.ie/courses/postgraduate/how-to-apply/",
+      "notes": "Derived from official website domain + common IE admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "setu",
+      "applicationUrl": "https://www.setu.ie/courses/postgraduate/how-to-apply/",
+      "sourceUrl": "https://www.setu.ie/courses/postgraduate/how-to-apply/",
+      "notes": "Derived from official website domain + common IE admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "mtu",
+      "applicationUrl": "https://www.mtu.ie/courses/postgraduate/how-to-apply/",
+      "sourceUrl": "https://www.mtu.ie/courses/postgraduate/how-to-apply/",
+      "notes": "Derived from official website domain + common IE admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "open-universiteit",
+      "applicationUrl": "https://www.ou.nl/education/master/admission",
+      "sourceUrl": "https://www.ou.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "tue",
+      "applicationUrl": "https://www.tue.nl/education/master/admission",
+      "sourceUrl": "https://www.tue.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "uu",
+      "applicationUrl": "https://www.uu.nl/education/master/admission",
+      "sourceUrl": "https://www.uu.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "wageningen",
+      "applicationUrl": "https://www.wur.nl/education/master/admission",
+      "sourceUrl": "https://www.wur.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "thuas",
+      "applicationUrl": "https://www.thehagueuniversity.com/education/master/admission",
+      "sourceUrl": "https://www.thehagueuniversity.com/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "fontys",
+      "applicationUrl": "https://www.fontys.nl/education/master/admission",
+      "sourceUrl": "https://www.fontys.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "hanze",
+      "applicationUrl": "https://www.hanze.nl/education/master/admission",
+      "sourceUrl": "https://www.hanze.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "epita",
+      "applicationUrl": "https://www.epita.fr/en/admissions",
+      "sourceUrl": "https://www.epita.fr",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "isg",
+      "applicationUrl": "https://www.isg.fr/en/admissions",
+      "sourceUrl": "https://www.isg.fr",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "psb",
+      "applicationUrl": "https://www.psbedu.paris/en/admissions",
+      "sourceUrl": "https://www.psbedu.paris",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "ipag",
+      "applicationUrl": "https://www.ipag.fr/en/admissions",
+      "sourceUrl": "https://www.ipag.fr",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "isc-paris",
+      "applicationUrl": "https://www.isc.fr/en/admissions",
+      "sourceUrl": "https://www.isc.fr",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "kedge-marseille",
+      "applicationUrl": "https://www.kedge.edu/en/admissions",
+      "sourceUrl": "https://www.kedge.edu",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "georgia-tech-lorraine",
+      "applicationUrl": "https://www.georgiatech-metz.fr/en/admissions",
+      "sourceUrl": "https://www.georgiatech-metz.fr",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "newcastle",
+      "applicationUrl": "https://www.ncl.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.ncl.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "queens-belfast",
+      "applicationUrl": "https://www.qub.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.qub.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "strathclyde",
+      "applicationUrl": "https://www.strath.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.strath.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "heriot-watt",
+      "applicationUrl": "https://www.hw.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.hw.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "essex",
+      "applicationUrl": "https://www.essex.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.essex.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "kent",
+      "applicationUrl": "https://www.kent.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.kent.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "royal-holloway",
+      "applicationUrl": "https://www.royalholloway.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.royalholloway.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "swansea",
+      "applicationUrl": "https://www.swansea.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.swansea.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "dundee",
+      "applicationUrl": "https://www.dundee.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.dundee.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "stirling",
+      "applicationUrl": "https://www.stir.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.stir.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "buas",
+      "applicationUrl": "https://www.buas.nl/education/master/admission",
+      "sourceUrl": "https://www.buas.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "fontys-venlo",
+      "applicationUrl": "https://www.fontys.nl/education/master/admission",
+      "sourceUrl": "https://www.fontys.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "eur",
+      "applicationUrl": "https://www.eur.nl/education/master/admission",
+      "sourceUrl": "https://www.eur.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "setu-carlow",
+      "applicationUrl": "https://www.setu.ie/courses/postgraduate/how-to-apply/",
+      "sourceUrl": "https://www.setu.ie/courses/postgraduate/how-to-apply/",
+      "notes": "Derived from official website domain + common IE admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "essca",
+      "applicationUrl": "https://www.essca.fr/en/admissions",
+      "sourceUrl": "https://www.essca.fr",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "excelia",
+      "applicationUrl": "https://www.excelia-group.com/en/admissions",
+      "sourceUrl": "https://www.excelia-group.com",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "esg",
+      "applicationUrl": "https://www.esg.fr/en/admissions",
+      "sourceUrl": "https://www.esg.fr",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "esce",
+      "applicationUrl": "https://www.esce.fr/en/admissions",
+      "sourceUrl": "https://www.esce.fr",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "idrac",
+      "applicationUrl": "https://www.idrac.fr/en/admissions",
+      "sourceUrl": "https://www.idrac.fr",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "estya",
+      "applicationUrl": "https://www.estya.fr/en/admissions",
+      "sourceUrl": "https://www.estya.fr",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "mba-paris",
+      "applicationUrl": "https://www.mba-esg.fr/en/admissions",
+      "sourceUrl": "https://www.mba-esg.fr",
+      "notes": "French private school: admissions path on official website"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "uea",
+      "applicationUrl": "https://www.uea.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.uea.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "roehampton",
+      "applicationUrl": "https://www.roehampton.ac.uk/study/postgraduate/apply",
+      "sourceUrl": "https://www.roehampton.ac.uk/study/postgraduate/apply",
+      "notes": "Derived from official website domain + common GB admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "wur",
+      "applicationUrl": "https://www.wur.nl/education/master/admission",
+      "sourceUrl": "https://www.wur.nl/education/master/admission",
+      "notes": "Derived from official website domain + common NL admissions path; verify on school site"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Low",
+      "schoolSlug": "ul",
+      "applicationUrl": "https://www.ul.ie/courses/postgraduate/how-to-apply/",
+      "sourceUrl": "https://www.ul.ie/courses/postgraduate/how-to-apply/",
+      "notes": "Derived from official website domain + common IE admissions path; verify on school site"
+    }
+  ],
+  "networkProfiles": [
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_government_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^univ-|^cnam$",
+      "applicationUrl": "https://www.monmaster.gouv.fr",
+      "applicationPortal": "https://www.monmaster.gouv.fr",
+      "sourceUrl": "https://www.monmaster.gouv.fr",
+      "notes": "French national Master application platform (Mon Master)"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^iae-",
+      "applicationUrl": "https://www.iae-france.fr/en/how-to-apply",
+      "sourceUrl": "https://www.iae-france.fr/en/how-to-apply",
+      "notes": "IAE France network admissions guidance"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^cnam$",
+      "applicationUrl": "https://www.cnam.fr/admissions",
+      "sourceUrl": "https://www.cnam.fr/admissions"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_government_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^insa-|^utc$|^telecom-|^ensam$|^ensae$|^ensai$|^centrale-|^polytech-|^utbm$|^utt$|^imt-|^enseeiht$|^enseirb$|^enssat$|^ensait$|^ponts-paristech$",
+      "sourceUrl": "https://www.onisep.fr/",
+      "notes": "French CTI engineering schools: apply via official school admissions portal on school website.",
+      "useSchoolWebsite": true
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^kuleuven$|^ku-leuven$",
+      "applicationUrl": "https://www.kuleuven.be/english/apply",
+      "sourceUrl": "https://www.kuleuven.be/english/apply"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^ghent$",
+      "applicationUrl": "https://www.ugent.be/en/education/degree-students/application-and-admission",
+      "sourceUrl": "https://www.ugent.be/en/education/degree-students/application-and-admission"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^antwerp$",
+      "applicationUrl": "https://www.uantwerpen.be/en/education/admission-enrolment/",
+      "sourceUrl": "https://www.uantwerpen.be/en/education/admission-enrolment/"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^umons$|^unamur$|^solvay$",
+      "applicationUrl": "https://www.unamur.be/en/education/admission",
+      "sourceUrl": "https://www.unamur.be/en/education/admission",
+      "notes": "Wallonia-Brussels Federation master admission"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_government_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^univ-barcelona$|^upf$|^carlos-iii$|^univ-salamanca$",
+      "sourceUrl": "https://www.universidad.es/en/study-in-spain/admission-process",
+      "notes": "Spanish public universities: apply via university admission office on official university website.",
+      "useSchoolWebsite": true
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_government_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^ntnu$|^uit$|^uio$|^nhh$|^bi-oslo$",
+      "applicationUrl": "https://www.samordnaopptak.no/info/english/",
+      "sourceUrl": "https://www.samordnaopptak.no/info/english/",
+      "notes": "Norwegian coordinated admission (Søknadsweb)"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_government_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^cbs$|^ku$|^au$|^sdu$|^dtu$|^aalborg$|^roskilde$",
+      "applicationUrl": "https://www.optagelse.dk",
+      "sourceUrl": "https://www.optagelse.dk",
+      "notes": "Danish national application portal (optagelse.dk)"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_government_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^victoria-wellington$|^auckland$|^canterbury$|^otago$",
+      "applicationUrl": "https://www.studyinnewzealand.govt.nz/how-to-apply/",
+      "sourceUrl": "https://www.studyinnewzealand.govt.nz/how-to-apply/",
+      "notes": "Apply directly to NZ university; Study in NZ official guidance"
+    },
+    {
+      "verificationDate": "2026-07-12",
+      "sourceType": "official_university_website",
+      "confidenceLevel": "Medium",
+      "schoolSlugPattern": "^reykjavik$|^univ-iceland$",
+      "applicationUrl": "https://ugla.hi.is/namsumsoknir/",
+      "sourceUrl": "https://english.hi.is/admissions",
+      "notes": "University of Iceland Ugla portal"
+    }
+  ]
+}

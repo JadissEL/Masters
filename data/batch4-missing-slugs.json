@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "open-university",
+    "name": "The Open University (UK)",
+    "website": "https://www.open.ac.uk",
+    "cc": "GB"
+  },
+  {
+    "slug": "durham",
+    "name": "Durham University",
+    "website": "https://www.durham.ac.uk",
+    "cc": "GB"
+  },
+  {
+    "slug": "dundee",
+    "name": "University of Dundee",
+    "website": "https://www.dundee.ac.uk",
+    "cc": "GB"
+  },
+  {
+    "slug": "iae-toulouse",
+    "name": "IAE Toulouse (Université Toulouse Capitole)",
+    "website": "https://www.iae-toulouse.fr",
+    "cc": "FR"
+  },
+  {
+    "slug": "univ-strasbourg",
+    "name": "Université de Strasbourg",
+    "website": "https://www.unistra.fr",
+    "cc": "FR"
+  },
+  {
+    "slug": "univ-la-rochelle",
+    "name": "Université de La Rochelle",
+    "website": "https://www.univ-larochelle.fr",
+    "cc": "FR"
+  },
+  {
+    "slug": "univ-st-etienne",
+    "name": "Université Jean Monnet Saint-Étienne",
+    "website": "https://www.univ-st-etienne.fr",
+    "cc": "FR"
+  },
+  {
+    "slug": "univ-avignon",
+    "name": "Université d'Avignon",
+    "website": "https://www.univ-avignon.fr",
+    "cc": "FR"
+  },
+  {
+    "slug": "univ-paris8",
+    "name": "Université Paris 8 Vincennes-Saint-Denis",
+    "website": "https://www.univ-paris8.fr",
+    "cc": "FR"
+  },
+  {
+    "slug": "univ-evry",
+    "name": "Université d'Évry Val d'Essonne",
+    "website": "https://www.univ-evry.fr",
+    "cc": "FR"
+  },
+  {
+    "slug": "excelia",
+    "name": "Excelia Business School (La Rochelle)",
+    "website": "https://www.excelia-group.com",
+    "cc": "FR"
+  },
+  {
+    "slug": "esg",
+    "name": "ESG Management School (Paris)",
+    "website": "https://www.esg.fr",
+    "cc": "FR"
+  },
+  {
+    "slug": "univ-picardie",
+    "name": "Université de Picardie Jules Verne",
+    "website": "https://www.u-picardie.fr",
+    "cc": "FR"
+  },
+  {
+    "slug": "univ-granada",
+    "name": "Universidad de Granada",
+    "website": "https://www.ugr.es",
+    "cc": "ES"
+  },
+  {
+    "slug": "upc",
+    "name": "Universitat Politècnica de Catalunya",
+    "website": "https://www.upc.edu",
+    "cc": "ES"
+  },
+  {
+    "slug": "univ-lleida",
+    "name": "Universitat de Lleida (UdL)",
+    "website": "https://www.udl.cat",
+    "cc": "ES"
+  },
+  {
+    "slug": "uib",
+    "name": "University of Bergen (UiB)",
+    "website": "https://www.uib.no/en",
+    "cc": "NO"
+  },
+  {
+    "slug": "setu",
+    "name": "South East Technological University (SETU)",
+    "website": "https://www.setu.ie",
+    "cc": "IE"
+  }
+]

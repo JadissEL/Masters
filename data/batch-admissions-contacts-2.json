@@ -1,0 +1,241 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "ucd-smurfit",
+      "role": "admissions_officer",
+      "email": "admissions@ucd.ie",
+      "sourceUrl": "https://www.smurfitschool.ie/admissions/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uva",
+      "role": "admissions_officer",
+      "email": "master-science@uva.nl",
+      "sourceUrl": "https://www.uva.nl/en/programmes/masters/complex-systems-and-policy/contact/contact-nieuw.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "UvA international master admissions; programme-specific desks also exist"
+    },
+    {
+      "schoolSlug": "skema",
+      "role": "admissions_officer",
+      "email": "international.admissions@skema.edu",
+      "sourceUrl": "https://www.skema.edu/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "oxford-said",
+      "role": "admissions_officer",
+      "email": "oxfordmba@sbs.ox.ac.uk",
+      "sourceUrl": "https://www.sbs.ox.ac.uk/about-us/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "MSc Financial Economics: mscfe@sbs.ox.ac.uk on same contact page"
+    },
+    {
+      "schoolSlug": "kcl",
+      "role": "graduate_admissions",
+      "email": "pgadmissions@kcl.ac.uk",
+      "sourceUrl": "https://www.kcl.ac.uk/study/postgraduate/apply/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "edinburgh-bs",
+      "role": "admissions_officer",
+      "email": "futurestudents@ed.ac.uk",
+      "sourceUrl": "https://www.business-school.ed.ac.uk/msc/deposit-policy-guidelines",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "PGT Admissions Office — official brochure and deposit policy page"
+    },
+    {
+      "schoolSlug": "groningen",
+      "role": "admissions_officer",
+      "email": "masters@rug.nl",
+      "sourceUrl": "https://www.rug.nl/education/application-enrolment-tuition-fees/application-masters/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "maastricht",
+      "role": "admissions_officer",
+      "email": "admissions@maastrichtuniversity.nl",
+      "sourceUrl": "https://www.maastrichtuniversity.nl/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "aarhus",
+      "role": "admissions_officer",
+      "email": "studies@au.dk",
+      "sourceUrl": "https://masters.au.dk/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ku-copenhagen",
+      "role": "admissions_officer",
+      "email": "studieservice@ku.dk",
+      "sourceUrl": "https://www.ku.dk/english/education/sis",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "solvay",
+      "role": "admissions_officer",
+      "email": "admission@ulb.be",
+      "sourceUrl": "https://www.ulb.be/en/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ku-leuven",
+      "role": "admissions_officer",
+      "email": "admission@kuleuven.be",
+      "sourceUrl": "https://www.kuleuven.be/english/apply",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ghent",
+      "role": "admissions_officer",
+      "email": "admission@ugent.be",
+      "sourceUrl": "https://www.ugent.be/en/education/degree-students/application-and-admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "carlos-iii",
+      "role": "admissions_officer",
+      "email": "admission@uc3m.es",
+      "sourceUrl": "https://www.uc3m.es/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "upf",
+      "role": "admissions_officer",
+      "email": "admissions@upf.edu",
+      "sourceUrl": "https://www.upf.edu/en/web/graus/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "nhh",
+      "role": "admissions_officer",
+      "email": "admission@nhh.no",
+      "sourceUrl": "https://www.nhh.no/en/study/admission/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "uio",
+      "role": "admissions_officer",
+      "email": "admission@uio.no",
+      "sourceUrl": "https://www.uio.no/english/studies/admission/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "cnam",
+      "role": "admissions_officer",
+      "email": "scolarite@cnam.fr",
+      "sourceUrl": "https://www.cnam.fr/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "rennes-sb",
+      "role": "admissions_officer",
+      "email": "admissions@rennes-sb.com",
+      "sourceUrl": "https://www.rennes-sb.com/en/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "alliance-manchester",
+      "role": "admissions_officer",
+      "email": "wbsmasters@wbs.ac.uk",
+      "sourceUrl": "https://www.alliancembs.manchester.ac.uk/study/masters/apply/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "bayes-city",
+      "role": "admissions_officer",
+      "email": "pg@citystgeorges.ac.uk",
+      "sourceUrl": "https://www.bayes.citystgeorges.ac.uk/study/masters/courses",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "bath",
+      "role": "graduate_admissions",
+      "email": "pgadmissions@bath.ac.uk",
+      "sourceUrl": "https://www.bath.ac.uk/topics/applying-for-courses/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "cranfield",
+      "role": "admissions_officer",
+      "email": "admissions@cranfield.ac.uk",
+      "sourceUrl": "https://www.cranfield.ac.uk/study/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "university-galway",
+      "role": "admissions_officer",
+      "email": "admissions@universityofgalway.ie",
+      "sourceUrl": "https://www.universityofgalway.ie/courses/postgraduate/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ucc",
+      "role": "admissions_officer",
+      "email": "admissions@ucc.ie",
+      "sourceUrl": "https://www.ucc.ie/en/study/postgrad/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "dcu",
+      "role": "admissions_officer",
+      "email": "admissions@dcu.ie",
+      "sourceUrl": "https://www.dcu.ie/registry/admissions.shtml",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    }
+  ]
+}

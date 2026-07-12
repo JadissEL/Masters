@@ -32,3 +32,13 @@ yarn-error.log*
 
 # drizzle
 drizzle/
+
+# cursor agent memory (local only)
+.cursor_memory/
+
+# embedded OSINT clone (use index docs only)
+docs/intelligence/osint-bible/repo/
+
+# phd pipeline debug artifacts
+data/phd/_*.txt
+data/phd/_*.json

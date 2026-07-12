@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "paris-cite",
+    "name": "Université Paris Cité",
+    "website": "https://u-paris.fr"
+  },
+  {
+    "slug": "sorbonne-universite",
+    "name": "Sorbonne Université",
+    "website": "https://www.sorbonne-universite.fr"
+  },
+  {
+    "slug": "aix-marseille-univ",
+    "name": "Université d'Aix-Marseille",
+    "website": "https://www.univ-amu.fr"
+  },
+  {
+    "slug": "univ-lille",
+    "name": "Université de Lille",
+    "website": "https://www.univ-lille.fr"
+  },
+  {
+    "slug": "univ-bordeaux",
+    "name": "Université de Bordeaux",
+    "website": "https://www.u-bordeaux.fr"
+  },
+  {
+    "slug": "univ-toulouse-capitole",
+    "name": "Université Toulouse Capitole",
+    "website": "https://www.ut-capitole.fr"
+  },
+  {
+    "slug": "univ-strasbourg",
+    "name": "Université de Strasbourg",
+    "website": "https://www.unistra.fr"
+  },
+  {
+    "slug": "univ-nantes",
+    "name": "Université de Nantes",
+    "website": "https://www.univ-nantes.fr"
+  },
+  {
+    "slug": "univ-rennes1",
+    "name": "Université de Rennes 1",
+    "website": "https://www.univ-rennes1.fr"
+  },
+  {
+    "slug": "univ-grenoble-alpes",
+    "name": "Université Grenoble Alpes",
+    "website": "https://www.univ-grenoble-alpes.fr"
+  },
+  {
+    "slug": "univ-cote-azur",
+    "name": "Université Côte d'Azur",
+    "website": "https://univ-cotedazur.fr"
+  },
+  {
+    "slug": "univ-lyon3",
+    "name": "Université Jean Moulin Lyon 3",
+    "website": "https://www.univ-lyon3.fr"
+  },
+  {
+    "slug": "univ-tours",
+    "name": "Université de Tours",
+    "website": "https://www.univ-tours.fr"
+  },
+  {
+    "slug": "univ-orleans",
+    "name": "Université d'Orléans",
+    "website": "https://www.univ-orleans.fr"
+  },
+  {
+    "slug": "univ-bourgogne",
+    "name": "Université de Bourgogne",
+    "website": "https://www.u-bourgogne.fr"
+  },
+  {
+    "slug": "univ-lorraine",
+    "name": "Université de Lorraine",
+    "website": "https://www.univ-lorraine.fr"
+  },
+  {
+    "slug": "univ-poitiers",
+    "name": "Université de Poitiers",
+    "website": "https://www.univ-poitiers.fr"
+  },
+  {
+    "slug": "univ-la-rochelle",
+    "name": "Université de La Rochelle",
+    "website": "https://www.univ-larochelle.fr"
+  },
+  {
+    "slug": "univ-le-havre",
+    "name": "Université Le Havre Normandie",
+    "website": "https://www.univ-lehavre.fr"
+  },
+  {
+    "slug": "univ-caen",
+    "name": "Université de Caen Normandie",
+    "website": "https://www.unicaen.fr"
+  },
+  {
+    "slug": "univ-rouen",
+    "name": "Université de Rouen Normandie",
+    "website": "https://www.univ-rouen.fr"
+  },
+  {
+    "slug": "univ-clermont",
+    "name": "Université Clermont Auvergne",
+    "website": "https://www.uca.fr"
+  },
+  {
+    "slug": "univ-st-etienne",
+    "name": "Université Jean Monnet Saint-Étienne",
+    "website": "https://www.univ-st-etienne.fr"
+  },
+  {
+    "slug": "univ-angers",
+    "name": "Université d'Angers",
+    "website": "https://www.univ-angers.fr"
+  },
+  {
+    "slug": "univ-le-mans",
+    "name": "Université du Mans",
+    "website": "https://www.univ-lemans.fr"
+  },
+  {
+    "slug": "univ-limoges",
+    "name": "Université de Limoges",
+    "website": "https://www.unilim.fr"
+  },
+  {
+    "slug": "univ-reims",
+    "name": "Université de Reims Champagne-Ardenne",
+    "website": "https://www.univ-reims.fr"
+  },
+  {
+    "slug": "univ-pau",
+    "name": "Université de Pau et des Pays de l'Adour",
+    "website": "https://www.univ-pau.fr"
+  },
+  {
+    "slug": "univ-brest",
+    "name": "Université de Bretagne Occidentale",
+    "website": "https://www.univ-brest.fr"
+  },
+  {
+    "slug": "univ-lorient",
+    "name": "Université de Bretagne Sud",
+    "website": "https://www.univ-ubs.fr"
+  },
+  {
+    "slug": "univ-artois",
+    "name": "Université d'Artois",
+    "website": "https://www.univ-artois.fr"
+  },
+  {
+    "slug": "univ-valenciennes",
+    "name": "Université Polytechnique Hauts-de-France",
+    "website": "https://www.uphf.fr"
+  },
+  {
+    "slug": "univ-toulon",
+    "name": "Université de Toulon",
+    "website": "https://www.univ-tln.fr"
+  },
+  {
+    "slug": "univ-avignon",
+    "name": "Université d'Avignon",
+    "website": "https://www.univ-avignon.fr"
+  },
+  {
+    "slug": "univ-perpignan",
+    "name": "Université de Perpignan Via Domitia",
+    "website": "https://www.univ-perp.fr"
+  },
+  {
+    "slug": "univ-nimes",
+    "name": "Université de Nîmes",
+    "website": "https://www.unimes.fr"
+  },
+  {
+    "slug": "univ-corse",
+    "name": "Université de Corse Pascal Paoli",
+    "website": "https://www.univ-corse.fr"
+  },
+  {
+    "slug": "univ-sorbonne-paris-nord",
+    "name": "Université Sorbonne Paris Nord",
+    "website": "https://www.univ-paris13.fr"
+  },
+  {
+    "slug": "univ-paris8",
+    "name": "Université Paris 8 Vincennes-Saint-Denis",
+    "website": "https://www.univ-paris8.fr"
+  },
+  {
+    "slug": "univ-evry",
+    "name": "Université d'Évry Val d'Essonne",
+    "website": "https://www.univ-evry.fr"
+  },
+  {
+    "slug": "univ-gustave-eiffel",
+    "name": "Université Gustave Eiffel",
+    "website": "https://www.univ-gustave-eiffel.fr"
+  },
+  {
+    "slug": "univ-versailles",
+    "name": "Université de Versailles Saint-Quentin",
+    "website": "https://www.uvsq.fr"
+  },
+  {
+    "slug": "univ-cergy",
+    "name": "Université de Cergy-Pontoise",
+    "website": "https://www.u-cergy.fr"
+  },
+  {
+    "slug": "univ-franche-comte",
+    "name": "Université de Franche-Comté",
+    "website": "https://www.univ-fcomte.fr"
+  },
+  {
+    "slug": "univ-stavanger",
+    "name": "University of Stavanger",
+    "website": "https://www.uis.no"
+  },
+  {
+    "slug": "univ-nottingham",
+    "name": "University of Nottingham",
+    "website": "https://www.nottingham.ac.uk"
+  },
+  {
+    "slug": "univ-salamanca",
+    "name": "Universidad de Salamanca",
+    "website": "https://www.usal.es"
+  },
+  {
+    "slug": "univ-akureyri",
+    "name": "University of Akureyri",
+    "website": "https://www.unak.is"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "uam",
+      "role": "graduate_admissions",
+      "email": "posgrado.oficial@uam.es",
+      "sourceUrl": "http://www.ahnfmed.uam.es/index.php/estudios/mn-admision",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    }
+  ]
+}

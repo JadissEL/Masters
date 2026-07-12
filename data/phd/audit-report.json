@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-07-12",
+  "total": 140,
+  "open": 140,
+  "closed": 0,
+  "byCountry": {
+    "usa": 23,
+    "canada": 13,
+    "uae": 4,
+    "south-korea": 6,
+    "japan": 8,
+    "australia": 22,
+    "new-zealand": 7,
+    "norway": 7,
+    "denmark": 7,
+    "iceland": 1,
+    "france": 4,
+    "ireland": 1,
+    "netherlands": 7,
+    "luxembourg": 2,
+    "germany": 9,
+    "switzerland": 10,
+    "spain": 7,
+    "england": 2
+  },
+  "withSupervisorEmail": 58,
+  "withLinkedIn": 0,
+  "withStudentSample": 9,
+  "funded": 137
+}

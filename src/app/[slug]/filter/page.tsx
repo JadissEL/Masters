@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import FilterControls from "./FilterControls";
+import { schoolTypeBadgeStyle } from "@/lib/school-types";
 
 export default async function FilterPage({
   params,
@@ -24,6 +25,7 @@ export default async function FilterPage({
     countries: Array.isArray(sp.country) ? sp.country : sp.country ? [sp.country] : undefined,
     languages: Array.isArray(sp.language) ? sp.language : sp.language ? [sp.language] : undefined,
     programTypes: Array.isArray(sp.programType) ? sp.programType : sp.programType ? [sp.programType] : undefined,
+    schoolTypes: Array.isArray(sp.schoolType) ? sp.schoolType : sp.schoolType ? [sp.schoolType] : undefined,
     canEnterM2: (sp.canEnterM2 as FilterCriteria["canEnterM2"]) || undefined,
     maxTuition: sp.maxTuition ? parseInt(sp.maxTuition as string, 10) : undefined,
     minScore: sp.minScore ? parseInt(sp.minScore as string, 10) : undefined,
@@ -126,7 +128,7 @@ export default async function FilterPage({
                     💰 From {formatTuition(minTuition)}
                   </span>
                   <span className="badge">{r.school.teachingLanguage}</span>
-                  <span className="badge">{r.school.type}</span>
+                  <span className="badge" style={schoolTypeBadgeStyle(r.school.type)}>{r.school.type}</span>
                   {r.matchedPrograms.slice(0, 3).map((p) => (
                     <span key={p.id} className="badge badge-accent">{p.name}</span>
                   ))}

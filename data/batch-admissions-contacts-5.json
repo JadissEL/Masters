@@ -1,0 +1,77 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "paris-saclay",
+      "role": "graduate_admissions",
+      "email": "scolarite.iut-cachan@universite-paris-saclay.fr",
+      "sourceUrl": "https://www.universite-paris-saclay.fr/scolarite",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "upm",
+      "role": "graduate_admissions",
+      "email": "tramitacion.master.oficial@upm.es",
+      "sourceUrl": "https://www.upm.es/contacto",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "roehampton",
+      "role": "graduate_admissions",
+      "email": "pg.information@roehampton.ac.uk",
+      "sourceUrl": "https://www.roehampton.ac.uk/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    }
+  ],
+  "skippedFormOnly": [
+    "dundee",
+    "univ-nottingham"
+  ],
+  "unresolved": [
+    "iae-toulouse",
+    "iae-lille",
+    "iae-nantes",
+    "iae-montpellier",
+    "iae-strasbourg",
+    "iae-grenoble",
+    "iae-paris",
+    "paris-cite",
+    "sorbonne-universite",
+    "aix-marseille-univ",
+    "univ-lille",
+    "univ-bordeaux",
+    "univ-toulouse-capitole",
+    "univ-strasbourg",
+    "univ-nantes",
+    "univ-rennes1",
+    "univ-grenoble-alpes",
+    "uam",
+    "upc",
+    "univ-barcelona",
+    "nord-university",
+    "univ-stavanger",
+    "nmbu",
+    "uib",
+    "reykjavik-university",
+    "university-of-iceland",
+    "ulb",
+    "uclouvain",
+    "lsm",
+    "tue",
+    "thuas",
+    "hanze",
+    "buas",
+    "psb",
+    "ipag",
+    "isc-paris",
+    "excelia",
+    "essca",
+    "eada"
+  ],
+  "lastRun": "2026-07-12T02:47:13.267Z"
+}

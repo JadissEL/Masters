@@ -40,6 +40,20 @@ export {
   formatTuition,
 } from "./data-store";
 
+export {
+  getPhdOffers,
+  getPhdOffer,
+  getPhdCountries,
+  getPhdFundingTypes,
+  getPhdDomains,
+  getFilteredPhdOffers,
+  formatFundingType,
+  fundingBadgeStyle,
+  PHD_COUNTRY_META,
+} from "./phd-store";
+
+export type { PhdOffer, PhdFilterCriteria, PhdSupervisor } from "./phd-store";
+
 export type {
   Candidate,
   Country,

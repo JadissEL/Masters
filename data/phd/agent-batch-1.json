@@ -1,0 +1,16 @@
+{
+  "agentId": 1,
+  "region": "France",
+  "candidate": "dina",
+  "asOfDate": "2026-07-12",
+  "outputFile": "data/phd/batch-agent-1.json",
+  "countries": [{ "slug": "france", "name": "France" }],
+  "portals": [
+    "https://euraxess.ec.europa.eu/jobs/search",
+    "https://www.groupe-adel.com",
+    "site:.fr doctorat finance financement CIFRE",
+    "site:.fr thèse finance comptabilité conformité"
+  ],
+  "domains": ["finance", "accounting", "compliance", "M&A", "corporate finance", "audit", "healthcare finance"],
+  "minOffersTarget": 30
+}

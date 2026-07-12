@@ -1,0 +1,13 @@
+{
+  "wave": 2,
+  "agentId": "w2-england",
+  "region": "England — Jan/Sep 2027 intakes",
+  "candidate": "dina",
+  "asOfDate": "2026-07-12",
+  "outputFile": "data/phd/batch-wave2-england.json",
+  "countries": [{ "slug": "england", "name": "England (UK)" }],
+  "focus": "2027 funded studentships, residual 2026 vacancies, supervisor-led funding",
+  "sources": ["FindAPhD", "jobs.ac.uk", "official .ac.uk finance/accounting PhD pages"],
+  "readSkippedFrom": "data/phd/batch-agent-2.json",
+  "minOffersTarget": 15
+}

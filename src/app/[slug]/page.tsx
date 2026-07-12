@@ -1,7 +1,8 @@
 import { getCandidate, getCountries, getSchoolsWithScores, getMinTuitionForSchoolByCandidate, formatTuition } from "@/lib/queries";
+import { getPhdOffers } from "@/lib/phd-store";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, SlidersHorizontal } from "lucide-react";
+import { ArrowLeft, SlidersHorizontal, GraduationCap } from "lucide-react";
 
 export default async function CandidatePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -10,6 +11,7 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
 
   const countries = getCountries();
   const schools = getSchoolsWithScores(candidate.id).slice(0, 5);
+  const phdOpenCount = getPhdOffers().filter((o) => o.status === "open").length;
 
   return (
     <div className="container">
@@ -17,9 +19,16 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
         <Link href="/" className="nav-back" style={{ fontSize: 15, fontWeight: 500 }}>
           <ArrowLeft size={18} /> Back to Home
         </Link>
-        <Link href={`/${candidate.slug}/filter`} className="btn btn-secondary" style={{ padding: "8px 16px", fontSize: 14 }}>
-          <SlidersHorizontal size={16} style={{ marginRight: 6 }} /> Filter Schools
-        </Link>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+          {candidate.slug === "dina" && phdOpenCount > 0 && (
+            <Link href={`/${candidate.slug}/phd`} className="btn btn-primary" style={{ padding: "8px 16px", fontSize: 14 }}>
+              <GraduationCap size={16} style={{ marginRight: 6 }} /> PhD Opportunities ({phdOpenCount})
+            </Link>
+          )}
+          <Link href={`/${candidate.slug}/filter`} className="btn btn-secondary" style={{ padding: "8px 16px", fontSize: 14 }}>
+            <SlidersHorizontal size={16} style={{ marginRight: 6 }} /> Filter Schools
+          </Link>
+        </div>
       </div>
       <div className="breadcrumb">
         <Link href="/">Home</Link>

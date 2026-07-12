@@ -245,6 +245,15 @@ export interface Admission {
   interviewRequired: boolean;
   gmatRequired: boolean;
   greRequired: boolean;
+  applicationUrl?: string | null;
+  applicationPortal?: string | null;
+  applicationGuide?: string | null;
+  ieltsMinScore?: number | null;
+  toeflMinScore?: number | null;
+  cambridgeEnglishLevel?: string | null;
+  delfLevel?: string | null;
+  gmatMinScore?: number | null;
+  greMinScore?: number | null;
 }
 
 export interface Visa {
@@ -578,6 +587,7 @@ export interface FilterCriteria {
   internshipOnly?: boolean;
   verifiedOnly?: boolean;    // only programmes with verificationStatus === "Verified"
   studyModes?: string[];     // "Full-time", "Part-time", etc.
+  schoolTypes?: string[];    // "Public", "Semi-private", "Private"
 }
 
 export interface FilteredSchoolResult {
@@ -611,6 +621,11 @@ export function getFilteredSchools(criteria: FilterCriteria): FilteredSchoolResu
       const lang = school.teachingLanguage.toLowerCase();
       const hasAnyLang = criteria.languages.some((l) => lang.includes(l.toLowerCase()));
       if (!hasAnyLang) continue;
+    }
+
+    // Filter by school ownership type (Public / Semi-private / Private)
+    if (criteria.schoolTypes && criteria.schoolTypes.length > 0) {
+      if (!criteria.schoolTypes.includes(school.type)) continue;
     }
 
     // Get relevant programs for this candidate

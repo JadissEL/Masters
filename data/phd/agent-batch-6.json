@@ -1,0 +1,19 @@
+{
+  "agentId": 6,
+  "region": "USA + Canada",
+  "candidate": "dina",
+  "asOfDate": "2026-07-12",
+  "outputFile": "data/phd/batch-agent-6.json",
+  "countries": [
+    { "slug": "usa", "name": "United States" },
+    { "slug": "canada", "name": "Canada" }
+  ],
+  "portals": [
+    "https://academicjobsonline.org",
+    "https://www.proquest.com/jobs",
+    "https://www.mitacs.ca",
+    "site:.edu PhD finance accounting funded fellowship 2026"
+  ],
+  "domains": ["finance", "accounting", "compliance", "corporate finance", "healthcare finance"],
+  "minOffersTarget": 30
+}

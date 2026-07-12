@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "hec-liege",
+    "name": "HEC Liège (ULiège)",
+    "website": "https://www.hec.ulg.ac.be"
+  },
+  {
+    "slug": "eada",
+    "name": "EADA Business School",
+    "website": "https://www.eada.edu"
+  },
+  {
+    "slug": "iae-paris",
+    "name": "IAE Paris (Sorbonne Business School)",
+    "website": "https://www.iae-paris.com"
+  },
+  {
+    "slug": "iae-toulouse",
+    "name": "IAE Toulouse (Université Toulouse Capitole)",
+    "website": "https://www.iae-toulouse.fr"
+  },
+  {
+    "slug": "iae-lille",
+    "name": "IAE Lille (Université de Lille)",
+    "website": "https://www.iae-lille.fr"
+  },
+  {
+    "slug": "iae-nantes",
+    "name": "IAE Nantes (Université de Nantes)",
+    "website": "https://www.iae-nantes.fr"
+  },
+  {
+    "slug": "iae-montpellier",
+    "name": "IAE Montpellier (Université de Montpellier)",
+    "website": "https://www.iae-montpellier.fr"
+  },
+  {
+    "slug": "iae-strasbourg",
+    "name": "IAE Strasbourg (Université de Strasbourg)",
+    "website": "https://www.iae-strasbourg.fr"
+  },
+  {
+    "slug": "iae-grenoble",
+    "name": "IAE Grenoble (Université Grenoble Alpes)",
+    "website": "https://www.iae-grenoble.fr"
+  },
+  {
+    "slug": "ipag",
+    "name": "IPAG Business School",
+    "website": "https://www.ipag.fr"
+  },
+  {
+    "slug": "isc-paris",
+    "name": "ISC Paris",
+    "website": "https://www.isc.fr"
+  },
+  {
+    "slug": "kedge-marseille",
+    "name": "KEDGE Business School — Marseille Campus",
+    "website": "https://www.kedge.edu"
+  },
+  {
+    "slug": "essca",
+    "name": "ESSCA Business School",
+    "website": "https://www.essca.fr"
+  },
+  {
+    "slug": "excelia",
+    "name": "Excelia Business School (La Rochelle)",
+    "website": "https://www.excelia-group.com"
+  },
+  {
+    "slug": "esg",
+    "name": "ESG Management School (Paris)",
+    "website": "https://www.esg.fr"
+  },
+  {
+    "slug": "idrac",
+    "name": "IDRAC Business School (Lyon)",
+    "website": "https://www.idrac.fr"
+  },
+  {
+    "slug": "estya",
+    "name": "ESTYA Business School Paris",
+    "website": "https://www.estya.fr"
+  },
+  {
+    "slug": "mba-paris",
+    "name": "MBA ESG Paris",
+    "website": "https://www.mba-esg.fr"
+  }
+]

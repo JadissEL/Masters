@@ -1,0 +1,103 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "york",
+      "role": "admissions_officer",
+      "email": "pg-admissions@york.ac.uk",
+      "sourceUrl": "https://www.york.ac.uk/study/postgraduate/apply/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "glasgow",
+      "role": "admissions_officer",
+      "email": "med-sch-admissions@glasgow.ac.uk",
+      "sourceUrl": "https://www.gla.ac.uk/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "sussex",
+      "role": "admissions_officer",
+      "email": "pg.applicants@sussex.ac.uk",
+      "sourceUrl": "https://www.sussex.ac.uk/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium"
+    },
+    {
+      "schoolSlug": "roehampton",
+      "role": "admissions_officer",
+      "email": "pg.information@roehampton.ac.uk",
+      "sourceUrl": "https://www.roehampton.ac.uk/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium"
+    },
+    {
+      "schoolSlug": "upm",
+      "role": "admissions_officer",
+      "email": "tramitacion.master.oficial@upm.es",
+      "sourceUrl": "https://www.upm.es/contacto",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium"
+    },
+    {
+      "schoolSlug": "paris-saclay",
+      "role": "admissions_officer",
+      "email": "scolarite.iut-cachan@universite-paris-saclay.fr",
+      "sourceUrl": "https://www.universite-paris-saclay.fr/scolarite",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "univ-le-havre",
+      "role": "admissions_officer",
+      "email": "scolarite-centrale@univ-lehavre.fr",
+      "sourceUrl": "https://www.univ-lehavre.fr/fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "univ-artois",
+      "role": "admissions_officer",
+      "email": "scolaritefsa@univ-artois.fr",
+      "sourceUrl": "https://www.univ-artois.fr/scolarite",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "univ-paris8",
+      "role": "admissions_officer",
+      "email": "dufle-refugies.admission@univ-paris8.fr",
+      "sourceUrl": "https://www.univ-paris8.fr/formation/master/admission",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "insa-rennes",
+      "role": "admissions_officer",
+      "email": "infos-admissions@insa-rennes.fr",
+      "sourceUrl": "https://www.insa-rennes.fr/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ensae",
+      "role": "admissions_officer",
+      "email": "admission@ensae.fr",
+      "sourceUrl": "https://www.ensae.fr/admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    }
+  ]
+}

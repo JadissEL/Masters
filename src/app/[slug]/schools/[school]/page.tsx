@@ -5,8 +5,9 @@ import {
 } from "@/lib/queries";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ExternalLink } from "lucide-react";
 import ProgramDetailCard from "./ProgramDetailCard";
+import { schoolTypeBadgeStyle, SCHOOL_TYPE_DESCRIPTIONS } from "@/lib/school-types";
 
 export default async function SchoolPage({ params }: { params: Promise<{ slug: string; school: string }> }) {
   const { slug, school: schoolSlug } = await params;
@@ -21,6 +22,16 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
   const score = getScoreForSchool(candidate.id, school.id);
   const city = school.cityId ? getCity(school.cityId) : null;
   const contacts = getSchoolContacts(school.id);
+
+  const admissionHints = admission
+    ? {
+        applicationUrl: admission.applicationUrl,
+        applicationPortal: admission.applicationPortal,
+        englishRequirements: admission.englishRequirements,
+        frenchRequirements: admission.frenchRequirements,
+        interviewRequired: admission.interviewRequired,
+      }
+    : undefined;
 
   const scoreMetrics = score ? [
     { label: "Admission Probability", value: score.admissionProbability },
@@ -54,7 +65,7 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
             <h1 style={{ fontSize: 28, fontWeight: 700, letterSpacing: "-0.02em", marginBottom: 8 }}>{school.name}</h1>
             <p style={{ color: "var(--muted)", fontSize: 15, marginBottom: 16, maxWidth: 600 }}>{school.description}</p>
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-              <span className="badge">{school.type}</span>
+              <span className="badge" style={schoolTypeBadgeStyle(school.type)} title={SCHOOL_TYPE_DESCRIPTIONS[school.type as keyof typeof SCHOOL_TYPE_DESCRIPTIONS] ?? school.type}>{school.type}</span>
               <span className="badge">{school.teachingLanguage}</span>
               <span className="badge badge-accent">{school.ranking}</span>
             </div>
@@ -127,6 +138,7 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
             program={p}
             deadlines={getProgramDeadlines(p.id)}
             sources={getProgramSources(p.id)}
+            admissionHints={admissionHints}
           />
         ))}
       </div>
@@ -159,6 +171,27 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
             <div className="info-row"><span className="info-label">Interview</span><span className="info-value">{admission.interviewRequired ? "Required" : "Not required"}</span></div>
             <div className="info-row"><span className="info-label">GMAT</span><span className="info-value">{admission.gmatRequired ? "Required" : "Not required"}</span></div>
             <div className="info-row"><span className="info-label">GRE</span><span className="info-value">{admission.greRequired ? "Required" : "Not required"}</span></div>
+            {admission.ieltsMinScore != null && (
+              <div className="info-row"><span className="info-label">IELTS Min</span><span className="info-value">{admission.ieltsMinScore}</span></div>
+            )}
+            {admission.toeflMinScore != null && (
+              <div className="info-row"><span className="info-label">TOEFL Min</span><span className="info-value">{admission.toeflMinScore}</span></div>
+            )}
+            {(admission.applicationUrl || admission.applicationPortal) && (
+              <div className="info-row">
+                <span className="info-label">Apply</span>
+                <span className="info-value">
+                  <a
+                    href={admission.applicationUrl || admission.applicationPortal || "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "var(--accent)", display: "inline-flex", alignItems: "center", gap: 4 }}
+                  >
+                    Application portal <ExternalLink size={12} />
+                  </a>
+                </span>
+              </div>
+            )}
           </div>
         )}
 

@@ -1,0 +1,177 @@
+[
+  {
+    "slug": "insa-lyon",
+    "name": "INSA Lyon",
+    "website": "https://www.insa-lyon.fr"
+  },
+  {
+    "slug": "insa-toulouse",
+    "name": "INSA Toulouse",
+    "website": "https://www.insa-toulouse.fr"
+  },
+  {
+    "slug": "insa-rennes",
+    "name": "INSA Rennes",
+    "website": "https://www.insa-rennes.fr"
+  },
+  {
+    "slug": "utc",
+    "name": "Université de Technologie de Compiègne (UTC)",
+    "website": "https://www.utc.fr"
+  },
+  {
+    "slug": "ensae",
+    "name": "ENSAE Paris (École Nationale de la Statistique et de l'Administration Économique)",
+    "website": "https://www.ensae.fr"
+  },
+  {
+    "slug": "ensai",
+    "name": "ENSAI (École Nationale de la Statistique et de l'Analyse de l'Information)",
+    "website": "https://www.ensai.fr"
+  },
+  {
+    "slug": "insp",
+    "name": "INSP — Institut National du Service Public",
+    "website": "https://www.insp.gouv.fr"
+  },
+  {
+    "slug": "ponts-paristech",
+    "name": "École des Ponts ParisTech",
+    "website": "https://www.ecoledesponts.fr"
+  },
+  {
+    "slug": "centrale-lyon",
+    "name": "Centrale Lyon (École Centrale de Lyon)",
+    "website": "https://www.ec-lyon.fr"
+  },
+  {
+    "slug": "centrale-nantes",
+    "name": "Centrale Nantes (École Centrale de Nantes)",
+    "website": "https://www.ec-nantes.fr"
+  },
+  {
+    "slug": "inp-toulouse",
+    "name": "INP Toulouse (Institut National Polytechnique)",
+    "website": "https://www.inp-toulouse.fr"
+  },
+  {
+    "slug": "ensam",
+    "name": "ENSAM (Arts et Métiers)",
+    "website": "https://www.artsetmetiers.fr"
+  },
+  {
+    "slug": "utbm",
+    "name": "UTBM (Université de Technologie de Belfort-Montbéliard)",
+    "website": "https://www.utbm.fr"
+  },
+  {
+    "slug": "utt",
+    "name": "UTT (Université de Technologie de Troyes)",
+    "website": "https://www.utt.fr"
+  },
+  {
+    "slug": "insa-strasbourg",
+    "name": "INSA Strasbourg",
+    "website": "https://www.insa-strasbourg.fr"
+  },
+  {
+    "slug": "insa-rouen",
+    "name": "INSA Rouen Normandie",
+    "website": "https://www.insa-rouen.fr"
+  },
+  {
+    "slug": "telecom-sudparis",
+    "name": "Télécom SudParis (Institut Mines-Télécom)",
+    "website": "https://www.telecom-sudparis.eu"
+  },
+  {
+    "slug": "imt-bs",
+    "name": "IMT Business School (Institut Mines-Télécom)",
+    "website": "https://www.imt-bs.eu"
+  },
+  {
+    "slug": "imt-lille-douai",
+    "name": "IMT Lille Douai (Institut Mines-Télécom)",
+    "website": "https://www.imt-lille-douai.fr"
+  },
+  {
+    "slug": "polytech-nantes",
+    "name": "Polytech Nantes (Université de Nantes)",
+    "website": "https://polytech.univ-nantes.fr"
+  },
+  {
+    "slug": "polytech-lyon",
+    "name": "Polytech Lyon (Université Claude Bernard Lyon 1)",
+    "website": "https://polytech.univ-lyon1.fr"
+  },
+  {
+    "slug": "polytech-paris-saclay",
+    "name": "Polytech Paris-Saclay (Université Paris-Saclay)",
+    "website": "https://polytech.paris-saclay.fr"
+  },
+  {
+    "slug": "polytech-montpellier",
+    "name": "Polytech Montpellier (Université de Montpellier)",
+    "website": "https://polytech.edu.umontpellier.fr"
+  },
+  {
+    "slug": "polytech-grenoble",
+    "name": "Polytech Grenoble (Université Grenoble Alpes)",
+    "website": "https://polytech.grenoble-inp.fr"
+  },
+  {
+    "slug": "polytech-lille",
+    "name": "Polytech Lille (Université de Lille)",
+    "website": "https://polytech-lille.univ-lille.fr"
+  },
+  {
+    "slug": "esiee-paris",
+    "name": "ESIEE Paris (Université Gustave Eiffel)",
+    "website": "https://www.esiee.fr"
+  },
+  {
+    "slug": "epita",
+    "name": "EPITA (École pour l'Informatique et les Techniques Avancées)",
+    "website": "https://www.epita.fr"
+  },
+  {
+    "slug": "epitech",
+    "name": "Epitech",
+    "website": "https://www.epitech.eu"
+  },
+  {
+    "slug": "georgia-tech-lorraine",
+    "name": "Georgia Tech Lorraine",
+    "website": "https://www.georgiatech-metz.fr"
+  },
+  {
+    "slug": "enseeiht",
+    "name": "ENSEEIHT (Toulouse INP)",
+    "website": "https://www.enseeiht.fr"
+  },
+  {
+    "slug": "enseirb",
+    "name": "ENSEIRB-Matmeca (Bordeaux INP)",
+    "website": "https://enseirb-matmeca.bordeaux-inp.fr"
+  },
+  {
+    "slug": "enssat",
+    "name": "ENSSAT (Université de Rennes)",
+    "website": "https://www.enssat.fr"
+  },
+  {
+    "slug": "imt-atlantique",
+    "name": "IMT Atlantique (Institut Mines-Télécom)",
+    "website": "https://www.imt-atlantique.fr"
+  },
+  {
+    "slug": "telecom-lille",
+    "name": "IMT Nord Europe (Télécom Lille)",
+    "website": "https://www.imt-nord-europe.fr"
+  },
+  {
+    "slug": "telecom-sudparis-2",
+    "name": "Télécom SudParis — Master Réseaux & Sécurité",
+    "website": "https://www.telecom-sudparis.eu"
+  }
+]

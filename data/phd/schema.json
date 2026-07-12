@@ -1,0 +1,48 @@
+{
+  "$schema": "PhD offer record for Dina discovery pipeline",
+  "verificationDate": "2026-07-12",
+  "phdOffers": [],
+  "skippedClosed": [],
+  "skippedNoFunding": [],
+  "offerFields": {
+    "id": "string — unique slug e.g. fr-univ-paris-cifre-finance-001",
+    "countrySlug": "string — matches masters countries slug",
+    "institution": "string",
+    "institutionSlug": "string|null — link to masters school if exists",
+    "title": "string",
+    "subject": "string — research topic summary",
+    "domains": ["Finance", "Compliance", "M&A", "..."],
+    "fundingType": "fully_funded|partial|industry_partnership|scholarship|self_funded|unknown",
+    "fundingDetails": "string|null",
+    "openPositions": "number|null",
+    "teachingLanguage": "string",
+    "startDate": "string|null — ISO or human",
+    "applicationDeadline": "string|null",
+    "status": "open|closed|unknown",
+    "supervisors": [
+      {
+        "name": "string",
+        "role": "principal|co-supervisor",
+        "email": "string|null",
+        "linkedinUrl": "string|null",
+        "officialUrl": "string|null",
+        "sourceUrl": "string"
+      }
+    ],
+    "enrolledStudentsSample": [
+      {
+        "name": "string",
+        "linkedinUrl": "string|null",
+        "cohortYear": "string|null",
+        "sourceUrl": "string"
+      }
+    ],
+    "applyUrl": "string",
+    "programInfoUrl": "string",
+    "sourceUrl": "string",
+    "sourceType": "official_university_website|official_portal|linkedin|other",
+    "verificationDate": "string",
+    "confidenceLevel": "High|Medium|Low",
+    "notes": "string|null"
+  }
+}

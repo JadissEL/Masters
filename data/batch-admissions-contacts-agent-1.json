@@ -1,0 +1,81 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "birkbeck",
+      "role": "graduate_admissions",
+      "email": "admissions@bbk.ac.uk",
+      "sourceUrl": "https://www.bbk.ac.uk/downloads/registry/student-policies-2022-23/fee-assessment-policy-and-procedure.pdf/view",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "exeter",
+      "role": "graduate_admissions",
+      "email": "pg-ad@exeter.ac.uk",
+      "sourceUrl": "https://www.exeter.ac.uk/staff/admissions/contactexeter/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "qmul",
+      "role": "graduate_admissions",
+      "email": "pgtadmissions@qmul.ac.uk",
+      "sourceUrl": "https://www.qmul.ac.uk/fmd/contact/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "reading",
+      "role": "graduate_admissions",
+      "email": "postgraduate@henley.ac.uk",
+      "sourceUrl": "https://www.henley.ac.uk/study/masters/apply",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "setu-carlow",
+      "role": "graduate_admissions",
+      "email": "tpgadmissions.cw@setu.ie",
+      "sourceUrl": "https://www.setu.ie/study/postgraduate-study/postgrad-admissions",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    },
+    {
+      "schoolSlug": "ul",
+      "role": "graduate_admissions",
+      "email": "postgradadmissions@ul.ie",
+      "sourceUrl": "https://www.ul.ie/gps/clinical-psychology-application",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High"
+    }
+  ],
+  "skippedFormOnly": [
+    {
+      "schoolSlug": "open-university",
+      "reason": "Postgraduate taught enquiries use online contact form only; research degrees use graduate-school@open.ac.uk but no central taught-PG email published"
+    },
+    {
+      "schoolSlug": "univ-nottingham",
+      "reason": "Postgraduate admissions enquiries directed to online enquiry form and Student Recruitment Support Hub phone (+44 115 951 5559); no central pgadmissions@ email published"
+    },
+    {
+      "schoolSlug": "durham",
+      "reason": "Central postgraduate admissions uses Ask Us enquiry form and phone (+44 191 334 1000); no university-wide pgadmissions@ email published"
+    },
+    {
+      "schoolSlug": "setu",
+      "reason": "Campus-specific emails only: tpgadmissions.wd@setu.ie (Waterford) and tpgadmissions.cw@setu.ie (Carlow/Wexford); no single central address for the institution"
+    },
+    {
+      "schoolSlug": "dundee",
+      "reason": "Future Students Enquiry Team uses online enquiry form and phone (+44 1382 383838); no central postgraduate admissions email published"
+    }
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,167 @@
+{
+  "schoolContacts": [
+    {
+      "schoolSlug": "hec-liege",
+      "role": "admissions_officer",
+      "email": "hec@uliege.be",
+      "sourceUrl": "https://www.programmes.uliege.be/cocoon/20262027/en/formations/ctct/G2XGES01.html",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Official HEC Liège contact on Master in Management programme page; ULiège enrolment via info.etudes@uliege.be / online form"
+    },
+    {
+      "schoolSlug": "eada",
+      "role": "admissions_officer",
+      "email": "international.admissions@eada.edu",
+      "sourceUrl": "https://www.eada.edu/en/now/events/2024/11/coffee-chats-meet-eada-business-school-brussels",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International degree programmes admissions team"
+    },
+    {
+      "schoolSlug": "iae-paris",
+      "role": "graduate_admissions",
+      "email": "scolarite@iae-paris.com",
+      "sourceUrl": "https://www.iae-paris.com/fr/lactualite-de-liae-paris-sorbonne-fevrier-2025",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Services de scolarité — Score IAE-Message and admissions administration"
+    },
+    {
+      "schoolSlug": "iae-lille",
+      "role": "graduate_admissions",
+      "email": "iaelille-resp-scol@univ-lille.fr",
+      "sourceUrl": "https://iaelille.fr/alumni/retrait-de-diplome-et-dattestation/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Pôle scolarité campus Vieux-Lille; M1 via Mon Master, M2 via eCandidat"
+    },
+    {
+      "schoolSlug": "iae-nantes",
+      "role": "graduate_admissions",
+      "email": "scolarite.iae-sociologie@univ-nantes.fr",
+      "sourceUrl": "https://iae.univ-nantes.fr/scolarite",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service scolarité commun IAE Nantes — Économie & Management et UFR Sociologie"
+    },
+    {
+      "schoolSlug": "iae-montpellier",
+      "role": "graduate_admissions",
+      "email": "iae-scolarite-master@umontpellier.fr",
+      "sourceUrl": "https://iae.umontpellier.fr/la-scolarite/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Pôle scolarité Master"
+    },
+    {
+      "schoolSlug": "iae-strasbourg",
+      "role": "graduate_admissions",
+      "email": "scol-master-ee@em-strasbourg.eu",
+      "sourceUrl": "https://www.em-strasbourg.com/en/contact-us",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "EM Strasbourg (IAE Strasbourg) registrar — Master / Executive Education; international applicants: international-admission@em-strasbourg.eu"
+    },
+    {
+      "schoolSlug": "iae-grenoble",
+      "role": "graduate_admissions",
+      "email": "responsable-scolarite@grenoble-iae.fr",
+      "sourceUrl": "https://iae.grenoble-inp.fr/medias/fichier/2025-12-12-organigramme-iae-2025-2026_1765529841611-pdf",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Service Formation / scolarité; international applicants: incomingstudents@grenoble-iae.fr"
+    },
+    {
+      "schoolSlug": "ipag",
+      "role": "admissions_officer",
+      "email": "admissions-paris@ipag.fr",
+      "sourceUrl": "https://bts.ipag.fr/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Campus Paris admissions; Nice campus: admissions-nice@ipag.fr"
+    },
+    {
+      "schoolSlug": "isc-paris",
+      "role": "admissions_officer",
+      "email": "international.applications@iscparis.com",
+      "sourceUrl": "https://www.iscparis.com/en/contact-us/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "General international applications — Bachelor, MiM and MSc"
+    },
+    {
+      "schoolSlug": "kedge-marseille",
+      "role": "admissions_officer",
+      "email": "international@kedgebs.com",
+      "sourceUrl": "https://student.kedge.edu/news-student/how-do-i-apply-for-a-master-s-degree-at-kedge-as-an-international-student",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "International MSc/master eligibility and admissions support; apply via join.kedge.edu"
+    },
+    {
+      "schoolSlug": "essca",
+      "role": "admissions_officer",
+      "email": "international.admissions@essca.fr",
+      "sourceUrl": "https://events.essca.fr/en/webinaire-detail/Igniting-Brilliance:-Elevate-Your-Potential-in-Global-Business-Management-53",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "MSc programmes international admissions"
+    },
+    {
+      "schoolSlug": "idrac",
+      "role": "admissions_officer",
+      "email": "contact.lyon@idrac-bs.fr",
+      "sourceUrl": "https://www.ecoles-idrac.com/contact",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "IDRAC Lyon campus admissions team"
+    },
+    {
+      "schoolSlug": "estya",
+      "role": "admissions_officer",
+      "email": "admission@estya.com",
+      "sourceUrl": "https://estya.com/processus-dadmission/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Official admissions inbox on estya.com (Paris campus)"
+    },
+    {
+      "schoolSlug": "mba-paris",
+      "role": "admissions_officer",
+      "email": "admissions@mba-esg.com",
+      "sourceUrl": "https://www.mba-esg.com/faq",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "MBA ESG Paris service des admissions; official site mba-esg.com"
+    }
+  ],
+  "skippedFormOnly": [
+    "iae-toulouse",
+    "excelia",
+    "esg"
+  ],
+  "unresolved": [],
+  "lastRun": "2026-07-12T02:30:00.000Z",
+  "stats": {
+    "found": 15,
+    "skipped": 3,
+    "unresolved": 0,
+    "total": 18
+  }
+}
