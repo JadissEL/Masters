@@ -1,0 +1,225 @@
+{
+  "wave": 3,
+  "agentId": "w3-gaps-france-england-iceland-uae-ireland",
+  "region": "Gap-fill: France, England (pure finance), Iceland, UAE, Ireland",
+  "candidate": "dina",
+  "verificationDate": "2026-07-12",
+  "searchSummary": {
+    "portalsChecked": [
+      "EURAXESS Jobs (https://euraxess.ec.europa.eu/jobs) — France country filter, Economics/Management fields",
+      "jobs.ac.uk — PhD Scholarships category, Accountancy & Finance sub-discipline, Business & Management Studies",
+      "FindAPhD — United Kingdom / Finance / Financial Economics / Financial Management / Banking / Investment categories",
+      "AcademicPositions.com / academicpositions.fr / academicpositions.nl — Corporate Finance, Finance, Accounting fields",
+      "ABG (Association Bernard Gregory) — Banking & Finance thesis offers",
+      "FNEGE offres d'emploi (France business school academic jobs)",
+      "Official university/school pages: HEC Paris, ESSEC, EDHEC, SKEMA, INSEAD, IÉSEG/LEM, Paris 1 Panthéon-Sorbonne, Université de Limoges (LAPE), Université Côte d'Azur (GREDEG/DESPEG)",
+      "Official UK pages: Exeter, UCL SoM, Durham, Oxford Saïd, Manchester AMBS, Liverpool ULMS, Sheffield, Heriot-Watt EBS, Reading",
+      "Official Ireland pages: UCD (Banking & Finance Dept, Smurfit School, School of Economics), Trinity Business School/Economics, University of Limerick (Kemmy), University of Galway (Cairnes/Accountancy & Finance), Maynooth University (School of Business, Economics), DCU Business School",
+      "Official Iceland pages: University of Iceland (Business Administration doctoral programme, UI Doctoral/PhD Grants Fund, Viðskiptafræðideild), Reykjavik University (Dept. of Business and Economics PhD, RU Research Fund)",
+      "Official UAE pages: American University of Sharjah (PhD-FIN, PhD-BA Finance concentration, PhD-MGT), University of Sharjah (DBA), Khalifa University, Abu Dhabi University, Ajman University (DBA), Zayed University, British University in Dubai (BUiD), Heriot-Watt Dubai, Middlesex University Dubai, Canadian University Dubai, University of Wollongong in Dubai, University of Dubai"
+    ],
+    "targetGapRegions": {
+      "france": "4 already verified (EconomiX rolling, Lorraine CEREFIGE 12/09/26, Angers GRANEM 28/08/26, HEC Paris round 04/01/27)",
+      "englandPureFinance": "0 already verified (existing England entries are EPSRC circular-economy-finance/AI-labour-markets and legal/HR studentships, not pure finance/accounting research projects)",
+      "iceland": "1 already verified (University of Iceland Economics ConCIV, 04/08/26)",
+      "uae": "4 already verified (AUS PhD-FIN, AUS PhD-BA Finance, UOWD, University of Dubai)",
+      "irelandBeyondThree": "3 already verified (UCC CUBS, UL KBS open-topic, DCU part-time fee-only)"
+    },
+    "offersFoundOpen": 0,
+    "conclusion": "No additional OPEN, funded, finance/accounting/compliance/corporate-finance/audit/M&A/IB/healthcare-finance PhD offers were found in the five gap regions beyond what is already in phd-verified.json, as of 2026-07-12. Root cause is cycle timing: virtually every specific-project, funded PhD studentship/scholarship for a September 2026 start in these regions and domains has an application deadline that already fell between January and June 2026 (i.e. already closed by the 2026-07-12 verification date), while the September 2027 intake cycles at the major research-active institutions (INSEAD, SKEMA, EDHEC, TSE, ESSEC, Paris Dauphine-PSL, IÉSEG, Heriot-Watt EBS beyond its 2 already-listed EPSRC projects, UCD Banking & Finance, Trinity Business School, University of Galway Hardiman/Cairnes, Maynooth School of Business, Khalifa University, Abu Dhabi University, Ajman University DBA) have not yet opened (typical open windows are Sept-Dec 2026 for Sept 2027 starts). This mirrors and confirms the same finding already documented in batch-wave3-france-2027.json for France specifically; this wave extended the same conclusion to England (pure finance), Iceland, UAE and Ireland."
+  },
+  "phdOffers": [],
+  "skippedClosed": [
+    {
+      "title": "Ph.D. position in Corporate Finance (Corporate Governance & Cybersecurity Risk) — IÉSEG/LEM",
+      "institution": "IÉSEG School of Management / Université de Lille",
+      "countrySlug": "france",
+      "applicationDeadline": "2026-05-01",
+      "sourceUrl": "https://recruitment.ieseg.fr/jobs/7368785-ph-d-position-in-corporate-finance"
+    },
+    {
+      "title": "PhD position in Finance and Behavioral Economics: Gender, Psychology and Academic Careers — IÉSEG/LEM",
+      "institution": "IÉSEG School of Management",
+      "countrySlug": "france",
+      "applicationDeadline": "2026-05-03",
+      "sourceUrl": "https://academicpositions.nl/ad/ieseg-school-of-management/2026/phd-position-in-finance-and-behavioral-economics-gender-psychology-and-academic-careers/246145"
+    },
+    {
+      "title": "Ph.D. Position in Alternative Organizational Forms — IÉSEG/LEM",
+      "institution": "IÉSEG School of Management",
+      "countrySlug": "france",
+      "applicationDeadline": "2026-05-31",
+      "sourceUrl": "https://academicpositions.com/ad/ieseg-school-of-management/2026/ph-d-position-in-alternative-organizational-forms/247411"
+    },
+    {
+      "title": "PhD in Banking and Finance — Université de Limoges (LAPE)",
+      "institution": "Université de Limoges",
+      "countrySlug": "france",
+      "applicationDeadline": "2026-05-28",
+      "sourceUrl": "https://www.unilim.fr/ced/2026/03/03/phd-in-banking-and-finance/"
+    },
+    {
+      "title": "Doctorat en économie/gestion — École Doctorale DESPEG / GREDEG, Université Côte d'Azur",
+      "institution": "Université Côte d'Azur",
+      "countrySlug": "france",
+      "applicationDeadline": "2026-06-10",
+      "sourceUrl": "https://afri-carrieres.com/2026/04/doctorat-a-luniversite-cote-dazur.html"
+    },
+    {
+      "title": "UCD PhD Scholarship in Finance (Banking and Finance Department)",
+      "institution": "University College Dublin",
+      "countrySlug": "ireland",
+      "applicationDeadline": "2026-03-18",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DQS854/ucd-phd-scholarship-in-finance"
+    },
+    {
+      "title": "UCD Smurfit School partial PhD Scholarship (open topic incl. finance)",
+      "institution": "UCD Michael Smurfit Graduate Business School",
+      "countrySlug": "ireland",
+      "applicationDeadline": "2026-06-30",
+      "sourceUrl": "https://www.smurfitschool.ie/admissions/scholarships/phdscholarship/"
+    },
+    {
+      "title": "UCD School of Economics PhD scholarships",
+      "institution": "University College Dublin",
+      "countrySlug": "ireland",
+      "applicationDeadline": "2026-02-08",
+      "sourceUrl": "https://www.ucd.ie/economics/phd/application/"
+    },
+    {
+      "title": "Trinity Business School PhD Research Scholarship",
+      "institution": "Trinity College Dublin",
+      "countrySlug": "ireland",
+      "applicationDeadline": "2026-03-31",
+      "sourceUrl": "https://www.tcd.ie/business/programmes/the-doctoral-programme/scholarships/"
+    },
+    {
+      "title": "Hardiman PhD Scholarships (incl. Cairnes School of Business & Economics)",
+      "institution": "University of Galway",
+      "countrySlug": "ireland",
+      "applicationDeadline": "2026-02-06",
+      "sourceUrl": "https://www.universityofgalway.ie/hardiman-scholarships/"
+    },
+    {
+      "title": "Maynooth University School of Business PhD Scholarship (governance topic, not finance-specific)",
+      "institution": "Maynooth University",
+      "countrySlug": "ireland",
+      "applicationDeadline": "2026-01",
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/PhD%20Scholarship%20in%20the%20Dept%20of%20Business%20Final.pdf"
+    },
+    {
+      "title": "Maynooth University Economics PhD Scholarship (Teagasc/Walsh Scholarship, agri-economics)",
+      "institution": "Maynooth University",
+      "countrySlug": "ireland",
+      "applicationDeadline": "2026-06-01",
+      "sourceUrl": "https://www.maynoothuniversity.ie/economics/scholarships"
+    },
+    {
+      "title": "University of Manchester AMBS PhD Accounting and Finance (external funding deadline)",
+      "institution": "University of Manchester — Alliance Manchester Business School",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-06-30",
+      "sourceUrl": "https://www.manchester.ac.uk/study/postgraduate-research/programmes/list/19378/phd-accounting-and-finance/"
+    },
+    {
+      "title": "University of Liverpool ULMS Graduate Teaching Fellowship — Accounting and Finance (round 1)",
+      "institution": "University of Liverpool Management School",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-04-08",
+      "sourceUrl": "https://www.liverpool.ac.uk/management/study/postgraduate-research/phd-studentships/"
+    },
+    {
+      "title": "PhD Studentship: Accounting for the Future of Business — Performative Valuation of Data in B2B Firms",
+      "institution": "University of Sheffield",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-06-26",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DRL843/phd-studentship-accounting-for-the-future-of-business-performative-valuation-of-data-in-b2b-firms"
+    },
+    {
+      "title": "University of Exeter Business School Integrated PhD in Finance Studentship",
+      "institution": "University of Exeter",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-02-23",
+      "sourceUrl": "https://www.exeter.ac.uk/study/funding/award?id=5707"
+    },
+    {
+      "title": "UCL School of Management PhD Programme in Financial Economics (fully-funded scholarship round)",
+      "institution": "University College London",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-01-23",
+      "sourceUrl": "http://management.ucl.ac.uk/phd-financial-economics"
+    },
+    {
+      "title": "Durham University Business School PhD in Finance (ESRC NINE DTP / Excellence Studentships)",
+      "institution": "Durham University",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-02-15",
+      "sourceUrl": "https://www.durham.ac.uk/business/about/departments/finance/phd-in-finance-/"
+    },
+    {
+      "title": "University of Reading PhD in Finance or Accounting scholarships",
+      "institution": "University of Reading",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-unspecified-passed",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DRL773/phd-in-finance-or-accounting"
+    },
+    {
+      "title": "University of Iceland UI PhD/Doctoral Grants Fund (incl. Business Administration)",
+      "institution": "University of Iceland",
+      "countrySlug": "iceland",
+      "applicationDeadline": "2026-02-01",
+      "sourceUrl": "https://english.hi.is/research/funds-and-grants/internal-grants/phd-grants-fund"
+    }
+  ],
+  "skippedNoFunding": [
+    {
+      "title": "PhD in Business Administration (Viðskiptafræði) — open admission, self-financing plan required",
+      "institution": "University of Iceland",
+      "countrySlug": "iceland",
+      "reason": "Rolling admission year-round but no guaranteed funding; applicant must submit own financing plan. Competitive Doctoral Grant Fund (only funding route) had 2026 deadline 01/02/26, already passed.",
+      "sourceUrl": "https://english.hi.is/business-administration/doctoral"
+    },
+    {
+      "title": "PhD in Business Administration — Dept. of Business and Economics",
+      "institution": "Reykjavik University",
+      "countrySlug": "iceland",
+      "reason": "Rolling twice-yearly admission (30 Apr / 5 Nov) but funding is self-sourced/competitive RU Research Fund grant (separate application, no dedicated finance project); not a guaranteed funded position.",
+      "sourceUrl": "https://en.ru.is/sss/db/phd"
+    },
+    {
+      "title": "PhD Finance / PhD Accounting, Banking, Finance — Edinburgh Business School",
+      "institution": "Heriot-Watt University (main & Dubai campuses)",
+      "countrySlug": "england/uae",
+      "reason": "General PhD Finance and Dubai Accounting/Banking/Finance research pages are explicitly listed as 'Self-funded'; only the 2 already-verified EPSRC-funded topics (circular economy finance, AI & labour markets) at the Edinburgh campus are funded and open.",
+      "sourceUrl": "https://www.hw.ac.uk/study/research/finance-phd"
+    },
+    {
+      "title": "PhD in Business Management (incl. finance-adjacent research) — partial scholarships only",
+      "institution": "The British University in Dubai (BUiD)",
+      "countrySlug": "uae",
+      "reason": "Rolling admission; scholarships are partial tuition discounts (10-20%) for distinction/alumni/family/strategic-partner categories, not project-specific finance funding with a named supervisor/topic — too generic to record as a discrete finance PhD offer without overstating specificity.",
+      "sourceUrl": "https://www.buid.ac.ae/programmes/pg-scholarships/"
+    },
+    {
+      "title": "Doctor of Business Administration (DBA)",
+      "institution": "Ajman University",
+      "countrySlug": "uae",
+      "reason": "International applicants must provide 'evidence of self-funded scholarship' — self-funded, not university-funded.",
+      "sourceUrl": "https://www.ajman.ac.ae/en/academics/academic-programs-majors/programs/doctor-of-business-administration-dba"
+    },
+    {
+      "title": "PhD Scholarship for International/UAE National Students (merit-tiered, no dedicated finance project)",
+      "institution": "Khalifa University",
+      "countrySlug": "uae",
+      "reason": "Merit-tiered scholarship exists and can be fully funded, but Fall-semester application deadline is February 10 each year (passed for 2026 intake) and there is no dedicated open finance/accounting/business research project — business/finance research sits under the PhD in Engineering Systems & Management (ESMA), an engineering degree, not a finance PhD.",
+      "sourceUrl": "https://www.ku.ac.ae/scholarships-postgraduate"
+    },
+    {
+      "title": "Paris 1 Panthéon-Sorbonne 'stratégie d'établissement' contrats doctoraux (8 slots, deadline 20/08/26)",
+      "institution": "Université Paris 1 Panthéon-Sorbonne",
+      "countrySlug": "france",
+      "reason": "Genuinely open (deadline 2026-08-20) but restricted to transdisciplinary/Una Europa thematic priorities (European studies, sustainable development, cultural heritage, One Health, data science & AI, materials of the future) with candidate-proposed topics — not a finance/accounting/compliance-labeled call, and the 87 école-doctorale-level contracts (incl. Économie ED465 and Management EDMPS, which do cover finance) have their own calendars not yet published (EDMPS funding page states doctoral-contract applications open 'early September', i.e. not yet open as of 2026-07-12).",
+      "sourceUrl": "https://recherche.pantheonsorbonne.fr/actualite/campagne-2026-dattribution-de-contrats-doctoraux-paris-1-pantheon-sorbonne"
+    }
+  ]
+}

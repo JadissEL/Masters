@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-12",
-  "openOffers": 115,
-  "withAnySupervisorLinkedIn": 0,
+  "openOffers": 171,
+  "withAnySupervisorLinkedIn": 6,
   "withStudentSample10Plus": 3,
   "needsManualEnrichment": [
     {
@@ -61,9 +61,7 @@
       "missingSupervisorLinkedIn": [
         "Ken Shaw"
       ],
-      "missingSupervisorEmail": [
-        "Ken Shaw"
-      ],
+      "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://business.missouri.edu/graduate-programs/phd-accountancy"
@@ -315,9 +313,18 @@
       "institution": "American University of Sharjah",
       "countrySlug": "uae",
       "missingSupervisorLinkedIn": [
-        "Department of Finance (PhD-FIN)"
+        "Department of Finance (PhD-FIN)",
+        "Dr. Osamah Al-Khazali (Head, Department of Finance)",
+        "Dr. Narjess Boubakri",
+        "Dr. Zaher Zantout",
+        "Dr. Anis Samet"
       ],
-      "missingSupervisorEmail": [],
+      "missingSupervisorEmail": [
+        "Dr. Osamah Al-Khazali (Head, Department of Finance)",
+        "Dr. Narjess Boubakri",
+        "Dr. Zaher Zantout",
+        "Dr. Anis Samet"
+      ],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin"
@@ -339,11 +346,10 @@
       "institution": "University of Wollongong in Dubai",
       "countrySlug": "uae",
       "missingSupervisorLinkedIn": [
+        "Dr Vikash Ramiah (Associate Professor, Head of Postgraduate Studies)",
         "UOWD Admissions Team"
       ],
-      "missingSupervisorEmail": [
-        "UOWD Admissions Team"
-      ],
+      "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy"
@@ -353,7 +359,8 @@
       "institution": "University of Dubai — Dubai Business School",
       "countrySlug": "uae",
       "missingSupervisorLinkedIn": [
-        "PhD Program Admissions (Manar Noufal)"
+        "PhD Program Admissions (Manar Noufal)",
+        "Aeman Sabre (Application Submissions & Inquiries)"
       ],
       "missingSupervisorEmail": [],
       "studentSampleCount": 0,
@@ -474,9 +481,7 @@
       "missingSupervisorLinkedIn": [
         "OSIPP Doctoral Admissions"
       ],
-      "missingSupervisorEmail": [
-        "OSIPP Doctoral Admissions"
-      ],
+      "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.osipp.osaka-u.ac.jp/en/admissions/doctoral-program/"
@@ -514,9 +519,7 @@
       "missingSupervisorLinkedIn": [
         "SNU Office of Global Affairs — Scholarship Manager"
       ],
-      "missingSupervisorEmail": [
-        "SNU Office of Global Affairs — Scholarship Manager"
-      ],
+      "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://oga.snu.ac.kr/snu-president-fellowship-spf"
@@ -613,7 +616,7 @@
       "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
-      "programInfoUrl": "https://www.monash.edu/business/current-students/graduate-research"
+      "programInfoUrl": "https://www.monash.edu/graduate-research/study/apply"
     },
     {
       "id": "au-macquarie-irtp-2027-015",
@@ -629,11 +632,14 @@
       "id": "au-uq-uqgss-rtp-016",
       "institution": "The University of Queensland",
       "countrySlug": "australia",
-      "missingSupervisorLinkedIn": [],
+      "missingSupervisorLinkedIn": [
+        "Dr Eric Tan",
+        "Professor Peter Clarkson"
+      ],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 4,
       "studentSampleTargetMet": false,
-      "programInfoUrl": "https://programs-courses.uq.edu.au/program.html?acad_prog=7501"
+      "programInfoUrl": "https://business.uq.edu.au/study/phd"
     },
     {
       "id": "au-rmit-phd-accountancy-017",
@@ -673,7 +679,7 @@
       "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
-      "programInfoUrl": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-domestic.html"
+      "programInfoUrl": "https://www.sydney.edu.au/courses/courses/pr/doctor-of-philosophy-business0.html"
     },
     {
       "id": "au-curtin-accounting-biodiversity-021",
@@ -695,7 +701,7 @@
       "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
-      "programInfoUrl": "https://www.griffith.edu.au/research-study/scholarships"
+      "programInfoUrl": "https://www.griffith.edu.au/research-study/industry-phd"
     },
     {
       "id": "nz-vuw-wellington-doctoral-023",
@@ -751,7 +757,9 @@
       "id": "nz-aut-doctoral-029",
       "institution": "Auckland University of Technology",
       "countrySlug": "new-zealand",
-      "missingSupervisorLinkedIn": [],
+      "missingSupervisorLinkedIn": [
+        "Stefania Patrone (Scholarships Officer)"
+      ],
       "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
@@ -768,7 +776,7 @@
       "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
-      "programInfoUrl": "https://www.inn.no/english/research/phd-programmes"
+      "programInfoUrl": "https://www.inn.no/english/research/doctoral-degree/innovation-in-services/index.html"
     },
     {
       "id": "no-nhh-finance-phd-2027",
@@ -823,7 +831,7 @@
       "institution": "NHH Norwegian School of Economics",
       "countrySlug": "norway",
       "missingSupervisorLinkedIn": [
-        "NHH PhD Programme"
+        "Hallgeir Sjåstad"
       ],
       "missingSupervisorEmail": [],
       "studentSampleCount": 0,
@@ -895,7 +903,10 @@
       "id": "dk-cbs-org-behavioural-public-service-phd-2027",
       "institution": "Copenhagen Business School",
       "countrySlug": "denmark",
-      "missingSupervisorLinkedIn": [],
+      "missingSupervisorLinkedIn": [
+        "Kirstine Zinck Pedersen",
+        "Trine Pallesen"
+      ],
       "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
@@ -919,8 +930,7 @@
       "institution": "Université Paris Nanterre — EconomiX (UMR CNRS 7235)",
       "countrySlug": "france",
       "missingSupervisorLinkedIn": [
-        "Andreea Cosnita-Langlais",
-        "Eric Langlais"
+        "Andreea Cosnita-Langlais"
       ],
       "missingSupervisorEmail": [],
       "studentSampleCount": 10,
@@ -948,7 +958,7 @@
         "Caroline Marie-Jeanne"
       ],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 0,
+      "studentSampleCount": 8,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.pepr-spleen.fr/projet/projet-dif/"
     },
@@ -981,8 +991,7 @@
       "institution": "Maastricht University — School of Business and Economics",
       "countrySlug": "netherlands",
       "missingSupervisorLinkedIn": [
-        "Prof. Dr. Rachel Pownall",
-        "Dr. Christian Wiehenkamp"
+        "Prof. Dr. Rachel Pownall"
       ],
       "missingSupervisorEmail": [
         "Dr. Christian Wiehenkamp"
@@ -1008,12 +1017,9 @@
       "institution": "Delft University of Technology — Faculty TPM",
       "countrySlug": "netherlands",
       "missingSupervisorLinkedIn": [
-        "Prof. dr. ir. Nitesh Bharosa",
-        "Dr. ir. Marcela Tuler de Oliveira"
+        "Prof. dr. ir. Nitesh Bharosa"
       ],
-      "missingSupervisorEmail": [
-        "Dr. ir. Marcela Tuler de Oliveira"
-      ],
+      "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.tudelft.nl/tbm"
@@ -1028,7 +1034,7 @@
       "missingSupervisorEmail": [
         "Department of Finance admissions"
       ],
-      "studentSampleCount": 0,
+      "studentSampleCount": 6,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.uni.lu/research-en/doctoral-education/dsefm/finance/"
     },
@@ -1036,12 +1042,8 @@
       "id": "lu-uni-tax-law-doctoral-005",
       "institution": "University of Luxembourg — Faculty of Law, Economics and Finance",
       "countrySlug": "luxembourg",
-      "missingSupervisorLinkedIn": [
-        "Prof. Werner Haslehner"
-      ],
-      "missingSupervisorEmail": [
-        "Prof. Werner Haslehner"
-      ],
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.uni.lu/fdef-en/"
@@ -1051,8 +1053,7 @@
       "institution": "Maastricht University — School of Business and Economics",
       "countrySlug": "netherlands",
       "missingSupervisorLinkedIn": [
-        "Dr. Kelly Geyskens",
-        "Dr. Joana Wensing"
+        "Dr. Kelly Geyskens"
       ],
       "missingSupervisorEmail": [
         "Dr. Joana Wensing"
@@ -1077,10 +1078,7 @@
       "id": "de-uni-tuebingen-phd-heterogeneous-agent-macro-001",
       "institution": "University of Tübingen — Faculty of Economics and Social Sciences",
       "countrySlug": "germany",
-      "missingSupervisorLinkedIn": [
-        "Prof. Dr. Ralph Luetticke",
-        "Prof. Dr. Gernot Müller"
-      ],
+      "missingSupervisorLinkedIn": [],
       "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
@@ -1088,13 +1086,16 @@
     },
     {
       "id": "de-uni-goettingen-china-grasp-phd-finance-001",
-      "institution": "University of Göttingen & Kiel Institute for the World Economy — DFG RTG China-GRASP",
+      "institution": "University of Göttingen & Kiel Institute for the World Economy — DFG RTG China-GRASP (RTG 3209)",
       "countrySlug": "germany",
-      "missingSupervisorLinkedIn": [],
+      "missingSupervisorLinkedIn": [
+        "Prof. Dr. Anja Jetschke",
+        "Prof. Dr. Christoph Trebesch"
+      ],
       "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
-      "programInfoUrl": "https://www.uni-goettingen.de/"
+      "programInfoUrl": "https://uni-goettingen.de/de/research+clusters/708380.html"
     },
     {
       "id": "de-leuphana-imaf-accounting-auditing-phd-001",
@@ -1120,7 +1121,7 @@
       "missingSupervisorEmail": [
         "Prof. Dr. Henning Zülch"
       ],
-      "studentSampleCount": 0,
+      "studentSampleCount": 5,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.hhl.de/"
     },
@@ -1132,13 +1133,13 @@
         "Dr. Carsten Lucaß"
       ],
       "missingSupervisorEmail": [],
-      "studentSampleCount": 2,
+      "studentSampleCount": 6,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.whu.edu/en/faculty-research/management-group/institute-of-management-accounting-and-control/doctoral-studies/"
     },
     {
       "id": "de-uni-passau-dpe-platform-ecosystems-phd-001",
-      "institution": "University of Passau — Chair of Business Information Systems (DFG RTG)",
+      "institution": "University of Passau — Chair of Business Information Systems (DFG RTG 2720)",
       "countrySlug": "germany",
       "missingSupervisorLinkedIn": [
         "Prof. Dr. Thomas Widjaja"
@@ -1191,26 +1192,22 @@
       "missingSupervisorLinkedIn": [
         "Prof. Dr. Stefan Morkötter"
       ],
-      "missingSupervisorEmail": [
-        "Prof. Dr. Stefan Morkötter"
-      ],
+      "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.unisg.ch/en/research/phd/graduate-programme-in-economics-and-finance-gpef/admission-autumn-semester-2026/"
     },
     {
       "id": "ch-unisg-phd-auditing-accounting-001",
-      "institution": "University of St.Gallen — Competence Center for Auditing (Prof. Florian Eugster)",
+      "institution": "University of St.Gallen — Institute for Accounting, Control and Auditing (ACA-HSG, Prof. Florian Eugster)",
       "countrySlug": "switzerland",
       "missingSupervisorLinkedIn": [
-        "Prof. Florian Eugster"
+        "Prof. Dr. Florian Eugster"
       ],
-      "missingSupervisorEmail": [
-        "Prof. Florian Eugster"
-      ],
+      "missingSupervisorEmail": [],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
-      "programInfoUrl": "https://www.unisg.ch/en/research/phd/"
+      "programInfoUrl": "https://aca.unisg.ch/"
     },
     {
       "id": "ch-uni-neuchatel-phd-innovation-mgmt-001",
@@ -1248,8 +1245,14 @@
       "id": "es-uc3m-phd-business-finance-admission-001",
       "institution": "Universidad Carlos III de Madrid (UC3M)",
       "countrySlug": "spain",
-      "missingSupervisorLinkedIn": [],
-      "missingSupervisorEmail": [],
+      "missingSupervisorLinkedIn": [
+        "Prof. Eduardo Melero",
+        "Prof. Neus Palomeras"
+      ],
+      "missingSupervisorEmail": [
+        "Prof. Eduardo Melero",
+        "Prof. Neus Palomeras"
+      ],
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.uc3m.es/phdprogram/business-finance"
@@ -1322,6 +1325,652 @@
       "studentSampleCount": 0,
       "studentSampleTargetMet": false,
       "programInfoUrl": "https://www.jobs.ac.uk/job/DSB112/edinburgh-business-school-epsrc-phd-studentships"
+    },
+    {
+      "id": "nl-vu-competition-law-ai-fairness-008",
+      "institution": "Vrije Universiteit Amsterdam — Faculty of Law (ATLANTIS / ALTI)",
+      "countrySlug": "netherlands",
+      "missingSupervisorLinkedIn": [
+        "Assoc. Prof. Thibault Schrepel"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://teamatlantis.eu"
+    },
+    {
+      "id": "nl-vu-competition-law-computational-009",
+      "institution": "Vrije Universiteit Amsterdam — Faculty of Law (ATLANTIS / ALTI)",
+      "countrySlug": "netherlands",
+      "missingSupervisorLinkedIn": [
+        "Assoc. Prof. Thibault Schrepel"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://teamatlantis.eu"
+    },
+    {
+      "id": "de-leuphana-audit-practice-phd-velte-001",
+      "institution": "Leuphana University Lüneburg — IMAF / Wirtschaftsprüfungskooperation",
+      "countrySlug": "germany",
+      "missingSupervisorLinkedIn": [
+        "Prof. Dr. Patrick Velte"
+      ],
+      "missingSupervisorEmail": [
+        "Prof. Dr. Patrick Velte"
+      ],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.leuphana.de/"
+    },
+    {
+      "id": "ch-unisg-pif-tykvova-pe-vc-slots-001",
+      "institution": "University of St.Gallen — GPEF PiF (Prof. Tereza Tykvová)",
+      "countrySlug": "switzerland",
+      "missingSupervisorLinkedIn": [
+        "Prof. Dr. Tereza Tykvová"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.unisg.ch/en/research/phd/graduate-programme-in-economics-and-finance-gpef/admission-autumn-semester-2026/"
+    },
+    {
+      "id": "es-uc3m-phd-economics-admission-001",
+      "institution": "Universidad Carlos III de Madrid (UC3M)",
+      "countrySlug": "spain",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.uc3m.es/phdprogram/economics"
+    },
+    {
+      "id": "es-uv-doctoral-accounting-esg-governance-line-001",
+      "institution": "Universitat de València — Accounting & Corporate Finance Doctorate",
+      "countrySlug": "spain",
+      "missingSupervisorLinkedIn": [
+        "Dra. Begoña Giner Inchausti"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.uv.es/doctoradocontabilidadyfinanzas"
+    },
+    {
+      "id": "es-uc3m-phd-business-finance-banking-track-001",
+      "institution": "Universidad Carlos III de Madrid (UC3M)",
+      "countrySlug": "spain",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.uc3m.es/phdprogram/business-finance"
+    },
+    {
+      "id": "ch-unisg-gpef-pecon-econometrics-001",
+      "institution": "University of St.Gallen — GPEF PEcon",
+      "countrySlug": "switzerland",
+      "missingSupervisorLinkedIn": [
+        "Dr. Mirela Keuschnigg"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.unisg.ch/en/research/phd/graduate-programme-in-economics-and-finance-gpef/"
+    },
+    {
+      "id": "dk-cbs-law-supply-chain-liability-phd-2026",
+      "institution": "Copenhagen Business School",
+      "countrySlug": "denmark",
+      "missingSupervisorLinkedIn": [
+        "Peter Koerver Schmidt"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.cbs.dk/en/research/phd-programme"
+    },
+    {
+      "id": "no-nhh-accounting-auditing-faa-track-2027",
+      "institution": "NHH Norwegian School of Economics",
+      "countrySlug": "norway",
+      "missingSupervisorLinkedIn": [
+        "NHH Department of Accounting, Auditing and Law"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.nhh.no/en/departments/accounting-auditing-and-law/phd-specisalisation/"
+    },
+    {
+      "id": "usa-oregon-finance-phd-001",
+      "institution": "University of Oregon — Lundquist College of Business",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://business.uoregon.edu/programs/phd/apply"
+    },
+    {
+      "id": "usa-kelley-finance-phd-001",
+      "institution": "Indiana University — Kelley School of Business",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://kelley.iu.edu/faculty-research/phd/admissions/frequently-asked-questions/index.html"
+    },
+    {
+      "id": "usa-unc-accounting-phd-001",
+      "institution": "UNC Kenan-Flagler Business School",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.kenan-flagler.unc.edu/programs/phd/admission-requirements/"
+    },
+    {
+      "id": "canada-schulich-accounting-phd-001",
+      "institution": "York University — Schulich School of Business",
+      "countrySlug": "canada",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://schulich.yorku.ca/programs/phd/"
+    },
+    {
+      "id": "canada-rotman-accounting-phd-001",
+      "institution": "University of Toronto — Rotman School of Management",
+      "countrySlug": "canada",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://rotman.utoronto.ca/programs/phd-program/financial-information/"
+    },
+    {
+      "id": "canada-smith-phd-accounting-001",
+      "institution": "Queen's University — Smith School of Business",
+      "countrySlug": "canada",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://smith.queensu.ca/grad_studies/PHD/program-details/fees.php"
+    },
+    {
+      "id": "au-dfcrc-industry-phd-uts-002",
+      "institution": "University of Technology Sydney",
+      "countrySlug": "australia",
+      "missingSupervisorLinkedIn": [
+        "Digital Finance CRC Education Team"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/industry-phd-scholarship--digital-finance-crc"
+    },
+    {
+      "id": "au-dfcrc-industry-phd-unsw-003",
+      "institution": "University of New South Wales",
+      "countrySlug": "australia",
+      "missingSupervisorLinkedIn": [
+        "Digital Finance CRC Education Team"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://dfcrc.com.au/study-with-us/industry-phd/"
+    },
+    {
+      "id": "au-dfcrc-industry-phd-uwa-004",
+      "institution": "University of Western Australia",
+      "countrySlug": "australia",
+      "missingSupervisorLinkedIn": [
+        "Digital Finance CRC Education Team"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://researchdegrees.uwa.edu.au/scholarships/1905zx/industry-phd-scholarship-digital-finance-crc"
+    },
+    {
+      "id": "au-dfcrc-industry-phd-curtin-005",
+      "institution": "Curtin University",
+      "countrySlug": "australia",
+      "missingSupervisorLinkedIn": [
+        "Digital Finance CRC Education Team"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://dfcrc.com.au/study-with-us/industry-phd/"
+    },
+    {
+      "id": "au-dfcrc-industry-phd-uow-006",
+      "institution": "University of Wollongong",
+      "countrySlug": "australia",
+      "missingSupervisorLinkedIn": [
+        "Digital Finance CRC Education Team"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://dfcrc.com.au/study-with-us/industry-phd/"
+    },
+    {
+      "id": "nz-auckland-spicer-glenn-027",
+      "institution": "University of Auckland",
+      "countrySlug": "new-zealand",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.auckland.ac.nz/en/business/study-with-us/scholarships-awards/doctoral-scholarships.html"
+    },
+    {
+      "id": "kr-kaist-finance-mba-phd-spring2027-006",
+      "institution": "KAIST — College of Business (Finance MBA / PhD pathway)",
+      "countrySlug": "south-korea",
+      "missingSupervisorLinkedIn": [
+        "Finance MBA Program Office"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.business.kaist.edu/programs/02040101"
+    },
+    {
+      "id": "kr-kaist-mgmt-eng-fall2027-early-007",
+      "institution": "KAIST — College of Business (Management Engineering)",
+      "countrySlug": "south-korea",
+      "missingSupervisorLinkedIn": [
+        "KAIST International Graduate Admissions"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/Scholarship/KAISTScholarship"
+    },
+    {
+      "id": "eng-hwu-ebs-epsrc-ai-labour-markets-002",
+      "institution": "Heriot-Watt University — Edinburgh Business School",
+      "countrySlug": "england",
+      "missingSupervisorLinkedIn": [
+        "Prof. Cristina Tealdi",
+        "Dr Yannis Kostas"
+      ],
+      "missingSupervisorEmail": [
+        "Dr Yannis Kostas"
+      ],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.jobs.ac.uk/job/DSB112/edinburgh-business-school-epsrc-phd-studentships"
+    },
+    {
+      "id": "be-kuleuven-jan-ronse-company-law-001",
+      "institution": "KU Leuven — Jan Ronse Institute for Company and Financial Law",
+      "countrySlug": "belgium",
+      "missingSupervisorLinkedIn": [
+        "Prof. dr. Sofie Cools"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.law.kuleuven.be/jri/en"
+    },
+    {
+      "id": "be-kuleuven-tax-law-002",
+      "institution": "KU Leuven — Institute for Tax Law (Economic Law)",
+      "countrySlug": "belgium",
+      "missingSupervisorLinkedIn": [
+        "Prof. dr. Filip Debelva"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.law.kuleuven.be/onderzoek/economischrecht/nl"
+    },
+    {
+      "id": "be-ugent-eb22-insolvency-law-003",
+      "institution": "Ghent University — Department of Accounting, Corporate Finance and Taxation (EB22)",
+      "countrySlug": "belgium",
+      "missingSupervisorLinkedIn": [
+        "Prof. Bertel De Groote",
+        "Prof. Diederik Bruloot"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.ugent.be/eb/en/information-for-phd-students"
+    },
+    {
+      "id": "be-ugent-eb22-accounting-education-004",
+      "institution": "Ghent University — Department of Accounting, Corporate Finance and Taxation (EB22)",
+      "countrySlug": "belgium",
+      "missingSupervisorLinkedIn": [
+        "Prof. dr. Patricia Everaert"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.ugent.be/eb/en/information-for-phd-students"
+    },
+    {
+      "id": "be-vub-solvay-llm-innovation-005",
+      "institution": "Vrije Universiteit Brussel — Solvay Business School (Data Analytics Lab)",
+      "countrySlug": "belgium",
+      "missingSupervisorLinkedIn": [
+        "Andres Algaba"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://sbsem.ulb.be/studies/phd-programmes"
+    },
+    {
+      "id": "be-kuleuven-marketing-csm-finance-006",
+      "institution": "KU Leuven — Faculty of Economics and Business (Marketing)",
+      "countrySlug": "belgium",
+      "missingSupervisorLinkedIn": [
+        "Prof. dr. Yves Van Vaerenbergh"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://feb.kuleuven.be/research/PhD/businesseconomics/Business"
+    },
+    {
+      "id": "be-kuleuven-genai-customer-service-007",
+      "institution": "KU Leuven — Faculty of Economics and Business (Marketing) & University of Melbourne",
+      "countrySlug": "belgium",
+      "missingSupervisorLinkedIn": [
+        "Prof. dr. Yves Van Vaerenbergh",
+        "Prof. dr. Bart Larivière",
+        "Prof. Liliana Bove"
+      ],
+      "missingSupervisorEmail": [
+        "Prof. Liliana Bove"
+      ],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://feb.kuleuven.be/research/PhD/businesseconomics/Business"
+    },
+    {
+      "id": "be-hasselt-family-business-finance-008",
+      "institution": "Hasselt University — Research Center for Entrepreneurship and Family Firms (RCEF)",
+      "countrySlug": "belgium",
+      "missingSupervisorLinkedIn": [
+        "Prof. dr. Laura Hoekx"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.uhasselt.be/en/faculties/faculty-business-economics/rcef"
+    },
+    {
+      "id": "be-kuleuven-ops-mgmt-pricing-009",
+      "institution": "KU Leuven — Faculty of Economics and Business (Operations Management & IS)",
+      "countrySlug": "belgium",
+      "missingSupervisorLinkedIn": [
+        "Prof. dr. Jeroen Belien",
+        "Prof. dr. Estefanía Serral Asensio"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://feb.kuleuven.be/research/PhD/businesseconomics/Business"
+    },
+    {
+      "id": "eng-uwe-water-governance-legal-001",
+      "institution": "UWE Bristol — Bristol Business School (College of Business and Law)",
+      "countrySlug": "england",
+      "missingSupervisorLinkedIn": [
+        "Dr Pawel Capik",
+        "Dr Armagan Gezici"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/studentships/water-governance-legal-frameworks"
+    },
+    {
+      "id": "eng-uwe-workplace-harassment-legal-hr-002",
+      "institution": "UWE Bristol — Bristol Business School (College of Business and Law)",
+      "countrySlug": "england",
+      "missingSupervisorLinkedIn": [
+        "Dr Pawel Capik",
+        "Dr Stefano Gasparri"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/studentships/sexual-harassment"
+    },
+    {
+      "id": "kr-yonsei-gsis-itfm-phd-spring2027-019",
+      "institution": "Yonsei University — Graduate School of International Studies (GSIS)",
+      "countrySlug": "south-korea",
+      "missingSupervisorLinkedIn": [
+        "GSIS Admissions Office"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.yonsei.ac.kr/en_sc/2245/subview.do"
+    },
+    {
+      "id": "usa-wharton-finance-phd-002",
+      "institution": "University of Pennsylvania — The Wharton School",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [
+        "Luke Taylor"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://fnce.wharton.upenn.edu/programs/phd/"
+    },
+    {
+      "id": "usa-wharton-accounting-phd-002",
+      "institution": "University of Pennsylvania — The Wharton School",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [
+        "Mirko S. Heinle"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://accounting.wharton.upenn.edu/programs/phd/"
+    },
+    {
+      "id": "usa-wharton-hcm-phd-001",
+      "institution": "University of Pennsylvania — The Wharton School (Health Care Management)",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://hcmg.wharton.upenn.edu/programs/phd/financial-aidfellowships/"
+    },
+    {
+      "id": "usa-nyu-stern-finance-phd-001",
+      "institution": "New York University — Stern School of Business",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [
+        "Holger M. Mueller"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/finance/academic-programs/phd-overview"
+    },
+    {
+      "id": "usa-nyu-stern-accounting-phd-001",
+      "institution": "New York University — Stern School of Business",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.stern.nyu.edu/programs-admissions/phd/admissions"
+    },
+    {
+      "id": "usa-chicago-booth-finance-phd-001",
+      "institution": "University of Chicago — Booth School of Business",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.chicagobooth.edu/phd"
+    },
+    {
+      "id": "usa-chicago-booth-accounting-phd-001",
+      "institution": "University of Chicago — Booth School of Business",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.chicagobooth.edu/phd"
+    },
+    {
+      "id": "usa-columbia-finance-phd-001",
+      "institution": "Columbia Business School",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://business.columbia.edu/faculty/divisions/finance/phd"
+    },
+    {
+      "id": "usa-asu-finance-phd-001",
+      "institution": "Arizona State University — W. P. Carey School of Business",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.wpcarey.asu.edu/finance-degrees"
+    },
+    {
+      "id": "usa-asu-accounting-phd-001",
+      "institution": "Arizona State University — W. P. Carey School of Business",
+      "countrySlug": "usa",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.wpcarey.asu.edu/doctoral-programs"
+    },
+    {
+      "id": "canada-mcgill-management-phd-001",
+      "institution": "McGill University — Desautels Faculty of Management",
+      "countrySlug": "canada",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.mcgill.ca/desautels/programs/phd"
+    },
+    {
+      "id": "canada-alberta-finance-phd-001",
+      "institution": "University of Alberta — Alberta School of Business",
+      "countrySlug": "canada",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.ualberta.ca/en/graduate-programs/doctor-of-philosophy-in-business-with-a-specialization-in-finance.html"
+    },
+    {
+      "id": "canada-alberta-accounting-phd-001",
+      "institution": "University of Alberta — Alberta School of Business",
+      "countrySlug": "canada",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.ualberta.ca/en/graduate-programs/doctor-of-philosophy-in-business-with-a-specialization-in-accounting.html"
+    },
+    {
+      "id": "canada-mitacs-transitpay-finance-001",
+      "institution": "Transit Pay / Inbox Pay Inc. (via Mitacs Accelerate)",
+      "countrySlug": "canada",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.mitacs.ca/our-programs/accelerate/"
+    },
+    {
+      "id": "eng-hw-ebs-epsrc-circular-economy-finance-001",
+      "institution": "Heriot-Watt University — Edinburgh Business School",
+      "countrySlug": "england",
+      "missingSupervisorLinkedIn": [
+        "Prof. Bing Xu",
+        "Dr Stefano Maiani"
+      ],
+      "missingSupervisorEmail": [
+        "Dr Stefano Maiani"
+      ],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.jobs.ac.uk/job/DSB112/edinburgh-business-school-epsrc-phd-studentships"
+    },
+    {
+      "id": "ie-ul-kbs-doctoral-college-scholarship-001",
+      "institution": "University of Limerick — Kemmy Business School (KBS)",
+      "countrySlug": "ireland",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.ul.ie/research/doctoral-college/postgraduate-research-scholarships"
+    },
+    {
+      "id": "ie-dcu-business-parttime-feeonly-scholarship-001",
+      "institution": "Dublin City University — DCU Business School",
+      "countrySlug": "ireland",
+      "missingSupervisorLinkedIn": [],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://business.dcu.ie/scholarships/"
+    },
+    {
+      "id": "au-rmit-csiro-wealthverse-quant-trading-030",
+      "institution": "RMIT University",
+      "countrySlug": "australia",
+      "missingSupervisorLinkedIn": [
+        "Chao Chen",
+        "Mengmeng Yang",
+        "Chong Wang"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://research.csiro.au/iphd-opportunities/"
+    },
+    {
+      "id": "ch-hslu-ifz-corporate-governance-phd-001",
+      "institution": "Hochschule Luzern — Wirtschaft (Lucerne School of Business), Institute of Financial Services Zug (IFZ)",
+      "countrySlug": "switzerland",
+      "missingSupervisorLinkedIn": [
+        "Prof. Dr. Stefan Hunziker"
+      ],
+      "missingSupervisorEmail": [],
+      "studentSampleCount": 0,
+      "studentSampleTargetMet": false,
+      "programInfoUrl": "https://www.hslu.ch/de-ch/hochschule-luzern/ueber-uns/jobs-und-karriere"
     }
   ]
 }

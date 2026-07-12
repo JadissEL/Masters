@@ -23,7 +23,10 @@
     "phd:audit": "node scripts/phd/orchestrator.cjs audit",
     "phd:gaps": "node scripts/phd/orchestrator.cjs gaps",
     "phd:status": "node scripts/phd/orchestrator.cjs status",
-    "phd:enrich": "node scripts/phd/enrich-offers.cjs"
+    "phd:enrich": "node scripts/phd/enrich-offers.cjs",
+    "phd:enrich-official": "node scripts/phd/enrich-from-official.cjs",
+    "phd:close-expired": "node scripts/phd/orchestrator.cjs close-expired",
+    "phd:apply-enrichment": "node scripts/phd/apply-enrichment.cjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.4",

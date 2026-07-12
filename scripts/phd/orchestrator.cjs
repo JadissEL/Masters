@@ -94,6 +94,23 @@ function parseDeadline(d) {
   return Number.isNaN(t) ? null : t;
 }
 
+function closeExpired() {
+  const verified = loadVerified();
+  let closed = 0;
+  const now = Date.now();
+  for (const o of verified.phdOffers) {
+    const dl = parseDeadline(o.applicationDeadline);
+    if (o.status !== "closed" && dl && dl < now) {
+      o.status = "closed";
+      closed++;
+    }
+  }
+  verified.waves = verified.waves || [];
+  verified.waves.push({ date: TODAY, action: "closeExpired", closed });
+  saveVerified(verified);
+  console.log(`Marked ${closed} offers closed (deadline passed)`);
+}
+
 function audit() {
   const verified = loadVerified();
   const open = [];
@@ -167,6 +184,7 @@ if (cmd === "merge") merge();
 else if (cmd === "audit") audit();
 else if (cmd === "gaps") gaps();
 else if (cmd === "status") status();
+else if (cmd === "close-expired") closeExpired();
 else {
   console.error("Unknown command:", cmd);
   process.exit(1);

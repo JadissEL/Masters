@@ -160,7 +160,7 @@
         {
           "name": "Ken Shaw",
           "role": "principal",
-          "email": null,
+          "email": "shawke@missouri.edu",
           "linkedinUrl": null,
           "officialUrl": "https://business.missouri.edu/graduate-programs/phd-accountancy",
           "sourceUrl": "https://business.missouri.edu/graduate-programs/phd-accountancy"
@@ -1047,7 +1047,7 @@
         {
           "name": "Dr Vikash Ramiah (Associate Professor, Head of Postgraduate Studies)",
           "role": "principal",
-          "email": null,
+          "email": "islamalbaradi@uowdubai.ac.ae",
           "linkedinUrl": null,
           "officialUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy",
           "sourceUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy"
@@ -1055,7 +1055,7 @@
         {
           "name": "UOWD Admissions Team",
           "role": "co-supervisor",
-          "email": null,
+          "email": "islamalbaradi@uowdubai.ac.ae",
           "linkedinUrl": null,
           "officialUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy",
           "sourceUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy"
@@ -1461,7 +1461,7 @@
         {
           "name": "OSIPP Doctoral Admissions",
           "role": "principal",
-          "email": null,
+          "email": "kyomu@osipp.osaka-u.ac.jp",
           "linkedinUrl": null,
           "officialUrl": "https://www.osipp.osaka-u.ac.jp/en/admissions/doctoral-program/",
           "sourceUrl": "https://www.osipp.osaka-u.ac.jp/en/admissions/doctoral-program/"
@@ -1977,7 +1977,7 @@
         {
           "name": "Dr Eric Tan",
           "role": "co-supervisor",
-          "email": null,
+          "email": "e.tan@business.uq.edu.au",
           "linkedinUrl": null,
           "officialUrl": "https://about.uq.edu.au/experts/21696",
           "sourceUrl": "https://about.uq.edu.au/experts/21696"
@@ -1985,7 +1985,7 @@
         {
           "name": "Professor Peter Clarkson",
           "role": "co-supervisor",
-          "email": null,
+          "email": "p.clarkson@business.uq.edu.au",
           "linkedinUrl": null,
           "officialUrl": "https://about.uq.edu.au/experts/184",
           "sourceUrl": "https://about.uq.edu.au/experts/184"
@@ -2972,7 +2972,7 @@
           "name": "Eric Langlais",
           "role": "co-supervisor",
           "email": "eric.langlais@parisnanterre.fr",
-          "linkedinUrl": null,
+          "linkedinUrl": "https://www.linkedin.com/in/eric-langlais-1b4643120",
           "officialUrl": "https://economix.fr/en/membre/langlais-eric",
           "sourceUrl": "https://economix.fr/uploads/source/recrutement/PhDgrantAIdataSecurity.pdf"
         }
@@ -3448,7 +3448,7 @@
           "name": "Dr. ir. Marcela Tuler de Oliveira",
           "role": "co-supervisor",
           "email": "M.TulerdeOliveira@tudelft.nl",
-          "linkedinUrl": null,
+          "linkedinUrl": "https://www.linkedin.com/in/marcelatuler",
           "officialUrl": "https://www.tudelft.nl/en/staff/m.tulerdeoliveira",
           "sourceUrl": "https://www.academictransfer.com/en/jobs/362531/phd-positie-digitaal-vertrouwen/"
         }
@@ -3683,7 +3683,7 @@
           "name": "Prof. Dr. Ralph Luetticke",
           "role": "principal",
           "email": "ralph.luetticke@uni-tuebingen.de",
-          "linkedinUrl": null,
+          "linkedinUrl": "https://www.linkedin.com/in/alumni-wiwi-t",
           "officialUrl": "https://www.wiwi.uni-tuebingen.de/",
           "sourceUrl": "http://scholarshipdb.net/jobs-in-Germany/Ph-D-Positions-M-F-D-E13-Tv-L-65-University-Of-T-bingen=xJeFlEJf8RG_7AzEeuBOuw"
         },
@@ -3691,7 +3691,7 @@
           "name": "Prof. Dr. Gernot Müller",
           "role": "co-supervisor",
           "email": "gernot.mueller@uni-tuebingen.de",
-          "linkedinUrl": null,
+          "linkedinUrl": "https://www.linkedin.com/in/alumni-wiwi-t",
           "officialUrl": "https://www.wiwi.uni-tuebingen.de/",
           "sourceUrl": "http://scholarshipdb.net/jobs-in-Germany/Ph-D-Positions-M-F-D-E13-Tv-L-65-University-Of-T-bingen=xJeFlEJf8RG_7AzEeuBOuw"
         }
@@ -3729,7 +3729,7 @@
         {
           "name": "Prof. Dr. Anja Jetschke",
           "role": "principal",
-          "email": null,
+          "email": "rtg3209@uni-goettingen.de",
           "linkedinUrl": null,
           "officialUrl": "https://uni-goettingen.de/de/about+/708378.html",
           "sourceUrl": "https://www.kielinstitut.de/publications/news/china-and-geoeconomics-dfg-funds-new-goettingen-kiel-research-training-group-rtg/"
@@ -4114,7 +4114,7 @@
         {
           "name": "Prof. Dr. Stefan Morkötter",
           "role": "principal",
-          "email": null,
+          "email": "info@cs2.ch",
           "linkedinUrl": null,
           "officialUrl": "https://www.unisg.ch/",
           "sourceUrl": "https://jobs.unisg.ch/offene-stellen/research-associate-in-private-equity-m-w-d/6e95521a-9d87-45e0-8c48-92300e89d533"
@@ -5336,7 +5336,7 @@
         {
           "name": "KAIST International Graduate Admissions",
           "role": "principal",
-          "email": null,
+          "email": "advanced.adm@kaist.ac.kr",
           "linkedinUrl": null,
           "officialUrl": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines",
           "sourceUrl": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines"
@@ -6612,6 +6612,29 @@
       "added": 0,
       "updated": 178,
       "total": 171
+    },
+    {
+      "date": "2026-07-12",
+      "action": "closeExpired",
+      "closed": 0
+    },
+    {
+      "date": "2026-07-12",
+      "action": "merge",
+      "added": 0,
+      "updated": 178,
+      "total": 171
+    },
+    {
+      "date": "2026-07-12",
+      "action": "closeExpired",
+      "closed": 0
     }
-  ]
+  ],
+  "enrichmentPass": {
+    "date": "2026-07-12",
+    "fetched": 121,
+    "emailAdded": 9,
+    "linkedinAdded": 4
+  }
 }
