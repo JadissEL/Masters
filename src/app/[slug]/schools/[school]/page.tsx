@@ -87,7 +87,7 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
         <div className="grid grid-3" style={{ marginTop: 20, paddingTop: 20, borderTop: "1px solid var(--border)" }}>
           <div>
             <p style={{ fontSize: 12, color: "var(--muted)", marginBottom: 2 }}>Website</p>
-            <a href={school.website} target="_blank" rel="noopener noreferrer" style={{ fontSize: 14, color: "var(--accent)" }}>{school.website}</a>
+            <a href={school.website} target="_blank" rel="noopener noreferrer" className="link-break" style={{ fontSize: 14, color: "var(--accent)" }}>{school.website}</a>
           </div>
           <div>
             <p style={{ fontSize: 12, color: "var(--muted)", marginBottom: 2 }}>Accreditations</p>

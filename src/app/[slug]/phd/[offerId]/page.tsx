@@ -76,7 +76,7 @@ export default async function PhdOfferPage({
         <p style={{ fontSize: 13, color: "var(--muted)", fontWeight: 600, marginBottom: 4 }}>Research subject</p>
         <p style={{ fontSize: 14, marginBottom: 16 }}>{offer.subject}</p>
 
-        <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
+        <div className="btn-row">
           <a href={offer.applyUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
             Apply <ExternalLink size={14} style={{ marginLeft: 6 }} />
           </a>

@@ -36,8 +36,8 @@ export default async function CountryPage({ params }: { params: Promise<{ slug: 
         <span>{country.name}</span>
       </div>
 
-      <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 32 }}>
-        <span style={{ fontSize: 48 }}>{country.flag}</span>
+      <div className="country-header" style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 32 }}>
+        <span className="flag">{country.flag}</span>
         <div>
           <h1 style={{ fontSize: 32, fontWeight: 700, letterSpacing: "-0.02em" }}>{country.name}</h1>
           <p style={{ color: "var(--muted)", fontSize: 15, maxWidth: 600 }}>{country.summary}</p>

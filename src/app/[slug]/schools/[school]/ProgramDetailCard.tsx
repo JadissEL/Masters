@@ -50,7 +50,7 @@ export default function ProgramDetailCard({ program, deadlines = [], sources = [
 
   return (
     <div className="card">
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8, marginBottom: 8 }}>
+      <div className="program-card-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8, marginBottom: 8 }}>
         <h3 style={{ fontSize: 17, fontWeight: 600 }}>{program.officialTitle || program.name}</h3>
         <VerificationBadge status={program.verificationStatus} />
       </div>

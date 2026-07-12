@@ -2,8 +2,8 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback } from "react";
-import { SlidersHorizontal, X } from "lucide-react";
 import { SCHOOL_TYPES, SCHOOL_TYPE_DESCRIPTIONS } from "@/lib/school-types";
+import FilterShell from "@/components/FilterShell";
 
 interface FilterControlsProps {
   candidateSlug: string;
@@ -50,7 +50,6 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
     const params = new URLSearchParams(searchParams.toString());
     const current = params.getAll(key);
     if (current.includes(value)) {
-      // Remove it
       params.delete(key);
       current.filter((v) => v !== value).forEach((v) => params.append(key, v));
     } else {
@@ -75,42 +74,37 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
   const verifiedOnly = searchParams.get("verifiedOnly") === "true";
   const sortBy = searchParams.get("sortBy") || "";
 
-  const hasActiveFilters = selectedCountries.length > 0 || selectedLanguages.length > 0 ||
-    selectedProgramTypes.length > 0 || selectedSchoolTypes.length > 0 || canEnterM2 || maxTuition || minScore || alternanceOnly || internshipOnly || verifiedOnly || sortBy;
+  const activeCount =
+    selectedCountries.length +
+    selectedLanguages.length +
+    selectedProgramTypes.length +
+    selectedSchoolTypes.length +
+    (canEnterM2 ? 1 : 0) +
+    (maxTuition ? 1 : 0) +
+    (minScore ? 1 : 0) +
+    (alternanceOnly ? 1 : 0) +
+    (internshipOnly ? 1 : 0) +
+    (verifiedOnly ? 1 : 0) +
+    (sortBy ? 1 : 0);
 
-  const checkboxStyle: React.CSSProperties = {
-    display: "flex",
-    alignItems: "center",
-    gap: 8,
-    padding: "8px 0",
-    cursor: "pointer",
-    fontSize: 14,
-  };
+  const hasActiveFilters = activeCount > 0;
 
   return (
-    <div className="card" style={{ marginBottom: 24 }}>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20 }}>
-        <h3 style={{ fontSize: 18, fontWeight: 600, display: "flex", alignItems: "center", gap: 8 }}>
-          <SlidersHorizontal size={18} /> Filters
-        </h3>
-        {hasActiveFilters && (
-          <button onClick={clearAll} className="btn btn-secondary" style={{ padding: "6px 14px", fontSize: 13, display: "flex", alignItems: "center", gap: 4 }}>
-            <X size={14} /> Clear all
-          </button>
-        )}
-      </div>
-
-      {/* Countries */}
-      <div style={{ marginBottom: 24 }}>
-        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Countries</p>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 0 }}>
+    <FilterShell
+      title="Filters"
+      activeCount={activeCount}
+      showClear={hasActiveFilters}
+      onClear={clearAll}
+    >
+      <div className="filter-section">
+        <p className="filter-section-title">Countries</p>
+        <div className="filter-check-grid">
           {countries.map((c) => (
-            <label key={c.slug} style={checkboxStyle}>
+            <label key={c.slug} className="filter-check-label">
               <input
                 type="checkbox"
                 checked={selectedCountries.includes(c.slug)}
                 onChange={() => toggleArrayParam("country", c.slug)}
-                style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
               />
               <span>{c.flag} {c.name}</span>
             </label>
@@ -118,17 +112,15 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
         </div>
       </div>
 
-      {/* School type */}
-      <div style={{ marginBottom: 24 }}>
-        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>School Type</p>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 0 }}>
+      <div className="filter-section">
+        <p className="filter-section-title">School Type</p>
+        <div className="filter-check-grid">
           {SCHOOL_TYPES.map((t) => (
-            <label key={t} style={checkboxStyle} title={SCHOOL_TYPE_DESCRIPTIONS[t]}>
+            <label key={t} className="filter-check-label" title={SCHOOL_TYPE_DESCRIPTIONS[t]}>
               <input
                 type="checkbox"
                 checked={selectedSchoolTypes.includes(t)}
                 onChange={() => toggleArrayParam("schoolType", t)}
-                style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
               />
               <span>{t}</span>
             </label>
@@ -136,17 +128,15 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
         </div>
       </div>
 
-      {/* Teaching Language */}
-      <div style={{ marginBottom: 24 }}>
-        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Teaching Language</p>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))", gap: 0 }}>
+      <div className="filter-section">
+        <p className="filter-section-title">Teaching Language</p>
+        <div className="filter-check-grid">
           {LANGUAGES.map((l) => (
-            <label key={l} style={checkboxStyle}>
+            <label key={l} className="filter-check-label">
               <input
                 type="checkbox"
                 checked={selectedLanguages.includes(l)}
                 onChange={() => toggleArrayParam("language", l)}
-                style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
               />
               <span>{l}</span>
             </label>
@@ -154,17 +144,15 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
         </div>
       </div>
 
-      {/* Program Types */}
-      <div style={{ marginBottom: 24 }}>
-        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Program Topics</p>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 0 }}>
+      <div className="filter-section">
+        <p className="filter-section-title">Program Topics</p>
+        <div className="filter-check-grid">
           {PROGRAM_TYPES.map((p) => (
-            <label key={p} style={checkboxStyle}>
+            <label key={p} className="filter-check-label">
               <input
                 type="checkbox"
                 checked={selectedProgramTypes.includes(p)}
                 onChange={() => toggleArrayParam("programType", p)}
-                style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
               />
               <span>{p}</span>
             </label>
@@ -172,13 +160,12 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
         </div>
       </div>
 
-      {/* M2 Entry */}
-      <div style={{ marginBottom: 24 }}>
-        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Direct M2 Entry</p>
+      <div className="filter-section">
+        <p className="filter-section-title">Direct M2 Entry</p>
         <select
           value={canEnterM2}
           onChange={(e) => updateParam("canEnterM2", e.target.value || null)}
-          style={{ width: "100%", maxWidth: 300, padding: "10px 14px", borderRadius: "var(--radius-sm)", border: "1px solid var(--border)", fontSize: 14, background: "white" }}
+          className="filter-select"
         >
           <option value="">Any</option>
           <option value="YES">YES — Direct M2 entry</option>
@@ -187,14 +174,13 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
         </select>
       </div>
 
-      {/* Numeric filters */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginBottom: 24 }}>
+      <div className="filter-grid-2">
         <div>
-          <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Max Tuition (€)</p>
+          <p className="filter-section-title">Max Tuition (€)</p>
           <select
             value={maxTuition}
             onChange={(e) => updateParam("maxTuition", e.target.value || null)}
-            style={{ width: "100%", padding: "10px 14px", borderRadius: "var(--radius-sm)", border: "1px solid var(--border)", fontSize: 14, background: "white" }}
+            className="filter-select"
           >
             <option value="">No limit</option>
             <option value="2000">€2,000</option>
@@ -212,11 +198,11 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
           </select>
         </div>
         <div>
-          <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Min Score</p>
+          <p className="filter-section-title">Min Score</p>
           <select
             value={minScore}
             onChange={(e) => updateParam("minScore", e.target.value || null)}
-            style={{ width: "100%", padding: "10px 14px", borderRadius: "var(--radius-sm)", border: "1px solid var(--border)", fontSize: 14, background: "white" }}
+            className="filter-select"
           >
             <option value="">No minimum</option>
             <option value="70">70+</option>
@@ -227,13 +213,13 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
         </div>
       </div>
 
-      {/* Sort By */}
-      <div style={{ marginBottom: 24 }}>
-        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Sort Results By</p>
+      <div className="filter-section">
+        <p className="filter-section-title">Sort Results By</p>
         <select
           value={sortBy}
           onChange={(e) => updateParam("sortBy", e.target.value || null)}
-          style={{ width: "100%", maxWidth: 300, padding: "10px 14px", borderRadius: "var(--radius-sm)", border: "1px solid var(--border)", fontSize: 14, background: "white" }}
+          className="filter-select"
+          style={{ maxWidth: 360 }}
         >
           <option value="">Recommendation score (default)</option>
           <option value="tuition-asc">Tuition: Low to High</option>
@@ -242,36 +228,32 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
         </select>
       </div>
 
-      {/* Toggles */}
-      <div style={{ display: "flex", gap: 24, flexWrap: "wrap" }}>
-        <label style={checkboxStyle}>
+      <div className="filter-toggles">
+        <label className="filter-check-label">
           <input
             type="checkbox"
             checked={alternanceOnly}
             onChange={(e) => updateParam("alternanceOnly", e.target.checked ? "true" : null)}
-            style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
           />
           <span>Alternance available</span>
         </label>
-        <label style={checkboxStyle}>
+        <label className="filter-check-label">
           <input
             type="checkbox"
             checked={internshipOnly}
             onChange={(e) => updateParam("internshipOnly", e.target.checked ? "true" : null)}
-            style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
           />
           <span>Internship included</span>
         </label>
-        <label style={checkboxStyle}>
+        <label className="filter-check-label">
           <input
             type="checkbox"
             checked={verifiedOnly}
             onChange={(e) => updateParam("verifiedOnly", e.target.checked ? "true" : null)}
-            style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
           />
           <span>Verified programmes only</span>
         </label>
       </div>
-    </div>
+    </FilterShell>
   );
 }

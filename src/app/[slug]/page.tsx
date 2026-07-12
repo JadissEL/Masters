@@ -15,11 +15,11 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
 
   return (
     <div className="container">
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16 }}>
+      <div className="page-toolbar">
         <Link href="/" className="nav-back" style={{ fontSize: 15, fontWeight: 500 }}>
           <ArrowLeft size={18} /> Back to Home
         </Link>
-        <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+        <div className="page-toolbar-actions">
           {candidate.slug === "dina" && phdOpenCount > 0 && (
             <Link href={`/${candidate.slug}/phd`} className="btn btn-primary" style={{ padding: "8px 16px", fontSize: 14 }}>
               <GraduationCap size={16} style={{ marginRight: 6 }} /> PhD Opportunities ({phdOpenCount})

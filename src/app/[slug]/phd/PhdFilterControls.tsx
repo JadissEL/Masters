@@ -2,8 +2,8 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback } from "react";
-import { SlidersHorizontal, X } from "lucide-react";
 import type { PhdCountryMeta } from "@/lib/phd-store";
+import FilterShell from "@/components/FilterShell";
 
 interface PhdFilterControlsProps {
   candidateSlug: string;
@@ -59,50 +59,32 @@ export default function PhdFilterControls({
   const fundedOnly = searchParams.get("fundedOnly") !== "false";
   const urgent = searchParams.get("urgent") === "true";
 
-  const hasActive =
-    selectedCountries.length > 0 ||
-    selectedFunding.length > 0 ||
-    selectedDomains.length > 0 ||
-    selectedLanguages.length > 0 ||
-    !fundedOnly ||
-    urgent;
+  const activeCount =
+    selectedCountries.length +
+    selectedFunding.length +
+    selectedDomains.length +
+    selectedLanguages.length +
+    (!fundedOnly ? 1 : 0) +
+    (urgent ? 1 : 0);
 
-  const checkboxStyle: React.CSSProperties = {
-    display: "flex",
-    alignItems: "center",
-    gap: 8,
-    padding: "8px 0",
-    cursor: "pointer",
-    fontSize: 14,
-  };
+  const hasActive = activeCount > 0;
 
   return (
-    <div className="card" style={{ marginBottom: 24 }}>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20 }}>
-        <h3 style={{ fontSize: 18, fontWeight: 600, display: "flex", alignItems: "center", gap: 8 }}>
-          <SlidersHorizontal size={18} /> PhD Filters
-        </h3>
-        {hasActive && (
-          <button
-            onClick={clearAll}
-            className="btn btn-secondary"
-            style={{ padding: "6px 14px", fontSize: 13, display: "flex", alignItems: "center", gap: 4 }}
-          >
-            <X size={14} /> Clear all
-          </button>
-        )}
-      </div>
-
-      <div style={{ marginBottom: 24 }}>
-        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Countries</p>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 0 }}>
+    <FilterShell
+      title="PhD Filters"
+      activeCount={activeCount}
+      showClear={hasActive}
+      onClear={clearAll}
+    >
+      <div className="filter-section">
+        <p className="filter-section-title">Countries</p>
+        <div className="filter-check-grid">
           {countries.map((c) => (
-            <label key={c.slug} style={checkboxStyle}>
+            <label key={c.slug} className="filter-check-label">
               <input
                 type="checkbox"
                 checked={selectedCountries.includes(c.slug)}
                 onChange={() => toggleArrayParam("country", c.slug)}
-                style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
               />
               <span>
                 {c.flag} {c.name}
@@ -112,16 +94,15 @@ export default function PhdFilterControls({
         </div>
       </div>
 
-      <div style={{ marginBottom: 24 }}>
-        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Funding type</p>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))", gap: 0 }}>
+      <div className="filter-section">
+        <p className="filter-section-title">Funding type</p>
+        <div className="filter-check-grid">
           {fundingTypes.map((f) => (
-            <label key={f} style={checkboxStyle}>
+            <label key={f} className="filter-check-label">
               <input
                 type="checkbox"
                 checked={selectedFunding.includes(f)}
                 onChange={() => toggleArrayParam("funding", f)}
-                style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
               />
               <span>{f.replace(/_/g, " ")}</span>
             </label>
@@ -129,16 +110,15 @@ export default function PhdFilterControls({
         </div>
       </div>
 
-      <div style={{ marginBottom: 24 }}>
-        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Research domains</p>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))", gap: 0 }}>
+      <div className="filter-section">
+        <p className="filter-section-title">Research domains</p>
+        <div className="filter-check-grid">
           {domains.slice(0, 24).map((d) => (
-            <label key={d} style={checkboxStyle}>
+            <label key={d} className="filter-check-label">
               <input
                 type="checkbox"
                 checked={selectedDomains.includes(d)}
                 onChange={() => toggleArrayParam("domain", d)}
-                style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
               />
               <span>{d}</span>
             </label>
@@ -146,16 +126,15 @@ export default function PhdFilterControls({
         </div>
       </div>
 
-      <div style={{ marginBottom: 24 }}>
-        <p style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "var(--muted)" }}>Teaching language</p>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(140px, 1fr))", gap: 0 }}>
+      <div className="filter-section">
+        <p className="filter-section-title">Teaching language</p>
+        <div className="filter-check-grid">
           {LANGUAGES.map((l) => (
-            <label key={l} style={checkboxStyle}>
+            <label key={l} className="filter-check-label">
               <input
                 type="checkbox"
                 checked={selectedLanguages.includes(l)}
                 onChange={() => toggleArrayParam("language", l)}
-                style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
               />
               <span>{l}</span>
             </label>
@@ -163,26 +142,24 @@ export default function PhdFilterControls({
         </div>
       </div>
 
-      <div style={{ display: "flex", gap: 24, flexWrap: "wrap" }}>
-        <label style={checkboxStyle}>
+      <div className="filter-toggles">
+        <label className="filter-check-label">
           <input
             type="checkbox"
             checked={fundedOnly}
             onChange={(e) => updateParam("fundedOnly", e.target.checked ? null : "false")}
-            style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
           />
           <span>Funded / scholarship only</span>
         </label>
-        <label style={checkboxStyle}>
+        <label className="filter-check-label">
           <input
             type="checkbox"
             checked={urgent}
             onChange={(e) => updateParam("urgent", e.target.checked ? "true" : null)}
-            style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
           />
           <span>Urgent deadlines (next 30 days)</span>
         </label>
       </div>
-    </div>
+    </FilterShell>
   );
 }
