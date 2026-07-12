@@ -70,10 +70,11 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
   const minScore = searchParams.get("minScore") || "";
   const alternanceOnly = searchParams.get("alternanceOnly") === "true";
   const internshipOnly = searchParams.get("internshipOnly") === "true";
+  const verifiedOnly = searchParams.get("verifiedOnly") === "true";
   const sortBy = searchParams.get("sortBy") || "";
 
   const hasActiveFilters = selectedCountries.length > 0 || selectedLanguages.length > 0 ||
-    selectedProgramTypes.length > 0 || canEnterM2 || maxTuition || minScore || alternanceOnly || internshipOnly || sortBy;
+    selectedProgramTypes.length > 0 || canEnterM2 || maxTuition || minScore || alternanceOnly || internshipOnly || verifiedOnly || sortBy;
 
   const checkboxStyle: React.CSSProperties = {
     display: "flex",
@@ -240,6 +241,15 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
             style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
           />
           <span>Internship included</span>
+        </label>
+        <label style={checkboxStyle}>
+          <input
+            type="checkbox"
+            checked={verifiedOnly}
+            onChange={(e) => updateParam("verifiedOnly", e.target.checked ? "true" : null)}
+            style={{ width: 16, height: 16, accentColor: "var(--accent)" }}
+          />
+          <span>Verified programmes only</span>
         </label>
       </div>
     </div>

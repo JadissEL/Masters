@@ -68,6 +68,8 @@ export interface School {
   description: string;
 }
 
+export type VerificationStatus = "Verified" | "Pending Verification" | "Manual Review Required" | "Official Source Not Available";
+
 export interface Program {
   id: number;
   schoolId: number;
@@ -84,6 +86,152 @@ export interface Program {
   relevantForDina: boolean;
   relevantForJadiss: boolean;
   description: string;
+  // Phase X — expanded tuition
+  tuitionYearly?: number | null;
+  tuitionTotal?: number | null;
+  tuitionPerCredit?: number | null;
+  domesticTuition?: number | null;
+  euTuition?: number | null;
+  eeaTuition?: number | null;
+  internationalTuition?: number | null;
+  nonEuTuition?: number | null;
+  reducedTuition?: number | null;
+  executiveTuition?: number | null;
+  onlineTuition?: number | null;
+  mandatoryFees?: number | null;
+  registrationFee?: number | null;
+  administrativeFee?: number | null;
+  studentUnionFee?: number | null;
+  technologyFee?: number | null;
+  insuranceRequirement?: string | null;
+  estimatedLivingCosts?: string | null;
+  estimatedYearlyBudget?: string | null;
+  currency?: string | null;
+  // Phase X — programme metadata
+  officialTitle?: string | null;
+  faculty?: string | null;
+  department?: string | null;
+  institute?: string | null;
+  degreeAwarded?: string | null;
+  diplomaTitle?: string | null;
+  studyMode?: string | null;
+  attendanceRequirement?: string | null;
+  thesisRequired?: boolean | null;
+  workPlacement?: boolean | null;
+  erasmusParticipation?: boolean | null;
+  accreditation?: string | null;
+  programmeRanking?: string | null;
+  employabilityStats?: string | null;
+  graduateSalary?: string | null;
+  professionalRecognition?: string | null;
+  // Phase X — applications
+  applicationUrl?: string | null;
+  applicationPortal?: string | null;
+  applicationGuide?: string | null;
+  programmeUrl?: string | null;
+  // Phase X — admissions
+  minGPA?: string | null;
+  acceptedDegrees?: string | null;
+  acceptedBackgrounds?: string | null;
+  prerequisiteCourses?: string | null;
+  workExperienceRequired?: string | null;
+  portfolioRequired?: boolean | null;
+  interviewRequired?: boolean | null;
+  gmatRequired?: boolean | null;
+  gmatMinScore?: number | null;
+  greRequired?: boolean | null;
+  greMinScore?: number | null;
+  ieltsMinScore?: number | null;
+  toeflMinScore?: number | null;
+  cambridgeEnglishLevel?: string | null;
+  delfLevel?: string | null;
+  languageExemptions?: string | null;
+  // Phase X — contacts
+  programmeCoordinator?: string | null;
+  admissionsEmail?: string | null;
+  programmeEmail?: string | null;
+  departmentEmail?: string | null;
+  phone?: string | null;
+  // Phase X — provenance
+  sourceUrl?: string | null;
+  sourceType?: string | null;
+  verificationDate?: string | null;
+  confidenceLevel?: string | null;
+  lastChecked?: string | null;
+  verificationStatus?: VerificationStatus | null;
+}
+
+export interface DataSource {
+  id: number;
+  entityType: string;
+  entityId: number;
+  fieldName?: string | null;
+  url: string;
+  sourceType?: string | null;
+  title?: string | null;
+  snippet?: string | null;
+  retrievalDate?: string | null;
+  confidenceScore?: number | null;
+  notes?: string | null;
+}
+
+export interface ProgramDeadline {
+  id: number;
+  programId: number;
+  schoolId: number;
+  academicYear?: string | null;
+  applicationsOpen?: string | null;
+  priorityDeadline?: string | null;
+  scholarshipDeadline?: string | null;
+  internationalDeadline?: string | null;
+  euDeadline?: string | null;
+  domesticDeadline?: string | null;
+  finalDeadline?: string | null;
+  rollingAdmission?: boolean | null;
+  documentDeadline?: string | null;
+  intakePeriod?: string | null;
+  verificationStatus?: string | null;
+  sourceUrl?: string | null;
+  sourceType?: string | null;
+  verificationDate?: string | null;
+  confidenceLevel?: string | null;
+}
+
+export interface Contact {
+  id: number;
+  schoolId: number;
+  programId?: number | null;
+  role: string;
+  name?: string | null;
+  email?: string | null;
+  phone?: string | null;
+  officeLocation?: string | null;
+  sourceUrl?: string | null;
+  sourceType?: string | null;
+  verificationDate?: string | null;
+  confidenceLevel?: string | null;
+}
+
+export interface AuditFlag {
+  entityType: string;
+  entityId: number;
+  programName?: string;
+  schoolId?: number;
+  flagType: string;
+  severity: string;
+  fields?: string[];
+  oldValue?: string;
+  newValue?: string;
+  status: string;
+  createdAt: string;
+}
+
+export interface AuditReport {
+  generatedAt: string;
+  summary: Record<string, number | string>;
+  completeness: Record<string, { filled: number; total: number; pct: number }>;
+  verification: { verified: number; pending: number; manual: number; total: number };
+  issues: Record<string, unknown[]>;
 }
 
 export interface Admission {
@@ -203,6 +351,16 @@ interface Database {
   graduateVisa: GraduateVisa[];
   deadlines: Deadline[];
   candidateScores: CandidateScore[];
+  sources?: DataSource[];
+  programDeadlines?: ProgramDeadline[];
+  contacts?: Contact[];
+  programScholarships?: unknown[];
+  auditFlags?: AuditFlag[];
+  metadata?: {
+    schemaVersion?: string;
+    lastPipelineRun?: string | null;
+    lastAuditRun?: string | null;
+  };
 }
 
 let _db: Database | null = null;
@@ -278,6 +436,34 @@ export function getSchoolAdmission(schoolId: number): Admission | undefined {
 
 export function getSchoolDeadlines(schoolId: number): Deadline[] {
   return loadDB().deadlines.filter((d) => d.schoolId === schoolId);
+}
+
+export function getProgramDeadlines(programId: number): ProgramDeadline[] {
+  return (loadDB().programDeadlines || []).filter((d) => d.programId === programId);
+}
+
+export function getSchoolContacts(schoolId: number): Contact[] {
+  return (loadDB().contacts || []).filter((c) => c.schoolId === schoolId);
+}
+
+export function getProgramSources(programId: number): DataSource[] {
+  return (loadDB().sources || []).filter(
+    (s) => s.entityType === "program" && s.entityId === programId
+  );
+}
+
+export function getAuditReport(): AuditReport | null {
+  try {
+    const reportPath = path.join(process.cwd(), "data", "audit-report.json");
+    const raw = fs.readFileSync(reportPath, "utf-8");
+    return JSON.parse(raw) as AuditReport;
+  } catch {
+    return null;
+  }
+}
+
+export function getDatabaseMetadata() {
+  return loadDB().metadata || null;
 }
 
 export function getCandidateScores(candidateId: number): CandidateScore[] {
@@ -390,6 +576,8 @@ export interface FilterCriteria {
   minScore?: number;         // minimum overall score
   alternanceOnly?: boolean;
   internshipOnly?: boolean;
+  verifiedOnly?: boolean;    // only programmes with verificationStatus === "Verified"
+  studyModes?: string[];     // "Full-time", "Part-time", etc.
 }
 
 export interface FilteredSchoolResult {
@@ -461,9 +649,24 @@ export function getFilteredSchools(criteria: FilterCriteria): FilteredSchoolResu
       if (!hasIntern) continue;
     }
 
+    // Filter by verified programmes only
+    if (criteria.verifiedOnly) {
+      const hasVerified = matchedPrograms.some((p) => p.verificationStatus === "Verified");
+      if (!hasVerified) continue;
+    }
+
+    // Filter by study mode
+    if (criteria.studyModes && criteria.studyModes.length > 0) {
+      matchedPrograms = matchedPrograms.filter((p) =>
+        p.studyMode && criteria.studyModes!.some((m) => p.studyMode!.toLowerCase().includes(m.toLowerCase()))
+      );
+      if (matchedPrograms.length === 0) continue;
+    }
+
     // Filter by max tuition (parse EUR from tuitionFees)
     if (criteria.maxTuition) {
       const hasAffordable = matchedPrograms.some((p) => {
+        if (p.tuitionYearly != null) return p.tuitionYearly <= criteria.maxTuition!;
         const match = p.tuitionFees.match(/€([\d,]+)/);
         if (match) {
           const value = parseInt(match[1].replace(/,/g, ""), 10);

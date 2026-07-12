@@ -12,7 +12,9 @@
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
     "seed": "tsx src/lib/db/seed.ts",
-    "scrape": "tsx src/lib/scraper/index.ts"
+    "scrape": "tsx src/lib/scraper/index.ts",
+    "phase-x": "node scripts/phase-x-pipeline.cjs",
+    "audit": "node scripts/phase-x-pipeline.cjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.4",

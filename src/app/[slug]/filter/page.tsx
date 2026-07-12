@@ -29,6 +29,7 @@ export default async function FilterPage({
     minScore: sp.minScore ? parseInt(sp.minScore as string, 10) : undefined,
     alternanceOnly: sp.alternanceOnly === "true",
     internshipOnly: sp.internshipOnly === "true",
+    verifiedOnly: sp.verifiedOnly === "true",
   };
 
   let results = getFilteredSchools(criteria);

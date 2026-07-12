@@ -49,6 +49,12 @@ export default function HomePage() {
           </Link>
         ))}
       </div>
+
+      <div style={{ textAlign: "center", marginTop: 48 }}>
+        <Link href="/audit" className="badge badge-accent" style={{ fontSize: 14, padding: "8px 16px" }}>
+          View Database Quality Audit
+        </Link>
+      </div>
     </div>
   );
 }

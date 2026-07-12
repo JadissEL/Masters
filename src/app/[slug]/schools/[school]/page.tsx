@@ -1,10 +1,12 @@
 import {
   getCandidate, getSchool, getRelevantPrograms, getSchoolAdmission,
-  getSchoolDeadlines, getScoreForSchool, getCity
+  getSchoolDeadlines, getScoreForSchool, getCity, getProgramDeadlines,
+  getProgramSources, getSchoolContacts
 } from "@/lib/queries";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
+import ProgramDetailCard from "./ProgramDetailCard";
 
 export default async function SchoolPage({ params }: { params: Promise<{ slug: string; school: string }> }) {
   const { slug, school: schoolSlug } = await params;
@@ -18,6 +20,7 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
   const deadlines = getSchoolDeadlines(school.id);
   const score = getScoreForSchool(candidate.id, school.id);
   const city = school.cityId ? getCity(school.cityId) : null;
+  const contacts = getSchoolContacts(school.id);
 
   const scoreMetrics = score ? [
     { label: "Admission Probability", value: score.admissionProbability },
@@ -116,26 +119,33 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
       )}
 
       <h2 className="section-title">Relevant Master Programs</h2>
-      <p className="section-subtitle">Programs matched to {candidate.name}'s profile</p>
+      <p className="section-subtitle">Programs matched to {candidate.name}'s profile — with verification status and official sources where available</p>
       <div className="grid grid-2" style={{ marginBottom: 32 }}>
-        {programs.map((p: any) => (
-          <div key={p.id} className="card">
-            <h3 style={{ fontSize: 17, fontWeight: 600, marginBottom: 8 }}>{p.name}</h3>
-            <p style={{ fontSize: 13, color: "var(--muted)", marginBottom: 16 }}>{p.description}</p>
-            <div className="info-row"><span className="info-label">Duration</span><span className="info-value">{p.duration}</span></div>
-            <div className="info-row"><span className="info-label">ECTS</span><span className="info-value">{p.ects}</span></div>
-            <div className="info-row"><span className="info-label">Tuition</span><span className="info-value">{p.tuitionFees}</span></div>
-            <div className="info-row"><span className="info-label">Enter M2 Directly</span><span className="info-value">
-              <span className={`badge ${p.canEnterM2 === "YES" ? "badge-success" : p.canEnterM2 === "Conditional" ? "badge-accent" : ""}`}>{p.canEnterM2}</span>
-            </span></div>
-            <div className="info-row"><span className="info-label">Internship</span><span className="info-value">{p.internshipIncluded ? "Yes" : "No"}</span></div>
-            <div className="info-row"><span className="info-label">Alternance</span><span className="info-value">{p.alternanceAvailable ? "Yes" : "No"}</span></div>
-            <div className="info-row"><span className="info-label">Employment Rate</span><span className="info-value">{p.employmentRate}</span></div>
-            <div className="info-row"><span className="info-label">Avg Salary</span><span className="info-value">{p.averageSalary}</span></div>
-            <div className="info-row"><span className="info-label">Industries</span><span className="info-value">{p.industriesHiring}</span></div>
-          </div>
+        {programs.map((p) => (
+          <ProgramDetailCard
+            key={p.id}
+            program={p}
+            deadlines={getProgramDeadlines(p.id)}
+            sources={getProgramSources(p.id)}
+          />
         ))}
       </div>
+
+      {contacts.length > 0 && (
+        <>
+          <h2 className="section-title">Contacts</h2>
+          <div className="card" style={{ marginBottom: 32 }}>
+            {contacts.map((c) => (
+              <div key={c.id} className="info-row">
+                <span className="info-label">{c.role.replace(/_/g, " ")}</span>
+                <span className="info-value">
+                  {c.email ? <a href={`mailto:${c.email}`} style={{ color: "var(--accent)" }}>{c.email}</a> : "—"}
+                </span>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
 
       <div className="grid grid-2" style={{ marginBottom: 32 }}>
         {admission && (
