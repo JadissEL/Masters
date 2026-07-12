@@ -237,14 +237,114 @@ function buildDerivedData(db) {
   return stats;
 }
 
+function formatTuitionDisplay(vp) {
+  const sym = vp.currency === "GBP" ? "£" : "€";
+  if (vp.tuitionYearly == null) return null;
+  let str = `${sym}${vp.tuitionYearly.toLocaleString("en-US")}/year`;
+  if (vp.euTuition != null && vp.internationalTuition != null) {
+    str = `${sym}${vp.euTuition.toLocaleString("en-US")} (EU/EEA); ${sym}${vp.internationalTuition.toLocaleString("en-US")} (non-EU)/year`;
+  }
+  return str;
+}
+
+function programMatches(program, matchStr) {
+  const a = program.name.toLowerCase();
+  const b = matchStr.toLowerCase();
+  return a.includes(b) || b.includes(a);
+}
+
+function applyProgramTemplate(db, school, program, template, stats, sourceIdRef) {
+  if (template.tuitionYearly != null && program.tuitionYearly != null) {
+    const diff = Math.abs(program.tuitionYearly - template.tuitionYearly);
+    if (diff > 100) {
+      db.auditFlags.push({
+        entityType: "program",
+        entityId: program.id,
+        programName: program.name,
+        schoolId: school.id,
+        flagType: "tuition_corrected",
+        severity: "high",
+        oldValue: program.tuitionFees,
+        newValue: formatTuitionDisplay(template) || String(template.tuitionYearly),
+        status: "resolved",
+        createdAt: new Date().toISOString(),
+      });
+      stats.corrected++;
+    }
+  }
+
+  const fields = [
+    "officialTitle", "programmeUrl", "applicationUrl", "faculty", "department",
+    "degreeAwarded", "duration", "ects", "studyMode", "tuitionYearly", "tuitionTotal",
+    "internationalTuition", "euTuition", "domesticTuition", "registrationFee",
+    "mandatoryFees", "administrativeFee", "studentUnionFee", "estimatedLivingCosts",
+    "estimatedYearlyBudget", "programmeRanking", "employabilityStats", "graduateSalary",
+    "gmatMinScore", "ieltsMinScore", "gmatRequired", "greRequired", "minGPA",
+    "acceptedDegrees", "prerequisiteCourses", "admissionsEmail", "verificationStatus",
+    "sourceUrl", "sourceType", "verificationDate", "confidenceLevel", "currency", "notes",
+  ];
+
+  for (const field of fields) {
+    if (template[field] != null && template[field] !== "") {
+      program[field] = template[field];
+    }
+  }
+
+  if (!program.programmeUrl && school.website) {
+    program.programmeUrl = school.website;
+  }
+
+  const tuitionStr = formatTuitionDisplay(template);
+  if (tuitionStr) {
+    program.tuitionFees = tuitionStr;
+    program.lastChecked = template.verificationDate;
+  }
+
+  if (template.finalDeadline || template.priorityDeadline) {
+    let pd = db.programDeadlines.find((d) => d.programId === program.id);
+    if (!pd) {
+      pd = {
+        id: (db.programDeadlines.length ? Math.max(...db.programDeadlines.map((d) => d.id)) : 0) + 1,
+        programId: program.id,
+        schoolId: school.id,
+      };
+      db.programDeadlines.push(pd);
+    }
+    if (template.priorityDeadline) pd.priorityDeadline = template.priorityDeadline;
+    if (template.finalDeadline) pd.finalDeadline = template.finalDeadline;
+    if (template.applicationOpening) pd.applicationsOpen = template.applicationOpening;
+    if (template.intakePeriod) pd.intakePeriod = template.intakePeriod;
+    pd.verificationStatus = template.verificationStatus || "Verified";
+    pd.sourceUrl = template.sourceUrl;
+    pd.sourceType = template.sourceType;
+    pd.verificationDate = template.verificationDate;
+    pd.confidenceLevel = template.confidenceLevel;
+  }
+
+  db.sources.push({
+    id: sourceIdRef.value++,
+    entityType: "program",
+    entityId: program.id,
+    fieldName: "*",
+    url: template.sourceUrl,
+    sourceType: template.sourceType,
+    title: `Verified: ${template.officialTitle || program.name}`,
+    retrievalDate: template.verificationDate,
+    confidenceScore: template.confidenceLevel === "High" ? 1.0 : 0.7,
+    notes: template.notes || "Applied from verified-programs.json",
+  });
+
+  stats.applied++;
+}
+
 // ─── Step 4: Apply verified official data ────────────────────
 function applyVerifiedData(db) {
-  if (!fs.existsSync(VERIFIED_PATH)) return { applied: 0, corrected: 0 };
+  if (!fs.existsSync(VERIFIED_PATH)) return { applied: 0, corrected: 0, networkApplied: 0, overrides: 0 };
 
   const verified = JSON.parse(fs.readFileSync(VERIFIED_PATH, "utf-8"));
   const schoolBySlug = Object.fromEntries(db.schools.map((s) => [s.slug, s]));
-  const stats = { applied: 0, corrected: 0 };
-  let sourceId = db.sources.length > 0 ? Math.max(...db.sources.map((s) => s.id)) + 1 : 1;
+  const stats = { applied: 0, corrected: 0, networkApplied: 0, overrides: 0 };
+  const sourceIdRef = { value: db.sources.length > 0 ? Math.max(...db.sources.map((s) => s.id)) + 1 : 1 };
   let contactId = db.contacts.length > 0 ? Math.max(...db.contacts.map((c) => c.id)) + 1 : 1;
 
   for (const vp of verified.programs) {
@@ -253,87 +353,38 @@ function applyVerifiedData(db) {
 
     const programs = db.programs.filter((p) => p.schoolId === school.id);
     for (const program of programs) {
-      if (!program.name.toLowerCase().includes(vp.programNameMatch.toLowerCase()) &&
-          !vp.programNameMatch.toLowerCase().includes(program.name.toLowerCase())) {
-        continue;
+      if (!programMatches(program, vp.programNameMatch)) continue;
+      applyProgramTemplate(db, school, program, vp, stats, sourceIdRef);
+    }
+  }
+
+  // Network templates (e.g. IAE France)
+  for (const np of verified.networkPrograms || []) {
+    const pattern = new RegExp(np.schoolSlugPattern);
+    for (const school of db.schools) {
+      if (!pattern.test(school.slug)) continue;
+      const programs = db.programs.filter((p) => p.schoolId === school.id);
+      for (const program of programs) {
+        if (!programMatches(program, np.programNameMatch)) continue;
+        applyProgramTemplate(db, school, program, np, stats, sourceIdRef);
+        stats.networkApplied++;
       }
+    }
+  }
 
-      // Check tuition correction
-      if (vp.tuitionYearly != null && program.tuitionYearly != null) {
-        const diff = Math.abs(program.tuitionYearly - vp.tuitionYearly);
-        if (diff > 100) {
-          db.auditFlags.push({
-            entityType: "program",
-            entityId: program.id,
-            programName: program.name,
-            schoolId: school.id,
-            flagType: "tuition_corrected",
-            severity: "high",
-            oldValue: program.tuitionFees,
-            newValue: `€${vp.tuitionYearly.toLocaleString()}`,
-            status: "resolved",
-            createdAt: new Date().toISOString(),
-          });
-          stats.corrected++;
-        }
-      }
-
-      // Apply verified fields (never overwrite with null)
-      const fields = [
-        "officialTitle", "programmeUrl", "applicationUrl", "faculty", "department",
-        "degreeAwarded", "duration", "ects", "studyMode", "tuitionYearly", "tuitionTotal",
-        "internationalTuition", "euTuition", "domesticTuition", "registrationFee",
-        "mandatoryFees", "administrativeFee", "studentUnionFee", "estimatedLivingCosts",
-        "estimatedYearlyBudget", "programmeRanking", "employabilityStats", "graduateSalary",
-        "gmatMinScore", "ieltsMinScore", "gmatRequired", "greRequired", "minGPA",
-        "acceptedDegrees", "prerequisiteCourses", "admissionsEmail", "verificationStatus",
-        "sourceUrl", "sourceType", "verificationDate", "confidenceLevel",
-      ];
-
-      for (const field of fields) {
-        if (vp[field] != null && vp[field] !== "") {
-          program[field] = vp[field];
-        }
-      }
-
-      // Update tuitionFees display string if verified tuition exists
-      if (vp.tuitionYearly != null) {
-        program.tuitionFees = `€${vp.tuitionYearly.toLocaleString()}${vp.internationalTuition ? ` (EU); €${vp.internationalTuition.toLocaleString()} (international)` : ""}`;
-        program.lastChecked = vp.verificationDate;
-      }
-
-      // Program-specific deadline
-      if (vp.finalDeadline || vp.priorityDeadline) {
-        let pd = db.programDeadlines.find((d) => d.programId === program.id);
-        if (!pd) {
-          pd = { id: (db.programDeadlines.length ? Math.max(...db.programDeadlines.map((d) => d.id)) : 0) + 1, programId: program.id, schoolId: school.id };
-          db.programDeadlines.push(pd);
-        }
-        if (vp.priorityDeadline) pd.priorityDeadline = vp.priorityDeadline;
-        if (vp.finalDeadline) pd.finalDeadline = vp.finalDeadline;
-        if (vp.applicationOpening) pd.applicationsOpen = vp.applicationOpening;
-        if (vp.intakePeriod) pd.intakePeriod = vp.intakePeriod;
-        pd.verificationStatus = "Verified";
-        pd.sourceUrl = vp.sourceUrl;
-        pd.sourceType = vp.sourceType;
-        pd.verificationDate = vp.verificationDate;
-        pd.confidenceLevel = "High";
-      }
-
-      db.sources.push({
-        id: sourceId++,
-        entityType: "program",
-        entityId: program.id,
-        fieldName: "*",
-        url: vp.sourceUrl,
-        sourceType: vp.sourceType,
-        title: `Verified: ${vp.officialTitle || program.name}`,
-        retrievalDate: vp.verificationDate,
-        confidenceScore: 1.0,
-        notes: "Applied from verified-programs.json curated dataset",
-      });
-
-      stats.applied++;
+  // Programmes with no current official listing
+  for (const ov of verified.programmeStatusOverrides || []) {
+    const school = schoolBySlug[ov.schoolSlug];
+    if (!school) continue;
+    for (const program of db.programs.filter((p) => p.schoolId === school.id)) {
+      if (!programMatches(program, ov.programNameMatch)) continue;
+      program.verificationStatus = ov.verificationStatus;
+      program.sourceUrl = ov.sourceUrl;
+      program.sourceType = ov.sourceType;
+      program.verificationDate = ov.verificationDate;
+      program.confidenceLevel = ov.confidenceLevel;
+      if (ov.notes) program.notes = ov.notes;
+      stats.overrides++;
     }
   }
 
@@ -503,7 +554,7 @@ function main() {
 
   console.log("Step 3: Applying verified official data...");
   const verifiedStats = applyVerifiedData(db);
-  console.log(`  Applied to ${verifiedStats.applied} programs, corrected ${verifiedStats.corrected} tuition values`);
+  console.log(`  Applied to ${verifiedStats.applied} programs, corrected ${verifiedStats.corrected} tuition values, ${verifiedStats.networkApplied || 0} network matches, ${verifiedStats.overrides || 0} status overrides`);
 
   console.log("Step 4: Running audit...");
   const report = runAudit(db);
