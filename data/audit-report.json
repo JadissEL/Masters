@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-07-12T00:54:47.714Z",
+  "generatedAt": "2026-07-12T01:02:38.422Z",
   "summary": {
     "schools": 323,
     "programs": 1099,
-    "sources": 1974,
+    "sources": 2778,
     "contacts": 2,
     "programDeadlines": 1099,
-    "auditFlags": 1637,
+    "auditFlags": 1876,
     "openFlags": 1099,
-    "verificationRate": 50,
+    "verificationRate": 72,
     "duplicateSchoolsRemaining": 0,
     "missingTuitionCount": 0,
-    "missingSourcesCount": 548,
-    "incompleteMetadataCount": 549
+    "missingSourcesCount": 308,
+    "incompleteMetadataCount": 309
   },
   "issues": {
     "missingTuition": [],
@@ -1310,15 +1310,6 @@
     ],
     "incompleteMetadata": [
       {
-        "programId": 2,
-        "name": "Master in Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
         "programId": 7,
         "name": "MSc Data Science",
         "missing": [
@@ -1339,33 +1330,6 @@
       {
         "programId": 17,
         "name": "MSc Business Analytics & Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 21,
-        "name": "Master in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 22,
-        "name": "Master in Business Analytics & Big Data",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 23,
-        "name": "Master in Finance",
         "missing": [
           "studyMode",
           "degreeAwarded",
@@ -1411,186 +1375,6 @@
       {
         "programId": 31,
         "name": "MSc in Risk & Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 35,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 36,
-        "name": "MSc in Data Management & Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 37,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 38,
-        "name": "MSc Data Science & Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 39,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 40,
-        "name": "MSc Data Science for Business",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 41,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 42,
-        "name": "MSc in Data & Digital Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 43,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 44,
-        "name": "MSc Data Science & Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 45,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 46,
-        "name": "MSc in Big Data Analytics for Business",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 47,
-        "name": "Master in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 48,
-        "name": "Master in Finance (M2)",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 49,
-        "name": "Master in Data Science & Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 50,
-        "name": "Master in Risk & Compliance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 51,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 52,
-        "name": "MSc Data Science & Decision Making",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 53,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 54,
-        "name": "MSc in Data & Business Analytics",
         "missing": [
           "studyMode",
           "degreeAwarded",
@@ -1662,24 +1446,6 @@
       },
       {
         "programId": 73,
-        "name": "MSc in Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 74,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 75,
         "name": "MSc in Data Science",
         "missing": [
           "studyMode",
@@ -1814,159 +1580,6 @@
         ]
       },
       {
-        "programId": 99,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 100,
-        "name": "MSc in Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 101,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 102,
-        "name": "MSc in Artificial Intelligence",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 103,
-        "name": "MSc in Data Science & Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 104,
-        "name": "MSc in Economics & Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 105,
-        "name": "MSc in Data Science & Engineering",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 106,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 107,
-        "name": "MSc in Data Science & Business",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 108,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 109,
-        "name": "MSc in Data Science & Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 110,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 111,
-        "name": "MSc in Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 112,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 113,
-        "name": "MSc in Big Data & Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 114,
-        "name": "MSc in Finance & Banking",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 115,
-        "name": "MSc in Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
         "programId": 116,
         "name": "MSc in Economics & Business — Finance",
         "missing": [
@@ -1996,24 +1609,6 @@
       {
         "programId": 119,
         "name": "MSc in Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 120,
-        "name": "MSc in Computer Science — AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 121,
-        "name": "MSc in Data Science & Analytics",
         "missing": [
           "studyMode",
           "degreeAwarded",
@@ -2057,24 +1652,6 @@
         ]
       },
       {
-        "programId": 126,
-        "name": "Master of Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 127,
-        "name": "Master of Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
         "programId": 128,
         "name": "Master of Finance",
         "missing": [
@@ -2086,15 +1663,6 @@
       {
         "programId": 129,
         "name": "Master of Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 130,
-        "name": "MSc Data Science for Business",
         "missing": [
           "studyMode",
           "degreeAwarded",
@@ -2140,24 +1708,6 @@
       {
         "programId": 143,
         "name": "MSc Quantitative Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 147,
-        "name": "Master in FinTech & Blockchain",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 148,
-        "name": "Master in Business Analytics & AI",
         "missing": [
           "studyMode",
           "degreeAwarded",
@@ -2292,33 +1842,6 @@
       },
       {
         "programId": 375,
-        "name": "MSc in Economics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 376,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 377,
-        "name": "MSc in Data Science / Computer Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 378,
         "name": "MSc in Economics",
         "missing": [
           "studyMode",
@@ -2597,33 +2120,6 @@
         ]
       },
       {
-        "programId": 409,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 410,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 411,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
         "programId": 412,
         "name": "MSc Finance",
         "missing": [
@@ -2705,60 +2201,6 @@
         ]
       },
       {
-        "programId": 421,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 422,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 423,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 424,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 425,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 426,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
         "programId": 427,
         "name": "MSc Finance",
         "missing": [
@@ -2786,33 +2228,6 @@
         ]
       },
       {
-        "programId": 430,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 431,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 432,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
         "programId": 433,
         "name": "MSc Finance",
         "missing": [
@@ -2832,87 +2247,6 @@
       },
       {
         "programId": 435,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 436,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 437,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 438,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 439,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 440,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 441,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 442,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 443,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 444,
         "name": "MSc Business Analytics",
         "missing": [
           "studyMode",
@@ -3184,330 +2518,6 @@
       {
         "programId": 474,
         "name": "MSc in Economics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 475,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 476,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 477,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 478,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 479,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 480,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 481,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 482,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 483,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 484,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 485,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 486,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 487,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 488,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 489,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 490,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 491,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 492,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 493,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 494,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 495,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 496,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 497,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 498,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 499,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 500,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 501,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 502,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 503,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 504,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 505,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 506,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 507,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 508,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 509,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 510,
-        "name": "Máster Universitario en Economía / Business Analytics",
         "missing": [
           "studyMode",
           "degreeAwarded",
@@ -3886,222 +2896,6 @@
       {
         "programId": 561,
         "name": "MSc in Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 562,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 563,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 564,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 565,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 566,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 567,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 568,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 569,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 570,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 571,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 572,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 573,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 574,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 575,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 576,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 577,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 578,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 579,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 580,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 581,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 582,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 583,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 584,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 585,
-        "name": "MSc in Business Analytics / Management",
         "missing": [
           "studyMode",
           "degreeAwarded",
@@ -4649,222 +3443,6 @@
         ]
       },
       {
-        "programId": 685,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 686,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 687,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 688,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 689,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 690,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 691,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 692,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 693,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 694,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 695,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 696,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 697,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 698,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 699,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 700,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 701,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 702,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 703,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 704,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 705,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 706,
-        "name": "Máster Universitario en Finanzas",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 707,
-        "name": "Máster Universitario en Ciencia de Datos / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 708,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
         "programId": 709,
         "name": "MSc in Finance",
         "missing": [
@@ -4939,60 +3517,6 @@
       {
         "programId": 717,
         "name": "MSc in Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 718,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 719,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 720,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 721,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 722,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 723,
-        "name": "MSc in Business Analytics / Management",
         "missing": [
           "studyMode",
           "degreeAwarded",
@@ -5261,357 +3785,6 @@
         ]
       },
       {
-        "programId": 974,
-        "name": "Máster Universitario en Finanzas y Banca",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 975,
-        "name": "Máster Universitario en Ingeniería Informática / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 976,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 977,
-        "name": "Máster Universitario en Finanzas y Banca",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 978,
-        "name": "Máster Universitario en Ingeniería Informática / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 979,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 980,
-        "name": "Máster Universitario en Finanzas y Banca",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 981,
-        "name": "Máster Universitario en Ingeniería Informática / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 982,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 983,
-        "name": "Máster Universitario en Finanzas y Banca",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 984,
-        "name": "Máster Universitario en Ingeniería Informática / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 985,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 986,
-        "name": "Máster Universitario en Finanzas y Banca",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 987,
-        "name": "Máster Universitario en Ingeniería Informática / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 988,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 989,
-        "name": "Máster Universitario en Finanzas y Banca",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 990,
-        "name": "Máster Universitario en Ingeniería Informática / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 991,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 992,
-        "name": "Máster Universitario en Finanzas y Banca",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 993,
-        "name": "Máster Universitario en Ingeniería Informática / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 994,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 995,
-        "name": "Máster Universitario en Finanzas y Banca",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 996,
-        "name": "Máster Universitario en Ingeniería Informática / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 997,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 998,
-        "name": "Máster Universitario en Finanzas y Banca",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 999,
-        "name": "Máster Universitario en Ingeniería Informática / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1000,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1001,
-        "name": "Máster Universitario en Finanzas y Banca",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1002,
-        "name": "Máster Universitario en Ingeniería Informática / IA",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1003,
-        "name": "Máster Universitario en Economía / Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1004,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1005,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1006,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1007,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1008,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1009,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1010,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1011,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1012,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
         "programId": 1013,
         "name": "MSc Finance",
         "missing": [
@@ -5631,114 +3804,6 @@
       },
       {
         "programId": 1015,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1016,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1017,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1018,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1019,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1020,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1021,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1022,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1023,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1024,
-        "name": "MSc Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1025,
-        "name": "MSc Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1026,
-        "name": "MSc Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1027,
         "name": "MSc Business Analytics",
         "missing": [
           "studyMode",
@@ -5846,177 +3911,6 @@
         ]
       },
       {
-        "programId": 1055,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1056,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1057,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1058,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1059,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1060,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1061,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1062,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1063,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1064,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1065,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1066,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1067,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1068,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1069,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1070,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1071,
-        "name": "MSc in Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1072,
-        "name": "MSc in Business Analytics / Management",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1073,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
         "programId": 1074,
         "name": "MSc in Data Science / AI",
         "missing": [
@@ -6062,26 +3956,8 @@
         ]
       },
       {
-        "programId": 1079,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
         "programId": 1080,
         "name": "MSc in Data Science / AI",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1081,
-        "name": "MSc in Computer Science",
         "missing": [
           "studyMode",
           "degreeAwarded",
@@ -6170,44 +4046,8 @@
         ]
       },
       {
-        "programId": 1091,
-        "name": "Master of Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
         "programId": 1092,
         "name": "Master of Computer Science / Data Science",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1093,
-        "name": "Master of Business Analytics",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1094,
-        "name": "MSc in Finance",
-        "missing": [
-          "studyMode",
-          "degreeAwarded",
-          "programmeUrl"
-        ]
-      },
-      {
-        "programId": 1095,
-        "name": "MSc in Data Science / AI",
         "missing": [
           "studyMode",
           "degreeAwarded",
@@ -6253,10 +4093,6 @@
     ],
     "missingSources": [
       {
-        "programId": 2,
-        "name": "Master in Management"
-      },
-      {
         "programId": 7,
         "name": "MSc Data Science"
       },
@@ -6267,18 +4103,6 @@
       {
         "programId": 17,
         "name": "MSc Business Analytics & Management"
-      },
-      {
-        "programId": 21,
-        "name": "Master in Finance"
-      },
-      {
-        "programId": 22,
-        "name": "Master in Business Analytics & Big Data"
-      },
-      {
-        "programId": 23,
-        "name": "Master in Finance"
       },
       {
         "programId": 24,
@@ -6295,86 +4119,6 @@
       {
         "programId": 27,
         "name": "Master of Data Science"
-      },
-      {
-        "programId": 35,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 36,
-        "name": "MSc in Data Management & Business Analytics"
-      },
-      {
-        "programId": 37,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 38,
-        "name": "MSc Data Science & Business Analytics"
-      },
-      {
-        "programId": 39,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 40,
-        "name": "MSc Data Science for Business"
-      },
-      {
-        "programId": 41,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 42,
-        "name": "MSc in Data & Digital Management"
-      },
-      {
-        "programId": 43,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 44,
-        "name": "MSc Data Science & Business Analytics"
-      },
-      {
-        "programId": 45,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 46,
-        "name": "MSc in Big Data Analytics for Business"
-      },
-      {
-        "programId": 47,
-        "name": "Master in Finance"
-      },
-      {
-        "programId": 48,
-        "name": "Master in Finance (M2)"
-      },
-      {
-        "programId": 49,
-        "name": "Master in Data Science & Analytics"
-      },
-      {
-        "programId": 50,
-        "name": "Master in Risk & Compliance"
-      },
-      {
-        "programId": 51,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 52,
-        "name": "MSc Data Science & Decision Making"
-      },
-      {
-        "programId": 53,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 54,
-        "name": "MSc in Data & Business Analytics"
       },
       {
         "programId": 56,
@@ -6406,14 +4150,6 @@
       },
       {
         "programId": 73,
-        "name": "MSc in Data Science"
-      },
-      {
-        "programId": 74,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 75,
         "name": "MSc in Data Science"
       },
       {
@@ -6473,74 +4209,6 @@
         "name": "MSc in Software Design"
       },
       {
-        "programId": 99,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 100,
-        "name": "MSc in Business Analytics"
-      },
-      {
-        "programId": 101,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 102,
-        "name": "MSc in Artificial Intelligence"
-      },
-      {
-        "programId": 103,
-        "name": "MSc in Data Science & Business Analytics"
-      },
-      {
-        "programId": 104,
-        "name": "MSc in Economics & Finance"
-      },
-      {
-        "programId": 105,
-        "name": "MSc in Data Science & Engineering"
-      },
-      {
-        "programId": 106,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 107,
-        "name": "MSc in Data Science & Business"
-      },
-      {
-        "programId": 108,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 109,
-        "name": "MSc in Data Science & Business Analytics"
-      },
-      {
-        "programId": 110,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 111,
-        "name": "MSc in Business Analytics"
-      },
-      {
-        "programId": 112,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 113,
-        "name": "MSc in Big Data & Data Science"
-      },
-      {
-        "programId": 114,
-        "name": "MSc in Finance & Banking"
-      },
-      {
-        "programId": 115,
-        "name": "MSc in Data Science"
-      },
-      {
         "programId": 116,
         "name": "MSc in Economics & Business — Finance"
       },
@@ -6555,14 +4223,6 @@
       {
         "programId": 119,
         "name": "MSc in Data Science"
-      },
-      {
-        "programId": 120,
-        "name": "MSc in Computer Science — AI"
-      },
-      {
-        "programId": 121,
-        "name": "MSc in Data Science & Analytics"
       },
       {
         "programId": 122,
@@ -6581,24 +4241,12 @@
         "name": "Master of Data Science"
       },
       {
-        "programId": 126,
-        "name": "Master of Finance"
-      },
-      {
-        "programId": 127,
-        "name": "Master of Data Science"
-      },
-      {
         "programId": 128,
         "name": "Master of Finance"
       },
       {
         "programId": 129,
         "name": "Master of Data Science"
-      },
-      {
-        "programId": 130,
-        "name": "MSc Data Science for Business"
       },
       {
         "programId": 131,
@@ -6619,14 +4267,6 @@
       {
         "programId": 143,
         "name": "MSc Quantitative Finance"
-      },
-      {
-        "programId": 147,
-        "name": "Master in FinTech & Blockchain"
-      },
-      {
-        "programId": 148,
-        "name": "Master in Business Analytics & AI"
       },
       {
         "programId": 149,
@@ -6686,18 +4326,6 @@
       },
       {
         "programId": 375,
-        "name": "MSc in Economics"
-      },
-      {
-        "programId": 376,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 377,
-        "name": "MSc in Data Science / Computer Science"
-      },
-      {
-        "programId": 378,
         "name": "MSc in Economics"
       },
       {
@@ -6821,18 +4449,6 @@
         "name": "MSc Business Analytics"
       },
       {
-        "programId": 409,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 410,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 411,
-        "name": "MSc Business Analytics"
-      },
-      {
         "programId": 412,
         "name": "MSc Finance"
       },
@@ -6869,30 +4485,6 @@
         "name": "MSc Business Analytics"
       },
       {
-        "programId": 421,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 422,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 423,
-        "name": "MSc Business Analytics"
-      },
-      {
-        "programId": 424,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 425,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 426,
-        "name": "MSc Business Analytics"
-      },
-      {
         "programId": 427,
         "name": "MSc Finance"
       },
@@ -6905,18 +4497,6 @@
         "name": "MSc Business Analytics"
       },
       {
-        "programId": 430,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 431,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 432,
-        "name": "MSc Business Analytics"
-      },
-      {
         "programId": 433,
         "name": "MSc Finance"
       },
@@ -6926,42 +4506,6 @@
       },
       {
         "programId": 435,
-        "name": "MSc Business Analytics"
-      },
-      {
-        "programId": 436,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 437,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 438,
-        "name": "MSc Business Analytics"
-      },
-      {
-        "programId": 439,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 440,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 441,
-        "name": "MSc Business Analytics"
-      },
-      {
-        "programId": 442,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 443,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 444,
         "name": "MSc Business Analytics"
       },
       {
@@ -7083,150 +4627,6 @@
       {
         "programId": 474,
         "name": "MSc in Economics"
-      },
-      {
-        "programId": 475,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 476,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 477,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 478,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 479,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 480,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 481,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 482,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 483,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 484,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 485,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 486,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 487,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 488,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 489,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 490,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 491,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 492,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 493,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 494,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 495,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 496,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 497,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 498,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 499,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 500,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 501,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 502,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 503,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 504,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 505,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 506,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 507,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 508,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 509,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 510,
-        "name": "Máster Universitario en Economía / Business Analytics"
       },
       {
         "programId": 511,
@@ -7395,102 +4795,6 @@
       {
         "programId": 561,
         "name": "MSc in Business Analytics"
-      },
-      {
-        "programId": 562,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 563,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 564,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 565,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 566,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 567,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 568,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 569,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 570,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 571,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 572,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 573,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 574,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 575,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 576,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 577,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 578,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 579,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 580,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 581,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 582,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 583,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 584,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 585,
-        "name": "MSc in Business Analytics / Management"
       },
       {
         "programId": 625,
@@ -7733,102 +5037,6 @@
         "name": "MSc Business Analytics"
       },
       {
-        "programId": 685,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 686,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 687,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 688,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 689,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 690,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 691,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 692,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 693,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 694,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 695,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 696,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 697,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 698,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 699,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 700,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 701,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 702,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 703,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 704,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 705,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 706,
-        "name": "Máster Universitario en Finanzas"
-      },
-      {
-        "programId": 707,
-        "name": "Máster Universitario en Ciencia de Datos / IA"
-      },
-      {
-        "programId": 708,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
         "programId": 709,
         "name": "MSc in Finance"
       },
@@ -7863,30 +5071,6 @@
       {
         "programId": 717,
         "name": "MSc in Business Analytics"
-      },
-      {
-        "programId": 718,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 719,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 720,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 721,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 722,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 723,
-        "name": "MSc in Business Analytics / Management"
       },
       {
         "programId": 724,
@@ -8005,162 +5189,6 @@
         "name": "MSc Entrepreneurship & Innovation"
       },
       {
-        "programId": 974,
-        "name": "Máster Universitario en Finanzas y Banca"
-      },
-      {
-        "programId": 975,
-        "name": "Máster Universitario en Ingeniería Informática / IA"
-      },
-      {
-        "programId": 976,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 977,
-        "name": "Máster Universitario en Finanzas y Banca"
-      },
-      {
-        "programId": 978,
-        "name": "Máster Universitario en Ingeniería Informática / IA"
-      },
-      {
-        "programId": 979,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 980,
-        "name": "Máster Universitario en Finanzas y Banca"
-      },
-      {
-        "programId": 981,
-        "name": "Máster Universitario en Ingeniería Informática / IA"
-      },
-      {
-        "programId": 982,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 983,
-        "name": "Máster Universitario en Finanzas y Banca"
-      },
-      {
-        "programId": 984,
-        "name": "Máster Universitario en Ingeniería Informática / IA"
-      },
-      {
-        "programId": 985,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 986,
-        "name": "Máster Universitario en Finanzas y Banca"
-      },
-      {
-        "programId": 987,
-        "name": "Máster Universitario en Ingeniería Informática / IA"
-      },
-      {
-        "programId": 988,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 989,
-        "name": "Máster Universitario en Finanzas y Banca"
-      },
-      {
-        "programId": 990,
-        "name": "Máster Universitario en Ingeniería Informática / IA"
-      },
-      {
-        "programId": 991,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 992,
-        "name": "Máster Universitario en Finanzas y Banca"
-      },
-      {
-        "programId": 993,
-        "name": "Máster Universitario en Ingeniería Informática / IA"
-      },
-      {
-        "programId": 994,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 995,
-        "name": "Máster Universitario en Finanzas y Banca"
-      },
-      {
-        "programId": 996,
-        "name": "Máster Universitario en Ingeniería Informática / IA"
-      },
-      {
-        "programId": 997,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 998,
-        "name": "Máster Universitario en Finanzas y Banca"
-      },
-      {
-        "programId": 999,
-        "name": "Máster Universitario en Ingeniería Informática / IA"
-      },
-      {
-        "programId": 1000,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 1001,
-        "name": "Máster Universitario en Finanzas y Banca"
-      },
-      {
-        "programId": 1002,
-        "name": "Máster Universitario en Ingeniería Informática / IA"
-      },
-      {
-        "programId": 1003,
-        "name": "Máster Universitario en Economía / Business Analytics"
-      },
-      {
-        "programId": 1004,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 1005,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 1006,
-        "name": "MSc Business Analytics"
-      },
-      {
-        "programId": 1007,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 1008,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 1009,
-        "name": "MSc Business Analytics"
-      },
-      {
-        "programId": 1010,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 1011,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 1012,
-        "name": "MSc Business Analytics"
-      },
-      {
         "programId": 1013,
         "name": "MSc Finance"
       },
@@ -8170,54 +5198,6 @@
       },
       {
         "programId": 1015,
-        "name": "MSc Business Analytics"
-      },
-      {
-        "programId": 1016,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 1017,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 1018,
-        "name": "MSc Business Analytics"
-      },
-      {
-        "programId": 1019,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 1020,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 1021,
-        "name": "MSc Business Analytics"
-      },
-      {
-        "programId": 1022,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 1023,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 1024,
-        "name": "MSc Business Analytics"
-      },
-      {
-        "programId": 1025,
-        "name": "MSc Finance"
-      },
-      {
-        "programId": 1026,
-        "name": "MSc Data Science / AI"
-      },
-      {
-        "programId": 1027,
         "name": "MSc Business Analytics"
       },
       {
@@ -8265,82 +5245,6 @@
         "name": "MSc in Business Analytics"
       },
       {
-        "programId": 1055,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 1056,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 1057,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 1058,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 1059,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 1060,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 1061,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 1062,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 1063,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 1064,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 1065,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 1066,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 1067,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 1068,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 1069,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 1070,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 1071,
-        "name": "MSc in Computer Science / Data Science"
-      },
-      {
-        "programId": 1072,
-        "name": "MSc in Business Analytics / Management"
-      },
-      {
-        "programId": 1073,
-        "name": "MSc in Finance"
-      },
-      {
         "programId": 1074,
         "name": "MSc in Data Science / AI"
       },
@@ -8361,16 +5265,8 @@
         "name": "MSc in Computer Science"
       },
       {
-        "programId": 1079,
-        "name": "MSc in Finance"
-      },
-      {
         "programId": 1080,
         "name": "MSc in Data Science / AI"
-      },
-      {
-        "programId": 1081,
-        "name": "MSc in Computer Science"
       },
       {
         "programId": 1082,
@@ -8409,24 +5305,8 @@
         "name": "Master of Business Analytics"
       },
       {
-        "programId": 1091,
-        "name": "Master of Finance"
-      },
-      {
         "programId": 1092,
         "name": "Master of Computer Science / Data Science"
-      },
-      {
-        "programId": 1093,
-        "name": "Master of Business Analytics"
-      },
-      {
-        "programId": 1094,
-        "name": "MSc in Finance"
-      },
-      {
-        "programId": 1095,
-        "name": "MSc in Data Science / AI"
       },
       {
         "programId": 1096,
@@ -8449,24 +5329,24 @@
   },
   "completeness": {
     "tuitionYearly": {
-      "filled": 1082,
+      "filled": 1085,
       "total": 1099,
-      "pct": 98
+      "pct": 99
     },
     "applicationUrl": {
-      "filled": 78,
+      "filled": 185,
       "total": 1099,
-      "pct": 7
+      "pct": 17
     },
     "programmeUrl": {
-      "filled": 550,
+      "filled": 790,
       "total": 1099,
-      "pct": 50
+      "pct": 72
     },
     "sourceUrl": {
-      "filled": 551,
+      "filled": 791,
       "total": 1099,
-      "pct": 50
+      "pct": 72
     },
     "ieltsMinScore": {
       "filled": 3,
@@ -8479,24 +5359,24 @@
       "pct": 1
     },
     "faculty": {
-      "filled": 69,
+      "filled": 201,
       "total": 1099,
-      "pct": 6
+      "pct": 18
     },
     "studyMode": {
-      "filled": 550,
+      "filled": 790,
       "total": 1099,
-      "pct": 50
+      "pct": 72
     },
     "internationalTuition": {
-      "filled": 529,
+      "filled": 760,
       "total": 1099,
-      "pct": 48
+      "pct": 69
     },
     "degreeAwarded": {
-      "filled": 69,
+      "filled": 201,
       "total": 1099,
-      "pct": 6
+      "pct": 18
     },
     "gmatRequired": {
       "filled": 3,
@@ -8505,8 +5385,8 @@
     }
   },
   "verification": {
-    "verified": 550,
-    "pending": 549,
+    "verified": 790,
+    "pending": 309,
     "manual": 0,
     "total": 1099
   }
