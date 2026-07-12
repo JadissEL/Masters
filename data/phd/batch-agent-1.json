@@ -6,14 +6,17 @@
   "searchSummary": {
     "portalsChecked": [
       "https://euraxess.ec.europa.eu/jobs",
-      "https://www.abg.asso.fr",
       "https://fnege.org/offres_emploi",
-      "https://academicpositions.fr/jobs/field/business-economics-economics/country/france",
-      "Official university doctorat / business school PhD pages"
+      "https://academicpositions.fr/jobs/field/finance",
+      "https://academicpositions.fr/jobs/position/phd/field/corporate-finance",
+      "https://www.anrt.asso.fr (CIFRE/ANRT)",
+      "https://recruitment.ieseg.fr/jobs (IÉSEG current openings)",
+      "https://www.tse-fr.eu/doctoral-program",
+      "Official university doctorat / business school PhD + lab pages (EconomiX, CEREFIGE, GRANEM, HEC Paris)"
     ],
     "targetMinOffers": 30,
     "offersFoundOpen": 4,
-    "note": "As of 2026-07-12 most Sept-2026 French finance/accounting doctoral contract cycles are closed (spring deadlines). Only verified open funded listings retained; no fabrication."
+    "note": "Wave-2 refresh (2026-07-12): all 4 previously verified offers re-confirmed still live and open directly against their official/portal source pages (deadlines unchanged, no closures). Broadened re-search across EURAXESS, FNEGE, Academic Positions, CIFRE/ANRT, IÉSEG careers board, and TSE found no additional open funded finance/accounting/compliance/M&A/PE/audit/healthcare-finance PhD in France beyond the existing 4 — Sept-2026 intake cycles for French contrat-doctoral and grande-école finance/accounting PhDs remain closed as of this date. One additional closed listing (IÉSEG PhD in Economics — Access to Healthcare) identified and logged to skippedClosed. Enrichment pass added GRANEM Axe 3 current doctoral cohort (offer 003) and replaced HEC Paris Finance sample with the live PhD student directory (offer 004), since several previously listed HEC names have since defended/placed."
   },
   "phdOffers": [
     {
@@ -67,7 +70,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Rolling review; submit single PDF (CV, motivation with research statement <3 pages, transcripts, master thesis or representative paper)."
+      "notes": "Re-verified 2026-07-12: call page still live, rolling review confirmed, start Sept 2026 unchanged. Submit single PDF (CV, motivation with research statement <3 pages, transcripts, master thesis or representative paper)."
     },
     {
       "id": "fr-lorraine-cerefige-dif-finance-002",
@@ -103,7 +106,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Also listed on Academic Positions. Send CV, Master transcripts, 4-page research project. Interviews late Sept/early Oct 2026. Co-supervision mentioned but co-supervisor name not published."
+      "notes": "Re-verified 2026-07-12 directly on FNEGE listing (post date 19/06/2026, deadline unchanged at 12/09/2026). Also listed on Academic Positions. Send CV, Master transcripts, 4-page research project. Interviews late Sept/early Oct 2026. Co-supervisor for Lorraine DIF position still not named in public call."
     },
     {
       "id": "fr-angers-granem-dif-bankability-003",
@@ -126,7 +129,7 @@
           "role": "principal",
           "email": "catherine.deffains-crapsky@univ-angers.fr",
           "linkedinUrl": null,
-          "officialUrl": null,
+          "officialUrl": "https://granem.univ-angers.fr/fr/presentation/membres/chercheurs/chercheurs-axe-3.html",
           "sourceUrl": "https://fnege.org/offres_emploi/contrat-doctoral-decarboner-lindustrie-par-la-finance-2/"
         },
         {
@@ -134,18 +137,27 @@
           "role": "co-supervisor",
           "email": "caroline.marie-jeanne@univ-angers.fr",
           "linkedinUrl": null,
-          "officialUrl": null,
+          "officialUrl": "https://granem.univ-angers.fr/fr/presentation/membres/chercheurs/chercheurs-axe-3.html",
           "sourceUrl": "https://fnege.org/offres_emploi/contrat-doctoral-decarboner-lindustrie-par-la-finance-2/"
         }
       ],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        { "name": "Ben Aoun Abir", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://granem.univ-angers.fr/fr/presentation/membres/chercheurs/chercheurs-axe-3.html" },
+        { "name": "Ben Ghalba Yosr", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://granem.univ-angers.fr/fr/presentation/membres/chercheurs/chercheurs-axe-3.html" },
+        { "name": "Benjamìn Gonzalo Marcos", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://granem.univ-angers.fr/fr/presentation/membres/chercheurs/chercheurs-axe-3.html" },
+        { "name": "Friesen Jared", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://granem.univ-angers.fr/fr/presentation/membres/chercheurs/chercheurs-axe-3.html" },
+        { "name": "Gaudefroy de Mombynes Yorick", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://granem.univ-angers.fr/fr/presentation/membres/chercheurs/chercheurs-axe-3.html" },
+        { "name": "Mallard Yoann", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://granem.univ-angers.fr/fr/presentation/membres/chercheurs/chercheurs-axe-3.html" },
+        { "name": "Ologou Géoffroy Ayele", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://granem.univ-angers.fr/fr/presentation/membres/chercheurs/chercheurs-axe-3.html" },
+        { "name": "Ouédraogo Harouna O.", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://granem.univ-angers.fr/fr/presentation/membres/chercheurs/chercheurs-axe-3.html" }
+      ],
       "applyUrl": "mailto:catherine.deffains-crapsky@univ-angers.fr,caroline.marie-jeanne@univ-angers.fr",
       "programInfoUrl": "https://www.pepr-spleen.fr/projet/projet-dif/",
       "sourceUrl": "https://fnege.org/offres_emploi/contrat-doctoral-decarboner-lindustrie-par-la-finance-2/",
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Send CV + 6-page research proposal (excl. bibliography). Interviews first half of September 2026."
+      "notes": "Re-verified 2026-07-12 on FNEGE (post date 26/06/2026, deadline unchanged at 28/08/2026). Send CV + 6-page research proposal (excl. bibliography). Interviews first half of September 2026. Enrolled-students sample enriched with GRANEM Axe 3 'Mutations Stratégiques, Risques et Soutenabilité Financière' doctoral cohort (official chercheurs page, no name-year cohort published)."
     },
     {
       "id": "fr-hec-paris-phd-finance-004",
@@ -173,16 +185,16 @@
         }
       ],
       "enrolledStudentsSample": [
-        { "name": "Yurii Handziuk", "linkedinUrl": null, "cohortYear": "2025", "sourceUrl": "https://www.hec.edu/en/phd-program/research-areas/finance" },
-        { "name": "Antoine Hubert de Fraisse", "linkedinUrl": null, "cohortYear": "2025", "sourceUrl": "https://www.hec.edu/en/phd-program/research-areas/finance" },
-        { "name": "Markus Bak-Hansen", "linkedinUrl": null, "cohortYear": "2024", "sourceUrl": "https://www.hec.edu/en/phd-program/research-areas/finance" },
-        { "name": "Maxime Bonelli", "linkedinUrl": null, "cohortYear": "2023", "sourceUrl": "https://www.hec.edu/en/phd-program/research-areas/finance" },
-        { "name": "Tianhao Yao", "linkedinUrl": null, "cohortYear": "2023", "sourceUrl": "https://www.hec.edu/en/phd-program/research-areas/finance" },
-        { "name": "Pinardon-Touati Noémie", "linkedinUrl": null, "cohortYear": "2022", "sourceUrl": "https://www.hec.edu/en/phd-program/research-areas/finance" },
-        { "name": "Pekka Honkanen", "linkedinUrl": null, "cohortYear": "2020", "sourceUrl": "https://www.hec.edu/en/phd-program/research-areas/finance" },
-        { "name": "Huan Tang", "linkedinUrl": null, "cohortYear": "2020", "sourceUrl": "https://www.hec.edu/en/phd-program/research-areas/finance" },
-        { "name": "Sylvain Catherine", "linkedinUrl": null, "cohortYear": "2019", "sourceUrl": "https://www.hec.edu/en/phd-program/research-areas/finance" },
-        { "name": "Thorsten Martin", "linkedinUrl": null, "cohortYear": "2018", "sourceUrl": "https://www.hec.edu/en/phd-program/research-areas/finance" }
+        { "name": "Benramdane Ali", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://www.hec.edu/en/doctoral-program/hec-community/phd-student-directory/phd-student/all/finance" },
+        { "name": "Bois Lucie", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://www.hec.edu/en/doctoral-program/hec-community/phd-student-directory/phd-student/all/finance" },
+        { "name": "Duevski Teodor", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://www.hec.edu/en/doctoral-program/hec-community/phd-student-directory/phd-student/all/finance" },
+        { "name": "Gonzales-Hishinuma Abel", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://www.hec.edu/en/doctoral-program/hec-community/phd-student-directory/phd-student/all/finance" },
+        { "name": "Hardy Benjamin", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://www.hec.edu/en/doctoral-program/hec-community/phd-student-directory/phd-student/all/finance" },
+        { "name": "Liu Mian", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://www.hec.edu/en/doctoral-program/hec-community/phd-student-directory/phd-student/all/finance" },
+        { "name": "Lu Xinyu", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://www.hec.edu/en/doctoral-program/hec-community/phd-student-directory/phd-student/all/finance" },
+        { "name": "Rossello Romain", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://www.hec.edu/en/doctoral-program/hec-community/phd-student-directory/phd-student/all/finance" },
+        { "name": "Rusonik Alyssa", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://www.hec.edu/en/doctoral-program/hec-community/phd-student-directory/phd-student/all/finance" },
+        { "name": "Shen Qiyue", "linkedinUrl": null, "cohortYear": null, "sourceUrl": "https://www.hec.edu/en/doctoral-program/hec-community/phd-student-directory/phd-student/all/finance" }
       ],
       "applyUrl": "https://www.hec.edu/en/phd-program/admissions",
       "programInfoUrl": "https://www.hec.edu/en/phd-program/research-areas/finance",
@@ -190,12 +202,13 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Application portal opened 2026-07-01. Preferred deadline 2026-12-18. Round II opens 2027-01-08 (deadline 2027-04-20). GMAT/GRE + English test required."
+      "notes": "Re-verified 2026-07-12: Round I open (opened 2026-07-01), preferred deadline 2026-12-18, final deadline 2027-01-04; Round II opens 2027-01-08 (deadline 2027-04-20). Matthias Efing confirmed as current Finance PhD Coordinator. Enrolled-students sample corrected to the live PhD student directory (official HEC page) — several previously listed names (Handziuk, Hubert de Fraisse, Bak-Hansen, Bonelli, Yao, Pinardon-Touati, Honkanen, Tang, Catherine, Martin) have since defended/placed per the department's placement record and are no longer current students. GMAT/GRE + English test required."
     }
   ],
   "skippedClosed": [
     { "title": "PhD Corporate Finance — IÉSEG / LEM", "institution": "IÉSEG School of Management", "applicationDeadline": "2026-05-01", "sourceUrl": "https://recruitment.ieseg.fr/jobs/7368785-ph-d-position-in-corporate-finance" },
     { "title": "PhD Finance & Behavioral Economics — IÉSEG", "institution": "IÉSEG School of Management", "applicationDeadline": "2026-05-03", "sourceUrl": "https://fnege.org/offres_emploi/phd-position-in-finance-and-behavioral-economics-gender-psychology-and-academic-careers/" },
+    { "title": "PhD position in Economics (Access to Healthcare, Human Capital and Economic Growth in France) — IÉSEG / LEM", "institution": "IÉSEG School of Management", "applicationDeadline": "2026-04-15", "sourceUrl": "https://fnege.org/offres_emploi/ph-d-position-in-economics/" },
     { "title": "PhD in Management (Finance & Accounting track) — SKEMA", "institution": "SKEMA Business School", "applicationDeadline": "2026-02-15", "sourceUrl": "https://www.skema.edu/en/programmes/phd-management" },
     { "title": "PhD Program — ESSEC (Finance/Accounting concentrations)", "institution": "ESSEC Business School", "applicationDeadline": "2026-05-01", "sourceUrl": "https://www.essec.edu/en/program/program-phd/" },
     { "title": "Fully funded PhD Economics & Management — EUR ELMI", "institution": "Université Côte d'Azur", "applicationDeadline": "2026-05-15", "sourceUrl": "https://elmi.univ-cotedazur.fr/medias/fichier/aap-financement-doctoral-gb-2026-def_1774957836398-pdf" },
@@ -212,24 +225,28 @@
   ],
   "skippedNoFunding": [
     { "title": "AMSE PhD on-the-job track", "institution": "Aix-Marseille School of Economics", "reason": "In-service track; candidate remains employed — no AMSE scholarship", "sourceUrl": "https://www.amse-aixmarseille.fr/en/study/phd/phd-job" },
-    { "title": "PhD in Business Administration (self-funded path)", "institution": "Grenoble École de Management", "reason": "Self-funded/external funding only outside annual funded cohort", "sourceUrl": "https://www.grenoble-em.com/en/programs/phd-in-business-administration/" }
+    { "title": "PhD in Business Administration (self-funded path)", "institution": "Grenoble École de Management", "reason": "Self-funded/external funding only outside annual funded cohort", "sourceUrl": "https://www.grenoble-em.com/en/programs/phd-in-business-administration/" },
+    { "title": "TSE / TSM PhD in Finance (Toulouse)", "institution": "Toulouse School of Economics / Toulouse School of Management", "reason": "Rolling multi-year track entered via funded Master 2 ETE, not a discrete open funded PhD offer with a fixed 2026 deadline; French-graduate admissions campaign runs May, doctoral funding only confirmed after Master 2 completion", "sourceUrl": "https://www.tse-fr.eu/doctoral-program" }
   ],
   "gaps": {
     "countFound": 4,
     "countWithFunding": 4,
     "countWithSupervisorEmail": 4,
     "targetGap": 26,
-    "coverageNote": "Far below minOffersTarget=30 because French finance/accounting contrat doctoral and grande école intakes for Sept 2026 largely closed by July 2026.",
+    "coverageNote": "Still far below minOffersTarget=30 after wave-2 refresh because French finance/accounting contrat doctoral and grande école intakes for Sept 2026 remain closed as of 2026-07-12; re-search across EURAXESS, FNEGE, Academic Positions, CIFRE/ANRT and IÉSEG/TSE found no additional open funded offers.",
     "upcomingCyclesToMonitor": [
       { "institution": "INSEAD", "opens": "2026-09", "intake": "2027-08", "funding": "INSEAD Fellowship 5 years", "sourceUrl": "https://www.insead.edu/phd/academics-and-research/finance" },
       { "institution": "SKEMA PhD Management", "opens": "2026-10", "intake": "2027-09", "funding": "Full 5-year funding", "sourceUrl": "https://www.skema.edu/en/programmes/phd-management" },
       { "institution": "EDHEC PhD Finance", "opens": "2026-11", "intake": "2027-09", "funding": "Residential assistantships (limited)", "sourceUrl": "https://www.edhec.edu/en/programmes/phd-finance/admissions-fees-and-funding" },
-      { "institution": "TSE PhD Finance track", "opens": "2026-11 / 2027-01", "intake": "2027-09", "funding": "TSE fellowship + doctoral contract", "sourceUrl": "https://www.tse-fr.eu/doctoral-program" }
+      { "institution": "TSE PhD Finance track", "opens": "2026-11 / 2027-01", "intake": "2027-09", "funding": "TSE fellowship + doctoral contract", "sourceUrl": "https://www.tse-fr.eu/doctoral-program" },
+      { "institution": "IÉSEG / LEM (Lille)", "opens": "~2026-Q1 (annual cycle)", "intake": "2027-09", "funding": "3-year fully funded research contract (~€2,300-2,400/month)", "sourceUrl": "https://recruitment.ieseg.fr/jobs" }
     ],
     "enrichmentGaps": [
-      "CEREFIGE and GRANEM: no public roster of 10 current finance PhD students with LinkedIn URLs",
+      "CEREFIGE: no public roster of current finance PhD students with names/LinkedIn URLs (only supervisor HDR profile available)",
+      "GRANEM: Axe 3 cohort names now sourced from official chercheurs page, but no cohort-year or LinkedIn data published",
       "Several EURAXESS finance listings marked EXPIRED despite future calendar dates — portal status unreliable; FNEGE/official pages preferred",
-      "Co-supervisor for Lorraine DIF position not named in public call"
+      "Co-supervisor for Lorraine DIF position not named in public call",
+      "No LinkedIn URLs added anywhere this wave — none were published on official source pages, so none were fabricated per rule"
     ]
   }
 }

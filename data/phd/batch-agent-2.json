@@ -3,30 +3,157 @@
   "region": "UK + Ireland",
   "candidate": "dina",
   "verificationDate": "2026-07-12",
+  "wave": "refresh-2",
   "sourcesUsed": [
-    "https://www.jobs.ac.uk",
-    "https://www.findaphd.com (listing pages blocked; individual project URLs via search)",
-    "Official university PhD/scholarship pages"
+    "https://www.jobs.ac.uk (keyword search: PhD finance studentship; accountancy-and-finance/business-studies category pages returned unfiltered counts only)",
+    "https://www.findaphd.com (category pages still returned HTTP 403 to automated access; not usable this round)",
+    "Official university/scholarship pages: Heriot-Watt (hw.ac.uk via jobs.ac.uk advert), UCC, UWE Bristol, University of Limerick, DCU Business School"
   ],
-  "discoveryNotes": "As of 2026-07-12, the September 2026 finance/accounting PhD funding cycle in England is largely closed (most deadlines were Dec 2025–Jun 2026). FindAPhD category pages returned HTTP 403 to automated access; jobs.ac.uk and official university pages were primary. Only verified OPEN funded offers are in phdOffers; evaluated closed/no-funding listings are in skipped arrays. Target 25+ open offers was not met without fabrication.",
+  "discoveryNotes": "Refresh confirms the Sept-2026 England finance/accounting funded cycle remains closed as of 2026-07-12. Carried forward the two open UWE Bristol Business & Law studentships (compliance/governance fit, deadline 2026-08-16) from batch-wave2-england.json into this agent's primary output. Re-included the Heriot-Watt Edinburgh Business School EPSRC studentship (closes 2026-08-12) per explicit instruction; it was previously filed under skippedWrongRegion in wave2 because Edinburgh is geographically Scotland, but the masters dataset has no separate 'scotland' country slug (England (United Kingdom) is the only UK slug; edinburgh is listed as a UK city under that slug), and the agent's own scope/region is 'UK + Ireland', so it is filed under countrySlug 'england' with a location clarification in notes. Only the Circular Economy Transition (sustainable/climate finance) topic of the two-topic Heriot-Watt advert is included; the AI/labour-economics topic is not a finance/accounting/compliance fit and is excluded. Re-verified UCC CUBS scholarship still open (deadline 2026-08-03). New discoveries this round: University of Limerick Kemmy Business School Doctoral College PhD Scholarship (fully funded, open topic within KBS incl. finance/accounting, deadline 2026-08-31) and DCU Business School PhD/MPhil Tuition Fee-Only Scholarship for part-time students (fees-only, deadline 2026-08-19). DCU trustLAB PhD Scholarship (deadline 2026-08-20, fully funded) was evaluated but excluded — its research focus is organisational/interpersonal trust, not finance/accounting/compliance. No fabricated emails or LinkedIn URLs; all supervisor/contact details are copied verbatim from official pages where named.",
   "summary": {
-    "openOffers": 1,
-    "skippedClosed": 24,
-    "skippedNoFunding": 3,
+    "openOffers": 6,
+    "skippedClosed": 22,
+    "skippedNoFunding": 4,
     "byCountry": {
-      "england": 0,
-      "ireland": 1
+      "england": 3,
+      "ireland": 3
     },
     "byDomain": {
-      "finance": 0,
+      "finance": 1,
       "accounting": 0,
-      "compliance": 0,
-      "corporateFinance": 0,
-      "ESG": 1,
+      "compliance": 3,
+      "corporateFinance": 1,
+      "ESG": 2,
       "management": 1
     }
   },
   "phdOffers": [
+    {
+      "id": "eng-hw-ebs-epsrc-circular-economy-finance-001",
+      "countrySlug": "england",
+      "institution": "Heriot-Watt University — Edinburgh Business School",
+      "institutionSlug": null,
+      "title": "EPSRC PhD Studentship — Financing the Circular Economy Transition",
+      "subject": "Finance and investment barriers to circular-economy uptake; financial performance of circular business models, sustainable/transition finance, circular supply-chain investment, climate-related financial risk, ESG and sustainability disclosure, and institutional investors' role in circular innovation and resource security.",
+      "domains": ["Finance", "Corporate Finance", "ESG", "Risk"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "3.5-year EPSRC studentship: UK-fees tuition waiver, enhanced annual stipend £23,985 (10% above standard UKRI rate), plus £3,500/year training and research expenses allowance. Overseas applicants eligible but must cover the UK/overseas fee difference.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "September 2026 or January 2027",
+      "applicationDeadline": "2026-08-12",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Prof. Bing Xu",
+          "role": "principal",
+          "email": "b.xu@hw.ac.uk",
+          "linkedinUrl": null,
+          "officialUrl": null,
+          "sourceUrl": "https://www.jobs.ac.uk/job/DSB112/edinburgh-business-school-epsrc-phd-studentships"
+        },
+        {
+          "name": "Dr Stefano Maiani",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": null,
+          "sourceUrl": "https://www.jobs.ac.uk/job/DSB112/edinburgh-business-school-epsrc-phd-studentships"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.hw.ac.uk/study/apply/uk/postgraduate.htm",
+      "programInfoUrl": "https://www.jobs.ac.uk/job/DSB112/edinburgh-business-school-epsrc-phd-studentships",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DSB112/edinburgh-business-school-epsrc-phd-studentships",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Location is Edinburgh, Scotland (UK), not England proper; filed under countrySlug 'england' because the masters dataset uses 'England (United Kingdom)' as the only UK country slug (no separate Scotland entry) and this agent's scope is 'UK + Ireland'. Advert offers 2 studentships across 2 topic areas; only the finance-relevant 'Financing the Circular Economy Transition' topic (select 'Accountancy and Finance PhD' on the application form) is captured here. A second topic, 'AI and Causal Inference for Labour Market Resilience' (Prof. Cristina Tealdi / Dr Yannis Kostas, select 'Economics PhD'), is economics/labour-market focused and out of scope for Dina's finance/accounting/compliance domains. Master's in Finance, Sustainable Finance, Economics, Business Analytics, Data Analytics, Energy Finance or Accounting desirable; Python/R/Stata/Matlab a plus."
+    },
+    {
+      "id": "eng-uwe-water-governance-legal-001",
+      "countrySlug": "england",
+      "institution": "UWE Bristol — Bristol Business School (College of Business and Law)",
+      "institutionSlug": null,
+      "title": "PhD Studentship — Water Governance Legal Frameworks and Regional Outcomes",
+      "subject": "Comparative analysis of water-sector legal and regulatory architecture across England, Wales and Scotland amid privatisation and post-2025 integrated-regulator reforms; ownership, accountability, regional cost/benefit distribution, and climate adaptation governance.",
+      "domains": ["Compliance", "Risk", "Corporate Finance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "3-year studentship from 1 Oct 2026: tax-exempt stipend £21,805 p.a. (2025/26 rate cited on page) plus full-time home/international tuition fees for up to three years.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-10-01",
+      "applicationDeadline": "2026-08-16",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Dr Pawel Capik",
+          "role": "principal",
+          "email": "pawel.capik@uwe.ac.uk",
+          "linkedinUrl": null,
+          "officialUrl": null,
+          "sourceUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/studentships/water-governance-legal-frameworks"
+        },
+        {
+          "name": "Dr Armagan Gezici",
+          "role": "co-supervisor",
+          "email": "armagan.gezici@uwe.ac.uk",
+          "linkedinUrl": null,
+          "officialUrl": null,
+          "sourceUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/studentships/water-governance-legal-frameworks"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/eligibility-and-applications",
+      "programInfoUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/studentships/water-governance-legal-frameworks",
+      "sourceUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/studentships/water-governance-legal-frameworks",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Re-verified open on 2026-07-12 (carried forward from batch-wave2-england.json). Reference 2627-OCT-CBL01. Requires 2:1+ and preferably Masters ≥65%; economics/environmental-law cognates accepted. Compliance/regulatory-finance angle, not core accounting/finance."
+    },
+    {
+      "id": "eng-uwe-workplace-harassment-legal-hr-002",
+      "countrySlug": "england",
+      "institution": "UWE Bristol — Bristol Business School (College of Business and Law)",
+      "institutionSlug": null,
+      "title": "PhD Studentship — Sexual Harassment and Sexual Assault at Work: Legal and HR Blind Spots",
+      "subject": "Mixed-methods study of how UK workplace sexual harassment/assault is routed through civil employment law and HR grievance processes rather than criminal justice; policy, compliance, and trauma-informed safeguarding implications for employers and unions.",
+      "domains": ["Compliance", "Risk"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "3-year studentship from 1 Oct 2026: tax-exempt stipend £21,805 p.a. plus full-time home/international tuition fees for up to three years.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "2026-10-01",
+      "applicationDeadline": "2026-08-16",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Dr Pawel Capik",
+          "role": "principal",
+          "email": "pawel.capik@uwe.ac.uk",
+          "linkedinUrl": null,
+          "officialUrl": null,
+          "sourceUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/studentships/sexual-harassment"
+        },
+        {
+          "name": "Dr Stefano Gasparri",
+          "role": "co-supervisor",
+          "email": "Stefano.Gasparri@uwe.ac.uk",
+          "linkedinUrl": null,
+          "officialUrl": null,
+          "sourceUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/studentships/sexual-harassment"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/eligibility-and-applications",
+      "programInfoUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/studentships/sexual-harassment",
+      "sourceUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/studentships/sexual-harassment",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "Re-verified open on 2026-07-12 (carried forward from batch-wave2-england.json). Reference 2627-OCT-CBL02. Compliance/regulatory-policy angle for Dina; not core finance/accounting. Legal and/or HR qualifications expected."
+    },
     {
       "id": "ie-ucc-cubs-phd-mgmt-marketing-esg-001",
       "countrySlug": "ireland",
@@ -36,7 +163,7 @@
       "subject": "Fully funded PhD scholarship in organisational innovation, innovation strategy, green/ESG innovation, entrepreneurial ecosystems, or related management/marketing topics under Prof. Lawrence Dooley.",
       "domains": ["ESG", "Management", "Innovation", "Compliance"],
       "fundingType": "fully_funded",
-      "fundingDetails": "EU tuition fees plus €25,000 annual stipend for 4 years; non-EU fee waiver applied for awardees. Updated 24 June 2026 on official page.",
+      "fundingDetails": "EU tuition fees plus €25,000 annual stipend for 4 years; non-EU fee waiver applied for awardees. Page still shows 'Updated 24 June 2026' as of this verification.",
       "openPositions": 1,
       "teachingLanguage": "English",
       "startDate": "October 2026 or January 2027",
@@ -59,7 +186,57 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Research areas include Grand challenges, ESG & Green Innovation (area V). Strong fit for Dina's compliance/ESG angle; broader than pure finance PhD."
+      "notes": "Re-verified open on 2026-07-12; no change from prior wave. Research areas include Grand challenges, ESG & Green Innovation (area V). Strong fit for Dina's compliance/ESG angle; broader than pure finance PhD."
+    },
+    {
+      "id": "ie-ul-kbs-doctoral-college-scholarship-001",
+      "countrySlug": "ireland",
+      "institution": "University of Limerick — Kemmy Business School (KBS)",
+      "institutionSlug": null,
+      "title": "Doctoral College PhD Scholarship — Kemmy Business School (open topic)",
+      "subject": "Open-topic scholarship: research proposals welcome in any field aligned with Kemmy Business School faculty expertise (incl. finance, accounting, economics, management), aligned to UL's Research Strategy 2022-2027 and relevant Sustainable Development Goals. Candidate must identify a KBS supervisory team as part of the application.",
+      "domains": ["Finance", "Accounting", "Corporate Finance", "Compliance"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "EU-level annual postgraduate research fees (currently €5,800) plus €25,000/year stipend for up to 3 years.",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "Autumn semester 2026/27",
+      "applicationDeadline": "2026-08-31",
+      "status": "open",
+      "supervisors": [],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.ul.ie/business/doctoral-programmes",
+      "programInfoUrl": "https://www.ul.ie/research/doctoral-college/postgraduate-research-scholarships",
+      "sourceUrl": "https://www.ul.ie/research/doctoral-college/postgraduate-research-scholarships",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "No named academic supervisor is pre-assigned; applicant proposes a research topic and must secure a 2-person KBS supervisory team as part of the application (10% of evaluation weight). Administrative submission contact only: Rebecca Gachet, rebecca.gachet@ul.ie (not a supervisor — omitted from supervisors[] to avoid mislabeling). Requires Master's degree or 1st-class Honours Bachelor's; ~3,000-word research proposal. Home to ~70 PhD candidates in KBS. Confidence marked Medium because fit depends on the applicant proposing a finance/accounting-aligned project and finding a willing KBS supervisor, rather than a pre-defined finance project."
+    },
+    {
+      "id": "ie-dcu-business-parttime-feeonly-scholarship-001",
+      "countrySlug": "ireland",
+      "institution": "Dublin City University — DCU Business School",
+      "institutionSlug": null,
+      "title": "PhD / MPhil Tuition Fee-Only Scholarship for Part-Time Students",
+      "subject": "Open-topic part-time PhD/MPhil fee scholarship; candidates propose their own research project (incl. finance/accounting) and work under supervision of a DCU Business School academic.",
+      "domains": ["Finance", "Accounting", "Corporate Finance"],
+      "fundingType": "partial",
+      "fundingDetails": "Payment of tuition fees up to the EU fee rate per annum for up to 5 years (part-time PhD) or 3 years (part-time MPhil). Fees only — no stipend or living-cost support.",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2026/2027 academic year (Year 1 registration)",
+      "applicationDeadline": "2026-08-19",
+      "status": "open",
+      "supervisors": [],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://business.dcu.ie/scholarships/",
+      "programInfoUrl": "https://business.dcu.ie/scholarships/",
+      "sourceUrl": "https://business.dcu.ie/scholarships/",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "Open topic, part-time only, fees-only (no stipend) — weaker funding fit than fully-funded offers but explicitly a funded (partial) scholarship rather than self-funded. No named supervisor pre-assigned; applicant proposes topic and secures a DCU Business School supervisor. Confidence marked Medium pending a specific finance-aligned supervisor confirmation."
     }
   ],
   "skippedClosed": [
@@ -69,7 +246,7 @@
       "institution": "University of Liverpool Management School",
       "countrySlug": "england",
       "applicationDeadline": "2026-04-08",
-      "reason": "Round 1 deadline passed; official page states 2026/27 GTF call has finished.",
+      "reason": "Official page: 2026/27 GTF call has finished. Monitor for 2027 reopening (see upcomingCyclesToMonitor).",
       "sourceUrl": "https://www.liverpool.ac.uk/management/study/postgraduate-research/phd-studentships/"
     },
     {
@@ -87,8 +264,8 @@
       "institution": "University of Reading",
       "countrySlug": "england",
       "applicationDeadline": "2026-06-11",
-      "reason": "Official page: Applications 2026 now closed.",
-      "sourceUrl": "https://www.icmacentre.ac.uk/study/phd-dba/scholarships/icma-centre-departmental-scholarships"
+      "reason": "Official page and jobs.ac.uk DRL773 both closed 11 Jun 2026.",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DRL773/phd-in-finance-or-accounting"
     },
     {
       "id": "eng-sheffield-accounting-data-b2b-2026",
@@ -105,7 +282,7 @@
       "institution": "University of Manchester",
       "countrySlug": "england",
       "applicationDeadline": "2026-06-30",
-      "reason": "Programme application deadline 30 June 2026 passed; internal funding deadline was 1 Dec 2025.",
+      "reason": "Programme application deadline 30 June 2026 passed; internal funding deadline was 1 Dec 2025. Monitor for 2027 entry.",
       "sourceUrl": "https://www.manchester.ac.uk/study/postgraduate-research/programmes/list/19378/phd-accounting-and-finance/"
     },
     {
@@ -132,7 +309,7 @@
       "institution": "University of Exeter",
       "countrySlug": "england",
       "applicationDeadline": "2026-02-23",
-      "reason": "Official funding award deadline 23 February 2026.",
+      "reason": "Official funding award deadline 23 February 2026; 2026/27 stipend rates already published for next cycle.",
       "sourceUrl": "https://www.exeter.ac.uk/study/funding/award?id=5707"
     },
     {
@@ -186,7 +363,7 @@
       "institution": "University of Bristol",
       "countrySlug": "england",
       "applicationDeadline": "2025-12-01",
-      "reason": "Funding deadline 1 December 2025.",
+      "reason": "Funding deadline 1 December 2025. Next cycle (SWDTP + UBBS bursaries) expected to open ~Sept 2026 for 2027 entry.",
       "sourceUrl": "https://www.bristol.ac.uk/business-school/phd-programmes/phd-funding/"
     },
     {
@@ -199,13 +376,94 @@
       "sourceUrl": "https://www.jobs.ac.uk/job/DQE608/phd-studentship-towards-a-praxis-of-a-just-transition-in-developing-economies-beyond-counter-accounts-and-regulatory-frameworks-to-action"
     },
     {
-      "id": "eng-uwe-water-governance-legal-2026",
-      "title": "UWE Bristol — PhD Water Governance Legal Frameworks (Business & Law)",
-      "institution": "UWE Bristol",
+      "id": "eng-open-university-fbl-feb2027",
+      "title": "Open University FBL — February 2027 cohort (IFRS / personal finance / accountability projects)",
+      "institution": "The Open University",
       "countrySlug": "england",
-      "applicationDeadline": "2026-08-09",
-      "reason": "Previously on jobs.ac.uk (closes 9 Aug) but advert removed / not reachable at verification; UWE studentships page lists no current finance/governance PhD.",
-      "sourceUrl": "https://www.uwe.ac.uk/research/postgraduate-research-study/studentships"
+      "applicationDeadline": "2026-06-09",
+      "reason": "Deadline 9 June 2026 12:00 BST.",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DQW940/fbl-phd-student-places-february-2027-cohort"
+    },
+    {
+      "id": "eng-city-economics-phd-2026",
+      "title": "City St George's — Fully funded PhD in Economics (Oct 2026)",
+      "institution": "City St George's, University of London",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-05-13",
+      "reason": "Funding consideration deadline 13 May 2026.",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DRK358/fully-funded-phd-in-economics-at-city-st-georges-university-of-london-starting-date-october-2026"
+    },
+    {
+      "id": "eng-surrey-sbs-phd-studentships-2026",
+      "title": "Surrey Business School — PhD studentships (Oct 2026)",
+      "institution": "University of Surrey",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-06-22",
+      "reason": "Official SBS studentships page deadline 22 June 2026 for Oct 2026 entry.",
+      "sourceUrl": "https://www.surrey.ac.uk/fees-and-funding/studentships/surrey-business-school-phd-studentships"
+    },
+    {
+      "id": "eng-warwick-wbs-mres-phd-finance-2026",
+      "title": "Warwick Business School — MRes/PhD Finance & Economics",
+      "institution": "University of Warwick",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-01-31",
+      "reason": "Application deadline 31 January 2026 for Sept 2026 start.",
+      "sourceUrl": "https://www.wbs.ac.uk/courses/doctoral/mres-phd-finance-economics/"
+    },
+    {
+      "id": "eng-mgs-esrc-dtp-2026",
+      "title": "Midlands Graduate School ESRC DTP — Management & Business / Finance pathways",
+      "institution": "MGS partner universities (Aston, Birmingham, Leicester, Loughborough, Nottingham, NTU, Warwick, DMU)",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-01-13",
+      "reason": "Oct 2026 entry competition closed; 2027 applications open 1 Oct 2026 (see upcomingCyclesToMonitor).",
+      "sourceUrl": "https://warwick.ac.uk/fac/cross_fac/mgsdtp/studentships/howtoapply/"
+    },
+    {
+      "id": "eng-nottingham-nubs-phd-studentship-dhx823",
+      "title": "Nottingham University Business School — PhD Studentship (jobs.ac.uk DHX823)",
+      "institution": "Nottingham Trent University / University of Nottingham",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-08-31",
+      "reason": "jobs.ac.uk advert no longer live as of 2026-07-12; could not re-verify on official NUBS portal.",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DHX823/phd-studentship-at-nottingham-university-business-school"
+    },
+    {
+      "id": "eng-leeds-beckett-lbs-bursary-2026",
+      "title": "Leeds Beckett — Leeds Business School sponsored PGR bursary (Oct 2026)",
+      "institution": "Leeds Beckett University",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-05-28",
+      "reason": "Secondary sources cite 28 May 2026 deadline; page no longer advertises open call.",
+      "sourceUrl": "https://www.leedsbeckett.ac.uk/research-degrees-and-research-students/studentships/lbs/full-time-sponsored-postgraduate-research-student-bursary-starting-october-2026/"
+    },
+    {
+      "id": "eng-york-che-real-supply-phd-2026",
+      "title": "University of York — CHE REAL Supply PhD studentship (health economics)",
+      "institution": "University of York",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-07-13",
+      "reason": "Deadline Monday 13 July 2026 09:00 GMT — effectively closed by verification date; healthcare economics not core finance.",
+      "sourceUrl": "https://www.york.ac.uk/che/news/news-2026/phd-studentship-advert-2026/"
+    },
+    {
+      "id": "eng-aston-efa-funded-projects-may2026",
+      "title": "Aston Business School — advertised funded EFA PhD projects (e.g. environmental accounting IFRS)",
+      "institution": "Aston University",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-05-18",
+      "reason": "Project adverts on aston.ac.uk show Apply by 18 May 2026.",
+      "sourceUrl": "https://www.aston.ac.uk/study/courses-phd/environmental-accounting-recognition-and-market-informativeness-insights-ifrs-and-usa"
+    },
+    {
+      "id": "eng-lboro-offshore-wind-socioeconomic-2026",
+      "title": "Loughborough — EPSRC CDT Offshore Wind socio-economic PhD (Business & Economics)",
+      "institution": "Loughborough University",
+      "countrySlug": "england",
+      "applicationDeadline": "2026-07-10",
+      "reason": "Funded project deadline 10 July 2026.",
+      "sourceUrl": "https://www.lboro.ac.uk/study/postgraduate/research-degrees/phd-opportunities/a-socio-economic-impact-evaluation/"
     },
     {
       "id": "ie-ucd-phd-scholarship-finance-2026",
@@ -213,7 +471,7 @@
       "institution": "University College Dublin",
       "countrySlug": "ireland",
       "applicationDeadline": "2026-03-18",
-      "reason": "Expressions of interest deadline 18 March 2026.",
+      "reason": "Expressions of interest deadline 18 March 2026 (Corporate Finance, Asset Pricing, Sustainable Finance, Fintech).",
       "sourceUrl": "https://www.jobs.ac.uk/job/DQS854/ucd-phd-scholarship-in-finance"
     },
     {
@@ -222,8 +480,26 @@
       "institution": "Dublin City University",
       "countrySlug": "ireland",
       "applicationDeadline": "2026-05-11",
-      "reason": "Application deadline 11 May 2026.",
+      "reason": "Application deadline 11 May 2026; official scholarships page now shows status Closed.",
       "sourceUrl": "https://business.dcu.ie/scholarships/sustainable-aviation-scholarship/"
+    },
+    {
+      "id": "ie-dcu-business-school-fulltime-stipend-2026",
+      "title": "DCU Business School PhD Scholarships (2 full-time, stipend-funded)",
+      "institution": "Dublin City University",
+      "countrySlug": "ireland",
+      "applicationDeadline": "2026-06-15",
+      "reason": "Official scholarships page shows status Closed (15 June 2026 deadline); next full-time stipend round expected to open around Dec 2026 for 2027 entry.",
+      "sourceUrl": "https://business.dcu.ie/scholarships/"
+    },
+    {
+      "id": "ie-dcu-trustlab-phd-scholarship-2026",
+      "title": "DCU trustLAB PhD Scholarship (organisational/interpersonal trust research)",
+      "institution": "Dublin City University",
+      "countrySlug": "ireland",
+      "applicationDeadline": "2026-08-20",
+      "reason": "Open and fully funded (€25,000/yr + fees, 4 years) but research focus is organisational/interpersonal trust and trust-in-technology, not finance/accounting/compliance — domain mismatch, not included in phdOffers.",
+      "sourceUrl": "https://business.dcu.ie/scholarships/"
     },
     {
       "id": "ie-tcd-financial-services-ml-phd-2026",
@@ -231,7 +507,7 @@
       "institution": "Trinity College Dublin",
       "countrySlug": "ireland",
       "applicationDeadline": "2026-05-24",
-      "reason": "Application deadline 24 May 2026.",
+      "reason": "Application deadline 24 May 2026 (computer-science-led financial-services ML project).",
       "sourceUrl": "https://www.tcd.ie/scss/phd/"
     },
     {
@@ -249,7 +525,7 @@
       "institution": "Research Ireland (all eligible HEIs)",
       "countrySlug": "ireland",
       "applicationDeadline": "2025-10-23",
-      "reason": "2026 call applicant deadline 23 October 2025.",
+      "reason": "2026 call applicant deadline 23 October 2025; 2027 call expected ~Oct 2026.",
       "sourceUrl": "https://www.researchireland.ie/funding/government-ireland-postgraduate/"
     },
     {
@@ -260,24 +536,6 @@
       "applicationDeadline": "2026-02-06",
       "reason": "2026 Hardiman applications closed.",
       "sourceUrl": "https://www.universityofgalway.ie/hardiman-scholarships/"
-    },
-    {
-      "id": "eng-lboro-offshore-wind-socioeconomic-2026",
-      "title": "Loughborough — EPSRC CDT Offshore Wind socio-economic PhD (Business & Economics)",
-      "institution": "Loughborough University",
-      "countrySlug": "england",
-      "applicationDeadline": "2026-07-10",
-      "reason": "Funded project deadline 10 July 2026.",
-      "sourceUrl": "https://www.lboro.ac.uk/study/postgraduate/research-degrees/phd-opportunities/a-socio-economic-impact-evaluation/"
-    },
-    {
-      "id": "eng-york-che-real-supply-phd-2026",
-      "title": "University of York — CHE REAL Supply PhD studentship (health economics)",
-      "institution": "University of York",
-      "countrySlug": "england",
-      "applicationDeadline": "2026-07-13",
-      "reason": "Deadline Monday 13 July 2026 09:00 GMT — closed on verification date 12 July only hours remain; healthcare economics not core finance.",
-      "sourceUrl": "https://www.york.ac.uk/che/news/news-2026/phd-studentship-advert-2026/"
     }
   ],
   "skippedNoFunding": [
@@ -297,7 +555,7 @@
       "countrySlug": "england",
       "applicationDeadline": "2026-07-31",
       "reason": "Business School listing: Self-funded; deadline 31 July 2026.",
-      "sourceUrl": "https://www.lboro.ac.uk/study/postgraduate/phd-opportunities/business-school/"
+      "sourceUrl": "https://www.lboro.ac.uk/study/postgraduate/research-degrees/phd-opportunities/corporate-governance-and-responsible-business/"
     },
     {
       "id": "eng-brunel-economics-finance-self-2026",
@@ -307,6 +565,73 @@
       "applicationDeadline": null,
       "reason": "FindAPhD programme listing marked Self-Funded PhD Students Only; funded studentships advertised ad hoc.",
       "sourceUrl": "https://www.brunel.ac.uk/study/courses/phd-economics-and-finance"
+    },
+    {
+      "id": "ie-ul-kbs-general-admission-rolling",
+      "title": "University of Limerick Kemmy Business School — general PhD admission (no scholarship)",
+      "institution": "University of Limerick",
+      "countrySlug": "ireland",
+      "applicationDeadline": null,
+      "reason": "KBS accepts self-funded PhD applications on a rolling, monthly-reviewed basis year-round outside the Doctoral College Scholarship competition; not a funded offer on its own.",
+      "sourceUrl": "https://www.ul.ie/business/doctoral-programmes"
+    }
+  ],
+  "upcomingCyclesToMonitor": [
+    {
+      "institution": "University of Liverpool Management School",
+      "opens": "2027-01",
+      "intake": "2027-09",
+      "funding": "Graduate Teaching Fellowships (Accounting & Finance PhD)",
+      "sourceUrl": "https://www.liverpool.ac.uk/management/study/postgraduate-research/phd-studentships/"
+    },
+    {
+      "institution": "Midlands Graduate School ESRC DTP",
+      "opens": "2026-10-01",
+      "intake": "2027-09",
+      "funding": "Management & Business / Finance pathways (Aston, Birmingham, Nottingham, etc.)",
+      "sourceUrl": "https://warwick.ac.uk/fac/cross_fac/mgsdtp/studentships/howtoapply/"
+    },
+    {
+      "institution": "Henley Business School / ICMA Centre (University of Reading)",
+      "opens": "2026-09",
+      "intake": "2027-09",
+      "funding": "PhD Accounting & Finance scholarships (2026/27 cycle closed 11 Jun 2026)",
+      "sourceUrl": "https://www.henley.ac.uk/study/phds/scholarships-funding"
+    },
+    {
+      "institution": "Alliance Manchester Business School",
+      "opens": "2026-10",
+      "intake": "2027-09",
+      "funding": "AMBS internal studentship competitions (typically Dec deadline)",
+      "sourceUrl": "https://www.manchester.ac.uk/study/postgraduate-research/programmes/list/19378/phd-accounting-and-finance/"
+    },
+    {
+      "institution": "Leeds University Business School",
+      "opens": "2026-09",
+      "intake": "2027-02",
+      "funding": "PhD Excellence Scholarships — international deadline ~30 Sep 2026 for Feb 2027 start",
+      "sourceUrl": "https://business.leeds.ac.uk/research-degrees"
+    },
+    {
+      "institution": "University of Bristol Business School",
+      "opens": "2026-09",
+      "intake": "2027-09",
+      "funding": "UBBS bursaries + SWDTP (deadlines typically Dec–Jan)",
+      "sourceUrl": "https://www.bristol.ac.uk/business-school/phd-programmes/phd-funding/"
+    },
+    {
+      "institution": "DCU Business School",
+      "opens": "2026-12",
+      "intake": "2027-09",
+      "funding": "Full-time stipend-funded PhD Scholarships (2 posts, €25,000/yr + fees) — 2026 round closed 15 Jun 2026",
+      "sourceUrl": "https://business.dcu.ie/scholarships/"
+    },
+    {
+      "institution": "University College Dublin — Banking & Finance",
+      "opens": "2027-01",
+      "intake": "2027-09",
+      "funding": "UCD PhD Scholarship in Finance (Corporate Finance, Asset Pricing, Sustainable Finance, Fintech) — 2026 EOI deadline was 18 Mar 2026",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DQS854/ucd-phd-scholarship-in-finance"
     }
   ]
 }

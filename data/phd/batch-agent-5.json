@@ -14,7 +14,7 @@
       "subject": "ESG frameworks, climate transition instruments, and sustainability reporting impacts on corporate access to transition finance.",
       "domains": ["Finance", "Compliance", "Accounting"],
       "fundingType": "fully_funded",
-      "fundingDetails": "3-year PhD fellowship (possible 4th year with 25% teaching); Norwegian state salary code 1017.",
+      "fundingDetails": "3-year PhD fellowship (possible 4th year with 25% teaching); Norwegian state salary code 1017; workplace Campus Lillehammer.",
       "openPositions": 1,
       "teachingLanguage": "English",
       "startDate": "2026",
@@ -34,18 +34,18 @@
           "role": "co-supervisor",
           "email": "marit.engen@inn.no",
           "linkedinUrl": null,
-          "officialUrl": null,
+          "officialUrl": "https://www.inn.no/english/research/doctoral-degree/innovation-in-services/index.html",
           "sourceUrl": "https://stilling.forskning.no/hogskolen-i-innlandet-innlandet-job-ads/phd-research-fellowship-in-sustainable-finance/2666538"
         }
       ],
       "enrolledStudentsSample": [],
       "applyUrl": "https://www.jobbnorge.no/ledige-stillinger/stilling/301920/phd-research-fellowship-in-sustainable-finance",
-      "programInfoUrl": "https://www.inn.no/english/research/phd-programmes",
+      "programInfoUrl": "https://www.inn.no/english/research/doctoral-degree/innovation-in-services/index.html",
       "sourceUrl": "https://stilling.forskning.no/hogskolen-i-innlandet-innlandet-job-ads/phd-research-fellowship-in-sustainable-finance/2666538",
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Project-led fellowship; strong fit for ESG/compliance reporting research."
+      "notes": "Re-verified wave 2: still listed open (deadline 02 Aug 2026) via forskning.no mirror and scholarshipdb cross-check; jobbnorge.no primary listing requires JavaScript so mirror used for content confirmation. programInfoUrl corrected — original inn.no/english/research/phd-programmes link returned 404; replaced with working INSEPP programme page."
     },
     {
       "id": "no-nhh-finance-phd-2027",
@@ -79,7 +79,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "GMAT/GRE and English tests required unless exempt."
+      "notes": "Re-verified wave 2: full live fetch of vacancy page confirmed open, deadline unchanged (15 Sept 2026), department has 10-12 PhD research scholars, Nordic Finance Network member. GMAT/GRE and English tests required unless exempt."
     },
     {
       "id": "no-nhh-accounting-auditing-law-phd-2027",
@@ -113,7 +113,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Top-tier fit for Dina accounting/compliance profile."
+      "notes": "Re-verified wave 2: full live fetch confirmed open, deadline unchanged (15 Sept 2026). Department has three research groups: FAA, MAC, EEL. Top-tier fit for Dina accounting/compliance profile."
     },
     {
       "id": "no-nhh-business-mgmt-science-phd-2027",
@@ -147,7 +147,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Two tracks; business economics track most relevant for finance."
+      "notes": "Re-verified wave 2: full live fetch confirmed open, deadline unchanged (15 Sept 2026). Business Economics track covers asset management, risk analysis, public finance; most relevant for Dina."
     },
     {
       "id": "no-nhh-economics-phd-2027",
@@ -181,7 +181,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Relevant for public finance and tax policy research angles."
+      "notes": "Re-verified wave 2: full live fetch confirmed open, deadline unchanged (15 Sept 2026). Department hosts FAIR, MICRO and MARSCe research groups; relevant for public finance/tax policy angles."
     },
     {
       "id": "no-nhh-strategy-management-phd-2027",
@@ -189,7 +189,7 @@
       "institution": "NHH Norwegian School of Economics",
       "institutionSlug": null,
       "title": "PhD Research Scholar — Strategy and Management",
-      "subject": "Behavioural economics and decision-making in organisations, leadership, and policy preferences.",
+      "subject": "Psychology and decision science: human agency, freedom-to-choose valuation, policy preferences and consumer/organisational behaviour, integrating behavioural economics with FAIR centre.",
       "domains": ["Finance", "Compliance"],
       "fundingType": "fully_funded",
       "fundingDetails": "4-year fully funded programme; NOK 570,000/year; start Jan 2027.",
@@ -200,11 +200,11 @@
       "status": "open",
       "supervisors": [
         {
-          "name": "NHH PhD Programme",
+          "name": "Hallgeir Sjåstad",
           "role": "principal",
-          "email": "phd@nhh.no",
+          "email": "hallgeir.sjastad@nhh.no",
           "linkedinUrl": null,
-          "officialUrl": "https://www.nhh.no/en/research/phd/",
+          "officialUrl": "https://www.nhh.no/en/departments/strategy-and-management/",
           "sourceUrl": "https://stilling.forskning.no/job-ads-jobads-nhh/phd-research-scholar-position-department-of-strategy-and-management/2688601"
         }
       ],
@@ -215,7 +215,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Behavioural/organisational focus; secondary fit vs core finance."
+      "notes": "Re-verified wave 2: full live fetch confirmed open, deadline unchanged. Enriched with named principal supervisor Prof. Hallgeir Sjåstad (previously generic 'NHH PhD Programme'). Behavioural/organisational focus with FAIR (behavioral economics) tie-in; secondary fit vs core finance."
     },
     {
       "id": "dk-cbs-law-phd-open-call-2026",
@@ -226,7 +226,7 @@
       "subject": "Commercial law, VAT/tax law, supply chain liability, EU business law, and auditing-related legal research.",
       "domains": ["Compliance", "Accounting", "Finance"],
       "fundingType": "fully_funded",
-      "fundingDetails": "3-year salaried scholarship (~DKK 29,692–36,180/month + pension); 416h teaching.",
+      "fundingDetails": "3-year salaried scholarship (~DKK 29,692–36,180/month + 18.07% pension); 416h teaching.",
       "openPositions": 2,
       "teachingLanguage": "English",
       "startDate": "2026-10-01",
@@ -245,11 +245,11 @@
       "enrolledStudentsSample": [],
       "applyUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-positions-open-call",
       "programInfoUrl": "https://www.cbs.dk/en/research/phd-programme",
-      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/434820",
+      "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-positions-open-call",
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Strong compliance/tax law fit; Danish teaching advantage noted."
+      "notes": "Re-verified wave 2: confirmed live on CBS vacant-positions listing (24 vacancies) and direct page fetch; deadline still 3 days out (15 Jul 2026) — flag as urgent/closing-soon. Strong compliance/tax law fit."
     },
     {
       "id": "dk-cbs-business-government-phd-2027",
@@ -260,7 +260,7 @@
       "subject": "Corporate political activity, lobbying, corruption, campaign finance, and firm non-market strategies.",
       "domains": ["Compliance", "Finance", "Corporate Finance"],
       "fundingType": "fully_funded",
-      "fundingDetails": "3-year salaried scholarship (~DKK 31,624–38,213/month + pension); 416h teaching.",
+      "fundingDetails": "3-year salaried scholarship (~DKK 31,624–38,213/month + 18.07% pension); 416h teaching.",
       "openPositions": 1,
       "teachingLanguage": "English",
       "startDate": "2027-02-01",
@@ -283,7 +283,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Quantitative methods required; governance/compliance angle."
+      "notes": "Re-verified wave 2: direct page fetch confirmed open, deadline unchanged (15 Aug 2026). Quantitative methods required; governance/compliance angle."
     },
     {
       "id": "dk-aalborg-ai-firms-governance-phd-2026",
@@ -294,7 +294,7 @@
       "subject": "Firm-level AI adoption, governance routines, fintech/RegTech sectors, and comparative China–Denmark institutional analysis.",
       "domains": ["Compliance", "Finance", "Risk"],
       "fundingType": "fully_funded",
-      "fundingDetails": "3-year stipend; mandatory 12-month research stay at UCAS Beijing (SDC).",
+      "fundingDetails": "3-year stipend; mandatory 12-month research stay at UCAS Beijing (SDC); double-degree structure.",
       "openPositions": 1,
       "teachingLanguage": "English",
       "startDate": "2026-10-15",
@@ -317,7 +317,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Explicit fintech/RegTech sector option; Chinese nationals ineligible for SDC co-funding."
+      "notes": "Re-verified wave 2: full live fetch confirmed open, deadline unchanged (02 Aug 2026). Explicit fintech/RegTech empirical anchoring option (candidate's choice); Chinese nationals ineligible for SDC co-funding, must apply via UCAS."
     },
     {
       "id": "dk-aalborg-circular-economy-business-phd-2026",
@@ -359,7 +359,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Regulatory/compliance angle via EU circular economy directives."
+      "notes": "Re-verified wave 2: full live fetch confirmed open, deadline unchanged (03 Aug 2026). Regulatory/compliance angle via EU Directive 2019/904 and forthcoming Circular Economy Act; Mette Vinther Larsen listed as department head/contact on vacancy."
     },
     {
       "id": "dk-aalborg-productivity-economics-phd-2026",
@@ -393,7 +393,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Quantitative firm-level econometrics focus."
+      "notes": "Re-verified wave 2: full live fetch confirmed open, deadline unchanged (09 Aug 2026). Quantitative firm-level econometrics focus; uses Statistics Denmark registry data, Stata/SAS/R/Python skills valued."
     },
     {
       "id": "dk-cbs-org-behavioural-public-service-phd-2027",
@@ -401,24 +401,41 @@
       "institution": "Copenhagen Business School",
       "institutionSlug": null,
       "title": "PhD — Behavioural Design in Public Service Work",
-      "subject": "Governance and behavioural design (nudging) as management tools in public organisations and professional discretion.",
+      "subject": "Governance and behavioural design (nudging) as management tools in public organisations and professional discretion; part of DFF2-funded BEHAVE project.",
       "domains": ["Compliance"],
       "fundingType": "fully_funded",
-      "fundingDetails": "3-year DFF2-funded salaried scholarship; start Feb 2027.",
+      "fundingDetails": "3-year salaried scholarship (~DKK 29,691.75–36,180/month + 18.07% pension); 416h teaching; DFF2-funded BEHAVE project.",
       "openPositions": 1,
       "teachingLanguage": "English",
       "startDate": "2027-02-01",
       "applicationDeadline": "2026-08-14",
       "status": "open",
-      "supervisors": [],
+      "supervisors": [
+        {
+          "name": "Kirstine Zinck Pedersen",
+          "role": "principal",
+          "email": "kzp.ioa@cbs.dk",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.cbs.dk/en/research/departments/department-organization",
+          "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-scholarship-organization-studies-focus-behavioural"
+        },
+        {
+          "name": "Trine Pallesen",
+          "role": "co-supervisor",
+          "email": "tp.ioa@cbs.dk",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.cbs.dk/en/research/departments/department-organization",
+          "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-scholarship-organization-studies-focus-behavioural"
+        }
+      ],
       "enrolledStudentsSample": [],
-      "applyUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions",
+      "applyUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-scholarship-organization-studies-focus-behavioural",
       "programInfoUrl": "https://www.cbs.dk/en/research/departments/department-organization",
-      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/search?keywords=behavioural%20design%20public%20service%20CBS",
-      "sourceType": "official_portal",
+      "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-scholarship-organization-studies-focus-behavioural",
+      "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
-      "confidenceLevel": "Medium",
-      "notes": "Listed on CBS vacant positions (deadline 14 Aug 2026); Scandinavian language fieldwork advantage."
+      "confidenceLevel": "High",
+      "notes": "Re-verified wave 2: located exact vacancy page (previously only known via EURAXESS keyword search) and confirmed open, deadline unchanged (14 Aug 2026). Enriched with named PI/co-PI (Kirstine Zinck Pedersen, Trine Pallesen) — previously empty supervisors[]. Fieldwork requires Danish/Scandinavian language fluency. Confidence raised from Medium to High given exact page match; domain fit remains secondary (compliance/governance angle only, not core finance)."
     },
     {
       "id": "is-ui-economics-conciv-phd-2026",
@@ -429,7 +446,7 @@
       "subject": "Labor and welfare economics; compensating income variation (CIV) valuation of education and retirement using HILDA panel data.",
       "domains": ["Finance", "Risk"],
       "fundingType": "fully_funded",
-      "fundingDetails": "2-year University of Iceland Research Fund position; full-time employment.",
+      "fundingDetails": "2-year University of Iceland Research Fund position; full-time employment (reduced % possible by agreement).",
       "openPositions": 1,
       "teachingLanguage": "English",
       "startDate": "2026",
@@ -485,7 +502,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Apply via Icelandic State Recruitment portal linked from UI vacancies page."
+      "notes": "Re-verified wave 2: full live fetch of UI vacancies page confirmed still listed, deadline unchanged (04 Aug 2026). Apply via Icelandic State Recruitment (ISR) portal linked from UI vacancies page."
     },
     {
       "id": "dk-cbs-law-supply-chain-liability-phd-2026",
@@ -519,7 +536,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Thematic entry under same CBS LAW open call; one of two funded slots."
+      "notes": "Re-verified wave 2: same live CBS LAW open call page reconfirmed the 'contracting under uncertainty and systemic risk' / 'supply chain liability' suggested topics are still listed verbatim; deadline unchanged, closing in 3 days (15 Jul 2026)."
     },
     {
       "id": "no-nhh-accounting-auditing-faa-track-2027",
@@ -553,7 +570,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Thematic framing of the same NHH accounting call for Dina FAA/audit fit."
+      "notes": "Re-verified wave 2: same NHH accounting/auditing/law call reconfirmed live, FAA research group explicitly named in listing; thematic entry for Dina FAA/audit fit."
     }
   ],
   "skippedClosed": [
@@ -570,7 +587,7 @@
       "institution": "Copenhagen Business School",
       "countrySlug": "denmark",
       "applicationDeadline": "2026-02-01",
-      "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions",
+      "sourceUrl": "https://www.cbs.dk/en/about-cbs/job-and-career/vacant-positions/phd-scholarships-finance-2026",
       "reason": "Deadline passed before 2026-07-12"
     },
     {
@@ -595,10 +612,42 @@
       "countrySlug": "norway",
       "applicationDeadline": "2026-03-01",
       "sourceUrl": "https://www.bi.no/en/programmes-and-individual-courses/phd/scholarships-and-funding/",
-      "reason": "Deadline passed before 2026-07-12"
+      "reason": "Deadline passed before 2026-07-12 (wave 2 re-check: confirmed via MathHire/DGF mirrors — Dept of Finance doctoral scholarship, deadline 01 Mar 2026)"
+    },
+    {
+      "title": "PhD scholarship in Economics (HEDG, Age of Creativity project) — University of Southern Denmark",
+      "institution": "University of Southern Denmark",
+      "countrySlug": "denmark",
+      "applicationDeadline": "2026-04-27",
+      "sourceUrl": "https://hdoisto.gr/en/news/job-vacancies/1261/",
+      "reason": "Wave 2 discovery: deadline passed before 2026-07-12; also economic-history topic, weak domain fit"
+    },
+    {
+      "title": "PhD Fellow Positions — Department of Food and Resource Economics, University of Copenhagen",
+      "institution": "University of Copenhagen",
+      "countrySlug": "denmark",
+      "applicationDeadline": "2026-04-19",
+      "sourceUrl": "https://theeconomicmisfit.com/2026/04/12/phd-fellow-positions-at-the-department-of-food-and-resource-economics-university-of-copenhagen/",
+      "reason": "Wave 2 discovery: deadline passed before 2026-07-12; also not finance/accounting domain"
+    },
+    {
+      "title": "Fully Funded PhD Scholarship — CEBI, Department of Economics, University of Copenhagen",
+      "institution": "University of Copenhagen",
+      "countrySlug": "denmark",
+      "applicationDeadline": "2026-02-01",
+      "sourceUrl": "https://agristok.net/2026/01/03/phd-scholarship-cebi-university-of-copenhagen-2026/",
+      "reason": "Wave 2 discovery: deadline passed before 2026-07-12"
     }
   ],
-  "skippedNoFunding": [],
+  "skippedNoFunding": [
+    {
+      "title": "Business Administration, Doctoral (viðskiptafræði) — University of Iceland School of Business",
+      "institution": "University of Iceland",
+      "countrySlug": "iceland",
+      "sourceUrl": "https://english.hi.is/business-administration/doctoral",
+      "reason": "Wave 2 discovery: standing doctoral programme structure, not a funded/salaried vacancy — no open call or fellowship funding identified as of 2026-07-12; candidates must self-fund or secure external grant."
+    }
+  ],
   "summary": {
     "totalOffers": 15,
     "openOffers": 15,
@@ -617,6 +666,18 @@
       "2026-08-04",
       "2026-08-09"
     ],
-    "sourcesChecked": ["jobbnorge.no", "euraxess.ec.europa.eu", "stilling.forskning.no", "cbs.dk", "vacancies.aau.dk", "english.hi.is"]
+    "sourcesChecked": [
+      "jobbnorge.no",
+      "euraxess.ec.europa.eu",
+      "stilling.forskning.no",
+      "cbs.dk",
+      "vacancies.aau.dk",
+      "english.hi.is",
+      "phd.au.dk",
+      "bi.no",
+      "sdu.dk",
+      "scholarshipdb.net"
+    ],
+    "waveNotes": "Wave 2 refresh (2026-07-12): all 15 existing offers re-verified against live official pages (14 via direct fetch, 1 via mirror + independent aggregator cross-check since primary jobbnorge.no page is JS-rendered). Zero closures found — all 15 remain open. Two records enriched with previously-missing named supervisors (no-nhh-strategy-management-phd-2027; dk-cbs-org-behavioural-public-service-phd-2027). One broken programInfoUrl fixed (INN sustainable finance). Broad new-offer search across BI, Aarhus (BSS + phd.au.dk), University of Copenhagen/CEBI, SDU, University of Bergen, and University of Stavanger found no additional open funded finance/accounting/compliance/corporate-finance PhD vacancies as of 2026-07-12 — all newly discovered candidates had deadlines already passed or were non-finance domains (added to skippedClosed/skippedNoFunding for audit trail). CBS LAW open call (2 offers) closes in 3 days — flagged as urgent."
   }
 }

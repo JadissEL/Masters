@@ -3,13 +3,28 @@
   "region": "Spain + Germany + Switzerland",
   "candidate": "dina",
   "verificationDate": "2026-07-12",
+  "wave": 2,
   "sourcesScanned": [
     "https://euraxess.ec.europa.eu/jobs/search",
+    "https://www.euraxess.es/",
+    "https://www.euraxess.de/germany/jobs-funding",
     "https://www2.daad.de/deutschland/studienangebote/international-programmes/",
+    "https://academicjobsonline.org/ajo/Finance",
     "https://academicpositions.com/jobs/position/phd/field/finance",
     "https://jobs.unisg.ch",
+    "https://www.unisg.ch/en/research/phd/graduate-programme-in-economics-and-finance-gpef/admission-autumn-semester-2026/",
     "https://www.jobs.ethz.ch",
-    "https://eaa-online.org/arc/jobs/"
+    "https://eaa-online.org/arc/jobs/",
+    "https://www.whu.edu/en/faculty-research/management-group/institute-of-management-accounting-and-control/doctoral-studies/",
+    "https://www.hhl.de/faculty-research/our-faculty/accounting-capital-market-communication/",
+    "https://www.iuc.unibe.ch/ueber_uns/offene_stellen/index_ger.html",
+    "https://www.dpe.uni-passau.de/en/",
+    "https://akademische-jobs.de/",
+    "https://www.kielinstitut.de/",
+    "https://www.jobs.ch/de/",
+    "https://www.uc3m.es/phdprogram/",
+    "https://bse.eu/masters-degrees/economics-finance/upf-phd-track",
+    "https://wwz.unibas.ch/en/gsbe/phd/"
   ],
   "phdOffers": [
     {
@@ -44,7 +59,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Finance/accounting angle via firm-value and panel-data/text-mining components."
+      "notes": "Wave-2 re-check: deadline 2026-07-17 still 5 days away as of as-of date; still open. Finance/accounting angle via firm-value and panel-data/text-mining components."
     },
     {
       "id": "de-uni-tuebingen-phd-heterogeneous-agent-macro-001",
@@ -86,32 +101,49 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Macro/finance quantitative training; flexible start Oct 2026–Apr 2027."
+      "notes": "Wave-2 re-check: deadline 2026-07-31 still open. Macro/finance quantitative training; flexible start Oct 2026–Apr 2027."
     },
     {
       "id": "de-uni-goettingen-china-grasp-phd-finance-001",
       "countrySlug": "germany",
-      "institution": "University of Göttingen & Kiel Institute for the World Economy — DFG RTG China-GRASP",
+      "institution": "University of Göttingen & Kiel Institute for the World Economy — DFG RTG China-GRASP (RTG 3209)",
       "institutionSlug": null,
       "title": "PhD Researcher — China's Geoeconomic Rise & Structural Power",
       "subject": "Structured 3-year PhD on geoeconomics, global political economy, finance/credit networks, and empirical macro/micro analysis.",
       "domains": ["Finance", "Corporate Finance", "Risk", "Compliance"],
       "fundingType": "fully_funded",
-      "fundingDetails": "DFG-funded Research Training Group; 15 positions; 3-year funded doctoral training.",
-      "openPositions": 15,
+      "fundingDetails": "DFG-funded Research Training Group; 15 positions across the RTG lifetime, 11 positions in the current 2026 recruitment round; 3-year funded doctoral training.",
+      "openPositions": 11,
       "teachingLanguage": "English",
       "startDate": "2026-10-01",
       "applicationDeadline": "2026-07-24",
       "status": "open",
-      "supervisors": [],
+      "supervisors": [
+        {
+          "name": "Prof. Dr. Anja Jetschke",
+          "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://uni-goettingen.de/de/about+/708378.html",
+          "sourceUrl": "https://www.kielinstitut.de/publications/news/china-and-geoeconomics-dfg-funds-new-goettingen-kiel-research-training-group-rtg/"
+        },
+        {
+          "name": "Prof. Dr. Christoph Trebesch",
+          "role": "co-supervisor",
+          "email": "christoph.trebesch@ifw-kiel.de",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.kielinstitut.de/experts/christoph-trebesch/",
+          "sourceUrl": "https://www.kielinstitut.de/experts/christoph-trebesch/"
+        }
+      ],
       "enrolledStudentsSample": [],
-      "applyUrl": "https://www.applykite.com/positions/phd-positions-in-china-grasp-chinas-geoeconomic-rise-and-structural-power-qc5s7vatq7",
-      "programInfoUrl": "https://www.uni-goettingen.de/",
-      "sourceUrl": "https://www.applykite.com/positions/phd-positions-in-china-grasp-chinas-geoeconomic-rise-and-structural-power-qc5s7vatq7",
+      "applyUrl": "http://obp.uni-goettingen.de/de-de/OBF/Index/76523",
+      "programInfoUrl": "https://uni-goettingen.de/de/research+clusters/708380.html",
+      "sourceUrl": "https://akademische-jobs.de/job/phd-researcher-all-genders-welcome-3/",
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
-      "confidenceLevel": "Medium",
-      "notes": "Finance/credit track within geoeconomics RTG; verify supervisor fit via program portal."
+      "confidenceLevel": "High",
+      "notes": "Wave-2 re-check: reconfirmed via fresh RTG 3209 posting, deadline unchanged 2026-07-24, interviews Aug 2026. Trebesch directs the Kiel Institute's International Finance research area — best finance/credit angle supervisor for Dina; contact rtg3209@uni-goettingen.de for general queries."
     },
     {
       "id": "de-leuphana-imaf-accounting-auditing-phd-001",
@@ -145,7 +177,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Rolling recruitment (zum nächstmöglichen Zeitpunkt); strong Dina fit for audit/compliance."
+      "notes": "Wave-2 re-check: rolling recruitment (zum nächstmöglichen Zeitpunkt), no deadline change; still open. Strong Dina fit for audit/compliance."
     },
     {
       "id": "de-leuphana-audit-practice-phd-velte-001",
@@ -179,7 +211,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Excellent Deloitte/compliance profile fit; Hamburg and Munich partner locations."
+      "notes": "Wave-2 re-check: rolling, unchanged. Excellent Deloitte/compliance profile fit; Hamburg and Munich partner locations."
     },
     {
       "id": "de-hhl-accounting-capital-markets-phd-001",
@@ -206,14 +238,45 @@
           "sourceUrl": "https://www.hhl.de/jobs"
         }
       ],
-      "enrolledStudentsSample": [],
+      "enrolledStudentsSample": [
+        {
+          "name": "Tanja Gemünden",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hhl.de/faculty-research/our-faculty/accounting-capital-market-communication/"
+        },
+        {
+          "name": "Martin Schüder",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hhl.de/faculty-research/our-faculty/accounting-capital-market-communication/"
+        },
+        {
+          "name": "Marco Seitz",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hhl.de/faculty-research/our-faculty/accounting-capital-market-communication/"
+        },
+        {
+          "name": "Tamino-Turgay zum Felde",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hhl.de/faculty-research/our-faculty/accounting-capital-market-communication/"
+        },
+        {
+          "name": "Leon Kirschbaum",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.hhl.de/faculty-research/our-faculty/accounting-capital-market-communication/"
+        }
+      ],
       "applyUrl": "https://www.hhl.de/jobs",
       "programInfoUrl": "https://www.hhl.de/",
-      "sourceUrl": "https://www.fa.mgt.tum.de/accounting/news/article/wissenschaftlicher-mitarbeiter-doktorand-m-w-d-chair-of-accounting-and-capital-market-communication/",
+      "sourceUrl": "https://www.hhl.de/faculty-research/our-faculty/accounting-capital-market-communication/",
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Posted May 2026; rolling via HHL jobs portal."
+      "notes": "Wave-2 OSINT enrich: added 5 current research associates/doctoral researchers listed on chair's official faculty page (rolling via HHL jobs portal, reconfirmed job posting live 20.05.2026)."
     },
     {
       "id": "de-whu-imc-management-accounting-phd-001",
@@ -224,7 +287,7 @@
       "subject": "PhD in controlling, CFO role, digital finance transformation, sustainability/green controlling, and performance management.",
       "domains": ["Accounting", "Finance", "Compliance", "Healthcare finance"],
       "fundingType": "fully_funded",
-      "fundingDetails": "Salaried internal doctoral position; no tuition fees for internal candidates.",
+      "fundingDetails": "Salaried internal doctoral position; no tuition fees for internal candidates; rolling admission, no application deadline.",
       "openPositions": null,
       "teachingLanguage": "English",
       "startDate": "rolling",
@@ -242,6 +305,12 @@
       ],
       "enrolledStudentsSample": [
         {
+          "name": "Rounak Gunjal",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.whu.edu/en/faculty-research/management-group/institute-of-management-accounting-and-control/doctoral-studies/"
+        },
+        {
           "name": "Annalena Beuchel",
           "linkedinUrl": null,
           "cohortYear": "2024",
@@ -252,6 +321,24 @@
           "linkedinUrl": null,
           "cohortYear": "2023",
           "sourceUrl": "https://www.whu.edu/en/faculty-research/management-group/institute-of-management-accounting-and-control/doctoral-studies/"
+        },
+        {
+          "name": "Chjara-Stella Poggionovo",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.whu.edu/en/faculty-research/management-group/institute-of-management-accounting-and-control/doctoral-studies/"
+        },
+        {
+          "name": "Fei Dai",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.whu.edu/en/faculty-research/management-group/institute-of-management-accounting-and-control/doctoral-studies/"
+        },
+        {
+          "name": "Katrin von der Lancken",
+          "linkedinUrl": null,
+          "cohortYear": null,
+          "sourceUrl": "https://www.whu.edu/en/faculty-research/management-group/institute-of-management-accounting-and-control/doctoral-studies/"
         }
       ],
       "applyUrl": "mailto:carsten.lucass@whu.edu",
@@ -260,18 +347,18 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Rolling admission; BYU accounting research ranking top-2 in Germany."
+      "notes": "Wave-2 OSINT enrich: refreshed full current cohort list (6 doctoral students) directly from IMC's official doctoral-studies page; confirmed 'rolling admission, no application deadline' explicitly stated on page."
     },
     {
       "id": "de-uni-passau-dpe-platform-ecosystems-phd-001",
       "countrySlug": "germany",
-      "institution": "University of Passau — Chair of Business Information Systems (DFG RTG)",
+      "institution": "University of Passau — Chair of Business Information Systems (DFG RTG 2720)",
       "institutionSlug": null,
       "title": "Doctoral Researcher — Digital Platform Ecosystems (100% E13 TV-L)",
       "subject": "Fully funded PhD in digital platform ecosystems within DFG Research Training Group; business/economics crossover.",
       "domains": ["Finance", "Corporate Finance", "Compliance"],
       "fundingType": "fully_funded",
-      "fundingDetails": "100% E13 TV-L, 3-year contract (extendable subject to funding); review from 2026-06-30, open until filled.",
+      "fundingDetails": "100% E13 TV-L, 3-year contract; RTG 2720 has an active February 2026 vacancy announcement and continued news activity through June 2026, indicating the group is operating past its original March 2026 end date (likely renewed/extended phase).",
       "openPositions": 1,
       "teachingLanguage": "English",
       "startDate": "2026-10-01",
@@ -290,11 +377,11 @@
       "enrolledStudentsSample": [],
       "applyUrl": "https://www.dpe.uni-passau.de/en/application",
       "programInfoUrl": "https://www.dpe.uni-passau.de/",
-      "sourceUrl": "https://karriere.unicum.de/job/doctoral-researcher-phd-candidate-chair-business-information-systems-and-dfg-research-training",
-      "sourceType": "official_portal",
+      "sourceUrl": "https://www.dpe.uni-passau.de/fileadmin/dokumente/projekte/dpe/Stellenangebote/2026_02_Open_DPE_ENG_vf_Ri-VK.pdf",
+      "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Platform/markets angle; applications accepted until position filled."
+      "notes": "Wave-2 re-check: DPE news feed active through 2026-06 (Offsite, new joiners, DPE Forum 2026-06-30) confirming ongoing operation; formal project-period end date (2026-03-31) on the faculty page appears to refer to the first funding phase only."
     },
     {
       "id": "de-tum-entrepreneurship-phd-ethics-001",
@@ -328,7 +415,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Initial cutoff 2026-07-15; ad states applications accepted until filled."
+      "notes": "Wave-2 re-check: initial cutoff 2026-07-15 has effectively passed by posting terms, but ad states applications accepted until filled — kept open with Medium confidence pending direct reconfirmation."
     },
     {
       "id": "ch-unisg-gpef-pif-finance-001",
@@ -361,7 +448,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Applications may still be accepted after Jan review subject to availability."
+      "notes": "Wave-2 re-check: listing reconfirmed live on jobs.unisg.ch today; 50-100% limited employment by 01.08.2026 or mutual agreement. Applications may still be accepted after Jan review subject to availability."
     },
     {
       "id": "ch-unisg-phd-private-markets-tykvova-001",
@@ -394,7 +481,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Review begins immediately; rolling until filled."
+      "notes": "Wave-2 re-check: reconfirmed live; GPEF admission page still lists 2 non-SFI + 1 SFI vacancy under Tykvová as of 2026-07-12."
     },
     {
       "id": "ch-unisg-phd-private-equity-singapore-001",
@@ -427,18 +514,18 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Listed as PiF supervisor slot (Singapore) on GPEF admission page."
+      "notes": "Wave-2 re-check: still listed as PiF supervisor slot (Singapore, 1 position, Morkötter) on GPEF admission page."
     },
     {
       "id": "ch-unisg-phd-auditing-accounting-001",
       "countrySlug": "switzerland",
-      "institution": "University of St.Gallen — Competence Center for Auditing (Prof. Florian Eugster)",
+      "institution": "University of St.Gallen — Institute for Accounting, Control and Auditing (ACA-HSG, Prof. Florian Eugster)",
       "institutionSlug": null,
       "title": "PhD Student / Research Associate — Auditing, Accounting & Valuation",
       "subject": "Doctorate in internal audit, financial accounting, auditing, financial statement analysis, and valuation.",
       "domains": ["Accounting", "Audit", "Compliance", "Finance"],
       "fundingType": "fully_funded",
-      "fundingDetails": "Wissenschaftliche*r Mitarbeiter*in PhD track at HSG auditing chair.",
+      "fundingDetails": "Wissenschaftliche*r Mitarbeiter*in PhD track at HSG's ACA competence center for auditing.",
       "openPositions": null,
       "teachingLanguage": "English and German",
       "startDate": "2026-04-01",
@@ -446,21 +533,21 @@
       "status": "open",
       "supervisors": [
         {
-          "name": "Prof. Florian Eugster",
+          "name": "Prof. Dr. Florian Eugster",
           "role": "principal",
-          "email": null,
+          "email": "florian.eugster@unisg.ch",
           "linkedinUrl": null,
-          "officialUrl": "https://www.unisg.ch/",
-          "sourceUrl": "https://www.jobscout24.ch/en/job/0644ac0c-a472-400a-8765-12d245077116/"
+          "officialUrl": "https://aca.unisg.ch/en/about-us/our-team/",
+          "sourceUrl": "https://jobs.unisg.ch/offene-stellen/wissenschaftliche-r-mitarbeiter-in-phd-student-m-w-d/9987bade-3d9f-42f9-8614-7d269ca2cee4"
         }
       ],
       "enrolledStudentsSample": [],
-      "applyUrl": "https://jobs.unisg.ch/",
-      "programInfoUrl": "https://www.unisg.ch/en/research/phd/",
-      "sourceType": "official_portal",
+      "applyUrl": "https://jobs.unisg.ch/offene-stellen/wissenschaftliche-r-mitarbeiter-in-phd-student-m-w-d/9987bade-3d9f-42f9-8614-7d269ca2cee4",
+      "programInfoUrl": "https://aca.unisg.ch/",
+      "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
-      "confidenceLevel": "Medium",
-      "notes": "Posted April 2026; verify listing still active on jobs.unisg.ch."
+      "confidenceLevel": "High",
+      "notes": "Wave-2 OSINT enrich: found a fresh, actively-posted listing for the same ACA-HSG auditing chair (jobID 9987bade) plus supervisor's official email from the institute's thesis-application PDF; confidence upgraded Medium → High."
     },
     {
       "id": "ch-unisg-pif-tykvova-pe-vc-slots-001",
@@ -493,7 +580,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Apply via HSG job portal; reference letters to gpef@unisg.ch."
+      "notes": "Wave-2 re-check: reconfirmed 2 non-SFI vacancies still listed under Tykvová. Apply via HSG job portal; reference letters to gpef@unisg.ch."
     },
     {
       "id": "ch-uni-neuchatel-phd-innovation-mgmt-001",
@@ -518,7 +605,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Management/finance crossover; verify department listing on unine.ch."
+      "notes": "Wave-2 re-check: deadline 2026-08-31 unchanged, still open. Management/finance crossover; verify department listing on unine.ch."
     },
     {
       "id": "ch-uni-bern-experimental-financial-accounting-phd-001",
@@ -542,17 +629,17 @@
           "email": "alexis.kunz@unibe.ch",
           "linkedinUrl": null,
           "officialUrl": "https://www.iuc.unibe.ch/",
-          "sourceUrl": "https://www.iuc.unibe.ch/unibe/portal/fak_wiso/a_bwl/inst_uc/content/e171878/e624262/e1747817/e823384/PhDCandidatesInserat20252026_IUCFAHomepage_ger.pdf"
+          "sourceUrl": "https://www.iuc.unibe.ch/ueber_uns/offene_stellen/index_ger.html"
         }
       ],
       "enrolledStudentsSample": [],
       "applyUrl": "mailto:alexis.kunz@unibe.ch",
       "programInfoUrl": "https://www.iuc.unibe.ch/",
-      "sourceUrl": "https://www.iuc.unibe.ch/unibe/portal/fak_wiso/a_bwl/inst_uc/content/e171878/e624262/e1747817/e823384/PhDCandidatesInserat20252026_IUCFAHomepage_ger.pdf",
+      "sourceUrl": "https://www.iuc.unibe.ch/ueber_uns/offene_stellen/index_ger.html",
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Review ongoing until filled (2025/26 intake ad)."
+      "notes": "Wave-2 re-check: 'Doktoranden/PhD Candidates Abteilung Financial Accounting' listing reconfirmed live on IUC's official 'Offene Stellen' page as of 2026-07-12; review ongoing until filled."
     },
     {
       "id": "ch-uzh-gsb-phd-business-track-bc-001",
@@ -577,7 +664,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Online form opens 2026-08-15 for Track B/C fall intake."
+      "notes": "Wave-2 re-check: unchanged; online form opens 2026-08-15 for Track B/C fall intake."
     },
     {
       "id": "es-uc3m-phd-business-finance-admission-001",
@@ -594,7 +681,24 @@
       "startDate": "2026-11-15",
       "applicationDeadline": "2026-08-31",
       "status": "open",
-      "supervisors": [],
+      "supervisors": [
+        {
+          "name": "Prof. Eduardo Melero",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.uc3m.es/phdprogram/business-finance",
+          "sourceUrl": "https://www.uc3m.es/phdprogram/business-finance"
+        },
+        {
+          "name": "Prof. Neus Palomeras",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.uc3m.es/phdprogram/business-finance",
+          "sourceUrl": "https://www.uc3m.es/phdprogram/business-finance"
+        }
+      ],
       "enrolledStudentsSample": [],
       "applyUrl": "https://www.uc3m.es/phdprogram/admission/application",
       "programInfoUrl": "https://www.uc3m.es/phdprogram/business-finance",
@@ -602,7 +706,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Admission open; funding via national/regional predoctoral calls after enrollment."
+      "notes": "Wave-2 OSINT enrich: added two Business Administration Department faculty listed as program supervisors on the official program page (deadline 2026-08-31 unchanged); funding via national/regional predoctoral calls after enrollment."
     },
     {
       "id": "es-uc3m-phd-economics-admission-001",
@@ -627,7 +731,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Strong finance/economics fit; apply early for scholarship eligibility."
+      "notes": "Wave-2 re-check: deadline 2026-08-31 unchanged. Strong finance/economics fit; apply early for scholarship eligibility."
     },
     {
       "id": "es-upv-valencia-valer-accounting-001",
@@ -652,7 +756,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "EAA-listed VALER call; confirm PhD eligibility on UPV portal."
+      "notes": "Wave-2 re-check: deadline 2026-10-01 unchanged. EAA-listed VALER call; confirm PhD eligibility on UPV portal."
     },
     {
       "id": "es-uv-doctoral-accounting-corporate-finance-001",
@@ -686,7 +790,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Top Spain accounting PhD; verify current UV doctoral admission deadline for 2026 intake."
+      "notes": "Wave-2 re-check: unchanged. Top Spain accounting PhD; verify current UV doctoral admission deadline for 2026 intake."
     },
     {
       "id": "es-uv-doctoral-accounting-esg-governance-line-001",
@@ -720,7 +824,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "CSRD/sustainability assurance angle aligns with Dina Deloitte compliance background."
+      "notes": "Wave-2 re-check: unchanged. CSRD/sustainability assurance angle aligns with Dina Deloitte compliance background."
     },
     {
       "id": "es-uc3m-phd-business-finance-banking-track-001",
@@ -745,7 +849,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Finance track 2.Banking under official program structure."
+      "notes": "Wave-2 re-check: deadline 2026-08-31 unchanged. Finance track 2.Banking under official program structure."
     },
     {
       "id": "ch-unisg-sfi-pif-tykvova-001",
@@ -778,7 +882,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "SFI March round closed; late applications may be considered subject to availability."
+      "notes": "Wave-2 re-check: SFI March round closed; 1 vacancy under Tykvová still listed for late/rolling applications subject to availability."
     },
     {
       "id": "ch-unisg-gpef-pecon-econometrics-001",
@@ -811,7 +915,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Econometrics/finance crossover; rolling after first review."
+      "notes": "Wave-2 re-check: unchanged. Econometrics/finance crossover; rolling after first review."
     },
     {
       "id": "es-uc3m-pipf-predoctoral-contracts-info-001",
@@ -836,7 +940,41 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "PIPF calls published on predoctorales web; tie to Business & Finance PhD admission window."
+      "notes": "Wave-2 re-check: unchanged. PIPF calls published on predoctorales web; tie to Business & Finance PhD admission window."
+    },
+    {
+      "id": "ch-hslu-ifz-corporate-governance-phd-001",
+      "countrySlug": "switzerland",
+      "institution": "Hochschule Luzern — Wirtschaft (Lucerne School of Business), Institute of Financial Services Zug (IFZ)",
+      "institutionSlug": null,
+      "title": "Doktorandin/Doktorand Corporate Governance 70%",
+      "subject": "Doctoral dissertation (monograph or cumulative research papers) in Corporate Governance, Board Management, or Company Law, combined with applied research/consulting projects and continuing-education support at IFZ's Competence Center Risk and Compliance Management.",
+      "domains": ["Compliance", "Corporate Finance", "Finance", "Risk"],
+      "fundingType": "fully_funded",
+      "fundingDetails": "70% salaried employment contract (not a scholarship/stipend), no tuition fees for the employed position; flexible/location-flexible working model for doctoral candidates.",
+      "openPositions": 1,
+      "teachingLanguage": "German and English",
+      "startDate": "as soon as possible / by mutual agreement",
+      "applicationDeadline": null,
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Prof. Dr. Stefan Hunziker",
+          "role": "principal",
+          "email": "stefan.hunziker@hslu.ch",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.hslu.ch/de-ch/hochschule-luzern/ueber-uns/personensuche/hunziker-stefan/",
+          "sourceUrl": "https://www.jobscout24.ch/fr/job/84081da1-f567-4dca-b12a-60c654f4c1d8/"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://www.jobs.ch/de/stellenangebote/detail/9e3f467b-918d-4c63-8d0a-b9d5ff835feb/",
+      "programInfoUrl": "https://www.hslu.ch/de-ch/hochschule-luzern/ueber-uns/jobs-und-karriere",
+      "sourceUrl": "https://www.jobs.ch/de/stellenangebote/detail/9e3f467b-918d-4c63-8d0a-b9d5ff835feb/",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "NEW wave-2 find: rolling recruitment, no fixed closing date, listed identically across jobs.ch/XING/jobscout24/myScience mirroring the HSLU careers portal. Direct compliance/board-governance angle — strong fit for Dina's Deloitte compliance background. Located at Campus Zug-Rotkreuz."
     }
   ],
   "skippedClosed": [
@@ -916,6 +1054,69 @@
       "countrySlug": "spain",
       "applicationDeadline": "2026-05-07",
       "sourceUrl": "https://www.ub.edu/business-school/en/phd-in-business/"
+    },
+    {
+      "title": "ETH Zurich PhD Student in Sustainable Finance and Climate Risk",
+      "institution": "ETH Zurich — Sustainable Finance Group / University of Zurich Finance Dept.",
+      "countrySlug": "switzerland",
+      "applicationDeadline": "2025-11-07",
+      "sourceUrl": "https://www.inswitzerland.net/jobs/phd-student-sustainable-finance-and-climate-risk-phd-student-sustainable-finance-and-climate-risk-42000"
+    },
+    {
+      "title": "TUM Campus Heilbronn — Research Fellow (PhD candidate) in Finance",
+      "institution": "Technical University of Munich (TUM School of Management, Campus Heilbronn)",
+      "countrySlug": "germany",
+      "applicationDeadline": "2026-01-15",
+      "sourceUrl": "https://portal.mytum.de/jobs/wissenschaftler/NewsArticle_20251215_151027/Research_Fellow_Finance_2026"
+    },
+    {
+      "title": "LMU Munich PhD Scholarship in Financial and Sustainability Reporting (TRR 266)",
+      "institution": "Ludwig-Maximilians-Universität München",
+      "countrySlug": "germany",
+      "applicationDeadline": "2026-01-15",
+      "sourceUrl": "https://www.germanyscholarships.de/scholarship/2026-lmu-phd-scholarship-in-financial-and-sustainability-reporting"
+    },
+    {
+      "title": "SAFE/Goethe University Doctoral Program in Law, Finance and Economics",
+      "institution": "Leibniz Institute for Financial Research SAFE",
+      "countrySlug": "germany",
+      "applicationDeadline": "2026-05-31",
+      "sourceUrl": "https://safe-frankfurt.de/about-safe/career/doctoral-program-in-law-finance-and-economics.html"
+    },
+    {
+      "title": "SAFE Research Assistant/Doctoral Student (3rd-year PhD in Finance, GSEFM)",
+      "institution": "Leibniz Institute for Financial Research SAFE",
+      "countrySlug": "germany",
+      "applicationDeadline": "2026-05-25",
+      "sourceUrl": "https://safe-frankfurt.de/fileadmin/user_upload/editor_common/Personal-Ausschreibungen/2026-06_DocStud_3rd_year_PhD_in_Finance.pdf"
+    },
+    {
+      "title": "ESADE MRes/PhD in Management Sciences (incl. Accounting & Finance) — September 2026 intake",
+      "institution": "ESADE Business School",
+      "countrySlug": "spain",
+      "applicationDeadline": "2026-01-23",
+      "sourceUrl": "https://www.applykite.com/scholarships/mresphd-in-management-sciences-september-2026-intake-esade-business-school-ae68c12140"
+    },
+    {
+      "title": "IESE Business School PhD Positions (Finance & Accounting specializations)",
+      "institution": "IESE Business School (University of Navarra)",
+      "countrySlug": "spain",
+      "applicationDeadline": "2026-04-20",
+      "sourceUrl": "https://globalinterndesk.com/fully-funded-phd-positions-at-iese-business-school-spain-applications-open-for-2026-intake"
+    },
+    {
+      "title": "UPF/Barcelona School of Economics PhD Track in Economics and Finance",
+      "institution": "Universitat Pompeu Fabra / Barcelona School of Economics",
+      "countrySlug": "spain",
+      "applicationDeadline": "2026-01-15",
+      "sourceUrl": "https://bse.eu/masters-degrees/economics-finance/upf-phd-track"
+    },
+    {
+      "title": "University of Bern IUC — PhD Candidate, Managerial Accounting (Prof. Markus Arnold)",
+      "institution": "University of Bern — Institute of Accounting (IUC-MA)",
+      "countrySlug": "switzerland",
+      "applicationDeadline": "2025-12-15",
+      "sourceUrl": "https://www.iuc.unibe.ch/unibe/portal/fak_wiso/a_bwl/inst_uc/content/e171878/e624262/e627754/e1747825/PhDMA20251016_ger.pdf"
     }
   ],
   "skippedNoFunding": [
@@ -927,23 +1128,37 @@
       "sourceUrl": "https://www.gkwiwi.uni-jena.de/PhD+Application.html"
     }
   ],
+  "watchlistUpcoming": [
+    {
+      "title": "University of Basel GSBE — Fully Funded PhD Call (Spring 2027 start)",
+      "institution": "University of Basel — Graduate School of Business and Economics",
+      "countrySlug": "switzerland",
+      "notes": "Application window opens 2026-08-14 for a spring 2027 start; not yet open as of the 2026-07-12 as-of date. Re-check in wave 3.",
+      "sourceUrl": "https://wwz.unibas.ch/en/gsbe/phd/"
+    }
+  ],
   "summary": {
-    "totalOffers": 26,
-    "openOffers": 26,
+    "totalOffers": 27,
+    "openOffers": 27,
+    "newInWave2": 1,
+    "reVerifiedUnchangedStatus": 26,
     "byCountry": {
       "germany": 9,
-      "switzerland": 10,
+      "switzerland": 11,
       "spain": 7
     },
     "byFundingType": {
-      "fully_funded": 19,
+      "fully_funded": 20,
       "partial": 1,
       "industry_partnership": 1,
-      "scholarship": 5
+      "scholarship": 5,
+      "unknown": 1
     },
-    "withSupervisorEmail": 15,
-    "withDeadlineOnOrAfter20260712": 9,
-    "skippedClosedCount": 11,
-    "skippedNoFundingCount": 1
+    "withSupervisorEmail": 18,
+    "withDeadlineOnOrAfter20260712": 11,
+    "withEnrolledStudentsSample": 2,
+    "skippedClosedCount": 20,
+    "skippedNoFundingCount": 1,
+    "watchlistUpcomingCount": 1
   }
 }

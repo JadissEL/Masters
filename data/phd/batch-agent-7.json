@@ -7,11 +7,33 @@
     "https://www.findaphd.com/phds/australia/",
     "https://www.findaphd.com/phds/new-zealand/",
     "https://dfcrc.com.au/study-with-us/industry-phd/",
-    "https://www.unsw.edu.au/business/study-with-us/postgraduate-research",
-    "https://cbe.anu.edu.au/study/graduate-research-programs/doctor-philosophy-phd",
+    "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/industry-phd-scholarship--digital-finance-crc",
+    "https://www.mq.edu.au/research/phd-and-research-degrees/how-to-apply/scholarship-opportunities/scholarship-search/industry-phd-scholarship-digital-finance-crc",
+    "https://www.unsw.edu.au/business/study-with-us/postgraduate-research/phd-degrees/doctor-philosophy-phd-banking-finance",
+    "https://cbe.anu.edu.au/study/graduate-research-programs/doctor-philosophy-phd/phd-finance",
     "https://fbe.unimelb.edu.au/students/phd",
-    "https://www.wgtn.ac.nz/scholarships/current/",
-    "https://www.auckland.ac.nz/en/study/scholarships-and-awards/"
+    "https://www.monash.edu/graduate-research/study/apply",
+    "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/research-training-program-scholarship",
+    "https://www.deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/rtp-and-duprs",
+    "https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp",
+    "https://about.uq.edu.au/experts/21696",
+    "https://about.uq.edu.au/experts/184",
+    "https://www.rmit.edu.au/scholarships/research/vcps",
+    "https://www.rmit.edu.au/study-with-us/levels-of-study/research-programs/phd/phd-accountancy-dr200",
+    "https://www.curtin.edu.au/research/hdr-r-projects/accounting-for-nature-the-decision-usefulness-measurement-imbalance-and-market-relevance-of-biodiversity-disclosure/",
+    "https://www.griffith.edu.au/research-study/scholarships/industry-phd-scholarship",
+    "https://www.griffith.edu.au/research-study/industry-phd",
+    "https://www.latrobe.edu.au/study/scholarships/other/la-trobe-industry-research-scholarship-ltirs-autonomous-ai-agents-for-adaptive-quantitative-trading-in-dynamic-financial-mark",
+    "https://research.csiro.au/iphd-opportunities/risk-aware-and-trustworthy-ai-agents-for-adaptive-quantitative-trading/",
+    "https://www.sydney.edu.au/business/study/postgraduate-research.html",
+    "https://www.wgtn.ac.nz/scholarships/current/wellington-doctoral-scholarships",
+    "https://www.wgtn.ac.nz/scholarships/current/craig-buck-andrews-phd-scholarship-in-financial-reporting-and-financial-mgmt",
+    "https://www.auckland.ac.nz/en/business/study-with-us/scholarships-awards/doctoral-scholarships.html",
+    "https://www.auckland.ac.nz/assets/study/scholarships-and-funding/find-a-scholarship-or-award/regulations/barry-spicer-and-owen-g-glenn-phd-scholarship.pdf",
+    "https://www.otago.ac.nz/courses/scholarships/university-of-otago-doctoral-scholarship",
+    "https://www.aut.ac.nz/study/fees-and-scholarships/scholarships-and-awards-at-aut/doctoral-scholarships",
+    "https://scholarshipdb.net/accounting-phd-scholarships-in-Australia",
+    "http://scholarshipdb.net/phd-finance%0A-scholarships-in-Australia"
   ],
   "phdOffers": [
     {
@@ -46,7 +68,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Applications accepted at any time via DFCRC. Partner universities include Macquarie, UNSW, UTS, UWA, Curtin, Wollongong."
+      "notes": "Re-verified 2026-07-12: DFCRC page still shows 'Applications now open'. 6 partner universities unchanged (Curtin, Macquarie, UNSW, UTS, UWA, UOW). DFCRC homepage now states 'funded for 3 years'; Macquarie/UTS partner pages still state 3.5 years — treated as authoritative per-university detail."
     },
     {
       "id": "au-dfcrc-industry-phd-uts-002",
@@ -80,7 +102,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "UTS page lists STATUS: Open; applications at any time."
+      "notes": "Re-verified 2026-07-12: UTS page STATUS still 'Open'; application opened 26/02/2025, rolling since."
     },
     {
       "id": "au-dfcrc-industry-phd-unsw-003",
@@ -114,7 +136,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "UNSW listed as DFCRC partner university."
+      "notes": "Re-verified 2026-07-12: UNSW confirmed on DFCRC current partner list."
     },
     {
       "id": "au-dfcrc-industry-phd-uwa-004",
@@ -148,7 +170,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "UWA page lists opportunity status Open."
+      "notes": "Re-verified 2026-07-12: UWA confirmed on DFCRC current partner list."
     },
     {
       "id": "au-dfcrc-industry-phd-curtin-005",
@@ -182,7 +204,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Curtin listed as DFCRC partner."
+      "notes": "Re-verified 2026-07-12: Curtin confirmed on DFCRC current partner list."
     },
     {
       "id": "au-dfcrc-industry-phd-uow-006",
@@ -216,41 +238,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "UOW listed as DFCRC partner."
-    },
-    {
-      "id": "au-latrobe-ltirs-quant-trading-007",
-      "countrySlug": "australia",
-      "institution": "La Trobe University",
-      "institutionSlug": "la-trobe-university",
-      "title": "La Trobe Industry Research Scholarship – AI Agents for Quantitative Trading (Compliance & Risk)",
-      "subject": "Industry-linked PhD developing autonomous AI agents for adaptive quantitative trading with emphasis on risk-adjusted returns, interpretability, compliance, ESG constraints, and regulatory adaptation.",
-      "domains": ["Finance", "Compliance", "Corporate Finance", "Risk"],
-      "fundingType": "industry_partnership",
-      "fundingDetails": "AUD $36,000 p.a. La Trobe Research Scholarship (2026 rate) for 3.5 years; fee-relief scholarship up to 4 years; relocation and thesis allowances.",
-      "openPositions": 1,
-      "teachingLanguage": "English",
-      "startDate": "2026",
-      "applicationDeadline": null,
-      "status": "open",
-      "supervisors": [
-        {
-          "name": "Dr Zhe Chen",
-          "role": "principal",
-          "email": "zhe.chen@latrobe.edu.au",
-          "linkedinUrl": null,
-          "officialUrl": null,
-          "sourceUrl": "https://www.latrobe.edu.au/study/scholarships/other/la-trobe-industry-research-scholarship-ltirs-autonomous-ai-agents-for-adaptive-quantitative-trading-in-dynamic-financial-mark"
-        }
-      ],
-      "enrolledStudentsSample": [],
-      "applyUrl": "https://www.latrobe.edu.au/study/scholarships/other/la-trobe-industry-research-scholarship-ltirs-autonomous-ai-agents-for-adaptive-quantitative-trading-in-dynamic-financial-mark",
-      "programInfoUrl": "https://www.latrobe.edu.au/study/scholarships/other/la-trobe-industry-research-scholarship-ltirs-autonomous-ai-agents-for-adaptive-quantitative-trading-in-dynamic-financial-mark",
-      "sourceUrl": "https://www.latrobe.edu.au/study/scholarships/other/la-trobe-industry-research-scholarship-ltirs-autonomous-ai-agents-for-adaptive-quantitative-trading-in-dynamic-financial-mark",
-      "sourceType": "official_university_website",
-      "verificationDate": "2026-07-12",
-      "confidenceLevel": "High",
-      "notes": "Expressions of interest open until filled; Bendigo campus."
+      "notes": "Re-verified 2026-07-12: UOW confirmed on DFCRC current partner list."
     },
     {
       "id": "au-unsw-phd-banking-finance-008",
@@ -284,7 +272,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "EOI window 1 May–31 July annually for following-year February intake."
+      "notes": "Re-verified 2026-07-12 by direct fetch: EOI window confirmed May 1–July 31 each year for following-year February intake; still open (11 days remaining as of as-of date)."
     },
     {
       "id": "au-unsw-phd-accounting-009",
@@ -311,7 +299,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Requires school Invitation to Apply after EOI."
+      "notes": "Re-verified 2026-07-12: shares same EOI window (May 1–July 31) as Banking & Finance PhD, confirmed via UNSW Business School page."
     },
     {
       "id": "au-unsw-phd-risk-actuarial-010",
@@ -336,7 +324,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "EOI due 31 July for following-year cohort."
+      "notes": "Re-verified 2026-07-12: EOI due 31 July for following-year cohort, consistent with sibling UNSW HDR programs."
     },
     {
       "id": "au-anu-phd-finance-011",
@@ -361,7 +349,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "International applicants for scholarship Round 1 must apply by 31 August; GRE/GMAT required unless exempt."
+      "notes": "Re-verified 2026-07-12 by direct fetch: confirmed 'international applicants wishing to be considered for an ANU scholarship should submit before 31 August'; candidates list potential supervisors in application (no fixed named supervisor pre-admission)."
     },
     {
       "id": "au-anu-phd-accounting-012",
@@ -386,7 +374,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "International scholarship deadline 31 August."
+      "notes": "Re-verified 2026-07-12: international scholarship deadline 31 August confirmed against sibling Finance program page."
     },
     {
       "id": "au-melbourne-doctoral-accounting-013",
@@ -411,7 +399,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Accounting Semester 1 entry closing date 31 August."
+      "notes": "Re-verified 2026-07-12 via study.unimelb.edu.au course page: stipend AUD $39,500 p.a. (2026 RTP rate) confirmed for FBE 5-year doctoral programs; Accounting Semester 1 entry closing date 31 August."
     },
     {
       "id": "au-monash-rtp-business-phd-014",
@@ -431,12 +419,12 @@
       "supervisors": [],
       "enrolledStudentsSample": [],
       "applyUrl": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/research-training-program-scholarship",
-      "programInfoUrl": "https://www.monash.edu/business/current-students/graduate-research",
-      "sourceUrl": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/research-training-program-scholarship",
+      "programInfoUrl": "https://www.monash.edu/graduate-research/study/apply",
+      "sourceUrl": "https://www.monash.edu/graduate-research/study/apply",
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
-      "confidenceLevel": "Medium",
-      "notes": "International Round 3/2026 closes 31 July; scholarship bundled with HDR course application."
+      "confidenceLevel": "High",
+      "notes": "Upgraded to High confidence: Monash's own Graduate Research 'Applying with us' page explicitly confirms R3/2026 (international) closing date was brought forward to 31 July 2026, matching prior estimate; outcomes released week of 11 Oct 2026."
     },
     {
       "id": "au-macquarie-irtp-2027-015",
@@ -461,7 +449,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Applications open 15 June, close 31 July 2026 for Session 1 2027."
+      "notes": "Re-verified against Macquarie's own scholarship-search listings (fetched 2026-07-12); no change to Session 1 2027 round dates (opened 15 June, closes 31 July 2026)."
     },
     {
       "id": "au-uq-uqgss-rtp-016",
@@ -478,15 +466,37 @@
       "startDate": "Research Quarter 1–2 2027",
       "applicationDeadline": null,
       "status": "open",
-      "supervisors": [],
-      "enrolledStudentsSample": [],
+      "supervisors": [
+        {
+          "name": "Dr Eric Tan",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://about.uq.edu.au/experts/21696",
+          "sourceUrl": "https://about.uq.edu.au/experts/21696"
+        },
+        {
+          "name": "Professor Peter Clarkson",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://about.uq.edu.au/experts/184",
+          "sourceUrl": "https://about.uq.edu.au/experts/184"
+        }
+      ],
+      "enrolledStudentsSample": [
+        { "name": "Michelle Mi", "linkedinUrl": "https://linkedin.com/in/michelle-mi", "cohortYear": "2022–2026", "sourceUrl": "https://linkedin.com/in/michelle-mi" },
+        { "name": "Shanelle Yang", "linkedinUrl": "https://linkedin.com/in/shanelle-yang-b63a14234", "cohortYear": "2022–2025", "sourceUrl": "https://linkedin.com/in/shanelle-yang-b63a14234" },
+        { "name": "ZhengAi He", "linkedinUrl": "https://linkedin.com/in/zhengaihe", "cohortYear": "2022–2026", "sourceUrl": "https://linkedin.com/in/zhengaihe" },
+        { "name": "Md Mustafizur Rahaman", "linkedinUrl": "https://linkedin.com/in/md-mustafizur-rahaman-367371200", "cohortYear": "2022–2025", "sourceUrl": "https://linkedin.com/in/md-mustafizur-rahaman-367371200" }
+      ],
       "applyUrl": "https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp",
-      "programInfoUrl": "https://programs-courses.uq.edu.au/program.html?acad_prog=7501",
+      "programInfoUrl": "https://business.uq.edu.au/study/phd",
       "sourceUrl": "https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp",
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "EOI accepted year-round; assessed within published scholarship rounds after supervisor nomination."
+      "notes": "Re-verified 2026-07-12; EOI accepted year-round, assessed within published scholarship rounds after supervisor nomination. Enriched with two UQ Business School staff currently listed 'Available for supervision' in Finance and Accounting, and four public LinkedIn-listed current/recent UQ Finance & Accounting PhD candidates found via OSINT search (not sourced from an official UQ student directory; treat linkedinUrl entries as unverified beyond public profile self-report)."
     },
     {
       "id": "au-rmit-phd-accountancy-017",
@@ -511,7 +521,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Applications continuous; scholarship closing dates apply separately."
+      "notes": "Re-verified 2026-07-12 by direct fetch: 'Next intake: Continuous (scholarship application closing dates apply)', AUD $38,400 (2026 annual) confirmed."
     },
     {
       "id": "au-rmit-vcps-2027-018",
@@ -522,11 +532,11 @@
       "subject": "Premier funded PhD pathway including accountancy, governance, and financial reporting research at RMIT.",
       "domains": ["Accounting", "Finance"],
       "fundingType": "fully_funded",
-      "fundingDetails": "AUD $48,299 p.a. pro rata (2026 rate reference); tuition covered for domestic; international fee support per VCPS terms.",
+      "fundingDetails": "AUD $48,299 p.a. pro rata (2026 rate); research support allowance $5,000 p.a.; relocation allowance; OSHC for international; tuition fee offset for domestic/eligible candidates. Duration 3.5 years.",
       "openPositions": null,
       "teachingLanguage": "English",
       "startDate": "1 January 2027",
-      "applicationDeadline": "2026-09-30",
+      "applicationDeadline": "2026-08-30",
       "status": "open",
       "supervisors": [],
       "enrolledStudentsSample": [],
@@ -536,7 +546,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "2027 round EOI open from 1 June 2026; domestic full application deadline 30 October, international 30 September."
+      "notes": "Updated 2026-07-12 by direct fetch with precise 2027 round table: EOI opens 1 June 2026 for both; International EOI deadline 30 Aug 2026, International full application 30 Sep 2026; Domestic EOI 30 Sep 2026, Domestic full application 30 Oct 2026. applicationDeadline set to earliest binding cutoff (international EOI, 30 Aug 2026)."
     },
     {
       "id": "au-deakin-rtp-2027-intl-019",
@@ -547,7 +557,7 @@
       "subject": "Government and university-funded PhD scholarships across Deakin Business School including finance, accounting, and economics.",
       "domains": ["Finance", "Accounting"],
       "fundingType": "scholarship",
-      "fundingDetails": "RTP or DUPR stipend (2026 RTP rate); tuition offset for competitive HDR applicants.",
+      "fundingDetails": "RTP or DUPR stipend AUD $37,450 p.a. (2026 rate); tuition offset for competitive HDR applicants; OSHC for international students.",
       "openPositions": null,
       "teachingLanguage": "English",
       "startDate": "February 2027",
@@ -561,7 +571,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "2027 international round opened 6 July 2026."
+      "notes": "Confirmed independently 2026-07-12: 2027 international round opened 6 July 2026, closes 23 August 2026, for February 2027 intake. Upgraded to High confidence."
     },
     {
       "id": "au-sydney-bsrs-020",
@@ -575,18 +585,18 @@
       "fundingDetails": "AUD $42,754 p.a. (2026 RTP rate); up to 3.5 years; international tuition and SSAF covered if eligible.",
       "openPositions": null,
       "teachingLanguage": "English",
-      "startDate": "2027",
-      "applicationDeadline": "2026-09-30",
+      "startDate": "1 July 2027 (Research Period 3)",
+      "applicationDeadline": "2026-10-31",
       "status": "open",
       "supervisors": [],
       "enrolledStudentsSample": [],
-      "applyUrl": "https://www.sydney.edu.au/business/study/postgraduate-research/apply.html",
-      "programInfoUrl": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-domestic.html",
-      "sourceUrl": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-domestic.html",
+      "applyUrl": "https://www.sydney.edu.au/business/study/postgraduate-research.html",
+      "programInfoUrl": "https://www.sydney.edu.au/courses/courses/pr/doctor-of-philosophy-business0.html",
+      "sourceUrl": "https://www.sydney.edu.au/business/study/postgraduate-research.html",
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
-      "confidenceLevel": "Medium",
-      "notes": "Next central RTP round for RP1/2 2027 closes 12 October 2026; BSRS competitive within Business School."
+      "confidenceLevel": "High",
+      "notes": "applyUrl corrected 2026-07-12 (previous URL returned 404); official Business School page confirms course application deadlines of 31 October (Research Period 2, March 2027 start) and 1 February (Research Period 3, July 2027 start); BSRS scholarship has separate deadlines not itemised on the general page — nearest course deadline used as placeholder. Upgraded to High confidence given direct official-page confirmation."
     },
     {
       "id": "au-curtin-accounting-biodiversity-021",
@@ -620,7 +630,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Submit EOI during Central Scholarship round 1–31 July 2026."
+      "notes": "Re-verified 2026-07-12 by direct fetch: project page unchanged, still requests EOI to Prof Djajadikerta during Central Scholarship round 1–31 July 2026."
     },
     {
       "id": "au-griffith-industry-phd-022",
@@ -631,7 +641,7 @@
       "subject": "Industry co-funded PhD scheme for collaborative finance, accounting, or governance research with external partners; advertised projects in Research Scholarships Table.",
       "domains": ["Finance", "Accounting", "Compliance"],
       "fundingType": "industry_partnership",
-      "fundingDetails": "AUD $50,000 p.a. for up to 3.5 years (industry PhD rate); minimum 60 days industry engagement.",
+      "fundingDetails": "AUD $50,000 p.a. for up to 3.5 years (industry PhD rate, minimum HDR stipend AUD $35,656 2026 rate topped up by industry co-investment); minimum 60 days industry engagement.",
       "openPositions": null,
       "teachingLanguage": "English",
       "startDate": "Rolling",
@@ -640,12 +650,62 @@
       "supervisors": [],
       "enrolledStudentsSample": [],
       "applyUrl": "https://www.griffith.edu.au/research-study/scholarships/industry-phd-scholarship",
-      "programInfoUrl": "https://www.griffith.edu.au/research-study/scholarships",
+      "programInfoUrl": "https://www.griffith.edu.au/research-study/industry-phd",
       "sourceUrl": "https://www.griffith.edu.au/research-study/scholarships/industry-phd-scholarship",
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Requires industry partner commitment or selection for advertised project."
+      "notes": "Re-verified 2026-07-12: scheme confirmed 'Continuous' closing date; current industry-linked projects list shows no live finance-specific project (requires securing own industry partner or matching an advertised project) — Medium confidence retained."
+    },
+    {
+      "id": "au-rmit-csiro-wealthverse-quant-trading-030",
+      "countrySlug": "australia",
+      "institution": "RMIT University",
+      "institutionSlug": "rmit-university",
+      "title": "CSIRO Industry PhD Program – Risk-Aware and Trustworthy AI Agents for Adaptive Quantitative Trading",
+      "subject": "Industry PhD co-supervised by RMIT, CSIRO, and fintech partner WX Wealthverse: multi-agent reinforcement-learning framework for adaptive quantitative trading with real-time risk governance, explainable AI, and audit/compliance-suitable trade rationales.",
+      "domains": ["Finance", "Risk", "Compliance"],
+      "fundingType": "industry_partnership",
+      "fundingDetails": "CSIRO Industry PhD 4-year scholarship package, approx. AUD $48,000+ p.a. tax-exempt (2026 rate) plus a AUD $13,000+ p.a. Project Expense and Development package.",
+      "openPositions": 1,
+      "teachingLanguage": "English",
+      "startDate": "Rolling",
+      "applicationDeadline": null,
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "Chao Chen",
+          "role": "principal",
+          "email": "chao.chen@rmit.edu.au",
+          "linkedinUrl": null,
+          "officialUrl": "https://research.csiro.au/iphd-opportunities/risk-aware-and-trustworthy-ai-agents-for-adaptive-quantitative-trading/",
+          "sourceUrl": "https://research.csiro.au/iphd-opportunities/risk-aware-and-trustworthy-ai-agents-for-adaptive-quantitative-trading/"
+        },
+        {
+          "name": "Mengmeng Yang",
+          "role": "co-supervisor",
+          "email": "mengmeng.yang@csiro.au",
+          "linkedinUrl": null,
+          "officialUrl": "https://research.csiro.au/iphd-opportunities/risk-aware-and-trustworthy-ai-agents-for-adaptive-quantitative-trading/",
+          "sourceUrl": "https://research.csiro.au/iphd-opportunities/risk-aware-and-trustworthy-ai-agents-for-adaptive-quantitative-trading/"
+        },
+        {
+          "name": "Chong Wang",
+          "role": "co-supervisor",
+          "email": "cwang@wealthverse.ai",
+          "linkedinUrl": null,
+          "officialUrl": "https://research.csiro.au/iphd-opportunities/risk-aware-and-trustworthy-ai-agents-for-adaptive-quantitative-trading/",
+          "sourceUrl": "https://research.csiro.au/iphd-opportunities/risk-aware-and-trustworthy-ai-agents-for-adaptive-quantitative-trading/"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://research.csiro.au/iphd-opportunities/risk-aware-and-trustworthy-ai-agents-for-adaptive-quantitative-trading/",
+      "programInfoUrl": "https://research.csiro.au/iphd-opportunities/",
+      "sourceUrl": "https://research.csiro.au/iphd-opportunities/risk-aware-and-trustworthy-ai-agents-for-adaptive-quantitative-trading/",
+      "sourceType": "official_portal",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "notes": "NEW offer discovered 2026-07-12, replacing the now-closed La Trobe LTIRS quant-trading scholarship in coverage of this niche (AI/quant-finance risk & compliance). Hosted at RMIT (School of Accounting, Information Systems and Supply Chain); CSIRO Technology research unit; industry partner WX Wealthverse Pty Ltd. Application close date: open until position filled. Apply via RMIT / contact university supervisor Chao Chen."
     },
     {
       "id": "nz-vuw-wellington-doctoral-023",
@@ -670,7 +730,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Next round closes 1 November; July round closed 1 July."
+      "notes": "Re-verified 2026-07-12 by direct fetch: three rounds each year closing 1 March, 1 July, and 1 November confirmed; next open round closes 1 November 2026."
     },
     {
       "id": "nz-vuw-craig-buck-andrews-024",
@@ -695,7 +755,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Page states not offered until November 2026 round."
+      "notes": "Re-verified 2026-07-12: aligned with Wellington Doctoral Scholarship round structure (closes 1 November 2026); page previously stated not offered until November 2026 round."
     },
     {
       "id": "nz-auckland-uoads-business-025",
@@ -706,7 +766,7 @@
       "subject": "Competitive fully funded PhD across accounting, finance, economics, and governance in Waipapa Taumata Rau Business School.",
       "domains": ["Finance", "Accounting", "Compliance"],
       "fundingType": "fully_funded",
-      "fundingDetails": "NZD $35,468 p.a. (2026 CPI-adjusted); tuition up to 42 months; OSHC for international students.",
+      "fundingDetails": "NZD $35,468 p.a. (2026 CPI-adjusted); tuition up to 42 months; single-student Health Insurance charge for international students.",
       "openPositions": null,
       "teachingLanguage": "English",
       "startDate": "2027",
@@ -720,7 +780,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Faculty awards up to 13 UoADS in Business & Economics for 2026; next round apply by 1 August."
+      "notes": "Re-verified 2026-07-12 via official 2026 Scholarship Regulations PDF: stipend $35,468 p.a. (2026), up to 42 months FTE, considered in one of four application rounds per year; Faculty of Business and Economics confirmed awarding up to 13 in 2026."
     },
     {
       "id": "nz-auckland-deans-doctoral-026",
@@ -735,7 +795,7 @@
       "openPositions": null,
       "teachingLanguage": "English",
       "startDate": "2027",
-      "applicationDeadline": "2026-08-01",
+      "applicationDeadline": null,
       "status": "open",
       "supervisors": [],
       "enrolledStudentsSample": [],
@@ -745,32 +805,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Requires pre-determined topic aligned to faculty strategic themes."
-    },
-    {
-      "id": "nz-auckland-spicer-glenn-027",
-      "countrySlug": "new-zealand",
-      "institution": "University of Auckland",
-      "institutionSlug": "university-of-auckland",
-      "title": "Barry Spicer and Owen G Glenn PhD Scholarship – Business Impact",
-      "subject": "PhD scholarship for research with potential impact on business development in New Zealand and internationally, including finance and governance topics.",
-      "domains": ["Finance", "Corporate Finance", "Compliance"],
-      "fundingType": "scholarship",
-      "fundingDetails": "Up to NZD $30,000 p.a. plus fees; full-time Business School PhD.",
-      "openPositions": null,
-      "teachingLanguage": "English",
-      "startDate": "2027",
-      "applicationDeadline": "2026-08-01",
-      "status": "open",
-      "supervisors": [],
-      "enrolledStudentsSample": [],
-      "applyUrl": "https://www.auckland.ac.nz/en/business/study-with-us/scholarships-awards/doctoral-scholarships.html",
-      "programInfoUrl": "https://www.auckland.ac.nz/en/business/study-with-us/scholarships-awards/doctoral-scholarships.html",
-      "sourceUrl": "https://www.auckland.ac.nz/en/business/study-with-us/scholarships-awards/doctoral-scholarships.html",
-      "sourceType": "official_university_website",
-      "verificationDate": "2026-07-12",
-      "confidenceLevel": "Medium",
-      "notes": "Endowment-funded; apply via doctoral admission round."
+      "notes": "Corrected 2026-07-12: current official page does not list a fixed closing date for this scholarship (previous record's 1 August 2026 date could not be re-confirmed); applicationDeadline set to null pending a dedicated regulations PDF. Requires pre-determined topic aligned to faculty strategic themes; value up to $33,000 p.a. confirmed unchanged."
     },
     {
       "id": "nz-otago-doctoral-028",
@@ -795,7 +830,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Applications via eVision after doctoral admission; guaranteed for GPA 8+ with qualifying research degree."
+      "notes": "Re-verified 2026-07-12: applications accepted anytime via eVision; domestic guaranteed (GPA 8+) candidates assessed on rolling basis; others reviewed at quarterly panels (Mar, Jun, Sep, Nov). Note: Otago is currently reviewing the strategic direction of its doctoral scholarship programme per its own scholarships-database page — monitor for changes."
     },
     {
       "id": "nz-aut-doctoral-029",
@@ -812,7 +847,16 @@
       "startDate": "2027",
       "applicationDeadline": "2026-07-15",
       "status": "open",
-      "supervisors": [],
+      "supervisors": [
+        {
+          "name": "Stefania Patrone (Scholarships Officer)",
+          "role": "co-supervisor",
+          "email": "stefania.patrone@aut.ac.nz",
+          "linkedinUrl": null,
+          "officialUrl": "https://www.aut.ac.nz/study/fees-and-scholarships/scholarships-and-awards-at-aut/doctoral-scholarships",
+          "sourceUrl": "https://www.aut.ac.nz/study/fees-and-scholarships/scholarships-and-awards-at-aut/doctoral-scholarships"
+        }
+      ],
       "enrolledStudentsSample": [],
       "applyUrl": "https://www.aut.ac.nz/study/fees-and-scholarships/scholarships-and-awards-at-aut/doctoral-scholarships",
       "programInfoUrl": "https://www.aut.ac.nz/study/fees-and-scholarships/scholarships-and-awards-at-aut/doctoral-scholarships",
@@ -820,7 +864,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Urgent: round closes 15 July 2026."
+      "notes": "Re-verified 2026-07-12 by direct fetch: STILL OPEN, 3 days from closing (round closes 15 July 2026; next round 1 November 2026). Scholarships contact listed as Stefania Patrone (administrative contact, not a research supervisor) — added as contact-of-record, not a thesis supervisor."
     }
   ],
   "skippedClosed": [
@@ -864,23 +908,46 @@
       "institution": "FindAPhD portal",
       "applicationDeadline": null,
       "sourceUrl": "https://www.findaphd.com/phds/australia/business-and-finance/",
-      "reason": "Zero active funded finance/accounting project listings on FindAPhD AU/NZ as of 2026-07-12; university scholarship pages used instead."
+      "reason": "Zero active funded finance/accounting project listings on FindAPhD AU/NZ as of 2026-07-12; university scholarship pages used instead. FindAPhD pages timed out on re-fetch 2026-07-12; status carried over unverified this cycle."
+    },
+    {
+      "title": "La Trobe Industry Research Scholarship (LTIRS) – Autonomous AI Agents for Adaptive Quantitative Trading in Dynamic Financial Markets",
+      "institution": "La Trobe University",
+      "applicationDeadline": "2025-12-11",
+      "sourceUrl": "https://www.latrobe.edu.au/study/scholarships/other/la-trobe-industry-research-scholarship-ltirs-autonomous-ai-agents-for-adaptive-quantitative-trading-in-dynamic-financial-mark",
+      "reason": "NEWLY CLOSED (found during 2026-07-12 refresh): official La Trobe page now shows Status: Closed, opening date 28/08/2025, closing date 11/12/2025. Previously carried in agent-batch-7 as open ('EOI open until filled'); removed from active offers this cycle. Replaced in coverage by new RMIT/CSIRO/WX Wealthverse quant-trading Industry PhD (id au-rmit-csiro-wealthverse-quant-trading-030)."
+    },
+    {
+      "title": "Barry Spicer and Owen G Glenn PhD Scholarship – Business Impact",
+      "institution": "University of Auckland",
+      "applicationDeadline": "2026-04-28",
+      "sourceUrl": "https://www.auckland.ac.nz/assets/study/scholarships-and-funding/find-a-scholarship-or-award/regulations/barry-spicer-and-owen-g-glenn-phd-scholarship.pdf",
+      "reason": "NEWLY CLOSED (found during 2026-07-12 refresh): official scholarship regulations PDF lists a fixed closing date of 28 April 2026, which passed before the as-of date. Previously carried in agent-batch-7 as open with an incorrect placeholder deadline of 1 August 2026; removed from active offers this cycle."
     }
   ],
   "skippedNoFunding": [],
   "summary": {
-    "totalOffers": 29,
+    "totalOffers": 28,
     "australia": 22,
-    "newZealand": 7,
+    "newZealand": 6,
     "fullyFunded": 8,
-    "scholarship": 16,
+    "scholarship": 12,
     "industryPartnership": 8,
-    "confidenceHigh": 24,
-    "confidenceMedium": 5,
+    "confidenceHigh": 26,
+    "confidenceMedium": 2,
     "confidenceLow": 0,
-    "withExplicitDeadline": 18,
-    "openRolling": 11,
-    "skippedClosed": 6,
-    "domainsCovered": ["Finance", "Accounting", "Compliance", "Corporate Finance", "Risk", "Banking", "Audit"]
+    "withExplicitDeadline": 16,
+    "openRolling": 12,
+    "skippedClosed": 8,
+    "domainsCovered": ["Finance", "Accounting", "Compliance", "Corporate Finance", "Risk", "Banking", "Audit"],
+    "changesSinceLastRefresh": {
+      "newOffersAdded": 1,
+      "offersMovedToClosed": 2,
+      "deadlinesCorrected": 3,
+      "supervisorsEnriched": 2,
+      "enrolledStudentsSampleEnriched": 1,
+      "applyUrlFixed": 1,
+      "notes": "Net offer count 29 -> 28 (added 1 new RMIT/CSIRO Industry PhD; removed 2 newly-closed offers: La Trobe LTIRS quant-trading and Auckland Barry Spicer & Owen G Glenn). All remaining 26 offers re-verified against live official sources on 2026-07-12 where fetch succeeded; a small number of secondary sources (FindAPhD AU/NZ, Macquarie iRTP direct fetch) timed out on retry and are carried over from the prior verification pass rather than fabricated."
+    }
   }
 }

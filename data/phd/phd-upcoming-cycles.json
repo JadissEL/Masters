@@ -2,30 +2,75 @@
   "lastUpdated": "2026-07-12",
   "cycles": [
     {
-      "institution": "KU Leuven — Accounting, Finance & Insurance",
-      "opens": "rolling",
+      "institution": "University of Liverpool Management School",
+      "opens": "2027-01",
       "intake": "2027-09",
-      "funding": "Supervisor-led PhD scholarships on jobs.kuleuven.be",
-      "sourceUrl": "https://www.kuleuven.be/english/apply/application-instructions/instructions-doctoral",
-      "fromBatch": "batch-wave2-belgium.json",
+      "funding": "Graduate Teaching Fellowships (Accounting & Finance PhD)",
+      "sourceUrl": "https://www.liverpool.ac.uk/management/study/postgraduate-research/phd-studentships/",
+      "fromBatch": "batch-agent-2.json",
       "lastChecked": "2026-07-12"
     },
     {
-      "institution": "Ghent University EB22",
-      "opens": "2027-02",
+      "institution": "Midlands Graduate School ESRC DTP",
+      "opens": "2026-10-01",
       "intake": "2027-09",
-      "funding": "Doctoral fellowships (corporate finance, accounting, taxation)",
-      "sourceUrl": "https://www.ugent.be/en/work/scientific/doctoral-fellow",
-      "fromBatch": "batch-wave2-belgium.json",
+      "funding": "Management & Business / Finance pathways (Aston, Birmingham, Nottingham, etc.)",
+      "sourceUrl": "https://warwick.ac.uk/fac/cross_fac/mgsdtp/studentships/howtoapply/",
+      "fromBatch": "batch-agent-2.json",
       "lastChecked": "2026-07-12"
     },
     {
-      "institution": "Solvay Business School (VUB)",
-      "opens": "rolling",
+      "institution": "Henley Business School / ICMA Centre (University of Reading)",
+      "opens": "2026-09",
       "intake": "2027-09",
-      "funding": "PhD scholarships via jobs.vub.be",
-      "sourceUrl": "https://jobs.vub.be",
-      "fromBatch": "batch-wave2-belgium.json",
+      "funding": "PhD Accounting & Finance scholarships (2026/27 cycle closed 11 Jun 2026)",
+      "sourceUrl": "https://www.henley.ac.uk/study/phds/scholarships-funding",
+      "fromBatch": "batch-agent-2.json",
+      "lastChecked": "2026-07-12"
+    },
+    {
+      "institution": "Alliance Manchester Business School",
+      "opens": "2026-10",
+      "intake": "2027-09",
+      "funding": "AMBS internal studentship competitions (typically Dec deadline)",
+      "sourceUrl": "https://www.manchester.ac.uk/study/postgraduate-research/programmes/list/19378/phd-accounting-and-finance/",
+      "fromBatch": "batch-agent-2.json",
+      "lastChecked": "2026-07-12"
+    },
+    {
+      "institution": "Leeds University Business School",
+      "opens": "2026-09",
+      "intake": "2027-02",
+      "funding": "PhD Excellence Scholarships — international deadline ~30 Sep 2026 for Feb 2027 start",
+      "sourceUrl": "https://business.leeds.ac.uk/research-degrees",
+      "fromBatch": "batch-agent-2.json",
+      "lastChecked": "2026-07-12"
+    },
+    {
+      "institution": "University of Bristol Business School",
+      "opens": "2026-09",
+      "intake": "2027-09",
+      "funding": "UBBS bursaries + SWDTP (deadlines typically Dec–Jan)",
+      "sourceUrl": "https://www.bristol.ac.uk/business-school/phd-programmes/phd-funding/",
+      "fromBatch": "batch-agent-2.json",
+      "lastChecked": "2026-07-12"
+    },
+    {
+      "institution": "DCU Business School",
+      "opens": "2026-12",
+      "intake": "2027-09",
+      "funding": "Full-time stipend-funded PhD Scholarships (2 posts, €25,000/yr + fees) — 2026 round closed 15 Jun 2026",
+      "sourceUrl": "https://business.dcu.ie/scholarships/",
+      "fromBatch": "batch-agent-2.json",
+      "lastChecked": "2026-07-12"
+    },
+    {
+      "institution": "University College Dublin — Banking & Finance",
+      "opens": "2027-01",
+      "intake": "2027-09",
+      "funding": "UCD PhD Scholarship in Finance (Corporate Finance, Asset Pricing, Sustainable Finance, Fintech) — 2026 EOI deadline was 18 Mar 2026",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DQS854/ucd-phd-scholarship-in-finance",
+      "fromBatch": "batch-agent-2.json",
       "lastChecked": "2026-07-12"
     },
     {
@@ -34,6 +79,24 @@
       "intake": "2027-09",
       "funding": "Graduate Teaching Fellowships (Accounting & Finance PhD)",
       "sourceUrl": "https://www.liverpool.ac.uk/management/study/postgraduate-research/phd-studentships/",
+      "fromBatch": "batch-wave2-england.json",
+      "lastChecked": "2026-07-12"
+    },
+    {
+      "institution": "Midlands Graduate School ESRC DTP",
+      "opens": "2026-10-01",
+      "intake": "2027-09",
+      "funding": "Management & Business / Finance pathways (Aston, Birmingham, Nottingham, etc.)",
+      "sourceUrl": "https://warwick.ac.uk/fac/cross_fac/mgsdtp/studentships/howtoapply/",
+      "fromBatch": "batch-wave2-england.json",
+      "lastChecked": "2026-07-12"
+    },
+    {
+      "institution": "Henley Business School / ICMA Centre (University of Reading)",
+      "opens": "2026-09",
+      "intake": "2027-09",
+      "funding": "PhD Accounting & Finance scholarships (2026/27 cycle closed 11 Jun 2026)",
+      "sourceUrl": "https://www.henley.ac.uk/study/phds/scholarships-funding",
       "fromBatch": "batch-wave2-england.json",
       "lastChecked": "2026-07-12"
     },
@@ -47,11 +110,11 @@
       "lastChecked": "2026-07-12"
     },
     {
-      "institution": "University of Bristol Business School",
+      "institution": "Leeds University Business School",
       "opens": "2026-09",
-      "intake": "2027-09",
-      "funding": "UBBS bursaries + SWDTP (deadlines typically Dec–Jan)",
-      "sourceUrl": "https://www.bristol.ac.uk/business-school/phd-programmes/phd-funding/",
+      "intake": "2027-02",
+      "funding": "PhD Excellence Scholarships — international deadline ~30 Sep 2026 for Feb 2027 start",
+      "sourceUrl": "https://business.leeds.ac.uk/research-degrees",
       "fromBatch": "batch-wave2-england.json",
       "lastChecked": "2026-07-12"
     },

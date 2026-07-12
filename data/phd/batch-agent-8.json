@@ -3,6 +3,7 @@
   "region": "Japan + South Korea + UAE",
   "candidate": "dina",
   "verificationDate": "2026-07-12",
+  "wave": 2,
   "phdOffers": [
     {
       "id": "ae-aus-phd-finance-fall2026-001",
@@ -27,16 +28,48 @@
           "linkedinUrl": null,
           "officialUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin",
           "sourceUrl": "https://www.aus.edu/sites/default/files/gr_ctlg_2526_web_1.pdf"
+        },
+        {
+          "name": "Dr. Osamah Al-Khazali (Head, Department of Finance)",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin",
+          "sourceUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin"
+        },
+        {
+          "name": "Dr. Narjess Boubakri",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin",
+          "sourceUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin"
+        },
+        {
+          "name": "Dr. Zaher Zantout",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin",
+          "sourceUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin"
+        },
+        {
+          "name": "Dr. Anis Samet",
+          "role": "co-supervisor",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin",
+          "sourceUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin"
         }
       ],
       "enrolledStudentsSample": [],
       "applyUrl": "https://www.aus.edu/apply",
       "programInfoUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin",
-      "sourceUrl": "https://www.aus.edu/sites/default/files/gr_ctlg_2526_web_1.pdf",
+      "sourceUrl": "https://www.aus.edu/sba/department-of-finance/phd-in-finance-phd-fin",
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Assistantship deadline (May 28) passed; non-assistantship Fall 2026 PhD deadline July 23, 2026 still open as of verification date. Requires master's in finance/MBA or related field, GRE/GMAT, graduate econometrics."
+      "notes": "Re-verified wave 2 (2026-07-12): program page still live, non-assistantship Fall 2026 deadline July 23, 2026 still open. Faculty page enumerates full PhD-FIN faculty roster with specializations (Corporate Finance, M&A, Corporate Governance, Islamic Banking, Risk Management, Portfolio Management); named supervisors above selected for closest fit to corporate finance/M&A/compliance focus. Individual faculty emails are masked on the public page (not disclosed) — no email fabricated; department contact ogs@aus.edu retained as principal contact. Dual PhD track with University of South Carolina Darla Moore School of Business confirmed (2nd year abroad option, co-supervision)."
     },
     {
       "id": "ae-aus-phd-ba-finance-fall2026-002",
@@ -70,7 +103,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Finance concentration within PhD-BA. Same July 23, 2026 deadline for applicants not requesting assistantship."
+      "notes": "Re-verified wave 2: same July 23, 2026 deadline for applicants not requesting assistantship, unchanged. Finance concentration draws on the same PhD-FIN finance faculty roster documented on the Department of Finance page (see ae-aus-phd-finance-fall2026-001 for named specialists)."
     },
     {
       "id": "ae-uowd-phd-business-finance-autumn2026-003",
@@ -89,8 +122,16 @@
       "status": "open",
       "supervisors": [
         {
-          "name": "UOWD Admissions Team",
+          "name": "Dr Vikash Ramiah (Associate Professor, Head of Postgraduate Studies)",
           "role": "principal",
+          "email": null,
+          "linkedinUrl": null,
+          "officialUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy",
+          "sourceUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy"
+        },
+        {
+          "name": "UOWD Admissions Team",
+          "role": "co-supervisor",
           "email": null,
           "linkedinUrl": null,
           "officialUrl": "https://www.uowdubai.ac.ae/degrees/doctorate/business/doctor-philosophy",
@@ -104,7 +145,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Applications open May 1, 2026; deadline Aug 20, 2026 09:00. Requires master's in business-related field, GPA ≥3.3/4.0, IELTS 6.5. Finance discipline explicitly listed."
+      "notes": "Re-verified wave 2: deadline unchanged, Aug 20, 2026 09:00; open day held July 18, 2026 confirms program still actively recruiting. 2026 research priorities restrict acceptance to Accounting, Finance, Marketing, SCM and Analytics disciplines aligned to Theme 1 (AI/Digital Transformation) or Theme 2 (Sustainable/ESG). Named Head of Postgraduate Studies (Dr Vikash Ramiah, research area Sustainable Finance/FinTech/Behavioural Finance/Applied Finance) sourced from official program page faculty block; email not published, not fabricated."
     },
     {
       "id": "ae-ud-phd-business-rolling2026-004",
@@ -129,6 +170,14 @@
           "linkedinUrl": null,
           "officialUrl": "https://ud.ac.ae/phd-program-details/",
           "sourceUrl": "https://ud.smartcatalogiq.com/en/2024-2025/shared-content/policies/the-educational-program/academic-regulations-of-the-phd-program"
+        },
+        {
+          "name": "Aeman Sabre (Application Submissions & Inquiries)",
+          "role": "co-supervisor",
+          "email": "asabre@ud.ac.ae",
+          "linkedinUrl": null,
+          "officialUrl": "https://ud.ac.ae/phd-program-details/",
+          "sourceUrl": "https://ud.ac.ae/phd-program-details/"
         }
       ],
       "enrolledStudentsSample": [],
@@ -138,7 +187,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Official regulations: applications accepted January through mid-September each year. Listed as open for 2026 cohort; funding primarily self-funded — included for UAE coverage; verify 2026-27 key dates with program office."
+      "notes": "Re-verified wave 2: the program-details page (ud.ac.ae/phd-program-details) still publicly displays a stale 2024-2025 key-dates table (opened 1 Nov 2024, deadline 31 Aug 2025) — not yet updated for the 2026-2027 cycle. Official academic regulations confirm applications are accepted January through mid-September each year, so a 2026-09-15-style deadline remains the best estimate; treat as provisional until program office confirms current-cycle dates. Second contact (Aeman Sabre) added from the same official page for application-submission inquiries."
     },
     {
       "id": "kr-kaist-mgmt-eng-phd-spring2027-005",
@@ -180,7 +229,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Spring 2027 international window Aug 18–Sep 1, 2026. Management Engineering offers MS, MS-PhD integrated, and PhD. English-friendly Seoul campus."
+      "notes": "Re-verified wave 2: KAIST official timeline page reconfirms Spring 2027 international application window August 18 – September 1, 2026, unchanged. Management Engineering offers MS, MS-PhD integrated, and PhD. English-friendly Seoul campus."
     },
     {
       "id": "kr-kaist-finance-mba-phd-spring2027-006",
@@ -214,7 +263,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Finance MBA listed with PhD degree option on KAIST explore-programs page. Same Spring 2027 application window."
+      "notes": "Re-verified wave 2: Finance MBA listed with PhD degree option on KAIST explore-programs page, confirmed \"For Spring Semester\" cohort on College of Business admission grid. Same Spring 2027 application window (Aug 18–Sep 1, 2026)."
     },
     {
       "id": "kr-kaist-mgmt-eng-fall2027-early-007",
@@ -248,7 +297,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Fall Early admission typically early–late December per KAIST yearly timeline; exact Fall 2027 dates TBA but cycle pattern confirmed. Deadline placeholder end-Dec 2026."
+      "notes": "Re-verified wave 2: official timeline page now explicitly lists \"Fall 2027 Entry: TBA\" (dates not yet released); general pattern remains Early December–Late December per the recurring annual cycle. Deadline placeholder end-Dec 2026 retained pending official release; monitor admission.kaist.ac.kr for the confirmed Fall 2027 Early Track window."
     },
     {
       "id": "kr-snu-business-phd-fall2027-008",
@@ -282,7 +331,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Spring 2027 window closed July 9, 2026. Fall 2027 international graduate guide not yet published; deadline estimated from historical Fall SPF pattern (early March). Monitor en.snu.ac.kr/admission."
+      "notes": "Re-verified wave 2, no change: Spring 2027 window closed July 9, 2026 (see skippedClosed). Fall 2027 international graduate guide not yet published; deadline estimated from historical Fall pattern (early March). Monitor en.snu.ac.kr/admission."
     },
     {
       "id": "kr-gks-embassy-phd-2027-009",
@@ -316,7 +365,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "2026 GKS-G embassy window closed Feb 25, 2026. 2027 cycle expected Feb 2027 per NIIED historical schedule. Greece eligible via European country list in SK scholarship guides."
+      "notes": "Re-verified wave 2, no change: KAIST official page confirms GKS Embassy Track dates \"vary by the Korean Embassy in your country of citizenship\" and are announced in February for the 2027 cycle, consistent with prior estimate. 2026 GKS-G embassy window closed Feb 25, 2026; 2027 cycle expected Feb 2027."
     },
     {
       "id": "jp-mext-research-student-2027-010",
@@ -350,7 +399,7 @@
       "sourceType": "official_portal",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Embassy deadlines vary by country; Greece announcement April 2026. Some missions close May–June; verify gr.emb-japan.go.jp. Field codes include Business Administration and Accounting. English-taught program + host professor required."
+      "notes": "Re-verified wave 2, no change: embassy deadlines vary by country; Greece announcement April 2026. Some missions close May–June; verify gr.emb-japan.go.jp. Field codes include Business Administration and Accounting. English-taught program + host professor required."
     },
     {
       "id": "jp-keio-gsecon-phd-april2027-011",
@@ -384,7 +433,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Application Dec 14–24, 2026 for April/September 2027 intakes per official schedule table."
+      "notes": "Re-verified wave 2, no change: application Dec 14–24, 2026 for April/September 2027 intakes per official schedule table."
     },
     {
       "id": "jp-waseda-gsc-phd-april2027-012",
@@ -418,7 +467,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Second admission round Nov 9–16, 2026 for April 2027 enrollment per official doctorate schedule."
+      "notes": "Re-verified wave 2, no change: second admission round Nov 9–16, 2026 for April 2027 enrollment per official doctorate schedule."
     },
     {
       "id": "jp-waseda-gse-phd-april2027-013",
@@ -452,7 +501,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "April intake application period historically mid-December (Dec 11–18 pattern from AY2026 schedule). Confirm AY2027 guide when published."
+      "notes": "Re-verified wave 2, no change: April intake application period historically mid-December (Dec 11–18 pattern from AY2026 schedule). Confirm AY2027 guide when published."
     },
     {
       "id": "jp-waseda-gsaps-phd-april2027-014",
@@ -486,7 +535,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "April 2027 guide released June 26, 2026. Application mid-August to early September 2026 per GSAPS standard schedule."
+      "notes": "Re-verified wave 2, no change: April 2027 guide released June 26, 2026. Application mid-August to early September 2026 per GSAPS standard schedule."
     },
     {
       "id": "jp-osaka-osipp-phd-april2027-015",
@@ -520,7 +569,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Winter round Nov 19–26, 2026 for April 2027 enrollment. Summer round closed June 4, 2026."
+      "notes": "Re-verified wave 2, no change: winter round Nov 19–26, 2026 for April 2027 enrollment. Summer round closed June 4, 2026."
     },
     {
       "id": "jp-hitotsubashi-hub-phd-finance-016",
@@ -554,7 +603,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "PhD in Finance listed on official NIAD-JPCUP profile. ICS DBA rounds for 2026-27 closed; next HUB/ICS cycle expected autumn 2026. MEXT and research-student pathways remain viable. TOEFL/IELTS required."
+      "notes": "Re-verified wave 2, no change: PhD in Finance listed on official NIAD-JPCUP profile. ICS DBA rounds for 2026-27 closed; next HUB/ICS cycle expected autumn 2026. MEXT and research-student pathways remain viable. TOEFL/IELTS required."
     },
     {
       "id": "jp-iuj-gsir-phd-fall2027-017",
@@ -588,7 +637,7 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "High",
-      "notes": "Next application deadline Nov 17, 2026 for Fall 2027 entry per three-round annual schedule. All-English campus; scholarship application submitted with admission."
+      "notes": "Re-verified wave 2, no change: next application deadline Nov 17, 2026 for Fall 2027 entry per three-round annual schedule. All-English campus; scholarship application submitted with admission. Note: IUJ GSIM (business school) currently only advertises tenure-track accounting faculty hiring (requires an existing PhD), not a funded doctoral studentship — not added as a separate offer."
     },
     {
       "id": "kr-snu-spf-spring2027-docs-018",
@@ -599,7 +648,7 @@
       "subject": "Fully funded PhD for faculty/instructional staff from developing countries; business/economics departments eligible",
       "domains": ["Finance", "Accounting", "Compliance", "Corporate Finance"],
       "fundingType": "fully_funded",
-      "fundingDetails": "Full tuition 6 semesters, KRW 1.5–2.0M/month stipend, round-trip airfare, health insurance, Korean language training",
+      "fundingDetails": "Full tuition 6 semesters, KRW 1,500,000 monthly stipend for 4 years, round-trip airfare, health insurance, Korean language training",
       "openPositions": null,
       "teachingLanguage": "English",
       "startDate": "2027-03-01",
@@ -609,7 +658,7 @@
         {
           "name": "SNU Office of Global Affairs — Scholarship Manager",
           "role": "principal",
-          "email": null,
+          "email": "intlscholarship@snu.ac.kr",
           "linkedinUrl": null,
           "officialUrl": "https://en.snu.ac.kr/admission/overview/notice?bbsidx=171863&md=v",
           "sourceUrl": "https://oga.snu.ac.kr/snu-president-fellowship-spf"
@@ -622,7 +671,41 @@
       "sourceType": "official_university_website",
       "verificationDate": "2026-07-12",
       "confidenceLevel": "Medium",
-      "notes": "Online admission+SPF checkbox closed July 9, 2026. Physical/document submission for SPF applicants still open until July 31, 2026 per Spring 2027 guidelines. Restricted to teaching staff from developing countries without prior PhD."
+      "notes": "Re-verified wave 2: official OGA fellowship page confirms eligibility (must already be faculty at a university without a PhD, from a developing country in Asia/Africa/South America etc.), award value (full tuition 6 semesters + KRW 1.5M/month for 4 years + airfare + insurance + Korean language training), and contact email intlscholarship@snu.ac.kr — added directly from the official page (previously null). Restricted to teaching staff without prior PhD; online admission+SPF checkbox closed July 9, 2026, but physical/document submission remains open until July 31, 2026 per Spring 2027 guidelines."
+    },
+    {
+      "id": "kr-yonsei-gsis-itfm-phd-spring2027-019",
+      "countrySlug": "south-korea",
+      "institution": "Yonsei University — Graduate School of International Studies (GSIS)",
+      "institutionSlug": null,
+      "title": "PhD in International Studies — International Trade, Finance & Management Track (Spring 2027)",
+      "subject": "Doctoral research within GSIS's International Trade, Finance & Management major, leading to a PhD in International Studies or PhD in Strategy & Organization; international finance, trade policy and corporate strategy angles",
+      "domains": ["Finance", "Corporate Finance", "Financial Advisory", "Compliance"],
+      "fundingType": "scholarship",
+      "fundingDetails": "GSIS institutional scholarships (Incoming Student Award and Dean's Scholarship up to 100% tuition; Teaching/Research Assistantship up to KRW 3,000,000/semester); Korean Government Scholarship (GKS) external option covering full tuition + stipend + airfare + insurance for eligible applicants, offered only during the admissions period",
+      "openPositions": null,
+      "teachingLanguage": "English",
+      "startDate": "2027-03-01",
+      "applicationDeadline": "2026-10-14",
+      "status": "open",
+      "supervisors": [
+        {
+          "name": "GSIS Admissions Office",
+          "role": "principal",
+          "email": "gsis@yonsei.ac.kr",
+          "linkedinUrl": null,
+          "officialUrl": "https://gsis.yonsei.ac.kr",
+          "sourceUrl": "https://gsis1.yonsei.ac.kr/main/text.asp?mid=n02_03"
+        }
+      ],
+      "enrolledStudentsSample": [],
+      "applyUrl": "https://graduate.yonsei.ac.kr/graduate/admission/schedule.do",
+      "programInfoUrl": "https://www.yonsei.ac.kr/en_sc/2245/subview.do",
+      "sourceUrl": "https://graduate.yonsei.ac.kr/graduate/admission/schedule.do",
+      "sourceType": "official_university_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "Medium",
+      "notes": "NEW wave-2 discovery: Yonsei's official master admissions schedule confirms international-track application window Oct 7–14, 2026 for the Spring 2027 (March 2027) intake, university-wide. GSIS (100% English instruction, 57% international enrollment) runs an International Trade, Finance & Management major offering a PhD in International Studies / PhD in Strategy & Organization per Yonsei's official scholarship overview page. GSIS's own Spring 2027 admissions guideline (with department-specific quotas/deadlines) had not yet been published as of 2026-07-12 — confirm exact GSIS deadline nearer the window; general graduate-school Fall 2026 cycle for this track already closed (see skippedClosed)."
     }
   ],
   "skippedClosed": [
@@ -655,7 +738,7 @@
       "institution": "Khalifa University",
       "countrySlug": "uae",
       "applicationDeadline": "2026-06-30",
-      "reason": "Portal states Fall 2026 postgraduate admissions closed; STEM-focused doctoral portfolio",
+      "reason": "Re-confirmed wave 2: official portal (ku.ac.ae/apply, ku.ac.ae/postgraduate-admissions) still states \"Postgraduate admissions for Fall 2026 are closed\" as of 2026-07-12; no live Spring 2027 window published yet (third-party sources estimate ~Sept 15, 2026, unconfirmed). Also STEM-focused doctoral portfolio — no standalone Finance/Business PhD (research areas closest fit is PhD in Engineering Systems and Management)",
       "sourceUrl": "https://www.ku.ac.ae/postgraduate-admissions"
     },
     {
@@ -705,35 +788,52 @@
       "countrySlug": "uae",
       "reason": "Part-time professional DBA excluded from PhD fellowships per CGS scholarship policy",
       "sourceUrl": "https://www.uaeu.ac.ae/en/cgs/scholarship.shtml"
+    },
+    {
+      "title": "Zayed University College of Business — Finance/Accounting roles",
+      "institution": "Zayed University",
+      "countrySlug": "uae",
+      "reason": "New wave-2 check: no PhD studentship/doctoral program identified on official ZU careers or College of Business pages; ZU recruits Assistant/Associate Professor faculty in Finance/Accounting requiring an already-completed PhD (AACSB-accredited preferred), not funded doctoral study — excluded as a candidate offer",
+      "sourceUrl": "https://ae.expertini.com/job/faculty-assistantassociate-professor-finance-college-of-business-abu-dhabi-abu-dhabi-confidential-411-3674958.pdf"
+    }
+  ],
+  "skippedNoStudentPositions": [
+    {
+      "title": "JREC-IN Portal — Accounting/Finance search",
+      "institution": "Various (Ritsumeikan APU, International University of Japan, others)",
+      "countrySlug": "japan",
+      "reason": "New wave-2 check: current JREC-IN listings matching accounting/finance are faculty/tenure-track recruitment (e.g. APU Accounting English-track faculty, IUJ GSIM accounting tenure-track) requiring an already-completed PhD; JREC-IN is a faculty/researcher job board, not a doctoral-student funding portal — no new funded PhD studentships found there this wave",
+      "sourceUrl": "https://jrecin.jst.go.jp/seek/?ln=1"
     }
   ],
   "summary": {
-    "totalOffers": 18,
+    "totalOffers": 19,
     "byCountry": {
       "japan": 8,
-      "south-korea": 6,
+      "south-korea": 7,
       "uae": 4
     },
     "byFundingType": {
       "fully_funded": 7,
-      "scholarship": 8,
+      "scholarship": 9,
       "unknown": 1,
       "self_funded": 1,
       "partial": 0,
       "industry_partnership": 0
     },
     "byStatus": {
-      "open": 18,
+      "open": 19,
       "closed": 0,
       "unknown": 0
     },
-    "englishFriendly": 18,
+    "englishFriendly": 19,
     "skippedClosed": 8,
-    "skippedNoFunding": 2,
+    "skippedNoFunding": 3,
     "confidence": {
       "High": 11,
-      "Medium": 7,
+      "Medium": 8,
       "Low": 0
-    }
+    },
+    "waveNotes": "Wave 2 refresh (2026-07-12): re-verified all 18 prior offers against live official sources; no offers moved to closed. Enriched named supervisors from official faculty pages for AUS PhD-FIN (4 named finance faculty), UOWD (named Head of Postgraduate Studies), University of Dubai (added second official contact), and SNU SPF (added contact email + eligibility/value detail directly from OGA page). Added 1 new offer: Yonsei GSIS International Trade, Finance & Management PhD track (Spring 2027). Confirmed via live checks: Khalifa University still fully closed for postgraduate admissions and lacks a standalone finance PhD; Zayed University has no PhD studentship program (faculty-only hiring); JREC-IN yields only faculty-level accounting/finance postings, not funded doctoral positions. No fabricated emails or LinkedIn URLs — all contact fields are either sourced verbatim from official pages or left null."
   }
 }

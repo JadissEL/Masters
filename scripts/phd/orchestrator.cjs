@@ -40,6 +40,7 @@ function merge() {
     verified.phdOffers.map((o) => [`${o.id || o.applyUrl || o.title}`, o])
   );
   let added = 0;
+  let updated = 0;
 
   const files = fs
     .readdirSync(DATA_DIR)
@@ -56,15 +57,17 @@ function merge() {
     for (const offer of batch.phdOffers || []) {
       const key = offer.id || offer.applyUrl || `${offer.institution}-${offer.title}`;
       if (!byKey.has(key)) {
-        byKey.set(key, offer);
         added++;
+      } else {
+        updated++;
       }
+      byKey.set(key, offer);
     }
   }
 
   verified.phdOffers = [...byKey.values()];
   verified.waves = verified.waves || [];
-  verified.waves.push({ date: TODAY, action: "merge", added, total: verified.phdOffers.length });
+  verified.waves.push({ date: TODAY, action: "merge", added, updated, total: verified.phdOffers.length });
   saveVerified(verified);
 
   const upcoming = [];
@@ -81,7 +84,7 @@ function merge() {
     );
   }
 
-  console.log(`Merged +${added} offers (${verified.phdOffers.length} total)`);
+  console.log(`Merged +${added} new, ${updated} updated (${verified.phdOffers.length} total)`);
   if (upcoming.length) console.log(`Upcoming cycles tracked: ${upcoming.length}`);
 }
 
