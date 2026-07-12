@@ -11,14 +11,20 @@ const batch = JSON.parse(fs.readFileSync(batchPath, "utf-8"));
 
 if (batch.programs) verified.programs.push(...batch.programs);
 if (batch.networkPrograms) verified.networkPrograms.push(...batch.networkPrograms);
+if (batch.programmeStatusOverrides) {
+  if (!verified.programmeStatusOverrides) verified.programmeStatusOverrides = [];
+  verified.programmeStatusOverrides.push(...batch.programmeStatusOverrides);
+}
 verified.lastUpdated = new Date().toISOString().slice(0, 10);
 
 fs.writeFileSync(verifiedPath, JSON.stringify(verified, null, 2) + "\n");
 console.log(
   "Merged",
   batch.programs?.length || 0,
-  "programs and",
+  "programs,",
   batch.networkPrograms?.length || 0,
-  "network templates from",
+  "network templates,",
+  batch.programmeStatusOverrides?.length || 0,
+  "status overrides from",
   batchArg
 );
