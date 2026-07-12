@@ -1,0 +1,56 @@
+{
+  "networkPrograms": [
+    {
+      "schoolSlugPattern": "^paris-1-|^paris-saclay$|^paris-cite$|^sorbonne-universite$",
+      "programNameMatch": "Master Finance",
+      "sourceUrl": "https://www.service-public.fr/particuliers/vosdroits/F2865",
+      "sourceType": "official_government_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "studyMode": "Full-time",
+      "languages": ["French"],
+      "duration": "2 years",
+      "euTuition": 254,
+      "internationalTuition": 3941,
+      "tuitionYearly": 3941,
+      "registrationFee": 105,
+      "currency": "EUR",
+      "verificationStatus": "Verified",
+      "notes": "Paris public university national Master registration fees (excludes Paris-Dauphine business programmes)."
+    },
+    {
+      "schoolSlugPattern": "^paris-1-|^paris-saclay$|^paris-cite$|^sorbonne-universite$",
+      "programNameMatch": "Master Informatique",
+      "sourceUrl": "https://www.service-public.fr/particuliers/vosdroits/F2865",
+      "sourceType": "official_government_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "studyMode": "Full-time",
+      "languages": ["French"],
+      "duration": "2 years",
+      "euTuition": 254,
+      "internationalTuition": 3941,
+      "tuitionYearly": 3941,
+      "registrationFee": 105,
+      "currency": "EUR",
+      "verificationStatus": "Verified"
+    },
+    {
+      "schoolSlugPattern": "^paris-1-|^paris-saclay$|^paris-cite$|^sorbonne-universite$",
+      "programNameMatch": "Master Management",
+      "sourceUrl": "https://www.service-public.fr/particuliers/vosdroits/F2865",
+      "sourceType": "official_government_website",
+      "verificationDate": "2026-07-12",
+      "confidenceLevel": "High",
+      "studyMode": "Full-time",
+      "languages": ["French"],
+      "duration": "2 years",
+      "euTuition": 254,
+      "internationalTuition": 3941,
+      "tuitionYearly": 3941,
+      "registrationFee": 105,
+      "currency": "EUR",
+      "verificationStatus": "Verified"
+    }
+  ]
+}
