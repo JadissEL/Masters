@@ -238,7 +238,7 @@ function buildDerivedData(db) {
 }
 
 function formatTuitionDisplay(vp) {
-  const sym = vp.currency === "GBP" ? "£" : "€";
+  const sym = vp.currency === "GBP" ? "£" : vp.currency === "DKK" ? "DKK " : "€";
   if (vp.tuitionYearly == null) return null;
   let str = `${sym}${vp.tuitionYearly.toLocaleString("en-US")}/year`;
   if (vp.euTuition != null && vp.internationalTuition != null) {
