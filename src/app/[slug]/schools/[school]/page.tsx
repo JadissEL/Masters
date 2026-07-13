@@ -132,7 +132,7 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
       )}
 
       <h2 className="section-title">Relevant Master Programs</h2>
-      <p className="section-subtitle">Programs matched to {candidate.name}'s profile — with verification status and official sources where available</p>
+      <p className="section-subtitle">Click a programme to open it and track your application progress</p>
       <div className="grid grid-2" style={{ marginBottom: 32 }}>
         {programs.map((p) => (
           <ProgramDetailCard

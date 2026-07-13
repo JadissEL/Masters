@@ -40,6 +40,9 @@ interface TrackingPanelProps {
     note?: string;
   }) => Promise<TrackingData>;
   onDeleteOutreach: (eventId: string) => Promise<TrackingData>;
+  /** Always visible — used on programme / PhD detail pages */
+  prominent?: boolean;
+  defaultExpanded?: boolean;
 }
 
 const PIPELINE_OPTIONS: PipelineStatus[] = [
@@ -75,12 +78,14 @@ export default function TrackingPanel({
   onSave,
   onAddOutreach,
   onDeleteOutreach,
+  prominent = false,
+  defaultExpanded = false,
 }: TrackingPanelProps) {
   const [data, setData] = useState<TrackingData | null>(initial ?? null);
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(prominent || defaultExpanded);
 
   const [outreachDate, setOutreachDate] = useState("");
   const [outreachChannel, setOutreachChannel] = useState<OutreachChannel>("email");
@@ -169,7 +174,26 @@ export default function TrackingPanel({
   const docMax = 6;
 
   return (
-    <div className="tracker-panel card">
+    <div className={`tracker-panel card ${prominent ? "tracker-panel-prominent" : ""}`}>
+      {prominent ? (
+        <div className="tracker-panel-header-prominent">
+          <div>
+            <h2 className="tracker-panel-title">Your application progress</h2>
+            <p className="tracker-panel-subtitle">
+              Track status, documents, outreach, and decisions for this {mode === "phd" ? "position" : "programme"}.
+            </p>
+          </div>
+          <div style={{ display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap" }}>
+            <span className={`badge tracker-badge-${data.pipelineStatus}`}>
+              {PIPELINE_LABELS[data.pipelineStatus]}
+            </span>
+            {data.priorityTier && (
+              <span className="badge badge-accent">Tier {data.priorityTier}</span>
+            )}
+            {saved && <span className="badge badge-success">Saved</span>}
+          </div>
+        </div>
+      ) : (
       <button
         type="button"
         className="tracker-panel-toggle"
@@ -187,8 +211,9 @@ export default function TrackingPanel({
           {saved && <span className="badge badge-success">Saved</span>}
         </span>
       </button>
+      )}
 
-      {expanded && (
+      {(prominent || expanded) && (
         <div className="tracker-panel-body">
           {error && (
             <p className="tracker-error" role="alert">

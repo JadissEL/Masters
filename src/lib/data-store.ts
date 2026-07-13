@@ -748,3 +748,40 @@ export function getFilteredSchools(criteria: FilterCriteria): FilteredSchoolResu
 
   return results;
 }
+
+export interface FilteredProgramResult {
+  program: Program;
+  school: School;
+  country: Country;
+  city: City | null;
+  score: CandidateScore | null;
+}
+
+/** Flat programme list for explore — one row per matched programme (tracking is per programme). */
+export function getFilteredPrograms(criteria: FilterCriteria): FilteredProgramResult[] {
+  const trackingMap = criteria.trackingByProgramId;
+  const flat: FilteredProgramResult[] = [];
+
+  for (const row of getFilteredSchools(criteria)) {
+    for (const program of row.matchedPrograms) {
+      flat.push({
+        program,
+        school: row.school,
+        country: row.country,
+        city: row.city,
+        score: row.score,
+      });
+    }
+  }
+
+  flat.sort((a, b) => {
+    const ta = trackingMap?.get(a.program.id)?.lastUpdatedAt;
+    const tb = trackingMap?.get(b.program.id)?.lastUpdatedAt;
+    if (ta && tb) return tb.localeCompare(ta);
+    if (ta) return -1;
+    if (tb) return 1;
+    return (b.score?.overall ?? 0) - (a.score?.overall ?? 0);
+  });
+
+  return flat;
+}

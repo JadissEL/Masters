@@ -2,9 +2,9 @@
 
 import type { Program, ProgramDeadline, DataSource } from "@/lib/queries";
 import type { ProgramTracking } from "@/lib/tracking/types";
-import ProgramTracker from "@/components/tracking/ProgramTracker";
 import { TrackingBadges } from "@/components/tracking/TrackingBadges";
-import { ExternalLink, ShieldCheck, ShieldAlert, ShieldQuestion, ChevronDown } from "lucide-react";
+import { ExternalLink, ShieldCheck, ShieldAlert, ShieldQuestion, ChevronDown, ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 interface AdmissionHints {
   applicationUrl?: string | null;
@@ -24,7 +24,7 @@ function VerificationBadge({ status }: { status?: string | null }) {
   }
   if (status === "Manual Review Required") {
     return (
-      <span className="badge" style={{ display: "inline-flex", alignItems: "center", gap: 4, background: "#fde8e8", color: "#c0392b" }}>
+      <span className="badge" style={{ display: "inline-flex", alignItems: "center", gap: 4, background: "var(--danger-bg)", color: "var(--danger)" }}>
         <ShieldAlert size={12} /> Manual Review
       </span>
     );
@@ -43,15 +43,53 @@ interface ProgramCardProps {
   admissionHints?: AdmissionHints;
   candidateSlug: string;
   tracking?: ProgramTracking | null;
+  /** preview = school list card linking to programme page; details = full info on programme page */
+  mode?: "preview" | "details";
 }
 
-export default function ProgramDetailCard({ program, deadlines = [], sources = [], admissionHints, candidateSlug, tracking }: ProgramCardProps) {
+export default function ProgramDetailCard({
+  program,
+  deadlines = [],
+  sources = [],
+  admissionHints,
+  candidateSlug,
+  tracking,
+  mode = "preview",
+}: ProgramCardProps) {
   const pd = deadlines[0];
   const applyUrl = program.applicationUrl || admissionHints?.applicationUrl;
   const applyPortal = program.applicationPortal || admissionHints?.applicationPortal;
   const showIelts = program.ieltsMinScore != null;
   const showGmat = program.gmatRequired != null || program.greRequired != null;
   const showAdmissions = showIelts || showGmat || admissionHints?.englishRequirements;
+  const programHref = `/${candidateSlug}/programs/${program.id}`;
+
+  if (mode === "preview") {
+    return (
+      <Link href={programHref} className="card school-card program-preview-card">
+        <div className="program-card-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8, marginBottom: 8 }}>
+          <h3 style={{ fontSize: 17, fontWeight: 600 }}>{program.officialTitle || program.name}</h3>
+          <VerificationBadge status={program.verificationStatus} />
+        </div>
+        <p style={{ fontSize: 13, color: "var(--muted)", marginBottom: 12, lineHeight: 1.5 }}>
+          {program.description.length > 140 ? `${program.description.slice(0, 140)}…` : program.description}
+        </p>
+        <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 8 }}>
+          <span className="badge">{program.duration}</span>
+          {program.canEnterM2 && (
+            <span className={`badge ${program.canEnterM2 === "YES" ? "badge-success" : "badge-accent"}`}>
+              M2: {program.canEnterM2}
+            </span>
+          )}
+          <span className="badge">{program.tuitionFees}</span>
+        </div>
+        <TrackingBadges tracking={tracking} />
+        <span className="program-preview-cta">
+          Open programme & track application <ChevronRight size={16} />
+        </span>
+      </Link>
+    );
+  }
 
   return (
     <div className="card">
@@ -60,11 +98,10 @@ export default function ProgramDetailCard({ program, deadlines = [], sources = [
         <VerificationBadge status={program.verificationStatus} />
       </div>
       <p style={{ fontSize: 13, color: "var(--muted)", marginBottom: 16 }}>{program.description}</p>
-      <TrackingBadges tracking={tracking} />
 
-      <details className="programme-details" style={{ marginBottom: 12 }}>
+      <details className="programme-details" open style={{ marginBottom: 12 }}>
         <summary className="programme-summary" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "12px 0", fontWeight: 600, fontSize: 15 }}>
-          Programme details
+          Full programme details
           <ChevronDown size={18} className="programme-chevron" />
         </summary>
 
@@ -174,8 +211,6 @@ export default function ProgramDetailCard({ program, deadlines = [], sources = [
       )}
 
       </details>
-
-      <ProgramTracker candidateSlug={candidateSlug} programId={program.id} initial={tracking} />
     </div>
   );
 }

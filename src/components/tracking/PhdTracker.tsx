@@ -15,9 +15,10 @@ interface PhdTrackerProps {
   candidateSlug: string;
   offerId: string;
   initial?: PhdTracking | null;
+  prominent?: boolean;
 }
 
-export default function PhdTracker({ candidateSlug, offerId, initial }: PhdTrackerProps) {
+export default function PhdTracker({ candidateSlug, offerId, initial, prominent = false }: PhdTrackerProps) {
   const [data, setData] = useState<PhdTracking | null>(initial ?? null);
 
   useEffect(() => {
@@ -33,6 +34,8 @@ export default function PhdTracker({ candidateSlug, offerId, initial }: PhdTrack
       mode="phd"
       entityId={offerId}
       initial={data}
+      prominent={prominent}
+      defaultExpanded={prominent}
       onSave={(patch) => savePhdTracking(candidateSlug, offerId, patch)}
       onAddOutreach={(event) => addPhdOutreach(candidateSlug, offerId, event)}
       onDeleteOutreach={(eventId) =>

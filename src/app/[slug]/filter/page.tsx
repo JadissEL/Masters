@@ -1,4 +1,4 @@
-import { getCandidate, getCountries, getFilteredSchools, getMinTuitionForSchoolByCandidate, formatTuition, type FilterCriteria } from "@/lib/queries";
+import { getCandidate, getCountries, getFilteredPrograms, formatTuition, type FilterCriteria } from "@/lib/queries";
 import { getProgramTrackingMapAsync } from "@/lib/tracking/store";
 import { parseTrackingFilterFromSearchParams } from "@/lib/tracking/filters";
 import Link from "next/link";
@@ -7,6 +7,7 @@ import FilterControls from "./FilterControls";
 import FilterChipsBoundary from "@/components/filter/FilterChipsBoundary";
 import EmptyState from "@/components/ui/EmptyState";
 import SectionHeader from "@/components/ui/SectionHeader";
+import { TrackingBadges } from "@/components/tracking/TrackingBadges";
 import { schoolTypeBadgeStyle } from "@/lib/school-types";
 
 export default async function FilterPage({
@@ -40,27 +41,13 @@ export default async function FilterPage({
     trackingByProgramId,
   };
 
-  let results = getFilteredSchools(criteria);
+  let results = getFilteredPrograms(criteria);
 
   const sortBy = (sp.sortBy as string) || "";
   if (sortBy === "tuition-asc") {
-    results.sort((a, b) => {
-      const ta = getMinTuitionForSchoolByCandidate(a.school.id, candidate.slug);
-      const tb = getMinTuitionForSchoolByCandidate(b.school.id, candidate.slug);
-      if (ta === null && tb === null) return 0;
-      if (ta === null) return 1;
-      if (tb === null) return -1;
-      return ta - tb;
-    });
+    results.sort((a, b) => (a.program.tuitionYearly ?? 999999) - (b.program.tuitionYearly ?? 999999));
   } else if (sortBy === "tuition-desc") {
-    results.sort((a, b) => {
-      const ta = getMinTuitionForSchoolByCandidate(a.school.id, candidate.slug);
-      const tb = getMinTuitionForSchoolByCandidate(b.school.id, candidate.slug);
-      if (ta === null && tb === null) return 0;
-      if (ta === null) return 1;
-      if (tb === null) return -1;
-      return tb - ta;
-    });
+    results.sort((a, b) => (b.program.tuitionYearly ?? 0) - (a.program.tuitionYearly ?? 0));
   } else if (sortBy === "score-desc") {
     results.sort((a, b) => (b.score?.overall ?? 0) - (a.score?.overall ?? 0));
   }
@@ -68,8 +55,8 @@ export default async function FilterPage({
   return (
     <>
       <SectionHeader
-        title="Explore schools"
-        subtitle={`Find schools matching ${candidate.name}'s criteria across ${countries.length} countries`}
+        title="Explore programmes"
+        subtitle={`Find and track individual master's programmes for ${candidate.name}. Click any programme to update your application progress.`}
       />
 
       <FilterChipsBoundary candidateSlug={candidate.slug} />
@@ -84,13 +71,13 @@ export default async function FilterPage({
 
         <div className="filter-page-results">
           <h2 className="section-title" style={{ fontSize: 22, marginBottom: 16 }}>
-            {results.length} school{results.length !== 1 ? "s" : ""} found
+            {results.length} programme{results.length !== 1 ? "s" : ""} found
           </h2>
 
           {results.length === 0 ? (
             <EmptyState
-              title="No schools match your filters"
-              description="Try removing some filters or broadening your criteria to see more results."
+              title="No programmes match your filters"
+              description="Try removing filters or use tracking filters to find programmes you've already started reviewing."
               action={
                 <Link href={`/${candidate.slug}/filter`} className="btn btn-primary">
                   Clear filters
@@ -99,51 +86,42 @@ export default async function FilterPage({
             />
           ) : (
             <div className="grid grid-2">
-              {results.map((r) => {
-                const minTuition = getMinTuitionForSchoolByCandidate(r.school.id, candidate.slug);
+              {results.map(({ program, school, country, city, score }) => {
+                const tracking = trackingByProgramId.get(program.id) ?? null;
                 return (
                   <Link
-                    key={r.school.id}
-                    href={`/${candidate.slug}/schools/${r.school.slug}`}
-                    className="card school-card"
+                    key={program.id}
+                    href={`/${candidate.slug}/programs/${program.id}`}
+                    className="card school-card program-preview-card"
                   >
                     <div className="school-card-header">
                       <div style={{ flex: 1 }}>
-                        <div className="school-name">{r.school.name}</div>
+                        <div className="school-name">{program.officialTitle || program.name}</div>
                         <div className="school-meta">
-                          {r.country.flag} {r.country.name}
-                          {r.city && ` · ${r.city.name}`}
+                          {school.name} · {country.flag} {country.name}
+                          {city && ` · ${city.name}`}
                         </div>
-                        <div className="school-meta">{r.school.ranking}</div>
                       </div>
-                      {r.score && (
+                      {score && (
                         <div className="score-ring" style={{
-                          background: r.score.overall >= 90 ? "var(--success-bg)" : r.score.overall >= 80 ? "var(--warning-bg)" : "var(--background-subtle)",
-                          color: r.score.overall >= 90 ? "var(--success)" : r.score.overall >= 80 ? "var(--warning)" : "var(--foreground)",
+                          background: score.overall >= 90 ? "var(--success-bg)" : score.overall >= 80 ? "var(--warning-bg)" : "var(--background-subtle)",
+                          color: score.overall >= 90 ? "var(--success)" : score.overall >= 80 ? "var(--warning)" : "var(--foreground)",
                         }}>
-                          {r.score.overall}
+                          {score.overall}
                         </div>
                       )}
                     </div>
-                    <div className="school-description">{r.school.description}</div>
+                    <p className="school-description" style={{ fontSize: 14 }}>
+                      {program.description.length > 120 ? `${program.description.slice(0, 120)}…` : program.description}
+                    </p>
                     <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 4, alignItems: "center" }}>
-                      <span className="badge badge-success">
-                        From {formatTuition(minTuition)}
-                      </span>
-                      <span className="badge">{r.school.teachingLanguage}</span>
-                      <span className="badge" style={schoolTypeBadgeStyle(r.school.type)}>{r.school.type}</span>
-                      {r.matchedPrograms.slice(0, 3).map((p) => (
-                        <span key={p.id} className="badge badge-accent">{p.name}</span>
-                      ))}
-                      {r.matchedPrograms.length > 3 && (
-                        <span className="badge">+{r.matchedPrograms.length - 3} more</span>
-                      )}
+                      <span className="badge badge-success">{program.tuitionFees}</span>
+                      <span className="badge">{program.duration}</span>
+                      <span className="badge" style={schoolTypeBadgeStyle(school.type)}>{school.type}</span>
+                      {program.canEnterM2 === "YES" && <span className="badge badge-accent">Direct M2</span>}
                     </div>
-                    {r.score && (
-                      <span className={`badge ${r.score.recommendation === "Highly Recommended" ? "badge-success" : "badge-accent"}`}>
-                        {r.score.recommendation}
-                      </span>
-                    )}
+                    <TrackingBadges tracking={tracking} />
+                    <span className="program-preview-cta">Open & track this programme →</span>
                   </Link>
                 );
               })}

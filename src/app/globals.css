@@ -610,6 +610,56 @@ a, button {
   overflow: hidden;
 }
 
+.tracker-panel-prominent {
+  margin-top: 0;
+  margin-bottom: 24px;
+  border: 1px solid var(--accent-muted);
+  box-shadow: var(--shadow-md);
+}
+
+.tracker-panel-header-prominent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 20px 20px 0;
+}
+
+.tracker-panel-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: var(--tracking-snug);
+  margin-bottom: 4px;
+}
+
+.tracker-panel-subtitle {
+  font-size: 14px;
+  color: var(--muted);
+  max-width: 480px;
+}
+
+.tracker-panel-prominent .tracker-panel-body {
+  border-top: none;
+  padding-top: 8px;
+}
+
+.program-preview-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.program-preview-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
 .tracker-panel-toggle {
   width: 100%;
   display: flex;

@@ -6,7 +6,6 @@ import {
   Home,
   Search,
   SlidersHorizontal,
-  Bookmark,
   GraduationCap,
   BarChart3,
   Sun,
@@ -36,7 +35,6 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
     ? [
         { href: base, label: "Home", icon: Home, exact: true },
         { href: `${base}/filter`, label: "Explore", icon: SlidersHorizontal },
-        { href: `${base}/tracker`, label: "Tracker", icon: Bookmark },
         ...(slug === "dina"
           ? [{ href: `${base}/phd`, label: "PhD", icon: GraduationCap }]
           : []),

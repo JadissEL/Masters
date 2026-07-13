@@ -59,7 +59,7 @@ export default async function PhdPage({
     <>
       <SectionHeader
         title={`PhD opportunities`}
-        subtitle={`Open funded doctoral positions for ${candidate.name} — ${results.length} verified open`}
+        subtitle={`Open funded doctoral positions for ${candidate.name}. Click a position to track your application.`}
       />
 
       <FilterChipsBoundary candidateSlug={candidate.slug} />

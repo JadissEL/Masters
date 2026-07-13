@@ -8,7 +8,7 @@ import {
 import { getPhdOffers } from "@/lib/phd-store";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { GraduationCap, SlidersHorizontal, Bookmark } from "lucide-react";
+import { GraduationCap, SlidersHorizontal } from "lucide-react";
 import { getTrackingStats } from "@/lib/tracking/store";
 import SectionHeader from "@/components/ui/SectionHeader";
 import StatTile from "@/components/ui/StatTile";
@@ -32,10 +32,7 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
         action={
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
             <Link href={`/${candidate.slug}/filter`} className="btn btn-primary" style={{ padding: "8px 16px", fontSize: 14 }}>
-              <SlidersHorizontal size={16} style={{ marginRight: 6 }} /> Explore
-            </Link>
-            <Link href={`/${candidate.slug}/tracker`} className="btn btn-secondary" style={{ padding: "8px 16px", fontSize: 14 }}>
-              <Bookmark size={16} style={{ marginRight: 6 }} /> Tracker
+              <SlidersHorizontal size={16} style={{ marginRight: 6 }} /> Explore programmes
             </Link>
             {candidate.slug === "dina" && phdOpenCount > 0 && (
               <Link href={`/${candidate.slug}/phd`} className="btn btn-secondary" style={{ padding: "8px 16px", fontSize: 14 }}>
@@ -46,12 +43,14 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
         }
       />
 
-      <div className="grid grid-4" style={{ marginBottom: 32 }}>
-        <StatTile value={trackStats.totalTracked} label="Tracked" href={`/${slug}/tracker`} variant="accent" />
-        <StatTile value={trackStats.ongoing} label="Ongoing" href={`/${slug}/tracker`} />
-        <StatTile value={trackStats.applied} label="Applied" href={`/${slug}/tracker`} variant="success" />
-        <StatTile value={trackStats.urgent} label="Due soon" href={`/${slug}/filter?trackDeadlineDays=14`} variant="warning" />
-      </div>
+      {trackStats.totalTracked > 0 && (
+        <div className="grid grid-4" style={{ marginBottom: 32 }}>
+          <StatTile value={trackStats.ongoing} label="Ongoing" href={`/${slug}/filter?trackPipeline=ongoing`} variant="accent" />
+          <StatTile value={trackStats.applied} label="Applied" href={`/${slug}/filter?trackPipeline=applied`} variant="success" />
+          <StatTile value={trackStats.tierA} label="Tier A" href={`/${slug}/filter?trackPriority=A`} />
+          <StatTile value={trackStats.urgent} label="Due soon" href={`/${slug}/filter?trackDeadlineDays=14`} variant="warning" />
+        </div>
+      )}
 
       <div className={`card candidate-card-v2 tint-${tint}`} style={{ marginBottom: 32 }}>
         <div className="grid grid-2">

@@ -15,12 +15,14 @@ interface ProgramTrackerProps {
   candidateSlug: string;
   programId: number;
   initial?: ProgramTracking | null;
+  prominent?: boolean;
 }
 
 export default function ProgramTracker({
   candidateSlug,
   programId,
   initial,
+  prominent = false,
 }: ProgramTrackerProps) {
   const [data, setData] = useState<ProgramTracking | null>(
     initial ?? null
@@ -41,6 +43,8 @@ export default function ProgramTracker({
       mode="program"
       entityId={programId}
       initial={data}
+      prominent={prominent}
+      defaultExpanded={prominent}
       onSave={(patch) => saveProgramTracking(candidateSlug, programId, patch)}
       onAddOutreach={(event) => addProgramOutreach(candidateSlug, programId, event)}
       onDeleteOutreach={(eventId) =>

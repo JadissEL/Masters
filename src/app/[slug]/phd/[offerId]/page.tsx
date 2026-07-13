@@ -27,7 +27,7 @@ export default async function PhdOfferPage({
   const phdTracking = await getPhdTracking(slug, offer.id);
 
   return (
-    <div className="container">
+    <>
       <Link
         href={`/${candidate.slug}/phd`}
         className="nav-back"
@@ -96,6 +96,8 @@ export default async function PhdOfferPage({
           </a>
         </div>
       </div>
+
+      <PhdTracker candidateSlug={slug} offerId={offer.id} initial={phdTracking} prominent />
 
       {offer.supervisors?.length > 0 && (
         <>
@@ -170,7 +172,6 @@ export default async function PhdOfferPage({
         </div>
       )}
 
-      <PhdTracker candidateSlug={slug} offerId={offer.id} initial={phdTracking} />
-    </div>
+    </>
   );
 }

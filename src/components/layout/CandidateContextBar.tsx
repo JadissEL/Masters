@@ -8,15 +8,15 @@ export default async function CandidateContextBar({ slug }: { slug: string }) {
   return (
     <div className="context-bar">
       <div className="context-bar-inner">
-        <span className="context-bar-label">Your pipeline</span>
+        <span className="context-bar-label">Quick filters</span>
         <div className="context-bar-stats">
           {stats.ongoing > 0 && (
-            <Link href={`/${slug}/tracker`} className="context-stat">
+            <Link href={`/${slug}/filter?trackPipeline=ongoing`} className="context-stat">
               <strong>{stats.ongoing}</strong> ongoing
             </Link>
           )}
           {stats.applied > 0 && (
-            <Link href={`/${slug}/tracker`} className="context-stat">
+            <Link href={`/${slug}/filter?trackPipeline=applied`} className="context-stat">
               <strong>{stats.applied}</strong> applied
             </Link>
           )}
