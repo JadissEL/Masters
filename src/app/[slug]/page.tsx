@@ -1,9 +1,17 @@
-import { getCandidate, getCountries, getSchoolsWithScores, getMinTuitionForSchoolByCandidate, formatTuition } from "@/lib/queries";
+import {
+  getCandidate,
+  getCountries,
+  getSchoolsWithScores,
+  getMinTuitionForSchoolByCandidate,
+  formatTuition,
+} from "@/lib/queries";
 import { getPhdOffers } from "@/lib/phd-store";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, SlidersHorizontal, GraduationCap, Bookmark } from "lucide-react";
+import { GraduationCap, SlidersHorizontal, Bookmark } from "lucide-react";
 import { getTrackingStats } from "@/lib/tracking/store";
+import SectionHeader from "@/components/ui/SectionHeader";
+import StatTile from "@/components/ui/StatTile";
 
 export default async function CandidatePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -14,52 +22,47 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
   const schools = getSchoolsWithScores(candidate.id).slice(0, 5);
   const phdOpenCount = getPhdOffers().filter((o) => o.status === "open").length;
   const trackStats = await getTrackingStats(candidate.slug);
+  const tint = candidate.slug === "dina" ? "dina" : "jadiss";
 
   return (
-    <div className="container">
-      <div className="page-toolbar">
-        <Link href="/" className="nav-back" style={{ fontSize: 15, fontWeight: 500 }}>
-          <ArrowLeft size={18} /> Back to Home
-        </Link>
-        <div className="page-toolbar-actions">
-          {candidate.slug === "dina" && phdOpenCount > 0 && (
-            <Link href={`/${candidate.slug}/phd`} className="btn btn-primary" style={{ padding: "8px 16px", fontSize: 14 }}>
-              <GraduationCap size={16} style={{ marginRight: 6 }} /> PhD Opportunities ({phdOpenCount})
+    <>
+      <SectionHeader
+        title={candidate.name}
+        subtitle={`${candidate.nationality} · ${candidate.languages}`}
+        action={
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+            <Link href={`/${candidate.slug}/filter`} className="btn btn-primary" style={{ padding: "8px 16px", fontSize: 14 }}>
+              <SlidersHorizontal size={16} style={{ marginRight: 6 }} /> Explore
             </Link>
-          )}
-          <Link href={`/${candidate.slug}/tracker`} className="btn btn-secondary" style={{ padding: "8px 16px", fontSize: 14 }}>
-            <Bookmark size={16} style={{ marginRight: 6 }} /> Tracker ({trackStats.totalTracked})
-          </Link>
-          <Link href={`/${candidate.slug}/filter`} className="btn btn-secondary" style={{ padding: "8px 16px", fontSize: 14 }}>
-            <SlidersHorizontal size={16} style={{ marginRight: 6 }} /> Filter Schools
-          </Link>
-        </div>
-      </div>
-      <div className="breadcrumb">
-        <Link href="/">Home</Link>
-        <span>›</span>
-        <span>{candidate.name}</span>
+            <Link href={`/${candidate.slug}/tracker`} className="btn btn-secondary" style={{ padding: "8px 16px", fontSize: 14 }}>
+              <Bookmark size={16} style={{ marginRight: 6 }} /> Tracker
+            </Link>
+            {candidate.slug === "dina" && phdOpenCount > 0 && (
+              <Link href={`/${candidate.slug}/phd`} className="btn btn-secondary" style={{ padding: "8px 16px", fontSize: 14 }}>
+                <GraduationCap size={16} style={{ marginRight: 6 }} /> PhD ({phdOpenCount})
+              </Link>
+            )}
+          </div>
+        }
+      />
+
+      <div className="grid grid-4" style={{ marginBottom: 32 }}>
+        <StatTile value={trackStats.totalTracked} label="Tracked" href={`/${slug}/tracker`} variant="accent" />
+        <StatTile value={trackStats.ongoing} label="Ongoing" href={`/${slug}/tracker`} />
+        <StatTile value={trackStats.applied} label="Applied" href={`/${slug}/tracker`} variant="success" />
+        <StatTile value={trackStats.urgent} label="Due soon" href={`/${slug}/filter?trackDeadlineDays=14`} variant="warning" />
       </div>
 
-      <div className="card" style={{ marginBottom: 32 }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 20, marginBottom: 20 }}>
-          <div className="candidate-avatar" style={{ marginBottom: 0 }}>{candidate.name.charAt(0)}</div>
-          <div>
-            <h1 style={{ fontSize: 32, fontWeight: 700, letterSpacing: "-0.02em" }}>{candidate.name}</h1>
-            <p style={{ color: "var(--muted)", fontSize: 15 }}>{candidate.nationality}</p>
-          </div>
-        </div>
+      <div className={`card candidate-card-v2 tint-${tint}`} style={{ marginBottom: 32 }}>
         <div className="grid grid-2">
           <div>
-            <p style={{ fontSize: 13, color: "var(--muted)", marginBottom: 4, fontWeight: 500 }}>Languages</p>
-            <p style={{ fontSize: 14, marginBottom: 16 }}>{candidate.languages}</p>
             <p style={{ fontSize: 13, color: "var(--muted)", marginBottom: 4, fontWeight: 500 }}>Education</p>
             <p style={{ fontSize: 14, marginBottom: 16 }}>{candidate.education}</p>
             <p style={{ fontSize: 13, color: "var(--muted)", marginBottom: 4, fontWeight: 500 }}>Experience</p>
             <p style={{ fontSize: 14, marginBottom: 16 }}>{candidate.experience}</p>
           </div>
           <div>
-            <p style={{ fontSize: 13, color: "var(--muted)", marginBottom: 4, fontWeight: 500 }}>Career Objectives</p>
+            <p style={{ fontSize: 13, color: "var(--muted)", marginBottom: 4, fontWeight: 500 }}>Career objectives</p>
             <p style={{ fontSize: 14, marginBottom: 16 }}>{candidate.careerObjectives}</p>
             <p style={{ fontSize: 13, color: "var(--muted)", marginBottom: 4, fontWeight: 500 }}>Preferences</p>
             <p style={{ fontSize: 14 }}>{candidate.preferences}</p>
@@ -67,10 +70,13 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
         </div>
       </div>
 
-      <h2 className="section-title">Top Recommended Schools</h2>
-      <p className="section-subtitle">Best matches based on {candidate.name}'s profile</p>
+      <SectionHeader
+        title="Top recommended schools"
+        subtitle={`Best matches based on ${candidate.name}'s profile`}
+      />
+
       <div className="grid grid-3" style={{ marginBottom: 40 }}>
-        {schools.map((s: any) => (
+        {schools.map((s) => (
           <Link key={s.id} href={`/${candidate.slug}/schools/${s.slug}`} className="card school-card">
             <div className="school-card-header">
               <div>
@@ -79,8 +85,8 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
               </div>
               {s.score && (
                 <div className="score-ring" style={{
-                  background: s.score.overall >= 90 ? "#e8f9ed" : s.score.overall >= 80 ? "#fff5e6" : "#f0f0f0",
-                  color: s.score.overall >= 90 ? "#1a7a3a" : s.score.overall >= 80 ? "#8a5a00" : "#333",
+                  background: s.score.overall >= 90 ? "var(--success-bg)" : s.score.overall >= 80 ? "var(--warning-bg)" : "var(--background-subtle)",
+                  color: s.score.overall >= 90 ? "var(--success)" : s.score.overall >= 80 ? "var(--warning)" : "var(--foreground)",
                 }}>
                   {s.score.overall}
                 </div>
@@ -88,8 +94,8 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
             </div>
             <div className="school-description">{s.description}</div>
             <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 4, alignItems: "center" }}>
-              <span className="badge" style={{ fontWeight: 600, color: "#1a7a3a", background: "#e8f9ed" }}>
-                💰 From {formatTuition(getMinTuitionForSchoolByCandidate(s.id, candidate.slug))}
+              <span className="badge badge-success">
+                From {formatTuition(getMinTuitionForSchoolByCandidate(s.id, candidate.slug))}
               </span>
             </div>
             {s.score && (
@@ -101,10 +107,10 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
         ))}
       </div>
 
-      <h2 className="section-title">Explore Countries</h2>
-      <p className="section-subtitle">Browse schools by destination</p>
+      <SectionHeader title="Explore countries" subtitle="Browse schools by destination" />
+
       <div className="grid grid-2">
-        {countries.map((c: any) => (
+        {countries.map((c) => (
           <Link key={c.id} href={`/${candidate.slug}/countries/${c.slug}`} className="card country-card">
             <span className="flag">{c.flag}</span>
             <div style={{ flex: 1 }}>
@@ -115,6 +121,6 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
           </Link>
         ))}
       </div>
-    </div>
+    </>
   );
 }

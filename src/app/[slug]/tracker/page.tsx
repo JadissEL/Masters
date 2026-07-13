@@ -12,7 +12,9 @@ import {
 import { FEASIBILITY_LABELS, PIPELINE_LABELS } from "@/lib/tracking/types";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Bookmark } from "lucide-react";
+import SectionHeader from "@/components/ui/SectionHeader";
+import StatTile from "@/components/ui/StatTile";
+import EmptyState from "@/components/ui/EmptyState";
 
 export default async function TrackerDashboardPage({
   params,
@@ -37,49 +39,33 @@ export default async function TrackerDashboardPage({
     .sort((a, b) => b.lastUpdatedAt.localeCompare(a.lastUpdatedAt));
 
   return (
-    <div className="container">
-      <Link
-        href={`/${slug}`}
-        className="nav-back"
-        style={{ fontSize: 15, fontWeight: 500, marginBottom: 16, display: "inline-flex" }}
-      >
-        <ArrowLeft size={18} /> Back to {candidate.name}
-      </Link>
-
-      <h1 className="section-title">
-        <Bookmark size={28} style={{ verticalAlign: "middle", marginRight: 8 }} />
-        Application tracker
-      </h1>
-      <p className="section-subtitle">
-        Masters programmes and PhD positions tracked for {candidate.name}
-      </p>
+    <>
+      <SectionHeader
+        title="Application tracker"
+        subtitle={`Masters programmes and PhD positions tracked for ${candidate.name}`}
+      />
 
       <div className="grid grid-3" style={{ marginBottom: 32 }}>
-        {[
-          [stats.totalTracked, "Tracked items"],
-          [stats.ongoing, "Ongoing applications"],
-          [stats.applied, "Applied"],
-          [stats.accepted, "Accepted"],
-          [stats.tierA, "Tier A shortlist"],
-          [stats.urgent, "Deadline ≤ 14 days"],
-        ].map(([value, label]) => (
-          <div key={String(label)} className="card tracker-stat-card">
-            <div className="tracker-stat-value">{value}</div>
-            <div className="tracker-stat-label">{label}</div>
-          </div>
-        ))}
+        <StatTile value={stats.totalTracked} label="Tracked items" variant="accent" />
+        <StatTile value={stats.ongoing} label="Ongoing applications" />
+        <StatTile value={stats.applied} label="Applied" variant="success" />
+        <StatTile value={stats.accepted} label="Accepted" variant="success" />
+        <StatTile value={stats.tierA} label="Tier A shortlist" href={`/${slug}/filter?trackPriority=A`} />
+        <StatTile value={stats.urgent} label="Deadline ≤ 14 days" variant="warning" href={`/${slug}/filter?trackDeadlineDays=14`} />
       </div>
 
-      <h2 className="section-title" style={{ fontSize: 20 }}>
-        Master programmes
-      </h2>
+      <SectionHeader title="Master programmes" subtitle={`${activePrograms.length} active`} />
+
       {activePrograms.length === 0 ? (
-        <div className="card empty-state" style={{ marginBottom: 32 }}>
-          <p>No programmes tracked yet. Open a school page and expand Application tracker.</p>
-          <Link href={`/${slug}/filter`} className="btn btn-primary" style={{ marginTop: 12 }}>
-            Browse programmes
-          </Link>
-        </div>
+        <EmptyState
+          title="No programmes tracked yet"
+          description="Open a school page and expand Application tracker to start tracking."
+          action={
+            <Link href={`/${slug}/filter`} className="btn btn-primary">
+              Browse programmes
+            </Link>
+          }
+        />
       ) : (
         <div className="grid grid-2" style={{ marginBottom: 32 }}>
           {activePrograms.map((t) => {
@@ -113,16 +99,20 @@ export default async function TrackerDashboardPage({
         </div>
       )}
 
-      <h2 className="section-title" style={{ fontSize: 20 }}>
-        PhD positions
-      </h2>
+      <SectionHeader title="PhD positions" subtitle={`${activePhd.length} active`} />
+
       {activePhd.length === 0 ? (
-        <div className="card empty-state">
-          <p>No PhD positions tracked yet.</p>
-          <Link href={`/${slug}/phd`} className="btn btn-secondary" style={{ marginTop: 12 }}>
-            Browse PhD offers
-          </Link>
-        </div>
+        <EmptyState
+          title="No PhD positions tracked yet"
+          description="Browse open PhD offers and expand the tracker on any position."
+          action={
+            slug === "dina" ? (
+              <Link href={`/${slug}/phd`} className="btn btn-secondary">
+                Browse PhD offers
+              </Link>
+            ) : undefined
+          }
+        />
       ) : (
         <div className="grid grid-2">
           {activePhd.map((t) => {
@@ -146,6 +136,6 @@ export default async function TrackerDashboardPage({
           })}
         </div>
       )}
-    </div>
+    </>
   );
 }

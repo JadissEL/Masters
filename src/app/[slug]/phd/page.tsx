@@ -13,8 +13,11 @@ import { getPhdTrackingMapAsync } from "@/lib/tracking/store";
 import { parseTrackingFilterFromSearchParams } from "@/lib/tracking/filters";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ExternalLink, Calendar, Users } from "lucide-react";
+import { Calendar, Users } from "lucide-react";
 import PhdFilterControls from "./PhdFilterControls";
+import FilterChipsBoundary from "@/components/filter/FilterChipsBoundary";
+import EmptyState from "@/components/ui/EmptyState";
+import SectionHeader from "@/components/ui/SectionHeader";
 import { TrackingBadges } from "@/components/tracking/TrackingBadges";
 
 export default async function PhdPage({
@@ -53,98 +56,93 @@ export default async function PhdPage({
   const domains = getPhdDomains();
 
   return (
-    <div className="container">
-      <Link
-        href={`/${candidate.slug}`}
-        className="nav-back"
-        style={{ fontSize: 15, fontWeight: 500, marginBottom: 16, display: "inline-flex" }}
-      >
-        <ArrowLeft size={18} /> Back to {candidate.name}
-      </Link>
-      <div className="breadcrumb">
-        <Link href="/">Home</Link>
-        <span>›</span>
-        <Link href={`/${candidate.slug}`}>{candidate.name}</Link>
-        <span>›</span>
-        <span>PhD Opportunities</span>
-      </div>
-
-      <h1 className="section-title">PhD Opportunities for {candidate.name}</h1>
-      <p className="section-subtitle">
-        Open funded doctoral positions in finance, accounting, compliance &amp; related fields — verified{" "}
-        {results.length > 0 ? results[0].verificationDate : "2026-07-12"}
-      </p>
-
-      <PhdFilterControls
-        candidateSlug={candidate.slug}
-        countries={countries}
-        fundingTypes={fundingTypes}
-        domains={domains}
+    <>
+      <SectionHeader
+        title={`PhD opportunities`}
+        subtitle={`Open funded doctoral positions for ${candidate.name} — ${results.length} verified open`}
       />
 
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
-        <h2 className="section-title" style={{ fontSize: 22 }}>
-          {results.length} Open Position{results.length !== 1 ? "s" : ""}
-        </h2>
-      </div>
+      <FilterChipsBoundary candidateSlug={candidate.slug} />
 
-      {results.length === 0 ? (
-        <div className="card empty-state">
-          <p style={{ fontSize: 16 }}>No PhD positions match these filters.</p>
-          <p style={{ fontSize: 14, color: "var(--muted)" }}>Try clearing filters or check back after wave 2 research.</p>
-        </div>
-      ) : (
-        <div className="grid grid-2">
-          {results.map((o) => {
-            const country = PHD_COUNTRY_META[o.countrySlug];
-            const tracking = trackingByOfferId.get(o.id);
-            return (
-              <Link
-                key={o.id}
-                href={`/${candidate.slug}/phd/${encodeURIComponent(o.id)}`}
-                className="card school-card"
-              >
-                <div className="school-card-header">
-                  <div style={{ flex: 1 }}>
-                    <div className="school-name">{o.title}</div>
-                    <div className="school-meta">
-                      {country?.flag} {country?.name || o.countrySlug} · {o.institution}
+      <div className="filter-page-layout">
+        <aside className="filter-page-sidebar">
+          <PhdFilterControls
+            candidateSlug={candidate.slug}
+            countries={countries}
+            fundingTypes={fundingTypes}
+            domains={domains}
+          />
+        </aside>
+
+        <div className="filter-page-results">
+          <h2 className="section-title" style={{ fontSize: 22, marginBottom: 16 }}>
+            {results.length} open position{results.length !== 1 ? "s" : ""}
+          </h2>
+
+          {results.length === 0 ? (
+            <EmptyState
+              title="No PhD positions match your filters"
+              description="Try clearing filters or check back after the next research wave."
+              action={
+                <Link href={`/${candidate.slug}/phd`} className="btn btn-primary">
+                  Clear filters
+                </Link>
+              }
+            />
+          ) : (
+            <div className="grid grid-2">
+              {results.map((o) => {
+                const country = PHD_COUNTRY_META[o.countrySlug];
+                const tracking = trackingByOfferId.get(o.id);
+                return (
+                  <Link
+                    key={o.id}
+                    href={`/${candidate.slug}/phd/${encodeURIComponent(o.id)}`}
+                    className="card school-card"
+                  >
+                    <div className="school-card-header">
+                      <div style={{ flex: 1 }}>
+                        <div className="school-name">{o.title}</div>
+                        <div className="school-meta">
+                          {country?.flag} {country?.name || o.countrySlug} · {o.institution}
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <p className="school-description" style={{ fontSize: 14, marginBottom: 12 }}>
-                  {o.subject.length > 180 ? `${o.subject.slice(0, 180)}…` : o.subject}
-                </p>
-                <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 8 }}>
-                  <span className="badge" style={fundingBadgeStyle(o.fundingType)}>
-                    {formatFundingType(o.fundingType)}
-                  </span>
-                  <span className="badge">{o.teachingLanguage}</span>
-                  {o.applicationDeadline && (
-                    <span className="badge badge-accent" style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
-                      <Calendar size={12} /> {o.applicationDeadline}
-                    </span>
-                  )}
-                  {o.supervisors?.some((s) => s.email) && (
-                    <span className="badge badge-success">Supervisor email</span>
-                  )}
-                  {(o.enrolledStudentsSample?.length || 0) > 0 && (
-                    <span className="badge" style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
-                      <Users size={12} /> {o.enrolledStudentsSample!.length} students listed
-                    </span>
-                  )}
-                </div>
-                {(o.domains || []).slice(0, 4).map((d) => (
-                  <span key={d} className="badge" style={{ marginRight: 4 }}>
-                    {d}
-                  </span>
-                ))}
-                <TrackingBadges tracking={tracking} />
-              </Link>
-            );
-          })}
+                    <p className="school-description" style={{ fontSize: 14, marginBottom: 12 }}>
+                      {o.subject.length > 180 ? `${o.subject.slice(0, 180)}…` : o.subject}
+                    </p>
+                    <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 8 }}>
+                      <span className="badge" style={fundingBadgeStyle(o.fundingType)}>
+                        {formatFundingType(o.fundingType)}
+                      </span>
+                      <span className="badge">{o.teachingLanguage}</span>
+                      {o.applicationDeadline && (
+                        <span className="badge badge-accent" style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
+                          <Calendar size={12} /> {o.applicationDeadline}
+                        </span>
+                      )}
+                      {o.supervisors?.some((s) => s.email) && (
+                        <span className="badge badge-success">Supervisor email</span>
+                      )}
+                      {(o.enrolledStudentsSample?.length || 0) > 0 && (
+                        <span className="badge" style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
+                          <Users size={12} /> {o.enrolledStudentsSample!.length} students listed
+                        </span>
+                      )}
+                    </div>
+                    {(o.domains || []).slice(0, 4).map((d) => (
+                      <span key={d} className="badge" style={{ marginRight: 4 }}>
+                        {d}
+                      </span>
+                    ))}
+                    <TrackingBadges tracking={tracking} />
+                  </Link>
+                );
+              })}
+            </div>
+          )}
         </div>
-      )}
-    </div>
+      </div>
+    </>
   );
 }

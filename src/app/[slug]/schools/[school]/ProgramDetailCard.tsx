@@ -4,7 +4,7 @@ import type { Program, ProgramDeadline, DataSource } from "@/lib/queries";
 import type { ProgramTracking } from "@/lib/tracking/types";
 import ProgramTracker from "@/components/tracking/ProgramTracker";
 import { TrackingBadges } from "@/components/tracking/TrackingBadges";
-import { ExternalLink, ShieldCheck, ShieldAlert, ShieldQuestion } from "lucide-react";
+import { ExternalLink, ShieldCheck, ShieldAlert, ShieldQuestion, ChevronDown } from "lucide-react";
 
 interface AdmissionHints {
   applicationUrl?: string | null;
@@ -62,7 +62,13 @@ export default function ProgramDetailCard({ program, deadlines = [], sources = [
       <p style={{ fontSize: 13, color: "var(--muted)", marginBottom: 16 }}>{program.description}</p>
       <TrackingBadges tracking={tracking} />
 
-      <div style={{ marginBottom: 12 }}>
+      <details className="programme-details" style={{ marginBottom: 12 }}>
+        <summary className="programme-summary" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "12px 0", fontWeight: 600, fontSize: 15 }}>
+          Programme details
+          <ChevronDown size={18} className="programme-chevron" />
+        </summary>
+
+      <div style={{ marginBottom: 12, paddingTop: 8 }}>
         <p style={{ fontSize: 11, fontWeight: 600, color: "var(--muted)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 8 }}>Programme</p>
         <div className="info-row"><span className="info-label">Duration</span><span className="info-value">{program.duration}</span></div>
         {program.studyMode && <div className="info-row"><span className="info-label">Study Mode</span><span className="info-value">{program.studyMode}</span></div>}
@@ -166,6 +172,8 @@ export default function ProgramDetailCard({ program, deadlines = [], sources = [
           )}
         </div>
       )}
+
+      </details>
 
       <ProgramTracker candidateSlug={candidateSlug} programId={program.id} initial={tracking} />
     </div>

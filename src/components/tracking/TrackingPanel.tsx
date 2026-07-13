@@ -21,6 +21,8 @@ import {
   FEASIBILITY_LABELS,
   PIPELINE_LABELS,
 } from "@/lib/tracking/types";
+import PipelineStepper from "./PipelineStepper";
+import ProgressRing from "@/components/ui/ProgressRing";
 
 type TrackingData = ProgramTracking | PhdTracking;
 
@@ -157,6 +159,15 @@ export default function TrackingPanel({
   const program = mode === "program" ? (data as ProgramTracking) : null;
   const phd = mode === "phd" ? (data as PhdTracking) : null;
 
+  const docComplete =
+    (data.documents.cv ? 1 : 0) +
+    (data.documents.motivationLetter ? 1 : 0) +
+    (data.documents.transcripts ? 1 : 0) +
+    (data.documents.passportScan ? 1 : 0) +
+    (data.documents.applicationFeePaid ? 1 : 0) +
+    (data.documents.recLetters >= 1 ? 1 : 0);
+  const docMax = 6;
+
   return (
     <div className="tracker-panel card">
       <button
@@ -187,6 +198,10 @@ export default function TrackingPanel({
 
           <section className="tracker-section">
             <h4 className="tracker-section-title">Pipeline</h4>
+            <PipelineStepper
+              current={data.pipelineStatus}
+              onSelect={(status) => update("pipelineStatus", status)}
+            />
             <div className="tracker-grid-2">
               <label className="tracker-field">
                 <span>Status</span>
@@ -393,7 +408,10 @@ export default function TrackingPanel({
           </section>
 
           <section className="tracker-section">
-            <h4 className="tracker-section-title">Documents</h4>
+            <div className="tracker-docs-header">
+              <h4 className="tracker-section-title" style={{ marginBottom: 0 }}>Documents</h4>
+              <ProgressRing value={docComplete} max={docMax} size={44} label={`${docComplete}/${docMax}`} />
+            </div>
             <div className="tracker-docs">
               {(
                 [
@@ -437,7 +455,7 @@ export default function TrackingPanel({
             {data.outreachEvents.length === 0 ? (
               <p style={{ fontSize: 13, color: "var(--muted)" }}>No outreach recorded yet.</p>
             ) : (
-              <ul className="tracker-outreach-list">
+              <ul className="outreach-timeline">
                 {data.outreachEvents.map((ev) => (
                   <li key={ev.id}>
                     <strong>{ev.date}</strong> · {ev.channel}
