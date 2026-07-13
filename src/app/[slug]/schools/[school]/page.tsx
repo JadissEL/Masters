@@ -3,6 +3,7 @@ import {
   getSchoolDeadlines, getScoreForSchool, getCity, getProgramDeadlines,
   getProgramSources, getSchoolContacts
 } from "@/lib/queries";
+import { getProgramTrackingMapAsync } from "@/lib/tracking/store";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
@@ -22,6 +23,7 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
   const score = getScoreForSchool(candidate.id, school.id);
   const city = school.cityId ? getCity(school.cityId) : null;
   const contacts = getSchoolContacts(school.id);
+  const trackingMap = await getProgramTrackingMapAsync(slug);
 
   const admissionHints = admission
     ? {
@@ -139,6 +141,8 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
             deadlines={getProgramDeadlines(p.id)}
             sources={getProgramSources(p.id)}
             admissionHints={admissionHints}
+            candidateSlug={slug}
+            tracking={trackingMap.get(p.id) ?? null}
           />
         ))}
       </div>

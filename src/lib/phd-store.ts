@@ -3,6 +3,7 @@
  */
 import fs from "fs";
 import path from "path";
+import { matchesPhdTrackingFilter } from "./tracking/filters";
 
 const PHD_PATH = path.join(process.cwd(), "data", "phd", "phd-verified.json");
 
@@ -85,6 +86,8 @@ export interface PhdFilterCriteria {
   openOnly?: boolean;
   fundedOnly?: boolean;
   deadlineBefore?: string;
+  tracking?: import("./tracking/types").TrackingFilterCriteria;
+  trackingByOfferId?: Map<string, import("./tracking/types").PhdTracking>;
 }
 
 function loadPhdData(): { phdOffers: PhdOffer[] } {
@@ -174,6 +177,17 @@ export function getFilteredPhdOffers(criteria: PhdFilterCriteria): PhdOffer[] {
         const dl = parseDeadline(o.applicationDeadline);
         return dl !== null && dl <= max;
       });
+    }
+  }
+
+  if (criteria.tracking) {
+    const hasTrackingCriteria = Object.values(criteria.tracking).some(
+      (v) => v !== undefined && v !== false && !(Array.isArray(v) && v.length === 0)
+    );
+    if (hasTrackingCriteria) {
+      offers = offers.filter((o) =>
+        matchesPhdTrackingFilter(criteria.trackingByOfferId?.get(o.id), criteria.tracking!)
+      );
     }
   }
 

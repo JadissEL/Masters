@@ -1,4 +1,6 @@
 import { getCandidate, getCountries, getFilteredSchools, getMinTuitionForSchoolByCandidate, formatTuition, type FilterCriteria } from "@/lib/queries";
+import { getProgramTrackingMapAsync } from "@/lib/tracking/store";
+import { parseTrackingFilterFromSearchParams } from "@/lib/tracking/filters";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
@@ -18,6 +20,7 @@ export default async function FilterPage({
 
   const sp = await searchParams;
   const countries = getCountries();
+  const trackingByProgramId = await getProgramTrackingMapAsync(candidate.slug);
 
   // Build filter criteria from search params
   const criteria: FilterCriteria = {
@@ -32,6 +35,8 @@ export default async function FilterPage({
     alternanceOnly: sp.alternanceOnly === "true",
     internshipOnly: sp.internshipOnly === "true",
     verifiedOnly: sp.verifiedOnly === "true",
+    tracking: parseTrackingFilterFromSearchParams(sp),
+    trackingByProgramId,
   };
 
   let results = getFilteredSchools(criteria);

@@ -8,6 +8,8 @@ import {
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink, Mail, Linkedin } from "lucide-react";
+import PhdTracker from "@/components/tracking/PhdTracker";
+import { getPhdTracking } from "@/lib/tracking/store";
 
 export default async function PhdOfferPage({
   params,
@@ -22,6 +24,7 @@ export default async function PhdOfferPage({
   if (!offer) return notFound();
 
   const country = PHD_COUNTRY_META[offer.countrySlug];
+  const phdTracking = await getPhdTracking(slug, offer.id);
 
   return (
     <div className="container">
@@ -166,6 +169,8 @@ export default async function PhdOfferPage({
           <p style={{ fontSize: 14 }}>{offer.notes}</p>
         </div>
       )}
+
+      <PhdTracker candidateSlug={slug} offerId={offer.id} initial={phdTracking} />
     </div>
   );
 }

@@ -4,6 +4,8 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback } from "react";
 import type { PhdCountryMeta } from "@/lib/phd-store";
 import FilterShell from "@/components/FilterShell";
+import TrackingFilterSection from "@/components/tracking/TrackingFilterSection";
+import { countActiveTrackingFilters, parseTrackingFilterFromSearchParams } from "@/lib/tracking/filters";
 
 interface PhdFilterControlsProps {
   candidateSlug: string;
@@ -65,7 +67,8 @@ export default function PhdFilterControls({
     selectedDomains.length +
     selectedLanguages.length +
     (!fundedOnly ? 1 : 0) +
-    (urgent ? 1 : 0);
+    (urgent ? 1 : 0) +
+    countActiveTrackingFilters(parseTrackingFilterFromSearchParams(Object.fromEntries(searchParams.entries())));
 
   const hasActive = activeCount > 0;
 
@@ -160,6 +163,8 @@ export default function PhdFilterControls({
           <span>Urgent deadlines (next 30 days)</span>
         </label>
       </div>
+
+      <TrackingFilterSection candidateSlug={candidateSlug} basePath="phd" />
     </FilterShell>
   );
 }

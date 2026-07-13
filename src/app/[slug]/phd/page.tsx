@@ -9,10 +9,13 @@ import {
   fundingBadgeStyle,
   type PhdFilterCriteria,
 } from "@/lib/phd-store";
+import { getPhdTrackingMapAsync } from "@/lib/tracking/store";
+import { parseTrackingFilterFromSearchParams } from "@/lib/tracking/filters";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink, Calendar, Users } from "lucide-react";
 import PhdFilterControls from "./PhdFilterControls";
+import { TrackingBadges } from "@/components/tracking/TrackingBadges";
 
 export default async function PhdPage({
   params,
@@ -30,6 +33,7 @@ export default async function PhdPage({
   const deadlineBefore = urgent
     ? new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10)
     : undefined;
+  const trackingByOfferId = await getPhdTrackingMapAsync(slug);
 
   const criteria: PhdFilterCriteria = {
     countries: Array.isArray(sp.country) ? sp.country : sp.country ? [sp.country] : undefined,
@@ -39,6 +43,8 @@ export default async function PhdPage({
     fundedOnly: sp.fundedOnly !== "false",
     openOnly: true,
     deadlineBefore,
+    tracking: parseTrackingFilterFromSearchParams(sp),
+    trackingByOfferId,
   };
 
   const results = getFilteredPhdOffers(criteria);
@@ -91,6 +97,7 @@ export default async function PhdPage({
         <div className="grid grid-2">
           {results.map((o) => {
             const country = PHD_COUNTRY_META[o.countrySlug];
+            const tracking = trackingByOfferId.get(o.id);
             return (
               <Link
                 key={o.id}
@@ -132,6 +139,7 @@ export default async function PhdPage({
                     {d}
                   </span>
                 ))}
+                <TrackingBadges tracking={tracking} />
               </Link>
             );
           })}

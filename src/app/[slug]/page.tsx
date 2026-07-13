@@ -2,7 +2,8 @@ import { getCandidate, getCountries, getSchoolsWithScores, getMinTuitionForSchoo
 import { getPhdOffers } from "@/lib/phd-store";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, SlidersHorizontal, GraduationCap } from "lucide-react";
+import { ArrowLeft, SlidersHorizontal, GraduationCap, Bookmark } from "lucide-react";
+import { getTrackingStats } from "@/lib/tracking/store";
 
 export default async function CandidatePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -12,6 +13,7 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
   const countries = getCountries();
   const schools = getSchoolsWithScores(candidate.id).slice(0, 5);
   const phdOpenCount = getPhdOffers().filter((o) => o.status === "open").length;
+  const trackStats = await getTrackingStats(candidate.slug);
 
   return (
     <div className="container">
@@ -25,6 +27,9 @@ export default async function CandidatePage({ params }: { params: Promise<{ slug
               <GraduationCap size={16} style={{ marginRight: 6 }} /> PhD Opportunities ({phdOpenCount})
             </Link>
           )}
+          <Link href={`/${candidate.slug}/tracker`} className="btn btn-secondary" style={{ padding: "8px 16px", fontSize: 14 }}>
+            <Bookmark size={16} style={{ marginRight: 6 }} /> Tracker ({trackStats.totalTracked})
+          </Link>
           <Link href={`/${candidate.slug}/filter`} className="btn btn-secondary" style={{ padding: "8px 16px", fontSize: 14 }}>
             <SlidersHorizontal size={16} style={{ marginRight: 6 }} /> Filter Schools
           </Link>

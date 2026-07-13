@@ -38,6 +38,8 @@ export {
   getMinTuitionForSchool,
   getMinTuitionForSchoolByCandidate,
   formatTuition,
+  getProgramById,
+  getSchoolById,
 } from "./data-store";
 
 export {

@@ -6,6 +6,8 @@
 
 import fs from "fs";
 import path from "path";
+import { matchesProgramTrackingFilter } from "./tracking/filters";
+import type { ProgramTracking, TrackingFilterCriteria } from "./tracking/types";
 
 const DATA_PATH = path.join(process.cwd(), "data", "masters-data.json");
 
@@ -439,6 +441,14 @@ export function getSchoolPrograms(schoolId: number): Program[] {
   return loadDB().programs.filter((p) => p.schoolId === schoolId);
 }
 
+export function getProgramById(programId: number): Program | undefined {
+  return loadDB().programs.find((p) => p.id === programId);
+}
+
+export function getSchoolById(schoolId: number): School | undefined {
+  return loadDB().schools.find((s) => s.id === schoolId);
+}
+
 export function getSchoolAdmission(schoolId: number): Admission | undefined {
   return loadDB().admissions.find((a) => a.schoolId === schoolId);
 }
@@ -588,6 +598,10 @@ export interface FilterCriteria {
   verifiedOnly?: boolean;    // only programmes with verificationStatus === "Verified"
   studyModes?: string[];     // "Full-time", "Part-time", etc.
   schoolTypes?: string[];    // "Public", "Semi-private", "Private"
+  /** When set, at least one matched programme must satisfy tracking filters */
+  tracking?: TrackingFilterCriteria;
+  /** Pre-loaded tracking map (server-side) */
+  trackingByProgramId?: Map<number, ProgramTracking>;
 }
 
 export interface FilteredSchoolResult {
@@ -697,6 +711,26 @@ export function getFilteredSchools(criteria: FilterCriteria): FilteredSchoolResu
 
     // Filter by min score
     if (criteria.minScore && (!score || score.overall < criteria.minScore)) continue;
+
+    // Filter by candidate application tracking (programme-level)
+    if (criteria.tracking) {
+      const trackingMap = criteria.trackingByProgramId;
+      const hasTrackingCriteria = Object.values(criteria.tracking).some(
+        (v) => v !== undefined && v !== false && !(Array.isArray(v) && v.length === 0)
+      );
+      if (hasTrackingCriteria) {
+        const anyMatch = matchedPrograms.some((p) =>
+          matchesProgramTrackingFilter(
+            trackingMap?.get(p.id),
+            criteria.tracking!
+          )
+        );
+        if (!anyMatch) continue;
+        matchedPrograms = matchedPrograms.filter((p) =>
+          matchesProgramTrackingFilter(trackingMap?.get(p.id), criteria.tracking!)
+        );
+      }
+    }
 
     const city = school.cityId ? db.cities.find((c) => c.id === school.cityId) || null : null;
 

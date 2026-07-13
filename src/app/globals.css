@@ -616,3 +616,162 @@ a, button {
     opacity: 0.92;
   }
 }
+
+/* Application tracker */
+.tracker-panel {
+  margin-top: 16px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.tracker-panel-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  min-height: 44px;
+}
+
+.tracker-panel-body {
+  padding: 0 20px 20px;
+  border-top: 1px solid var(--border);
+}
+
+.tracker-section {
+  padding-top: 20px;
+}
+
+.tracker-section-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--foreground);
+}
+
+.tracker-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.tracker-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.tracker-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.tracker-field > span:first-child {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.tracker-input,
+.tracker-textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 16px;
+  font-family: inherit;
+  background: white;
+}
+
+.tracker-textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.tracker-docs,
+.tracker-blockers {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.tracker-outreach-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.tracker-outreach-list li {
+  font-size: 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.tracker-link-btn {
+  margin-left: 8px;
+  border: none;
+  background: none;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 13px;
+  min-height: 44px;
+  padding: 0 8px;
+}
+
+.tracker-error {
+  color: var(--danger);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.tracker-filter-section {
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+  margin-top: 8px;
+}
+
+.tracker-stat-card {
+  text-align: center;
+  padding: 20px 16px;
+}
+
+.tracker-stat-value {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.tracker-stat-label {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.tracker-badge-ongoing { background: #fff5e6; color: #8a5a00; }
+.tracker-badge-applied { background: #e8f2fc; color: #1a5a8a; }
+.tracker-badge-accepted { background: #e8f9ed; color: #1a7a3a; }
+.tracker-badge-rejected { background: #ffe9e7; color: #c01a10; }
+.tracker-badge-reviewing { background: #f3e8ff; color: #6b21a8; }
+.tracker-badge-decision_pending { background: #e8f1fd; color: #0058b0; }
+.tracker-badge-withdrawn { background: #f0f0f0; color: #666; }
+.tracker-badge-not_started { background: #f0f0f0; color: #888; }
+
+@media (max-width: 767px) {
+  .tracker-grid-2,
+  .tracker-grid-3 {
+    grid-template-columns: 1fr;
+  }
+  .tracker-panel-body {
+    padding: 0 16px 16px;
+  }
+}

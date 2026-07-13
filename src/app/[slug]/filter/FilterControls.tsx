@@ -4,6 +4,8 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback } from "react";
 import { SCHOOL_TYPES, SCHOOL_TYPE_DESCRIPTIONS } from "@/lib/school-types";
 import FilterShell from "@/components/FilterShell";
+import TrackingFilterSection from "@/components/tracking/TrackingFilterSection";
+import { countActiveTrackingFilters, parseTrackingFilterFromSearchParams } from "@/lib/tracking/filters";
 
 interface FilterControlsProps {
   candidateSlug: string;
@@ -85,7 +87,8 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
     (alternanceOnly ? 1 : 0) +
     (internshipOnly ? 1 : 0) +
     (verifiedOnly ? 1 : 0) +
-    (sortBy ? 1 : 0);
+    (sortBy ? 1 : 0) +
+    countActiveTrackingFilters(parseTrackingFilterFromSearchParams(Object.fromEntries(searchParams.entries())));
 
   const hasActiveFilters = activeCount > 0;
 
@@ -254,6 +257,8 @@ export default function FilterControls({ candidateSlug, countries }: FilterContr
           <span>Verified programmes only</span>
         </label>
       </div>
+
+      <TrackingFilterSection candidateSlug={candidateSlug} basePath="filter" />
     </FilterShell>
   );
 }

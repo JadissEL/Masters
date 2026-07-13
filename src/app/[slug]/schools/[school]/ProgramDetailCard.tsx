@@ -1,6 +1,9 @@
 "use client";
 
 import type { Program, ProgramDeadline, DataSource } from "@/lib/queries";
+import type { ProgramTracking } from "@/lib/tracking/types";
+import ProgramTracker from "@/components/tracking/ProgramTracker";
+import { TrackingBadges } from "@/components/tracking/TrackingBadges";
 import { ExternalLink, ShieldCheck, ShieldAlert, ShieldQuestion } from "lucide-react";
 
 interface AdmissionHints {
@@ -38,9 +41,11 @@ interface ProgramCardProps {
   deadlines?: ProgramDeadline[];
   sources?: DataSource[];
   admissionHints?: AdmissionHints;
+  candidateSlug: string;
+  tracking?: ProgramTracking | null;
 }
 
-export default function ProgramDetailCard({ program, deadlines = [], sources = [], admissionHints }: ProgramCardProps) {
+export default function ProgramDetailCard({ program, deadlines = [], sources = [], admissionHints, candidateSlug, tracking }: ProgramCardProps) {
   const pd = deadlines[0];
   const applyUrl = program.applicationUrl || admissionHints?.applicationUrl;
   const applyPortal = program.applicationPortal || admissionHints?.applicationPortal;
@@ -55,6 +60,7 @@ export default function ProgramDetailCard({ program, deadlines = [], sources = [
         <VerificationBadge status={program.verificationStatus} />
       </div>
       <p style={{ fontSize: 13, color: "var(--muted)", marginBottom: 16 }}>{program.description}</p>
+      <TrackingBadges tracking={tracking} />
 
       <div style={{ marginBottom: 12 }}>
         <p style={{ fontSize: 11, fontWeight: 600, color: "var(--muted)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 8 }}>Programme</p>
@@ -160,6 +166,8 @@ export default function ProgramDetailCard({ program, deadlines = [], sources = [
           )}
         </div>
       )}
+
+      <ProgramTracker candidateSlug={candidateSlug} programId={program.id} initial={tracking} />
     </div>
   );
 }
